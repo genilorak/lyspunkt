@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="no">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1440">
+<meta name="description" content="Lyspunkt – et lysere blikk på verden.">
+<title>Søk – Lyspunkt</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&amp;family=Instrument+Serif:ital@0;1&amp;family=Hanken+Grotesk:wght@400;500;600;700&amp;display=swap">
+<link rel="stylesheet" href="stil.css">
+<script>
+(function(){var k='lyspunkt-tema';try{if(localStorage.getItem(k)==='dark')document.documentElement.classList.add('dark')}catch(e){}
+document.addEventListener('DOMContentLoaded',function(){var b=document.getElementById('tema');if(!b)return;
+function lab(){var d=document.documentElement.classList.contains('dark');b.setAttribute('aria-label',d?'Bytt til lyst tema':'Bytt til mørkt tema');b.setAttribute('aria-pressed',d?'true':'false')}lab();
+b.addEventListener('click',function(){var d=document.documentElement.classList.toggle('dark');try{localStorage.setItem(k,d?'dark':'light')}catch(e){}lab()})})})();
+</script>
+</head>
+<body>
+<div class="wrap">
+<header class="hdr">
+  <div class="hdr-top">
+    <span style="font-size:14px;font-weight:600;color:#5E665F">Mandag 19. oktober</span>
+    <div style="display:flex;flex-direction:column;align-items:center;gap:2px">
+      <a href="index.html" aria-label="Lyspunkt forside" style="display:flex;align-items:center;gap:10px"><svg width="40" height="40" viewBox="0 0 32 32" aria-hidden="true"><path d="M9 22a7 7 0 0 1 14 0z" fill="#FFB800"></path><line x1="4" y1="22.5" x2="28" y2="22.5" stroke="#16120F" stroke-width="1.8" stroke-linecap="round"></line><line x1="16" y1="7" x2="16" y2="10.5" stroke="#FFB800" stroke-width="2" stroke-linecap="round"></line><line x1="8" y1="11" x2="10.2" y2="13.4" stroke="#FFB800" stroke-width="2" stroke-linecap="round"></line><line x1="24" y1="11" x2="21.8" y2="13.4" stroke="#FFB800" stroke-width="2" stroke-linecap="round"></line></svg><span class="bri" style="font-size:42px;font-weight:800;letter-spacing:-0.045em">lyspunkt</span></a>
+      <span class="ser" style="font-size:21px;font-style:italic;color:#4F6E9E;padding-left:50px">Et lysere blikk på verden.</span>
+    </div>
+    <div style="display:flex;justify-content:flex-end;gap:10px;align-items:center">
+      <a href="sok.html" class="iconbtn" aria-label="Søk"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#16120F" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="16.5" y1="16.5" x2="21" y2="21"></line></svg></a>
+      <button id="tema" type="button" class="iconbtn" aria-label="Bytt til mørkt tema"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#16120F" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"></path></svg></button>
+    </div>
+  </div>
+  <nav class="nav" aria-label="Kategorier"><a href="index.html">Forsiden</a><a href="kategori/norge.html">Norge</a><a href="kategori/verden.html">Verden</a><a href="kategori/vitenskap.html">Vitenskap</a><a href="kategori/helse.html">Helse</a><a href="kategori/klima-og-miljo.html">Klima og miljø</a><a href="kategori/dyr-og-natur.html">Dyr og natur</a><a href="kategori/teknologi.html">Teknologi</a><a href="kategori/verdensrommet.html">Verdensrommet</a><a href="kategori/sma-gleder.html" class="sg">Små gleder</a></nav>
+</header>
+<main class="inner">
+  <div class="crumb"><a href="index.html">Forsiden</a> / Søk</div>
+  <h1 class="h1" style="font-size:64px;margin:28px 0 24px">Søk i <span class="ser" style="font-style:italic;font-weight:400;letter-spacing:0;color:#4F6E9E">gode nyheter</span></h1>
+  <form role="search" onsubmit="return false" style="display:flex;gap:10px;max-width:760px">
+    <label for="q" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Søkeord</label>
+    <input id="q" type="search" placeholder="Prøv «valper», «vaksine» eller «Norge»" style="flex:1" autofocus>
+  </form>
+  <p id="antall" class="meta" style="font-size:14px;margin:18px 0 8px" aria-live="polite"></p>
+  <div id="treff" style="max-width:1100px"></div>
+</main>
+<script>
+var A=[{"s": "korallrev", "t": "Korallrevet vokser tilbake", "i": "Etter år med bleking melder forskere om nye, friske kolonier. Hva har skjedd — og hva vet vi ennå ikke?", "k": "Klima og miljø", "c": "#5C7F14", "tid": "07:42"}, {"s": "laerling", "t": "Rekordmange søker lærlingplass i grønne fag", "i": "Skolene melder om fulle klasser i fornybarfag.", "k": "Norge", "c": "#8A6400", "tid": "07:42"}, {"s": "malariavaksine", "t": "Ny malariavaksine kan nå millioner av barn", "i": "Vaksinen er godkjent for bruk i flere land. Dette betyr det for barna som får den.", "k": "Helse", "c": "#3A64B5", "tid": "07:15"}, {"s": "satellitt", "t": "Studenter fikk kontakt med egen satellitt", "i": "Etter to år med lodding og koding svarte satellitten for første gang.", "k": "Verdensrommet", "c": "#5B47C2", "tid": "06:58"}, {"s": "trapper", "t": "Naboene malte alle trappene i gata", "i": "Det startet med én bøtte maling. Nå har hele gata fått farger.", "k": "Små gleder", "c": "#8A6400", "tid": "06:31"}, {"s": "fornybar", "t": "Europas strømnett satte ny fornybar-rekord", "i": "Sol og vind dekket mer enn halvparten i sommer.", "k": "Klima og miljø", "c": "#5C7F14", "tid": "I dag"}, {"s": "solceller", "t": "Slik kan nye solceller gjøre strømmen billigere", "i": "Hva som er nytt, hva som gjenstår — og når det kan nå hustakene.", "k": "Vitenskap", "c": "#137A6E", "tid": "I går"}, {"s": "ulver", "t": "Ulvene i nasjonalparken fikk valper igjen", "i": "Viltkameraer har fanget opp de første valpene på flere år.", "k": "Dyr og natur", "c": "#2E8A4F", "tid": "I går"}, {"s": "naturjakt", "t": "Pensjonistene som tar med barna på naturjakt", "i": "Hver torsdag går de på tur i skogen — og lærer hverandre noe nytt.", "k": "Små gleder", "c": "#8A6400", "tid": "I går"}, {"s": "plastenzym", "t": "Forskere fant enzym som bryter ned plast på dager", "i": "Lovende i laben — men langt fra ferdig.", "k": "Vitenskap", "c": "#137A6E", "tid": "I går"}, {"s": "valpekull", "t": "Valpekullet som fikk nye hjem på én dag", "i": "Dyrebeskyttelsen hadde ventet en lang høst. Så delte noen bildene.", "k": "Dyr og natur", "c": "#2E8A4F", "tid": "I går"}, {"s": "migrene", "t": "Ny migrenebehandling viser lovende resultater", "i": "Liten studie, store forventninger. Forskerne ber om tålmodighet.", "k": "Helse", "c": "#3A64B5", "tid": "I går"}, {"s": "teleskop", "t": "Teleskopet så lenger ut i universet enn noen trodde", "i": "Nye bilder viser galakser fra da universet var ungt.", "k": "Verdensrommet", "c": "#5B47C2", "tid": "I går"}, {"s": "parkering", "t": "Byen som gjorde parkeringsplasser til hager", "i": "Naboene planter, kommunen vanner.", "k": "Klima og miljø", "c": "#5C7F14", "tid": "I går"}, {"s": "bussjafor", "t": "Bussjåføren som kan navnet på alle passasjerene", "i": "Tjue år på samme rute — og han kjenner alle som går på.", "k": "Norge", "c": "#8A6400", "tid": "I går"}, {"s": "butikk", "t": "Bygda som fikk butikken tilbake", "i": "Da kjeden la ned, startet innbyggerne sin egen.", "k": "Norge", "c": "#8A6400", "tid": "I går"}, {"s": "bibliotek", "t": "Biblioteket som låner ut verktøy og symaskiner", "i": "Nå kan du låne en drill like lett som en bok.", "k": "Kultur", "c": "#A2397F", "tid": "I går"}, {"s": "utstyr", "t": "Lokalklubben som gir bort treningsutstyr", "i": "Ingen skal slutte fordi skoene blir for små.", "k": "Sport", "c": "#1B7397", "tid": "I går"}, {"s": "nordlys", "t": "Nordlyssesongen blir en av de beste på år", "i": "Slik øker du sjansen for å se det.", "k": "Verdensrommet", "c": "#5B47C2", "tid": "Søndag"}, {"s": "jentelag", "t": "Jentelaget som gikk fra fire til førti spillere", "i": "Fra ingenting til egen serie på tre år.", "k": "Sport", "c": "#1B7397", "tid": "Søndag"}, {"s": "sirkus", "t": "Gleden da sirkuset kom tilbake til bygda", "i": "Etter mange års pause sto teltet der igjen.", "k": "Små gleder", "c": "#8A6400", "tid": "Lørdag"}, {"s": "havorn", "t": "Havørna hekker i Oslofjorden igjen", "i": "For første gang på flere tiår er det observert et hekkende par.", "k": "Dyr og natur", "c": "#2E8A4F", "tid": "Lørdag"}, {"s": "hjerteinfarkt", "t": "Færre får hjerteinfarkt enn for ti år siden", "i": "Hva forklarer nedgangen? Tre forskere svarer.", "k": "Helse", "c": "#3A64B5", "tid": "Lørdag"}, {"s": "ozon", "t": "Derfor fortsetter ozonlaget å lege seg", "i": "En av verdens mest vellykkede miljøavtaler.", "k": "Klima og miljø", "c": "#5C7F14", "tid": "Lørdag"}, {"s": "kor", "t": "Ungdomskoret som synger på sykehjem hver uke", "i": "Hver onsdag fyller de fellesstua med sang.", "k": "Kultur", "c": "#A2397F", "tid": "Lørdag"}, {"s": "rullestol", "t": "Rullestolbasket fyller hallen hver lørdag", "i": "Publikum strømmer til — og flere vil prøve selv.", "k": "Sport", "c": "#1B7397", "tid": "Lørdag"}, {"s": "varmelagring", "t": "Norsk lab fant ny måte å lagre varme på", "i": "Kan gjøre sommerens solvarme nyttig om vinteren.", "k": "Vitenskap", "c": "#137A6E", "tid": "Fredag"}, {"s": "sovn", "t": "Unge sover bedre når mobilen ligger utenfor rommet", "i": "Det enkle grepet som faktisk virker.", "k": "Helse", "c": "#3A64B5", "tid": "Fredag"}, {"s": "bakgard", "t": "Bakgården som ble et fargerikt kunstverk", "i": "Grå murvegger ble til et fellesprosjekt for hele kvartalet.", "k": "Kultur", "c": "#A2397F", "tid": "Fredag"}];
+var q=document.getElementById('q'),t=document.getElementById('treff'),n=document.getElementById('antall');
+function esc(s){return s.replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function vis(){var v=q.value.trim().toLowerCase();var r=A.filter(function(a){return !v||(a.t+' '+a.i+' '+a.k).toLowerCase().indexOf(v)>-1});
+n.textContent=v?(r.length+' treff for «'+q.value.trim()+'»'):('Alle '+r.length+' saker');
+t.innerHTML=r.map(function(a){return '<a href="artikkel/'+a.s+'.html" style="display:grid;grid-template-columns:200px 1fr;gap:20px;align-items:baseline;padding:18px 0;border-top:1px solid #EFE6D6"><span class="kick" style="color:'+a.c+'">'+esc(a.k)+'</span><span style="display:flex;flex-direction:column;gap:4px"><span class="bri" style="font-size:24px;font-weight:700;letter-spacing:-0.02em;line-height:1.1">'+esc(a.t)+'</span><span style="font-size:15px;color:#3D4540">'+esc(a.i)+'</span></span></a>'}).join('')||'<p style="font-size:18px">Ingen treff ennå — prøv et annet ord.</p>';
+try{history.replaceState(null,'',v?('?q='+encodeURIComponent(q.value.trim())):location.pathname)}catch(e){}}
+try{var p=new URLSearchParams(location.search).get('q');if(p)q.value=p}catch(e){}
+q.addEventListener('input',vis);vis();
+</script>
+<footer class="foot">
+  <div class="foot-in">
+    <div class="col" style="grid-column:span 4;gap:4px">
+      <a href="index.html" style="display:flex;align-items:center;gap:10px"><svg width="40" height="40" viewBox="0 0 32 32" aria-hidden="true"><path d="M9 22a7 7 0 0 1 14 0z" fill="#FFB800"></path><line x1="4" y1="22.5" x2="28" y2="22.5" stroke="#16120F" stroke-width="1.8" stroke-linecap="round"></line><line x1="16" y1="7" x2="16" y2="10.5" stroke="#FFB800" stroke-width="2" stroke-linecap="round"></line><line x1="8" y1="11" x2="10.2" y2="13.4" stroke="#FFB800" stroke-width="2" stroke-linecap="round"></line><line x1="24" y1="11" x2="21.8" y2="13.4" stroke="#FFB800" stroke-width="2" stroke-linecap="round"></line></svg><span class="bri" style="font-size:40px;font-weight:800;letter-spacing:-0.045em">lyspunkt</span></a>
+      <span class="ser" style="font-size:22px;font-style:italic;color:#4F6E9E">Et lysere blikk på verden.</span>
+      <a href="nyhetsbrev.html" style="margin-top:14px;align-self:flex-start;background:#4F6E9E;color:#FFFFFF;padding:10px 18px;border-radius:999px;font-weight:700">Få ukesbrevet</a>
+    </div>
+    <div class="col" style="grid-column:span 2"><span class="kick" style="color:#8A6400;margin-bottom:6px">Kategorier</span><a href="kategori/norge.html">Norge</a><a href="kategori/verden.html">Verden</a><a href="kategori/vitenskap.html">Vitenskap</a><a href="kategori/helse.html">Helse</a><a href="kategori/klima-og-miljo.html">Klima og miljø</a><a href="kategori/dyr-og-natur.html">Dyr og natur</a></div>
+    <div class="col" style="grid-column:span 2"><span class="kick" style="color:#8A6400;margin-bottom:6px">&#160;</span><a href="kategori/teknologi.html">Teknologi</a><a href="kategori/verdensrommet.html">Verdensrommet</a><a href="kategori/kultur.html">Kultur</a><a href="kategori/sport.html">Sport</a><a href="kategori/sma-gleder.html">Små gleder</a></div>
+    <div class="col" style="grid-column:span 2"><span class="kick" style="color:#8A6400;margin-bottom:6px">Redaksjonen</span><span>Ansvarlig redaktør: [Navn]</span><a href="tips.html">Tips oss</a><a href="om.html">Om Lyspunkt</a></div>
+    <div class="col" style="grid-column:span 2"><span class="kick" style="color:#8A6400;margin-bottom:6px">Slik jobber vi</span><a href="prinsipper.html">Redaksjonelle prinsipper</a><a href="rettelser.html">Rettelser</a><a href="ai.html">Bruk av AI</a><a href="personvern.html">Personvern</a></div>
+  </div>
+  <div class="foot-band">© Lyspunkt · Designforslag · demoartikler, ikke faktiske nyheter · illustrasjonsfoto fra Unsplash</div>
+</footer>
+</div>
+</body>
+</html>

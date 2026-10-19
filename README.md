@@ -11,7 +11,12 @@ Se siden: https://genilorak.github.io/lyspunkt/
 | Fil | Hva |
 |---|---|
 | `index.html` | Forsiden |
-| `bilder/` | Bildene som brukes på forsiden |
+| `kategori/` | Én side per kategori |
+| `artikkel/` | Én side per sak (demo) |
+| `siste.html`, `sok.html`, `overrask.html`, `nyhetsbrev.html` | Siste nytt, søk, tilfeldig sak og påmelding |
+| `om.html`, `prinsipper.html`, `rettelser.html`, `ai.html`, `personvern.html`, `tips.html` | Infosider |
+| `stil.css` | Felles stil for undersidene |
+| `bilder/` | Bildene |
 
 ## Viktig
 

@@ -22,6 +22,13 @@ a{color:#16120F;text-decoration:none}a:hover{color:#0E7A4E}
 .shade{position:absolute;left:0;right:0;bottom:0;height:65%;background:linear-gradient(to top,rgba(14,12,10,.82),rgba(14,12,10,0))}
 </style>
 
+<script>
+(function(){var k='lyspunkt-tema';try{if(localStorage.getItem(k)==='dark')document.documentElement.classList.add('dark')}catch(e){}
+document.addEventListener('DOMContentLoaded',function(){var b=document.getElementById('tema');if(!b)return;
+function lab(){var d=document.documentElement.classList.contains('dark');b.setAttribute('aria-label',d?'Bytt til lyst tema':'Bytt til mørkt tema');b.setAttribute('aria-pressed',d?'true':'false')}lab();
+b.addEventListener('click',function(){var d=document.documentElement.classList.toggle('dark');try{localStorage.setItem(k,d?'dark':'light')}catch(e){}lab()})})})();
+</script>
+<style>html.dark{filter:invert(1) hue-rotate(180deg);background:#000}html.dark img{filter:invert(1) hue-rotate(180deg)}:focus-visible{outline:3px solid #4F6E9E;outline-offset:2px}</style>
 </head>
 <body>
 
@@ -30,11 +37,11 @@ a{color:#16120F;text-decoration:none}a:hover{color:#0E7A4E}
   <!-- Ticker -->
   <div style="background: #FFFFFF; border-bottom: 1px solid #EFE6D6; height: 40px; display: flex; align-items: center; gap: 20px; padding: 0 56px; font-size: 14px; font-weight: 500; white-space: nowrap; overflow: hidden">
     <span class="pill" style="background: #FFE89A; color: #16120F; padding: 4px 10px">Siste</span>
-    <span><b class="bri" style="background: #FFE98A; color: #16120F; padding: 2px 7px; border-radius: 6px; margin-right: 4px">07:42</b>  Rekordmange søker lærlingplass i grønne fag</span>
+    <a href="artikkel/laerling.html"><b class="bri" style="background: #FFE98A; color: #16120F; padding: 2px 7px; border-radius: 6px; margin-right: 4px">07:42</b>  Rekordmange søker lærlingplass i grønne fag</a>
     <span style="opacity: .35">/</span>
-    <span><b class="bri" style="background: #FFE98A; color: #16120F; padding: 2px 7px; border-radius: 6px; margin-right: 4px">07:15</b>  Ny malariavaksine godkjent i flere land</span>
+    <a href="artikkel/malariavaksine.html"><b class="bri" style="background: #FFE98A; color: #16120F; padding: 2px 7px; border-radius: 6px; margin-right: 4px">07:15</b>  Ny malariavaksine godkjent i flere land</a>
     <span style="opacity: .35">/</span>
-    <span><b class="bri" style="background: #FFE98A; color: #16120F; padding: 2px 7px; border-radius: 6px; margin-right: 4px">06:58</b>  Studenter fikk kontakt med egen satellitt</span>
+    <a href="artikkel/satellitt.html"><b class="bri" style="background: #FFE98A; color: #16120F; padding: 2px 7px; border-radius: 6px; margin-right: 4px">06:58</b>  Studenter fikk kontakt med egen satellitt</a>
   </div>
 
   <!-- Header -->
@@ -42,21 +49,21 @@ a{color:#16120F;text-decoration:none}a:hover{color:#0E7A4E}
     <div style="height: 118px; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center">
       <span style="font-size: 14px; font-weight: 600; color: #5E665F">Mandag 19. oktober</span>
       <div style="display: flex; flex-direction: column; align-items: center; gap: 2px">
-        <a href="#" aria-label="Lyspunkt forside" style="display: flex; align-items: center; gap: 10px">
+        <a href="index.html" aria-label="Lyspunkt forside" style="display: flex; align-items: center; gap: 10px">
         <svg width="40" height="40" viewBox="0 0 32 32" aria-hidden="true"><path d="M9 22a7 7 0 0 1 14 0z" fill="#FFB800"></path><line x1="4" y1="22.5" x2="28" y2="22.5" stroke="#16120F" stroke-width="1.8" stroke-linecap="round"></line><line x1="16" y1="7" x2="16" y2="10.5" stroke="#FFB800" stroke-width="2" stroke-linecap="round"></line><line x1="8" y1="11" x2="10.2" y2="13.4" stroke="#FFB800" stroke-width="2" stroke-linecap="round"></line><line x1="24" y1="11" x2="21.8" y2="13.4" stroke="#FFB800" stroke-width="2" stroke-linecap="round"></line></svg>
         <span class="bri" style="font-size: 42px; font-weight: 800; letter-spacing: -0.045em">lyspunkt</span>
       </a>
         <span class="ser" style="font-size: 21px; font-style: italic; color: #4F6E9E; padding-left: 50px">Et lysere blikk på verden.</span>
       </div>
       <div style="display: flex; justify-content: flex-end; gap: 10px; align-items: center">
-        <button aria-label="Søk" style="width: 44px; height: 44px; border: 1.5px solid #16120F; background: transparent; border-radius: 22px; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#16120F" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="16.5" y1="16.5" x2="21" y2="21"></line></svg></button>
-        <button aria-label="Bytt til mørkt tema" style="width: 44px; height: 44px; border: 1.5px solid #16120F; background: transparent; border-radius: 22px; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#16120F" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"></path></svg></button>
+        <a href="sok.html" aria-label="Søk" style="color: #16120F; width: 44px; height: 44px; border: 1.5px solid #16120F; background: transparent; border-radius: 22px; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#16120F" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="16.5" y1="16.5" x2="21" y2="21"></line></svg></a>
+        <button id="tema" type="button" aria-label="Bytt til mørkt tema" style="width: 44px; height: 44px; border: 1.5px solid #16120F; background: transparent; border-radius: 22px; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#16120F" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"></path></svg></a>
       </div>
     </div>
     <nav aria-label="Kategorier" style="height: 56px; border-top: 1px solid #EFE6D6; display: flex; align-items: center; justify-content: center; gap: 6px; font-size: 15px; font-weight: 600">
-      <a href="#" style="padding: 9px 14px; border-radius: 999px; background: #16120F; color: #FFFBF2">Forsiden</a>
-      <a href="#" style="padding: 9px 14px">Norge</a><a href="#" style="padding: 9px 14px">Verden</a><a href="#" style="padding: 9px 14px">Vitenskap</a><a href="#" style="padding: 9px 14px">Helse</a><a href="#" style="padding: 9px 14px">Klima og miljø</a><a href="#" style="padding: 9px 14px">Dyr og natur</a><a href="#" style="padding: 9px 14px">Teknologi</a><a href="#" style="padding: 9px 14px">Verdensrommet</a>
-      <a href="#" style="padding: 9px 14px; border-radius: 999px; background: #FFE89A">Små gleder</a>
+      <a href="index.html" style="padding: 9px 14px; border-radius: 999px; background: #16120F; color: #FFFBF2">Forsiden</a>
+      <a href="kategori/norge.html" style="padding: 9px 14px">Norge</a><a href="kategori/verden.html" style="padding: 9px 14px">Verden</a><a href="kategori/vitenskap.html" style="padding: 9px 14px">Vitenskap</a><a href="kategori/helse.html" style="padding: 9px 14px">Helse</a><a href="kategori/klima-og-miljo.html" style="padding: 9px 14px">Klima og miljø</a><a href="kategori/dyr-og-natur.html" style="padding: 9px 14px">Dyr og natur</a><a href="kategori/teknologi.html" style="padding: 9px 14px">Teknologi</a><a href="kategori/verdensrommet.html" style="padding: 9px 14px">Verdensrommet</a>
+      <a href="kategori/sma-gleder.html" style="padding: 9px 14px; border-radius: 999px; background: #FFE89A">Små gleder</a>
     </nav>
   </header>
 
@@ -69,10 +76,9 @@ a{color:#16120F;text-decoration:none}a:hover{color:#0E7A4E}
         <span class="meta">Valgt av redaksjonen kl. 07:00</span>
       </div>
       <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px">
-        <a href="#" style="height: 560px; position: relative; border-radius: 20px; overflow: hidden; display: block">
+        <a href="artikkel/korallrev.html" style="height: 560px; position: relative; border-radius: 20px; overflow: hidden; display: block">
           <img src="bilder/rev.jpg" alt="Fridykker mellom koraller i klart, blått vann" class="ph" style="object-position: 50% 45%">
           <div class="shade" style="height: 72%"></div>
-          <span class="bri" style="position: absolute; left: 26px; top: 22px; font-size: 22px; font-weight: 800; color: #FFFFFF">01</span>
           <div style="position: absolute; left: 26px; right: 26px; bottom: 26px; display: flex; flex-direction: column; gap: 10px; color: #FFFFFF">
             <span class="kick" style="color: #FFD23F">Klima · Verden</span>
             <h3 class="bri" style="margin: 0; font-size: 34px; line-height: .98; font-weight: 800; letter-spacing: -0.03em"><span class="ser" style="font-style: italic; font-weight: 400; letter-spacing: 0; color: #FFD23F">Endelig:</span> Korallrevet vokser tilbake</h3>
@@ -80,10 +86,9 @@ a{color:#16120F;text-decoration:none}a:hover{color:#0E7A4E}
             <span style="font-size: 12px; color: rgba(255,255,255,.75)">[Journalist] · Oppdatert 07:42 · 5 min</span>
           </div>
         </a>
-        <a href="#" style="height: 560px; position: relative; border-radius: 20px; overflow: hidden; display: block">
+        <a href="artikkel/malariavaksine.html" style="height: 560px; position: relative; border-radius: 20px; overflow: hidden; display: block">
           <img src="bilder/helse.jpg" alt="Helsearbeider måler blodtrykket til en kvinne mens et barn ser på" class="ph" style="object-position: 30% 35%">
           <div class="shade" style="height: 72%"></div>
-          <span class="bri" style="position: absolute; left: 26px; top: 22px; font-size: 22px; font-weight: 800; color: #FFFFFF">02</span>
           <div style="position: absolute; left: 26px; right: 26px; bottom: 26px; display: flex; flex-direction: column; gap: 10px; color: #FFFFFF">
             <span class="kick" style="color: #FFD23F">Helse</span>
             <h3 class="bri" style="margin: 0; font-size: 34px; line-height: .98; font-weight: 800; letter-spacing: -0.03em">Ny malariavaksine kan nå millioner av barn</h3>
@@ -91,10 +96,9 @@ a{color:#16120F;text-decoration:none}a:hover{color:#0E7A4E}
             <span style="font-size: 12px; color: rgba(255,255,255,.75)">[Journalist] · 07:15 · 4 min</span>
           </div>
         </a>
-        <a href="#" style="height: 560px; position: relative; border-radius: 20px; overflow: hidden; display: block">
+        <a href="artikkel/solceller.html" style="height: 560px; position: relative; border-radius: 20px; overflow: hidden; display: block">
           <img src="bilder/sol.jpg" alt="Boligområde med solcellepaneler og regnbue" class="ph" style="object-position: 35% 50%">
           <div class="shade" style="height: 72%"></div>
-          <span class="bri" style="position: absolute; left: 26px; top: 22px; font-size: 22px; font-weight: 800; color: #FFFFFF">03</span>
           <div style="position: absolute; left: 26px; right: 26px; bottom: 26px; display: flex; flex-direction: column; gap: 10px; color: #FFFFFF">
             <span class="kick" style="color: #FFD23F">Vitenskap</span>
             <h3 class="bri" style="margin: 0; font-size: 34px; line-height: .98; font-weight: 800; letter-spacing: -0.03em">Slik kan nye solceller gjøre strømmen billigere</h3>
@@ -110,7 +114,7 @@ a{color:#16120F;text-decoration:none}a:hover{color:#0E7A4E}
       <svg width="52" height="52" viewBox="0 0 32 32" aria-hidden="true"><path d="M9 22a7 7 0 0 1 14 0z" fill="#FFB800"></path><line x1="4" y1="22.5" x2="28" y2="22.5" stroke="#16120F" stroke-width="1.6" stroke-linecap="round"></line><line x1="16" y1="7" x2="16" y2="10.5" stroke="#FFB800" stroke-width="1.8" stroke-linecap="round"></line><line x1="8" y1="11" x2="10.2" y2="13.4" stroke="#FFB800" stroke-width="1.8" stroke-linecap="round"></line><line x1="24" y1="11" x2="21.8" y2="13.4" stroke="#FFB800" stroke-width="1.8" stroke-linecap="round"></line></svg>
       <span class="bri" style="font-size: 54px; font-weight: 800; line-height: .95; letter-spacing: -0.04em">Trenger du et lyspunkt <span class="ser" style="font-style: italic; font-weight: 400; letter-spacing: 0; color: #6C4FD6">akkurat nå?</span></span>
       <span style="font-size: 17px; line-height: 1.5; color: #4A4560; max-width: 520px">Ett trykk. Én tilfeldig god historie fra hvor som helst i verden.</span>
-      <a href="#" style="margin-top: 10px; background: #6C4FD6; color: #FFFFFF; padding: 18px 32px; border-radius: 999px; font-size: 17px; font-weight: 700; box-shadow: 0 8px 22px rgba(108,79,214,.28)">Overrask meg</a>
+      <a href="overrask.html" style="margin-top: 10px; background: #6C4FD6; color: #FFFFFF; padding: 18px 32px; border-radius: 999px; font-size: 17px; font-weight: 700; box-shadow: 0 8px 22px rgba(108,79,214,.28)">Overrask meg</a>
     </section>
 
     <!-- Små gleder + Siste nytt -->
@@ -118,18 +122,18 @@ a{color:#16120F;text-decoration:none}a:hover{color:#0E7A4E}
       <section aria-labelledby="sg" style="grid-column: span 8; background: #FFF1B8; border-radius: 20px; padding: 36px 36px 44px">
         <div class="shead" style="margin-bottom: 32px">
           <h2 id="sg" class="h2">Små <span class="ser" style="font-style: italic; font-weight: 400; letter-spacing: 0">gleder</span></h2>
-          <a href="#" style="font-size: 15px; font-weight: 700">Se alle →</a>
+          <a href="kategori/sma-gleder.html" style="font-size: 15px; font-weight: 700">Se alle →</a>
         </div>
         <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px">
-          <a href="#" style="display: flex; flex-direction: column; gap: 12px; background: #FFFFFF; padding: 10px 10px 18px; box-shadow: 0 8px 22px rgba(22,18,15,.12); transform: rotate(-1.5deg)">
+          <a href="artikkel/naturjakt.html" style="display: flex; flex-direction: column; gap: 12px; background: #FFFFFF; padding: 10px 10px 18px; box-shadow: 0 8px 22px rgba(22,18,15,.12); transform: rotate(-1.5deg)">
             <div style="height: 220px; overflow: hidden"><img src="bilder/bestemor.jpg" alt="Bestemor viser et barn blomster i skogen" class="ph" style="object-position: 60% 50%"></div>
             <span class="bri" style="font-size: 20px; font-weight: 700; line-height: 1.05; letter-spacing: -0.02em; padding: 0 4px">Pensjonistene som tar med barna på naturjakt</span>
           </a>
-          <a href="#" style="display: flex; flex-direction: column; gap: 12px; background: #FFFFFF; padding: 10px 10px 18px; box-shadow: 0 8px 22px rgba(22,18,15,.12); transform: rotate(1deg)">
+          <a href="artikkel/sirkus.html" style="display: flex; flex-direction: column; gap: 12px; background: #FFFFFF; padding: 10px 10px 18px; box-shadow: 0 8px 22px rgba(22,18,15,.12); transform: rotate(1deg)">
             <div style="height: 220px; overflow: hidden"><img src="bilder/jubel.jpg" alt="Jente og bestemor jubler sammen" class="ph" style="object-position: 50% 28%"></div>
             <span class="bri" style="font-size: 20px; font-weight: 700; line-height: 1.05; letter-spacing: -0.02em; padding: 0 4px">Gleden da sirkuset kom tilbake til bygda</span>
           </a>
-          <a href="#" style="display: flex; flex-direction: column; gap: 12px; background: #FFFFFF; padding: 10px 10px 18px; box-shadow: 0 8px 22px rgba(22,18,15,.12); transform: rotate(-0.5deg)">
+          <a href="artikkel/trapper.html" style="display: flex; flex-direction: column; gap: 12px; background: #FFFFFF; padding: 10px 10px 18px; box-shadow: 0 8px 22px rgba(22,18,15,.12); transform: rotate(-0.5deg)">
             <div style="height: 220px; overflow: hidden"><img src="bilder/trapp1.jpg" alt="Trapp der hvert trinn er malt i en regnbuefarge" class="ph"></div>
             <span class="bri" style="font-size: 20px; font-weight: 700; line-height: 1.05; letter-spacing: -0.02em; padding: 0 4px">Naboene malte alle trappene i gata</span>
           </a>
@@ -137,11 +141,11 @@ a{color:#16120F;text-decoration:none}a:hover{color:#0E7A4E}
       </section>
       <aside aria-labelledby="siste" style="grid-column: span 4; background: #DFF3E7; color: #16120F; border-radius: 20px; padding: 36px; display: flex; flex-direction: column">
         <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 18px"><span style="width: 10px; height: 10px; border-radius: 5px; background: #FFE89A; box-shadow: 0 0 0 3px #FFF3C2"></span><h2 id="siste" class="bri" style="margin: 0; font-size: 28px; font-weight: 800; letter-spacing: -0.03em">Siste nytt</h2></div>
-        <a href="#" style="color: #16120F; display: grid; grid-template-columns: 56px 1fr; gap: 10px; padding: 16px 0; border-top: 1px solid rgba(14,122,78,.2)"><span class="bri" style="font-weight: 700; color: #0E7A4E">07:42</span><span style="font-size: 16px; font-weight: 600; line-height: 1.35">Rekordmange søker lærlingplass i grønne fag</span></a>
-        <a href="#" style="color: #16120F; display: grid; grid-template-columns: 56px 1fr; gap: 10px; padding: 16px 0; border-top: 1px solid rgba(14,122,78,.2)"><span class="bri" style="font-weight: 700; color: #0E7A4E">07:15</span><span style="font-size: 16px; font-weight: 600; line-height: 1.35">Ny malariavaksine godkjent i flere land</span></a>
-        <a href="#" style="color: #16120F; display: grid; grid-template-columns: 56px 1fr; gap: 10px; padding: 16px 0; border-top: 1px solid rgba(14,122,78,.2)"><span class="bri" style="font-weight: 700; color: #0E7A4E">06:58</span><span style="font-size: 16px; font-weight: 600; line-height: 1.35">Studenter fikk kontakt med egen satellitt</span></a>
-        <a href="#" style="color: #16120F; display: grid; grid-template-columns: 56px 1fr; gap: 10px; padding: 16px 0; border-top: 1px solid rgba(14,122,78,.2)"><span class="bri" style="font-weight: 700; color: #0E7A4E">I går</span><span style="font-size: 16px; font-weight: 600; line-height: 1.35">Ulvene i nasjonalparken fikk valper igjen</span></a>
-        <a href="#" style="margin-top: auto; align-self: flex-start; background: #0E7A4E; color: #FFFFFF; padding: 12px 18px; border-radius: 999px; font-size: 14px; font-weight: 700">Alle saker →</a>
+        <a href="artikkel/laerling.html" style="color: #16120F; display: grid; grid-template-columns: 56px 1fr; gap: 10px; padding: 16px 0; border-top: 1px solid rgba(14,122,78,.2)"><span class="bri" style="font-weight: 700; color: #0E7A4E">07:42</span><span style="font-size: 16px; font-weight: 600; line-height: 1.35">Rekordmange søker lærlingplass i grønne fag</span></a>
+        <a href="artikkel/malariavaksine.html" style="color: #16120F; display: grid; grid-template-columns: 56px 1fr; gap: 10px; padding: 16px 0; border-top: 1px solid rgba(14,122,78,.2)"><span class="bri" style="font-weight: 700; color: #0E7A4E">07:15</span><span style="font-size: 16px; font-weight: 600; line-height: 1.35">Ny malariavaksine godkjent i flere land</span></a>
+        <a href="artikkel/satellitt.html" style="color: #16120F; display: grid; grid-template-columns: 56px 1fr; gap: 10px; padding: 16px 0; border-top: 1px solid rgba(14,122,78,.2)"><span class="bri" style="font-weight: 700; color: #0E7A4E">06:58</span><span style="font-size: 16px; font-weight: 600; line-height: 1.35">Studenter fikk kontakt med egen satellitt</span></a>
+        <a href="artikkel/ulver.html" style="color: #16120F; display: grid; grid-template-columns: 56px 1fr; gap: 10px; padding: 16px 0; border-top: 1px solid rgba(14,122,78,.2)"><span class="bri" style="font-weight: 700; color: #0E7A4E">I går</span><span style="font-size: 16px; font-weight: 600; line-height: 1.35">Ulvene i nasjonalparken fikk valper igjen</span></a>
+        <a href="siste.html" style="margin-top: auto; align-self: flex-start; background: #0E7A4E; color: #FFFFFF; padding: 12px 18px; border-radius: 999px; font-size: 14px; font-weight: 700">Alle saker →</a>
       </aside>
     </div>
 
@@ -155,98 +159,98 @@ a{color:#16120F;text-decoration:none}a:hover{color:#0E7A4E}
         <div style="background: #E2F4F1; border-radius: 22px; padding: 28px; display: flex; flex-direction: column">
           <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px">
             <div style="display: flex; align-items: center; gap: 10px"><span style="width: 12px; height: 12px; border-radius: 6px; background: #137A6E"></span><h3 class="bri" style="margin: 0; font-size: 26px; font-weight: 800; letter-spacing: -0.03em">Vitenskap &amp; teknologi</h3></div>
-            <a href="#" style="font-size: 13px; font-weight: 700; color: #137A6E; padding: 8px 13px; border-radius: 999px; background: #FFFFFF">Se alle →</a>
+            <a href="kategori/vitenskap.html" style="font-size: 13px; font-weight: 700; color: #137A6E; padding: 8px 13px; border-radius: 999px; background: #FFFFFF">Se alle →</a>
           </div>
-          <a href="#" style="display: flex; flex-direction: column; gap: 8px; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)">
+          <a href="artikkel/plastenzym.html" style="display: flex; flex-direction: column; gap: 8px; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)">
             <span class="bri" style="font-size: 24px; font-weight: 700; line-height: 1.05; letter-spacing: -0.02em">Forskere fant enzym som bryter ned plast på dager</span>
             <span class="meta">[Journalist] · I går</span>
           </a>
-          <a href="#" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Norsk lab fant ny måte å lagre varme på</span><span class="meta">Fredag</span></a>
-          <a href="#" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0 0"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Slik fungerer de nye solcellene</span><span class="meta">Torsdag</span></a>
+          <a href="artikkel/varmelagring.html" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Norsk lab fant ny måte å lagre varme på</span><span class="meta">Fredag</span></a>
+          <a href="artikkel/solceller.html" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0 0"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Slik fungerer de nye solcellene</span><span class="meta">Torsdag</span></a>
         </div>
         <div style="background: #E4F5E8; border-radius: 22px; padding: 28px; display: flex; flex-direction: column">
           <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px">
             <div style="display: flex; align-items: center; gap: 10px"><span style="width: 12px; height: 12px; border-radius: 6px; background: #2E8A4F"></span><h3 class="bri" style="margin: 0; font-size: 26px; font-weight: 800; letter-spacing: -0.03em">Dyr &amp; natur</h3></div>
-            <a href="#" style="font-size: 13px; font-weight: 700; color: #2E8A4F; padding: 8px 13px; border-radius: 999px; background: #FFFFFF">Se alle →</a>
+            <a href="kategori/dyr-og-natur.html" style="font-size: 13px; font-weight: 700; color: #2E8A4F; padding: 8px 13px; border-radius: 999px; background: #FFFFFF">Se alle →</a>
           </div>
-          <a href="#" style="display: flex; flex-direction: column; gap: 8px; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)">
+          <a href="artikkel/valpekull.html" style="display: flex; flex-direction: column; gap: 8px; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)">
             <span class="bri" style="font-size: 24px; font-weight: 700; line-height: 1.05; letter-spacing: -0.02em">Valpekullet som fikk nye hjem på én dag</span>
             <span class="meta">[Journalist] · I går</span>
           </a>
-          <a href="#" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Ulvene i nasjonalparken fikk valper igjen</span><span class="meta">I går</span></a>
-          <a href="#" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0 0"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Havørna hekker i Oslofjorden igjen</span><span class="meta">Lørdag</span></a>
+          <a href="artikkel/ulver.html" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Ulvene i nasjonalparken fikk valper igjen</span><span class="meta">I går</span></a>
+          <a href="artikkel/havorn.html" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0 0"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Havørna hekker i Oslofjorden igjen</span><span class="meta">Lørdag</span></a>
         </div>
         <div style="background: #E6EFFD; border-radius: 22px; padding: 28px; display: flex; flex-direction: column">
           <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px">
             <div style="display: flex; align-items: center; gap: 10px"><span style="width: 12px; height: 12px; border-radius: 6px; background: #3A64B5"></span><h3 class="bri" style="margin: 0; font-size: 26px; font-weight: 800; letter-spacing: -0.03em">Helse &amp; medisin</h3></div>
-            <a href="#" style="font-size: 13px; font-weight: 700; color: #3A64B5; padding: 8px 13px; border-radius: 999px; background: #FFFFFF">Se alle →</a>
+            <a href="kategori/helse.html" style="font-size: 13px; font-weight: 700; color: #3A64B5; padding: 8px 13px; border-radius: 999px; background: #FFFFFF">Se alle →</a>
           </div>
-          <a href="#" style="display: flex; flex-direction: column; gap: 8px; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)">
+          <a href="artikkel/hjerteinfarkt.html" style="display: flex; flex-direction: column; gap: 8px; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)">
             <span class="bri" style="font-size: 24px; font-weight: 700; line-height: 1.05; letter-spacing: -0.02em">Færre får hjerteinfarkt enn for ti år siden</span>
             <span class="meta">[Journalist] · Lørdag</span>
           </a>
-          <a href="#" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Ny migrenebehandling viser lovende resultater</span><span class="meta">I går</span></a>
-          <a href="#" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0 0"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Unge sover bedre når mobilen ligger utenfor rommet</span><span class="meta">Fredag</span></a>
+          <a href="artikkel/migrene.html" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Ny migrenebehandling viser lovende resultater</span><span class="meta">I går</span></a>
+          <a href="artikkel/sovn.html" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0 0"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Unge sover bedre når mobilen ligger utenfor rommet</span><span class="meta">Fredag</span></a>
         </div>
         <div style="background: #ECE8FD; border-radius: 22px; padding: 28px; display: flex; flex-direction: column">
           <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px">
             <div style="display: flex; align-items: center; gap: 10px"><span style="width: 12px; height: 12px; border-radius: 6px; background: #5B47C2"></span><h3 class="bri" style="margin: 0; font-size: 26px; font-weight: 800; letter-spacing: -0.03em">Verdensrommet</h3></div>
-            <a href="#" style="font-size: 13px; font-weight: 700; color: #5B47C2; padding: 8px 13px; border-radius: 999px; background: #FFFFFF">Se alle →</a>
+            <a href="kategori/verdensrommet.html" style="font-size: 13px; font-weight: 700; color: #5B47C2; padding: 8px 13px; border-radius: 999px; background: #FFFFFF">Se alle →</a>
           </div>
-          <a href="#" style="display: flex; flex-direction: column; gap: 8px; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)">
+          <a href="artikkel/teleskop.html" style="display: flex; flex-direction: column; gap: 8px; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)">
             <span class="bri" style="font-size: 24px; font-weight: 700; line-height: 1.05; letter-spacing: -0.02em">Teleskopet så lenger ut i universet enn noen trodde</span>
             <span class="meta">[Journalist] · I går</span>
           </a>
-          <a href="#" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Studenter fikk kontakt med egen satellitt</span><span class="meta">06:58</span></a>
-          <a href="#" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0 0"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Nordlyssesongen blir en av de beste på år</span><span class="meta">Søndag</span></a>
+          <a href="artikkel/satellitt.html" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Studenter fikk kontakt med egen satellitt</span><span class="meta">06:58</span></a>
+          <a href="artikkel/nordlys.html" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0 0"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Nordlyssesongen blir en av de beste på år</span><span class="meta">Søndag</span></a>
         </div>
         <div style="background: #EEF5DC; border-radius: 22px; padding: 28px; display: flex; flex-direction: column">
           <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px">
             <div style="display: flex; align-items: center; gap: 10px"><span style="width: 12px; height: 12px; border-radius: 6px; background: #5C7F14"></span><h3 class="bri" style="margin: 0; font-size: 26px; font-weight: 800; letter-spacing: -0.03em">Klima &amp; miljø</h3></div>
-            <a href="#" style="font-size: 13px; font-weight: 700; color: #5C7F14; padding: 8px 13px; border-radius: 999px; background: #FFFFFF">Se alle →</a>
+            <a href="kategori/klima-og-miljo.html" style="font-size: 13px; font-weight: 700; color: #5C7F14; padding: 8px 13px; border-radius: 999px; background: #FFFFFF">Se alle →</a>
           </div>
-          <a href="#" style="display: flex; flex-direction: column; gap: 8px; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)">
+          <a href="artikkel/fornybar.html" style="display: flex; flex-direction: column; gap: 8px; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)">
             <span class="bri" style="font-size: 24px; font-weight: 700; line-height: 1.05; letter-spacing: -0.02em">Europas strømnett satte ny fornybar-rekord</span>
             <span class="meta">[Journalist] · I dag</span>
           </a>
-          <a href="#" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Byen som gjorde parkeringsplasser til hager</span><span class="meta">I går</span></a>
-          <a href="#" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0 0"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Derfor fortsetter ozonlaget å lege seg</span><span class="meta">Lørdag</span></a>
+          <a href="artikkel/parkering.html" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Byen som gjorde parkeringsplasser til hager</span><span class="meta">I går</span></a>
+          <a href="artikkel/ozon.html" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0 0"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Derfor fortsetter ozonlaget å lege seg</span><span class="meta">Lørdag</span></a>
         </div>
         <div style="background: #FFF3CC; border-radius: 22px; padding: 28px; display: flex; flex-direction: column">
           <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px">
             <div style="display: flex; align-items: center; gap: 10px"><span style="width: 12px; height: 12px; border-radius: 6px; background: #8A6400"></span><h3 class="bri" style="margin: 0; font-size: 26px; font-weight: 800; letter-spacing: -0.03em">Norge rundt</h3></div>
-            <a href="#" style="font-size: 13px; font-weight: 700; color: #8A6400; padding: 8px 13px; border-radius: 999px; background: #FFFFFF">Se alle →</a>
+            <a href="kategori/norge.html" style="font-size: 13px; font-weight: 700; color: #8A6400; padding: 8px 13px; border-radius: 999px; background: #FFFFFF">Se alle →</a>
           </div>
-          <a href="#" style="display: flex; flex-direction: column; gap: 8px; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)">
+          <a href="artikkel/bussjafor.html" style="display: flex; flex-direction: column; gap: 8px; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)">
             <span class="bri" style="font-size: 24px; font-weight: 700; line-height: 1.05; letter-spacing: -0.02em">Bussjåføren som kan navnet på alle passasjerene</span>
             <span class="meta">[Journalist] · I går</span>
           </a>
-          <a href="#" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Rekordmange søker lærlingplass i grønne fag</span><span class="meta">07:42</span></a>
-          <a href="#" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0 0"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Bygda som fikk butikken tilbake</span><span class="meta">I går</span></a>
+          <a href="artikkel/laerling.html" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Rekordmange søker lærlingplass i grønne fag</span><span class="meta">07:42</span></a>
+          <a href="artikkel/butikk.html" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0 0"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Bygda som fikk butikken tilbake</span><span class="meta">I går</span></a>
         </div>
         <div style="background: #FBE6F3; border-radius: 22px; padding: 28px; display: flex; flex-direction: column">
           <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px">
             <div style="display: flex; align-items: center; gap: 10px"><span style="width: 12px; height: 12px; border-radius: 6px; background: #A2397F"></span><h3 class="bri" style="margin: 0; font-size: 26px; font-weight: 800; letter-spacing: -0.03em">Kultur</h3></div>
-            <a href="#" style="font-size: 13px; font-weight: 700; color: #A2397F; padding: 8px 13px; border-radius: 999px; background: #FFFFFF">Se alle →</a>
+            <a href="kategori/kultur.html" style="font-size: 13px; font-weight: 700; color: #A2397F; padding: 8px 13px; border-radius: 999px; background: #FFFFFF">Se alle →</a>
           </div>
-          <a href="#" style="display: flex; flex-direction: column; gap: 8px; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)">
+          <a href="artikkel/bibliotek.html" style="display: flex; flex-direction: column; gap: 8px; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)">
             <span class="bri" style="font-size: 24px; font-weight: 700; line-height: 1.05; letter-spacing: -0.02em">Biblioteket som låner ut verktøy og symaskiner</span>
             <span class="meta">[Journalist] · I går</span>
           </a>
-          <a href="#" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Ungdomskoret som synger på sykehjem hver uke</span><span class="meta">Lørdag</span></a>
-          <a href="#" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0 0"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Bakgården som ble et fargerikt kunstverk</span><span class="meta">Fredag</span></a>
+          <a href="artikkel/kor.html" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Ungdomskoret som synger på sykehjem hver uke</span><span class="meta">Lørdag</span></a>
+          <a href="artikkel/bakgard.html" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0 0"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Bakgården som ble et fargerikt kunstverk</span><span class="meta">Fredag</span></a>
         </div>
         <div style="background: #E0F3FA; border-radius: 22px; padding: 28px; display: flex; flex-direction: column">
           <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px">
             <div style="display: flex; align-items: center; gap: 10px"><span style="width: 12px; height: 12px; border-radius: 6px; background: #1B7397"></span><h3 class="bri" style="margin: 0; font-size: 26px; font-weight: 800; letter-spacing: -0.03em">Sport</h3></div>
-            <a href="#" style="font-size: 13px; font-weight: 700; color: #1B7397; padding: 8px 13px; border-radius: 999px; background: #FFFFFF">Se alle →</a>
+            <a href="kategori/sport.html" style="font-size: 13px; font-weight: 700; color: #1B7397; padding: 8px 13px; border-radius: 999px; background: #FFFFFF">Se alle →</a>
           </div>
-          <a href="#" style="display: flex; flex-direction: column; gap: 8px; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)">
+          <a href="artikkel/jentelag.html" style="display: flex; flex-direction: column; gap: 8px; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)">
             <span class="bri" style="font-size: 24px; font-weight: 700; line-height: 1.05; letter-spacing: -0.02em">Jentelaget som gikk fra fire til førti spillere</span>
             <span class="meta">[Journalist] · Søndag</span>
           </a>
-          <a href="#" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Lokalklubben som gir bort treningsutstyr</span><span class="meta">I går</span></a>
-          <a href="#" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0 0"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Rullestolbasket fyller hallen hver lørdag</span><span class="meta">Lørdag</span></a>
+          <a href="artikkel/utstyr.html" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0; border-bottom: 1px solid rgba(22,18,15,.1)"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Lokalklubben som gir bort treningsutstyr</span><span class="meta">I går</span></a>
+          <a href="artikkel/rullestol.html" style="display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: baseline; padding: 14px 0 0"><span style="font-size: 17px; font-weight: 600; line-height: 1.3">Rullestolbasket fyller hallen hver lørdag</span><span class="meta">Lørdag</span></a>
         </div>
       </div>
     </section>
@@ -260,32 +264,32 @@ a{color:#16120F;text-decoration:none}a:hover{color:#0E7A4E}
         <div style="display: flex; align-items: center; gap: 14px"><svg width="56" height="56" viewBox="0 0 32 32" aria-hidden="true"><path d="M9 22a7 7 0 0 1 14 0z" fill="#FFB800"></path><line x1="4" y1="22.5" x2="28" y2="22.5" stroke="#16120F" stroke-width="1.6" stroke-linecap="round"></line><line x1="16" y1="7" x2="16" y2="10.5" stroke="#FFB800" stroke-width="1.8" stroke-linecap="round"></line><line x1="8" y1="11" x2="10.2" y2="13.4" stroke="#FFB800" stroke-width="1.8" stroke-linecap="round"></line><line x1="24" y1="11" x2="21.8" y2="13.4" stroke="#FFB800" stroke-width="1.8" stroke-linecap="round"></line></svg><span class="bri" style="font-size: 64px; font-weight: 800; letter-spacing: -0.05em; line-height: 1">lyspunkt</span></div>
         <span class="ser" style="font-size: 28px; font-style: italic; color: #4F6E9E; padding-left: 70px">Et lysere blikk på verden.</span>
       </div>
-      <form style="grid-column: 8 / span 5; background: #FFFFFF; border-radius: 22px; padding: 26px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 10px 30px rgba(138,100,0,.12)">
+      <form action="nyhetsbrev.html" method="get" style="grid-column: 8 / span 5; background: #FFFFFF; border-radius: 22px; padding: 26px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 10px 30px rgba(138,100,0,.12)">
         <span class="bri" style="font-size: 24px; font-weight: 800; letter-spacing: -0.03em">Ukens lyspunkter, rett i innboksen</span>
         <span style="font-size: 14px; color: #3D4540">Hver fredag. Tre gode nyheter og én liten glede. Gratis.</span>
         <div style="display: flex; gap: 8px">
           <label for="epost" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">E-postadresse</label>
-          <input id="epost" type="email" placeholder="din@epost.no" style="flex: 1; font: inherit; font-size: 15px; height: 48px; padding: 0 16px; border-radius: 999px; border: 1.5px solid #E6DCC0; background: #FFFBF2">
-          <button type="button" style="font: inherit; font-size: 15px; font-weight: 700; height: 48px; padding: 0 20px; border-radius: 999px; border: none; background: #4F6E9E; color: #FFFFFF; cursor: pointer">Meld meg på</button>
+          <input id="epost" name="epost" type="email" required placeholder="din@epost.no" style="flex: 1; font: inherit; font-size: 15px; height: 48px; padding: 0 16px; border-radius: 999px; border: 1.5px solid #E6DCC0; background: #FFFBF2">
+          <button type="submit" style="font: inherit; font-size: 15px; font-weight: 700; height: 48px; padding: 0 20px; border-radius: 999px; border: none; background: #4F6E9E; color: #FFFFFF; cursor: pointer">Meld meg på</button>
         </div>
       </form>
     </div>
     <div style="display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 24px; font-size: 14px; line-height: 1.8; position: relative; padding-top: 32px; border-top: 1.5px solid rgba(22,18,15,.15)">
       <div style="grid-column: span 3; display: flex; flex-direction: column">
         <span class="kick" style="color: #8A6400; margin-bottom: 8px">Kategorier</span>
-        <a href="#">Vitenskap</a><a href="#">Dyr og natur</a><a href="#">Helse</a><a href="#">Verdensrommet</a>
+        <a href="kategori/vitenskap.html">Vitenskap</a><a href="kategori/dyr-og-natur.html">Dyr og natur</a><a href="kategori/helse.html">Helse</a><a href="kategori/verdensrommet.html">Verdensrommet</a>
       </div>
       <div style="grid-column: span 3; display: flex; flex-direction: column">
         <span class="kick" style="color: #8A6400; margin-bottom: 8px">&#160;</span>
-        <a href="#">Klima og miljø</a><a href="#">Norge rundt</a><a href="#">Kultur</a><a href="#">Sport</a>
+        <a href="kategori/klima-og-miljo.html">Klima og miljø</a><a href="kategori/norge.html">Norge rundt</a><a href="kategori/kultur.html">Kultur</a><a href="kategori/sport.html">Sport</a>
       </div>
       <div style="grid-column: span 3; display: flex; flex-direction: column">
         <span class="kick" style="color: #8A6400; margin-bottom: 8px">Redaksjonen</span>
-        <span>Ansvarlig redaktør: [Navn]</span><span>Nyhetsredaktør: [Navn]</span><a href="#">Tips oss</a><a href="#">Om Lyspunkt</a>
+        <span>Ansvarlig redaktør: [Navn]</span><span>Nyhetsredaktør: [Navn]</span><a href="tips.html">Tips oss</a><a href="om.html">Om Lyspunkt</a>
       </div>
       <div style="grid-column: span 3; display: flex; flex-direction: column">
         <span class="kick" style="color: #8A6400; margin-bottom: 8px">Slik jobber vi</span>
-        <a href="#">Redaksjonelle prinsipper</a><a href="#">Rettelser</a><a href="#">Bruk av AI</a><a href="#">Personvern</a>
+        <a href="prinsipper.html">Redaksjonelle prinsipper</a><a href="rettelser.html">Rettelser</a><a href="ai.html">Bruk av AI</a><a href="personvern.html">Personvern</a>
       </div>
     </div>
     <div aria-hidden="true" style="display: flex; justify-content: center; margin: -28px -56px -48px">
