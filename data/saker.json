@@ -1,10 +1,10 @@
 {
-  "oppdatert": "2026-10-20T13:15:00+02:00",
+  "oppdatert": "2026-10-20T19:15:00+02:00",
   "topp3_last": false,
   "topp3": [
+    "rektalkreft-immunterapi",
     "nordisk-rad-storeslem",
-    "koraller-beroring",
-    "optogenetikk-syn"
+    "mmx-phobos"
   ],
   "avvist": [
     "savannah-fugleoy",
@@ -546,6 +546,152 @@
         "lisens": "NASA-illustrasjon, fritt til bruk med kreditering",
         "kilde_url": "https://science.nasa.gov/gallery/roman-space-telescope-illustrations"
       }
+    },
+    {
+      "id": "rektalkreft-immunterapi",
+      "tittel": "Immunterapi kan spare noen rektalkreftpasienter for kirurgi og stråling",
+      "ingress": "Amerikanske legemiddelmyndigheter har godkjent en immunterapi for en bestemt type endetarmskreft. I studiene slapp de fleste pasientene operasjon, cellegift og strålebehandling.",
+      "kategorier": [
+        "helse",
+        "vitenskap"
+      ],
+      "kildedato": "2026-10-19",
+      "publisert": "2026-10-20T19:15:00+02:00",
+      "brodtekst": [
+        "Den amerikanske legemiddelmyndigheten FDA ga 19. oktober en såkalt fremskyndet godkjenning til legemiddelet Jemperli (dostarlimab) fra GSK. Det gjelder voksne med lokalt avansert endetarmskreft i stadium II eller III som ikke er behandlet før, og der svulsten har en bestemt genetisk egenskap (dMMR eller MSI-H).",
+        "Denne varianten finnes ifølge FDA i rundt 3 prosent av lokalt avanserte endetarmskreftsvulster. Legemiddelet blokkerer proteinet PD-1, som kreftceller bruker for å gjemme seg for immunforsvaret.",
+        "## Slapp operasjon",
+        "Vanlig behandling er ofte cellegift og stråling før operasjon. Det kan gå ut over tarm-, blære- og seksualfunksjon og fruktbarhet, og operasjonen kan i noen tilfeller gi permanent stomi. I studien AZUR-1 fikk 154 pasienter opptil ni doser over seks måneder. Etter at de i snitt var fulgt i over to år, hadde nesten tre av fire ikke trengt operasjon, stråling eller cellegift.",
+        "I en mindre studie ved Memorial Sloan Kettering med 50 pasienter var det ikke lenger påvisbar kreft etter behandlingen, og 93 prosent holdt seg kreftfrie i minst tolv måneder. Av 27 pasienter som er fulgt i minst tre år, fikk én tilbakefall.",
+        "## Ikke uten risiko",
+        "Behandlingen kan få immunforsvaret til å angripe friske organer, noe som kan være alvorlig. De vanligste bivirkningene var tretthet, utslett, diaré og kløe."
+      ],
+      "hvorfor_hap": "For en liten gruppe pasienter kan en kur med infusjoner erstatte behandling som ofte gir varige plager. At myndighetene nå har godkjent behandlingen, gjør den tilgjengelig utenfor forskningsstudier i USA.",
+      "usikkert": "Godkjenningen bygger på foreløpige studieresultater, og produsenten må følge pasientene videre for å bekrefte at effekten varer. Den gjelder bare USA og bare svulster med den bestemte genetiske egenskapen, ikke endetarmskreft generelt.",
+      "kilder": [
+        {
+          "navn": "FDA: «FDA Approves Immunotherapy That May Allow Certain Patients with Rectal Cancer to Avoid Chemotherapy, Radiation and Surgery» (19. oktober 2026)",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-immunotherapy-may-allow-certain-patients-rectal-cancer-avoid-chemotherapy-radiation-and"
+        },
+        {
+          "navn": "The ASCO Post: «FDA Approves Dostarlimab for MSI-H/dMMR Locally Advanced Rectal Cancer» (19. oktober 2026)",
+          "url": "https://ascopost.com/news/october-2026/fda-approves-dostarlimab-for-msi-hdmmr-locally-advanced-rectal-cancer/"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "mmx-phobos",
+      "tittel": "Japansk romsonde er på vei for å hente stein fra Mars-månen Phobos",
+      "ingress": "Romsonden MMX ble skutt opp natt til tirsdag. Planen er å bringe de første prøvene fra Mars-månen Phobos tilbake til Jorden i 2031.",
+      "kategorier": [
+        "verdensrommet",
+        "vitenskap"
+      ],
+      "kildedato": "2026-10-20",
+      "publisert": "2026-10-20T19:15:00+02:00",
+      "brodtekst": [
+        "Den japanske romfartsorganisasjonen JAXA skjøt opp romsonden Martian Moons eXploration (MMX) med en H3-rakett fra Tanegashima i Japan. Oppskytingen skjedde kl. 21.41 norsk tid mandag 19. oktober. Ifølge JAXA gikk alt som planlagt, og sonden ble skilt fra raketten drøyt 71 minutter etter avgang.",
+        "## Lang reise",
+        "MMX skal etter planen gå inn i bane rundt Mars i august 2027 og deretter følge den lille månen Phobos tett. Senere skal sonden lande på Phobos og hente minst 10 gram materiale. Kapselen med prøvene skal lande i Australia i 2031.",
+        "Med seg har sonden den firehjulte roboten Idefix, utviklet av de tyske og franske romfartsorganisasjonene DLR og CNES. Den veier 25 kilo og skal speide etter landingsplasser og undersøke overflaten. NASA har bidratt med instrumentet MEGANE, som skal måle hva Phobos består av, og Den europeiske romfartsorganisasjonen ESA er også partner.",
+        "## Et gammelt mysterium",
+        "Forskerne håper å finne ut hvordan Mars-månene Phobos og Deimos ble til: om de er asteroider som ble fanget av Mars, eller rester etter et stort nedslag på planeten."
+      ],
+      "hvorfor_hap": "Oppskytingen er første store steg i et internasjonalt samarbeid om å hente hjem prøver fra en Mars-måne for første gang. Svarene kan fortelle mer om hvordan Mars og resten av solsystemet ble til.",
+      "usikkert": "Ferden er lang og krevende, og landing og prøvetaking ligger flere år fram i tid. Ingen vet ennå om alle stegene vil lykkes.",
+      "kilder": [
+        {
+          "navn": "JAXA: pressemelding om oppskytingen av H3 nr. 10 med MMX (20. oktober 2026)",
+          "url": "https://global.jaxa.jp/press/2026/10/20261020-1_e.html"
+        },
+        {
+          "navn": "ESA: «Mars moon lander set to launch on 19 October» (13. oktober 2026)",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_moon_lander_set_to_launch_on_19_October"
+        },
+        {
+          "navn": "SpacePolicyOnline: «JAXA's MMX Enroute to Mars To Return Samples of Phobos» (19. oktober 2026)",
+          "url": "https://spacepolicyonline.com/news/jaxas-mmx-enroute-to-mars-to-return-samples-of-phobos/"
+        }
+      ],
+      "bilde": {
+        "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia10/pia10368/PIA10368.jpg",
+        "alt": "Mars-månen Phobos med det store krateret Stickney, fotografert av NASAs Mars Reconnaissance Orbiter i 2008",
+        "kreditt": "NASA/JPL-Caltech/University of Arizona",
+        "lisens": "NASA-bilde, fritt til bruk med kreditering",
+        "kilde_url": "https://science.nasa.gov/photojournal/phobos-from-6800-kilometers-color/"
+      },
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "sponevik-vm-finale",
+      "tittel": "Sebastian Sponevik blir første nordmann i en apparatfinale i turn-VM",
+      "ingress": "21-åringen fra Romerike kvalifiserte seg til hoppfinalen i VM i Rotterdam. Ingen norsk turner har tidligere nådd en apparatfinale i et verdensmesterskap.",
+      "kategorier": [
+        "norge",
+        "sport"
+      ],
+      "kildedato": "2026-10-18",
+      "publisert": "2026-10-20T19:15:00+02:00",
+      "brodtekst": [
+        "Sebastian Sponevik endte på sjuendeplass i kvalifiseringen i hopp under VM i turn i Rotterdam i Nederland. De åtte beste gikk videre til finalen, og dermed er han den første nordmannen som har nådd en apparatfinale i et turn-VM.",
+        "Sponevik konkurrerte i den første puljen lørdag 17. oktober, og fikk et snitt på 14,233 poeng.",
+        "## Stor dag for forbundet",
+        "Presidenten i Norges Gymnastikk- og Turnforbund, Torgeir Røinås Pedersen, sa til NTB at dette kanskje er det største han har opplevd i sin tid som president.",
+        "Hoppfinalen for menn går søndag 25. oktober, siste dag av mesterskapet."
+      ],
+      "hvorfor_hap": "Turn er en idrett der Norge sjelden har vært i verdenstoppen. En finaleplass i VM viser at norske turnere kan måle seg med de beste, og kan inspirere unge utøvere i hele landet.",
+      "kilder": [
+        {
+          "navn": "Fædrelandsvennen/NTB: «Norsk turner til historisk VM-finale: – Har nesten ikke ord» (18. oktober 2026)",
+          "url": "https://www.fvn.no/sport/n/QgWM5Q/norsk-turner-til-historisk-vm-finale-har-nesten-ikke-ord"
+        },
+        {
+          "navn": "Wikipedia: «2026 World Artistic Gymnastics Championships» (program)",
+          "url": "https://en.wikipedia.org/wiki/2026_World_Artistic_Gymnastics_Championships"
+        },
+        {
+          "navn": "Gymnastics Now: «Recap: Men's qualifying at the 2026 World Artistic Gymnastics Championships» (18. oktober 2026)",
+          "url": "https://gymnastics-now.com/2026-world-artistic-gymnastics-championships-mens-qualifying/"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "rules-london-national-trust",
+      "tittel": "Londons eldste restaurant er gitt bort for å bevares for alltid",
+      "ingress": "Restauranten Rules har servert mat i Covent Garden siden 1798. Nå har eieren gitt bygningen til veldedige National Trust, og restauranten skal drive videre som før.",
+      "kategorier": [
+        "kultur",
+        "sma-gleder",
+        "verden"
+      ],
+      "kildedato": "2026-10-14",
+      "publisert": "2026-10-20T19:15:00+02:00",
+      "brodtekst": [
+        "Rules ble åpnet som østersbar av Thomas Rule i 1798 og regnes som Londons eldste restaurant. Bygningen i Maiden Lane har overlevd to verdenskriger, rasjonering og en plan fra 1971 om å utvide gaten Strand som ville ha revet den.",
+        "Nå har J-P Mayhew, som har eid bygningen i fire tiår, gitt den bort til National Trust, Storbritannias store organisasjon for vern av kulturarv og natur. Gaven ble kjent 14. oktober.",
+        "## Menyer, gjestebøker og karikaturer",
+        "Med på kjøpet følger også en stor samling gjenstander: gjestebøker, gamle menyer, karikaturer, fotografier, glassmalerier og skilt. Blant gjestene opp gjennom årene er forfatteren Charles Dickens og skuespilleren Charlie Chaplin, og forfatteren Graham Greene skrev om stedet i en av romanene sine.",
+        "## Maten blir den samme",
+        "Restauranten fortsetter som før, med plass til rundt 90 gjester og tradisjonell britisk mat. Driveren Ricky McMenemy, som har jobbet der siden 1989, blir leietaker hos National Trust. Husleien skal gå til vernearbeid."
+      ],
+      "hvorfor_hap": "I stedet for å bli solgt eller bygget om er et stykke levende historie sikret for framtiden. Folk kan fortsatt spise der, akkurat som gjestene har gjort i over 200 år.",
+      "kilder": [
+        {
+          "navn": "AP via News4JAX: Londons eldste restaurant Rules gitt til National Trust (14. oktober 2026)",
+          "url": "https://www.news4jax.com/business/2026/10/14/londons-oldest-restaurant-rules-donated-to-europes-biggest-conservation-charity/"
+        },
+        {
+          "navn": "National Trust: «History of 34–35 Maiden Lane»",
+          "url": "https://www.nationaltrust.org.uk/visit/london/34-35-maiden-lane/history-of-34-35-maiden-lane"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true
     }
   ]
 }
