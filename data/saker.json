@@ -6,7 +6,10 @@
     "studland-sjogress",
     "elbilrekord-norden"
   ],
-  "avvist": [],
+  "avvist": [
+    "savannah-fugleoy",
+    "https://dredgewire.com/savannah-turned-160000-cubic-yards-of-mud-removed-from-its-harbor-into-an-8-acre-island-birds-built-more-than-300-nests-there-in-the-first-season/"
+  ],
   "saker": [
     {
       "id": "optogenetikk-syn",
@@ -157,7 +160,14 @@
         }
       ],
       "status": "publisert",
-      "ai_assistert": true
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://www.titan.uio.no/universet/2026/bilder/pia12954-orig.jpeg",
+        "alt": "Satellittbilde av Marius Hills på Månen, med et mørkt hull som kan være inngangen til en lavatunnel",
+        "kreditt": "NASA/GSFC/Arizona State University",
+        "lisens": "NASA-bilde, fritt til bruk med kreditering",
+        "kilde_url": "https://www.titan.uio.no/universet/2026/forskere-ved-universitetet-i-oslo-lager-instrument.html"
+      }
     },
     {
       "id": "alexander-sykdom",
@@ -290,8 +300,9 @@
           "url": "https://dredgewire.com/savannah-turned-160000-cubic-yards-of-mud-removed-from-its-harbor-into-an-8-acre-island-birds-built-more-than-300-nests-there-in-the-first-season/"
         }
       ],
-      "status": "publisert",
-      "ai_assistert": true
+      "status": "skjult",
+      "ai_assistert": true,
+      "skjult_grunn": "Hendelsen er fra 2014 (army.mil, 15. juli 2014), ikke ny. Kilden fra 2026 var en gjenpublisering."
     },
     {
       "id": "bristol-vatmarksby",

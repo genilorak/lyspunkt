@@ -26,6 +26,36 @@ Finne **ekte, kontrollerbare, positive nyheter** fra hele verden og Norge, skriv
 - Saken er positiv uten å være overdrevet. Tidlige forskningsresultater beskrives som tidlige.
 - Ikke partipolitisk vinklet. Ikke saker som henger ut eller identifiserer privatpersoner som ikke selv har stått fram. Ikke saker om sårbare enkeltpersoner der personvern er et problem.
 - Ikke sitater du ikke har sett ordrett i kilden. Helst ingen sitater i det hele tatt.
+- **Selve hendelsen må være ny, ikke bare artikkelen.** Mange nettsteder gjenpubliserer gamle gladsaker. Sjekk når det faktisk skjedde: søk etter originalkilden, og se etter årstall, «first season», «last year» og lignende. Er hendelsen eldre enn ca. én måned, skal den ikke publiseres som ny. (Eksempel: fugleøya i Savannah ble gjenpublisert i 2026, men skjedde i 2014.)
+
+## 3b. Bilder – bare med lovlig lisens
+
+Å kreditere et bilde gjør det **ikke** lovlig å bruke det. Bruk bare et bilde når du har sett at lisensen tillater gjenbruk:
+
+**Tillatt (med kreditering):**
+- Bilder fra NASA, ESA (der det står fri bruk), NOAA, USGS, U.S. Army/USACE og andre amerikanske føderale etater: fri bruk.
+- Bilder på Wikimedia Commons med lisens CC0, CC BY eller CC BY-SA. Krediter fotografen og lisensen.
+- Pressebilder der kilden uttrykkelig sier at de kan brukes av media med kreditering (pressebilder, presserom, «free for editorial use»).
+- Bilder på GOV.UK og andre myndighetssider under Open Government Licence. **Ikke** hvis bildet er kreditert en annen eier (for eksempel «Credit: National Trust»).
+
+**Ikke tillatt:**
+- Bilder fra aviser, nettmagasiner og blogger (for eksempel Electrek, Countryfile og nyhetsbyråer), selv med kreditering.
+- Bildebyråer (NTB, Scanpix, Getty, Alamy, iStock, Colourbox, Shutterstock).
+- Bilder uten tydelig lisens. Er du i tvil, ikke bruk bildet.
+
+Når et bilde er tillatt, legg til feltet `bilde` på saken:
+
+```json
+"bilde": {
+  "url": "https://… (direkte lenke til bildefilen)",
+  "alt": "Kort beskrivelse av hva bildet viser",
+  "kreditt": "Fotograf / eier",
+  "lisens": "F.eks. «NASA-bilde, fritt til bruk med kreditering» eller «CC BY 4.0»",
+  "kilde_url": "https://… (siden der bildet og lisensen står)"
+}
+```
+
+Har saken ikke et lovlig bilde, utelat `bilde`. Siden viser da en soloppgang i kategorifargen, med knappen «Se bilder og originalsak hos …» som lenker rett til kildeartikkelen.
 
 ## 4. Skriv saken
 

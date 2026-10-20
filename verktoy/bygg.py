@@ -61,6 +61,21 @@ def kunst(s, h=260):
             f'<path d="M{x-r3} {h}a{r3} {r3} 0 0 1 {2*r3} 0z" fill="#FFB800"></path>'
             f'<rect x="0" y="{h-6}" width="600" height="6" fill="{acc}" opacity=".35"></rect></svg>')
 
+
+def kildenavn(s):
+    k = (s.get('kilder') or [{}])[0]
+    return (k.get('navn') or 'kilden').split(':')[0].split(' (')[0].strip()
+
+def kildeurl(s):
+    return (s.get('kilder') or [{}])[0].get('url', '#')
+
+def bildet(s, h=260, base=''):
+    """Kildens bilde hvis lisensen tillater det, ellers soloppgang."""
+    b = s.get('bilde')
+    if b and b.get('url'):
+        return f'<img src="{e(b["url"])}" alt="{e(b.get("alt", ""))}" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block">'
+    return kunst(s, h)
+
 CSS = r"""
 body{margin:0;background:#FFFBF2;color:#16120F;font-family:'Hanken Grotesk',sans-serif}
 a{color:#16120F;text-decoration:none}a:hover{color:#0E7A4E}
@@ -212,7 +227,7 @@ def footer(base):
 def card(s, base):
     navn, _, _, acc = KAT[kat(s)]
     return f'''<a href="{base}artikkel/{s["id"]}.html" class="card">
-  <div class="img">{kunst(s, 200)}</div>
+  <div class="img">{bildet(s, 200)}</div>
   <div class="txt"><span class="kick" style="color:{acc}">{navn}</span><h3>{e(s["tittel"])}</h3><p>{e(s["ingress"])}</p><span class="meta" style="margin-top:auto">{dato(s["kildedato"])}</span></div>
 </a>'''
 
@@ -236,13 +251,13 @@ def forside():
     for s in topp[:3]:
         navn, _, tint, acc = KAT[kat(s)]
         toppkort += f'''<a href="artikkel/{s["id"]}.html" class="topp" style="background:{tint}">
-          <div class="img">{kunst(s, 250)}</div>
+          <div class="img">{bildet(s, 250)}</div>
           <div class="txt"><span class="kick" style="color:{acc}">{navn}</span><h3>{e(s["tittel"])}</h3><p>{e(s["ingress"])}</p><span class="meta" style="margin-top:auto">{dato(s["kildedato"])}</span></div>
         </a>'''
     sg = [s for s in SAKER if 'sma-gleder' in s['kategorier']][:3]
     rot = ['-1.5deg', '1deg', '-0.5deg']
     sgk = ''.join(f'''<a href="artikkel/{s["id"]}.html" style="display:flex;flex-direction:column;gap:12px;background:#FFFFFF;padding:10px 10px 18px;box-shadow:0 8px 22px rgba(22,18,15,.12);transform:rotate({rot[i]})">
-            <div style="height:200px;overflow:hidden">{kunst(s, 200)}</div>
+            <div style="height:200px;overflow:hidden">{bildet(s, 200)}</div>
             <span class="bri" style="font-size:20px;font-weight:700;line-height:1.05;letter-spacing:-0.02em;padding:0 4px">{e(s["tittel"])}</span>
           </a>''' for i, s in enumerate(sg)) or tom()
     siste = ''.join(f'''<a href="artikkel/{s["id"]}.html" style="display:grid;grid-template-columns:70px 1fr;gap:10px;padding:16px 0;border-top:1px solid rgba(14,122,78,.2)"><span class="bri" style="font-weight:700;color:#0E7A4E">{dato(s["kildedato"])}</span><span style="font-size:16px;font-weight:600;line-height:1.35">{e(s["tittel"])}</span></a>''' for s in SAKER[:5])
@@ -335,6 +350,11 @@ def artikler():
         ai = ''
         if s.get('ai_assistert', True):
             ai = f'''<p style="margin:40px 0 0;padding-top:20px;border-top:1px solid #EFE6D6;font-size:14px;line-height:1.6;color:#5E665F"><strong style="color:#16120F">AI-assistert.</strong> Denne saken er funnet, kontrollert mot kildene over og skrevet med hjelp av kunstig intelligens. Ser du en feil? <a href="{base}tips.html">Gi oss beskjed</a>. <a href="{base}ai.html">Les hvordan vi bruker AI</a>.</p>'''
+        b = s.get('bilde')
+        if b and b.get('url'):
+            figur = f'''<figure style="margin:14px 0 0"><div style="height:480px;border-radius:24px;overflow:hidden;background:{tint}"><img src="{e(b['url'])}" alt="{e(b.get('alt',''))}" style="width:100%;height:100%;object-fit:cover;display:block"></div><figcaption class="meta" style="margin-top:10px;font-size:13px">Foto: {e(b.get('kreditt',''))} · {e(b.get('lisens',''))} · <a href="{e(b.get('kilde_url') or kildeurl(s))}" target="_blank" rel="noopener" style="color:#4F6E9E;text-decoration:underline">Bildets kilde</a></figcaption></figure>'''
+        else:
+            figur = f'''<a href="{e(kildeurl(s))}" target="_blank" rel="noopener" style="display:block;position:relative;height:300px;border-radius:24px;overflow:hidden;margin-top:14px">{kunst(s, 300)}<span style="position:absolute;right:18px;bottom:18px;background:#FFFFFF;color:#16120F;font-weight:700;font-size:15px;padding:12px 18px;border-radius:999px;box-shadow:0 6px 18px rgba(22,18,15,.15)">Se bilder og originalsak hos {e(kildenavn(s))} →</span></a>'''
         rettelse = f'<div class="demo" style="margin-bottom:24px"><strong>Rettelse:</strong> {e(s["rettelse"])}</div>' if s.get('rettelse') else ''
         write(f'artikkel/{s["id"]}.html', head(f'{s["tittel"]} – Lyspunkt', base, s['ingress']) + header(base, k) + f'''<main class="inner">
   <div class="crumb"><a href="{base}index.html">Forsiden</a> / <a href="{base}kategori/{k}.html">{navn}</a></div>
@@ -347,7 +367,7 @@ def artikler():
         <span style="width:40px;height:40px;border-radius:20px;background:{tint};display:flex;align-items:center;justify-content:center">{SUN.format(s=22)}</span>
         <span><strong style="color:#16120F">Lyspunkt-redaksjonen</strong><br>Publisert {dato(s["publisert"], True)} · Kilden er datert {dato(s["kildedato"], True)}</span>
       </div>
-      <div style="height:300px;border-radius:24px;overflow:hidden;margin-top:14px">{kunst(s, 300)}</div>
+      {figur}
     </div>
     <div class="prose" style="width:720px;margin-top:36px">
       {rettelse}{body}
@@ -481,7 +501,7 @@ f.addEventListener('submit',function(ev){{ev.preventDefault();if(e.value)takk(e.
 <h2>Slik jobber vi</h2>
 <ul><li>Faktabasert journalistikk og troverdige kilder — originalkilder når det er mulig.</li><li>Åpenhet om usikkerhet: hver sak sier hva vi ikke vet ennå.</li><li>Ingen oppdiktede nyheter, ingen clickbait og ingen overdreven positiv vinkling.</li><li>Ingen politisk propaganda og ingen manipulering av bilder.</li><li>Tydelig merking av AI-assistanse.</li><li>Åpenhet om rettelser og respekt for personvern.</li></ul>
 <h2>Om illustrasjonene</h2>
-<p>Sakene illustreres med abstrakte soloppganger i kategorifargene, ikke med bilder av hendelsene. Når vi får rettigheter til ekte fotografier, merkes og krediteres de.</p>''')
+<p>Vi bruker bare bilder vi har lov til å bruke: bilder fra offentlige etater som NASA, fritt lisensierte bilder og pressebilder som er frigitt for media. Alle krediteres med fotograf og lisens. Bilder fra aviser og bildebyråer bruker vi ikke. Da viser vi en soloppgang i kategorifargen og lenker direkte til originalsaken, der du kan se bildene.</p>''')
 
     info('rettelser.html', 'Rettelser og oppdateringer', '#FFF3CC', 'Feil skjer — da skal du få vite om det.',
          '<p>Når vi gjør feil, retter vi dem åpent. Rettelser merkes øverst i saken det gjelder, og samles her.</p>'
