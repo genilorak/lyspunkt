@@ -55,7 +55,7 @@ Når et bilde er tillatt, legg til feltet `bilde` på saken:
 }
 ```
 
-Har saken ikke et lovlig bilde, utelat `bilde`. Siden viser da en soloppgang i kategorifargen, med knappen «Se bilder og originalsak hos …» som lenker rett til kildeartikkelen.
+Har saken ikke et lovlig bilde, utelat `bilde`. Saken vises da med bare tekst, uten bilde eller bildeplass. Prøv alltid å finne et lovlig bilde først (NASA/NOAA/USGS, Wikimedia Commons med fri lisens, frigitte pressebilder). Et generelt bilde av arten, stedet eller fenomenet er greit, så lenge `alt` ikke gir inntrykk av at det viser selve hendelsen.
 
 ## 4. Skriv saken
 

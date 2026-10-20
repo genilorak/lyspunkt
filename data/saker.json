@@ -462,7 +462,14 @@
         }
       ],
       "status": "publisert",
-      "ai_assistert": true
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://oceanservice.noaa.gov/news/june16/reddit-coral.jpg",
+        "alt": "Kraftig bleket elghornkorall i Florida Keys i 2014. Illustrasjonsbilde, ikke fra studien",
+        "kreditt": "NOAA",
+        "lisens": "NOAA-bilde, fritt til bruk med kreditering",
+        "kilde_url": "https://oceanservice.noaa.gov/news/june16/reddit-coral.html"
+      }
     },
     {
       "id": "aldabra-kjempeskilpadder",
@@ -495,7 +502,14 @@
         }
       ],
       "status": "publisert",
-      "ai_assistert": true
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/152000/152564/aldabracoralatoll_oli2_20220624.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+        "alt": "Satellittbilde av Aldabra-atollen på Seychellene, tatt av Landsat 9 i juni 2022",
+        "kreditt": "NASA Earth Observatory / Wanmei Liang, Landsat-data fra USGS",
+        "lisens": "NASA-bilde, fritt til bruk med kreditering",
+        "kilde_url": "https://science.nasa.gov/earth/earth-observatory/an-outpost-for-evolution-at-aldabra-atoll-152564/"
+      }
     },
     {
       "id": "roman-teleskop-skarpere",
@@ -524,7 +538,14 @@
         }
       ],
       "status": "publisert",
-      "ai_assistert": true
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/rst/spacecraft-illustrations/Roman2025_360Spin_Still.jpg",
+        "alt": "Illustrasjon av Nancy Grace Roman-romteleskopet",
+        "kreditt": "NASA Goddard Space Flight Center / Conceptual Image Lab",
+        "lisens": "NASA-illustrasjon, fritt til bruk med kreditering",
+        "kilde_url": "https://science.nasa.gov/gallery/roman-space-telescope-illustrations"
+      }
     }
   ]
 }

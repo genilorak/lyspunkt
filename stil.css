@@ -30,7 +30,7 @@ main{flex:1}
 .card .txt{padding:20px 22px 24px;display:flex;flex-direction:column;gap:8px;flex:1}
 .card h3{margin:0;font-family:'Bricolage Grotesque',sans-serif;font-size:23px;font-weight:700;line-height:1.05;letter-spacing:-0.02em}
 .card p{margin:0;font-size:14px;line-height:1.5;color:#3D4540}
-.topp{height:600px;border-radius:22px;overflow:hidden;display:flex;flex-direction:column}
+.topp{min-height:340px;border-radius:22px;overflow:hidden;display:flex;flex-direction:column}
 .topp .img{height:250px;flex:none}
 .topp .txt{padding:26px 28px 28px;display:flex;flex-direction:column;gap:12px;flex:1}
 .topp h3{margin:0;font-family:'Bricolage Grotesque',sans-serif;font-size:34px;font-weight:800;line-height:.98;letter-spacing:-0.03em}
