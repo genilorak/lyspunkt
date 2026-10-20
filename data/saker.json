@@ -1,0 +1,349 @@
+{
+  "oppdatert": "2026-10-20T11:45:00+02:00",
+  "topp3_last": false,
+  "topp3": [
+    "optogenetikk-syn",
+    "studland-sjogress",
+    "elbilrekord-norden"
+  ],
+  "avvist": [],
+  "saker": [
+    {
+      "id": "optogenetikk-syn",
+      "tittel": "Genterapi ga blinde pasienter delvis synet tilbake",
+      "ingress": "I en ny studie fikk sju av ti blinde deltakere bedre lysfølsomhet, og flere kunne finne gjenstander og døråpninger på egen hånd.",
+      "kategorier": [
+        "helse",
+        "vitenskap"
+      ],
+      "kildedato": "2026-10-15",
+      "publisert": "2026-10-20T11:45:00+02:00",
+      "brodtekst": [
+        "Et internasjonalt forskerteam ledet fra University of Pittsburgh har testet en behandling som gjør celler i netthinnen følsomme for lys igjen. Resultatene er publisert i det medisinske tidsskriftet New England Journal of Medicine.",
+        "## Slik fungerer det",
+        "Deltakerne var ti personer som hadde mistet synet på grunn av en arvelig øyesykdom. De fikk én injeksjon i øyet som gjør at gjenværende nerveceller i netthinnen reagerer på gult lys. Et par briller med kamera oversetter så omgivelsene til lysmønstre som sendes inn mot cellene.",
+        "Sju av de ti ble mer følsomme for lys, og seks nådde grensen for det legene regner som en meningsfull forbedring. Noen kunne oppdage og gripe gjenstander, følge en linje på gulvet, finne en døråpning eller lokalisere små ting som en notatbok. Målinger tydet også på at synsinformasjonen nådde hjernen.",
+        "## Ikke vanlig syn",
+        "Behandlingen gir ikke normalt syn, og deltakerne kunne ikke kjenne igjen ansikter. Bivirkningene var stort sett milde eller moderate. Forskerne beskriver studien som et tidlig steg som kan legge grunnlaget for mer følsomme behandlinger, også for andre øyesykdommer."
+      ],
+      "hvorfor_hap": "For mennesker som har vært helt blinde, kan det å finne en dør eller en kopp på egen hånd bety mye mer selvstendighet i hverdagen. Studien viser at metoden virker hos mennesker, ikke bare i laboratoriet.",
+      "usikkert": "Studien var liten og tidlig. Det trengs større studier for å vite hvor mye den hjelper, hvor lenge effekten varer, og hvem som kan få nytte av den.",
+      "kilder": [
+        {
+          "navn": "Optics & Photonics News: «Optogenetic Therapy Restores Partial Vision» (15. oktober 2026)",
+          "url": "https://www.optica-opn.org/Home/NewsRoom/2026/October/Optogenetic_Therapy_Restores_Partial_Vision"
+        },
+        {
+          "navn": "New England Journal of Medicine, DOI 10.1056/NEJMoa2602215",
+          "url": "https://doi.org/10.1056/NEJMoa2602215"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "studland-sjogress",
+      "tittel": "Sjøgresset kom tilbake da båtene sluttet å ankre",
+      "ingress": "I Studland Bay i England har sårene etter ankerkjettinger krympet med over 90 prosent etter at båtene fikk skånsomme fortøyninger.",
+      "kategorier": [
+        "klima-og-miljo",
+        "dyr-og-natur",
+        "verden"
+      ],
+      "kildedato": "2026-10-19",
+      "publisert": "2026-10-20T11:45:00+02:00",
+      "brodtekst": [
+        "Studland Bay i Dorset er et verneområde der sjøhester, nålefisk og rokker lever i sjøgressenger. I mange år ble gresset slitt bort av ankerkjettinger fra fritidsbåter som svingte rundt med vind og tidevann.",
+        "## Fortøyninger som ikke skraper bunnen",
+        "Fra 2021 ble det innført en frivillig ankringsfri sone, og det ble satt ut såkalte øko-fortøyninger. De skrus ned i havbunnen og har en elastisk line opp til en bøye, så ingenting drar langs bunnen. I dag finnes det 87 slike fortøyninger i bukta.",
+        "Fem år med målinger, analysert av en forsker ved University of Southampton, viser at de bare flekkene i det første forsøksområdet krympet med i snitt 93,6 prosent fra 2021 til 2025. I et annet område, der tradisjonelle fortøyninger lå til 2023, begynte gresset først å vokse tilbake etter byttet, og arrene har så langt krympet med 65,4 prosent.",
+        "Arbeidet er ledet av Studland Bay Marine Partnership sammen med blant andre National Trust og den britiske havforvaltningen MMO."
+      ],
+      "hvorfor_hap": "Sjøgress binder karbon og er oppvekstområde for mange arter. Studien viser at naturen kan lege seg ganske raskt når en tydelig belastning fjernes, og at løsningen er enkel å ta i bruk andre steder.",
+      "usikkert": "Den høyeste prosenten gjelder det første forsøksområdet. Resultatene er lagt fram av myndighetene, og det er ikke oppgitt om analysen er fagfellevurdert.",
+      "kilder": [
+        {
+          "navn": "GOV.UK / Marine Management Organisation (19. oktober 2026)",
+          "url": "https://www.gov.uk/government/news/studland-bay-seagrass-shows-dramatic-recovery-as-mmo-backed-eco-moorings-prove-effective"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "elbilrekord-norden",
+      "tittel": "Elbilrekord i tre av fire nordiske land",
+      "ingress": "I september var 98,8 prosent av nye personbiler i Norge elbiler. Danmark og Finland satte også rekord.",
+      "kategorier": [
+        "norge",
+        "klima-og-miljo",
+        "teknologi"
+      ],
+      "kildedato": "2026-10-13",
+      "publisert": "2026-10-20T11:45:00+02:00",
+      "brodtekst": [
+        "Opplysningsrådet for veitrafikken (OFV) har sammenlignet bilsalget i Norden for september. Norge satte ny rekord med en elbilandel på 98,8 prosent av nye personbiler, opp fra 98,3 prosent samme måned i fjor.",
+        "## Nabolandene tar igjen",
+        "Den største endringen skjer i nabolandene. I Danmark var 88,8 prosent av nye personbiler elbiler, mot 73,4 prosent i september i fjor. Finland gikk fra 43,2 til 62,1 prosent. Begge er de høyeste andelene som er registrert i de to landene. I Sverige var andelen 49,4 prosent, opp fra 38,6.",
+        "## Bilparken endrer seg saktere",
+        "Fordi biler brukes i mange år, går omstillingen av hele bilparken saktere enn nybilsalget. Ved utgangen av september var 35,5 prosent av alle personbiler i Norge elbiler. I Danmark var andelen 24,3 prosent, i Sverige 9,9 og i Finland 7,6 prosent."
+      ],
+      "hvorfor_hap": "Norge har vist at et nesten helelektrisk nybilsalg er mulig, og nå følger nabolandene raskt etter. Hver bensin- og dieselbil som byttes ut, gir mindre utslipp og renere luft i byene.",
+      "usikkert": "Tallene gjelder én måned, og månedstall kan svinge. Det tar mange år før hele bilparken er utskiftet.",
+      "kilder": [
+        {
+          "navn": "OFV: «Elbilrekord i tre av fire land i Norden» (13. oktober 2026)",
+          "url": "https://ofv.no/aktuelt/elbilrekord-i-tre-av-fire-land-i-norden"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "jentehelse-indeks",
+      "tittel": "Jenters helse har blitt bedre i nesten hele verden",
+      "ingress": "Den første globale jenteindeksen viser fremgang i 178 av 192 land. Dødeligheten blant jenter er mer enn halvert siden 2000.",
+      "kategorier": [
+        "verden",
+        "helse"
+      ],
+      "kildedato": "2026-10-14",
+      "publisert": "2026-10-20T11:45:00+02:00",
+      "brodtekst": [
+        "Plan International Tyskland og et institutt ved Ruhr-universitetet i Bochum har laget en ny indeks for helsen til jenter og unge kvinner mellom 5 og 19 år. Den dekker 192 land og over 971 millioner jenter, og sammenligner årene 2000 og 2023.",
+        "## Hva er målt",
+        "Indeksen bygger på fem mål: dødelighet, blodmangel, fødsler blant jenter fra 10 til 19 år, mødredødelighet i samme aldersgruppe og helsebelastning fra seksuelt overførbare sykdommer, blant annet hiv. Tallene kommer fra FN og den globale sykdomsbyrdestudien Global Burden of Disease.",
+        "Helsen ble bedre i 178 av landene. Dødeligheten blant jenter gikk fra omtrent én av 800 til én av 1700. Fødsler blant jenter fra 10 til 19 år gikk ned med rundt en tredjedel. Den største fremgangen var i Afrika sør for Sahara og i Sør-Asia, med Rwanda, Etiopia og Burundi som landene som forbedret seg mest."
+      ],
+      "hvorfor_hap": "Millioner flere jenter overlever barndommen og får mulighet til å fullføre skole og velge sin egen fremtid. Den største fremgangen har skjedd der behovet var størst.",
+      "usikkert": "Rundt 290 millioner jenter bor fortsatt i land med lav eller svært lav score, og fremgangen på mødredødelighet er liten. Første utgave måler bare helse. En bredere indeks med utdanning og trygghet kommer i 2028.",
+      "kilder": [
+        {
+          "navn": "Squirrel News: «First Global Girls' Index finds health gains in 178 countries» (14. oktober 2026)",
+          "url": "https://squirrel-news.net/stories/first-global-girls-index-finds-health-gains-in-178-countries/"
+        },
+        {
+          "navn": "Plan International Tyskland: rapporten «Weltmädchenindex 2026» (PDF)",
+          "url": "https://www.plan.de/fileadmin/website/04._Aktuelles/Kampagnen_und_Aktionen/Weltmaedchenindex/Plan_Report_Weltmaedchenindex_2026.pdf"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "uio-maaneradar",
+      "tittel": "Norsk radar skal lete etter lavatunneler på Månen",
+      "ingress": "Forskere ved Universitetet i Oslo bygger georadaren til en NASA-rover som skal undersøke et mulig hulrom der en fremtidig månebase kan ligge.",
+      "kategorier": [
+        "verdensrommet",
+        "norge",
+        "teknologi"
+      ],
+      "kildedato": "2026-10-13",
+      "publisert": "2026-10-20T11:45:00+02:00",
+      "brodtekst": [
+        "NASA-prosjektet GIMLI skal sende en rover til området Marius Hills på Månen. Der har forskere funnet et hull på rundt 65 meter i diameter som ser ut til å skrå nedover som en tunnel. Landingen er planlagt i 2030.",
+        "## Radar fra Oslo",
+        "Roveren får tre instrumenter: en georadar, et seismisk instrument og et gravimeter. Senter for romsensorer og -systemer ved Universitetet i Oslo, ledet av professor Svein-Erik Hamran, skal designe og bygge georadaren. Den skal se ned i bakken og kartlegge hva som skjuler seg under overflaten.",
+        "## Hvorfor tunneler er interessante",
+        "Hvis hullet viser seg å være en lavatunnel, kan den gi en framtidig base mer stabil temperatur og bedre beskyttelse mot stråling og små meteoritter enn på overflaten."
+      ],
+      "hvorfor_hap": "Norske forskere er med på å utforske et av de mest spennende stedene på Månen. Kunnskapen kan gjøre fremtidige ferder både tryggere og mer bærekraftige.",
+      "usikkert": "Det er ennå ikke bekreftet at hullet er en lavatunnel. Dette skal roveren finne ut.",
+      "kilder": [
+        {
+          "navn": "Titan.uio.no, Universitetet i Oslo (13. oktober 2026)",
+          "url": "https://www.titan.uio.no/universet/2026/forskere-ved-universitetet-i-oslo-lager-instrument.html"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "alexander-sykdom",
+      "tittel": "Første medisin mot sjelden hjernesykdom etter 30 års forskning",
+      "ingress": "Amerikanske legemiddelmyndigheter har godkjent den første behandlingen som angriper årsaken til Alexanders sykdom.",
+      "kategorier": [
+        "helse",
+        "vitenskap"
+      ],
+      "kildedato": "2026-10-12",
+      "publisert": "2026-10-20T11:45:00+02:00",
+      "brodtekst": [
+        "Alexanders sykdom er en svært sjelden og alvorlig nevrologisk sykdom som rammer færre enn én av en million. Den kan svekke bevegelse, tenkning og grunnleggende funksjoner som pusten.",
+        "## Fra laboratoriet til pasientene",
+        "Den nye medisinen, Zanvastro, er utviklet av Ionis Pharmaceuticals sammen med forskere ved University of Wisconsin–Madison, som har arbeidet med sykdommen i flere tiår. Medisinen reduserer produksjonen av proteinet GFAP, som skaper sykdommen når det er mutert. Den gis som injeksjon i ryggmargskanalen hver tredje måned.",
+        "I en internasjonal studie med 54 pasienter på 13 steder gikk de som fikk behandlingen, betydelig raskere etter drøyt ett år enn de som ikke fikk den. Bevegelsesevnen holdt seg stort sett stabil, og noen ble bedre. Godkjenningen fra det amerikanske legemiddelverket FDA gjelder alle aldre, fra spedbarn til voksne."
+      ],
+      "hvorfor_hap": "For familier som har levd med en sykdom uten behandling, finnes det nå for første gang et alternativ. Saken viser også hvordan tålmodig grunnforskning kan bli til medisin.",
+      "usikkert": "Resultater utover rundt ett år er ikke kjent ennå. Behandlingen er foreløpig bare godkjent i USA.",
+      "kilder": [
+        {
+          "navn": "ScienceDaily / University of Wisconsin–Madison: «After 30 years, scientists finally have a drug for a deadly brain disease» (12. oktober 2026)",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261007042111.htm"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "bensinbiler-under-halvparten",
+      "tittel": "Bensinbilene er for første gang under halvparten av verdens nybilsalg",
+      "ingress": "I første halvår 2026 utgjorde rene bensinbiler 49 prosent av nye biler globalt. I 2021 var andelen 73 prosent.",
+      "kategorier": [
+        "klima-og-miljo",
+        "teknologi",
+        "verden"
+      ],
+      "kildedato": "2026-10-05",
+      "publisert": "2026-10-20T11:45:00+02:00",
+      "brodtekst": [
+        "Tall fra analyseselskapet Mobility Global viser at rene bensinbiler falt under halvparten av det globale nybilsalget i første halvår 2026. Andelen var 49 prosent, ned fra 52 prosent samme periode i fjor og 73 prosent i 2021.",
+        "## Elbiler og hybrider vokser",
+        "Salget av rene elbiler økte med 12 prosent til 6,9 millioner, eller 17 prosent av markedet. Hybridbiler økte med 10 prosent til 18 prosent av markedet. Samtidig falt salget av rene bensinbiler med 10 prosent, omtrent dobbelt så raskt som bilmarkedet totalt."
+      ],
+      "hvorfor_hap": "For første gang er bensinbilen ikke lenger standardvalget for flertallet av bilkjøpere i verden. Utviklingen går raskere enn mange regnet med for bare noen år siden.",
+      "usikkert": "Tallene gjelder et halvår med høye drivstoffpriser, og det er usikkert om andelen holder seg under 50 prosent for hele året. Hybridbiler har fortsatt forbrenningsmotor, og USA er ikke med i datagrunnlaget.",
+      "kilder": [
+        {
+          "navn": "Electrek: «Gas cars fall below 50% of global new car sales» (5. oktober 2026)",
+          "url": "https://electrek.co/2026/10/05/gas-cars-fall-below-50-percent-global-new-car-sales/"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "verdens-hoyeste-vindturbin",
+      "tittel": "Verdens høyeste vindturbin har nådd full høyde",
+      "ingress": "Den nye turbinen i Tyskland er 365 meter høy og skal hente den sterke, jevne vinden høyt over bakken.",
+      "kategorier": [
+        "teknologi",
+        "klima-og-miljo"
+      ],
+      "kildedato": "2026-10-02",
+      "publisert": "2026-10-20T11:45:00+02:00",
+      "brodtekst": [
+        "I Schipkau øst i Tyskland har selskapet GICON reist en pilotturbin for det tyske byrået for banebrytende innovasjon, SPRIND. Med vingene er den 365 meter høy, og navet sitter 300 meter over bakken. Det gjør den til Tysklands nest høyeste byggverk, etter TV-tårnet i Berlin.",
+        "## Et tårn som skyves opp",
+        "Ingen kran når så høyt. Derfor er tårnet bygd som en teleskopkonstruksjon, der det indre tårnet løftes opp gjennom et ytre gittertårn og låses fast.",
+        "Turbinen har en effekt på 3,8 megawatt. Utviklerne mener den kan produsere omtrent dobbelt så mye energi som en vanlig turbin med samme rotor, fordi vinden er sterkere og jevnere høyere oppe. Offisiell oppstart er planlagt i november."
+      ],
+      "hvorfor_hap": "Hvis teknologien fungerer, kan eksisterende vindparker produsere mye mer strøm uten å bruke mer areal.",
+      "usikkert": "Turbinen er en pilot, og den doble energimengden er ennå ikke vist i drift.",
+      "kilder": [
+        {
+          "navn": "Electrek: «The world's tallest wind turbine just reached 1,197 feet» (2. oktober 2026)",
+          "url": "https://electrek.co/2026/10/02/the-worlds-tallest-wind-turbine-just-reached-1197-feet/"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "amazonas-avskoging",
+      "tittel": "Avskogingen i Amazonas er halvert på tre år",
+      "ingress": "En analyse anslår at minst 20 000 kvadratkilometer regnskog er spart siden 2022, et område større enn Vestfold og Telemark til sammen.",
+      "kategorier": [
+        "klima-og-miljo",
+        "verden"
+      ],
+      "kildedato": "2026-09-28",
+      "publisert": "2026-10-20T11:45:00+02:00",
+      "brodtekst": [
+        "Ifølge satellittdata fra det brasilianske romforskningsinstituttet INPE falt avskogingen i brasiliansk Amazonas fra 11 594 kvadratkilometer i 2022 til 5731 kvadratkilometer i 2025.",
+        "## Lovene håndheves igjen",
+        "En analyse fra nettstedet Carbon Brief bygger på en modellstudie fra forskere ved Oxford, IIASA og INPE. Den anslår at strengere håndheving av den brasilianske skogloven har spart minst 20 000 kvadratkilometer skog siden president Lula tok over.",
+        "Foreløpige satellittvarsler for perioden august 2025 til juli 2026 viser rundt 2874 kvadratkilometer. Eksperter venter at 2026 blir året med lavest avskoging siden målingene startet i 1988."
+      ],
+      "hvorfor_hap": "Amazonas er avgjørende for klimaet og for et enormt artsmangfold. Utviklingen viser at politisk vilje og håndheving av lover kan snu en negativ trend raskt.",
+      "usikkert": "Tallet på spart skog er et modellanslag. De foreløpige tallene for 2026 kommer fra et varslingssystem som ofte gir lavere tall enn den endelige offisielle målingen.",
+      "kilder": [
+        {
+          "navn": "Carbon Brief: «Analysis: Lula presidency saved at least 20,000km2 of Brazilian Amazon since 2022» (28. september 2026)",
+          "url": "https://www.carbonbrief.org/analysis-lula-presidency-saved-at-least-20000km2-of-brazilian-amazon-since-2022"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "savannah-fugleoy",
+      "tittel": "Havneslam ble til en øy, og fuglene flyttet inn med en gang",
+      "ingress": "Over 300 fuglereir dukket opp den første sesongen på en ny øy bygd av mudder fra havnen i Savannah.",
+      "kategorier": [
+        "dyr-og-natur",
+        "sma-gleder"
+      ],
+      "kildedato": "2026-09-21",
+      "publisert": "2026-10-20T11:45:00+02:00",
+      "brodtekst": [
+        "Når havner mudres, må slammet havne et sted. I Savannah i den amerikanske delstaten Georgia brukte den amerikanske hærens ingeniørkorps rundt 160 000 kubikkyard mudder til å bygge en øy på omtrent 3,2 hektar.",
+        "## Rett i bruk",
+        "Allerede den første hekkesesongen ble det registrert over 300 reir på øya. Slike åpne, sandete øyer er ettertraktet blant sjøfugler som terner og saksnebber, som trenger trygge steder uten rovdyr for å hekke."
+      ],
+      "hvorfor_hap": "Noe som før var avfall, ble til et trygt hjem for hundrevis av fuglefamilier, og prosjektet kan gjentas i andre havner.",
+      "usikkert": "Slike øyer eroderer og gror igjen, så de må vedlikeholdes med nytt mudder. Kilden oppgir ikke hvilke arter som hekket.",
+      "kilder": [
+        {
+          "navn": "DredgeWire (21. september 2026)",
+          "url": "https://dredgewire.com/savannah-turned-160000-cubic-yards-of-mud-removed-from-its-harbor-into-an-8-acre-island-birds-built-more-than-300-nests-there-in-the-first-season/"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "bristol-vatmarksby",
+      "tittel": "Bristol bygger over 200 nye våtmarker midt i byen",
+      "ingress": "Den engelske byen vil bli Storbritannias første godkjente våtmarksby, med dammer, flytende hager og grønne kanaler.",
+      "kategorier": [
+        "klima-og-miljo",
+        "dyr-og-natur",
+        "verden"
+      ],
+      "kildedato": "2026-09-13",
+      "publisert": "2026-10-20T11:45:00+02:00",
+      "brodtekst": [
+        "Wildfowl and Wetlands Trust, forsikringsselskapet Aviva og lokale grupper samarbeider om mer enn 200 nye våtmarksprosjekter i Bristol, i hager, parker, kanaler og i havnen. Kommunen bidrar, og Aviva finansierer arbeidet over fem år.",
+        "## Mot flom og hete",
+        "Våtmarker kan holde på vann ved kraftig regn og kjøle ned omgivelsene i varme perioder. De gir også nye leveområder for fugler, insekter og planter. Målet er at Bristol skal bli den første britiske byen med status som våtmarksby. I dag finnes det 74 slike byer i 27 land."
+      ],
+      "hvorfor_hap": "Prosjektet viser hvordan en by kan gjøre seg bedre rustet mot klimaendringer og samtidig gi naturen mer plass, der folk bor.",
+      "usikkert": "Prosjektene tar flere år, og effekten i Bristol er ennå ikke målt. Våtmarker alene stopper ikke flom og tørke.",
+      "kilder": [
+        {
+          "navn": "Countryfile: «This UK city is creating 200 new wetlands» (13. september 2026)",
+          "url": "https://www.countryfile.com/environment/this-uk-city-is-creating-200-new-wetlands-to-fight-flooding-heat-and-climate-change-with-a-lofty-goal-in-sight"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "bleieinnsamling-sloan",
+      "tittel": "12-åring samlet inn nesten 30 000 bleier til familier som trenger det",
+      "ingress": "Sloan har drevet sin egen bleieinnsamling siden hun var sju. I år trengte hun en flyttebil for å levere alt.",
+      "kategorier": [
+        "sma-gleder"
+      ],
+      "kildedato": "2026-09-11",
+      "publisert": "2026-10-20T11:45:00+02:00",
+      "brodtekst": [
+        "Den 12 år gamle jenta Sloan fra Arizona brukte sommerferien på å samle inn bleier til organisasjonen Nourish Phoenix, som hjelper familier med mat, klær og hygieneartikler. Bleier er det de oftest får forespørsler om.",
+        "## Fra 7000 til nesten 30 000",
+        "Sloan startet sin første innsamling da hun var sju år, og fikk inn rundt 7000 bleier. Siden har hun gjentatt den hvert år med hjelp fra familie, venner og støttespillere. Årets innsamling ble på nesten 30 000 bleier, og de ble levert i en leiebil."
+      ],
+      "hvorfor_hap": "En idé fra en sjuåring har vokst til en tradisjon som hjelper mange familier hvert år. Det viser at man ikke trenger å være voksen for å gjøre en stor forskjell.",
+      "usikkert": "",
+      "kilder": [
+        {
+          "navn": "ABC15 Arizona (11. september 2026)",
+          "url": "https://abc15.com/news/uplifting-arizona/watch-12-year-old-delivers-nearly-30-000-diapers-to-help-valley-families-in-need"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true
+    }
+  ]
+}

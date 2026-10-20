@@ -2,25 +2,36 @@
 
 **Et lysere blikk på verden.**
 
-Designforslag for forsiden til Lyspunkt, en norsk nettavis med positive nyheter, gode historier og dokumenterte fremskritt (retning 2.2, «ung og levende nettavis»).
+Norsk nettavis med ekte, kildebelagte gode nyheter. En AI-agent finner, kontrollerer, skriver og publiserer nye saker tre ganger om dagen.
 
 Se siden: https://genilorak.github.io/lyspunkt/
 
-## Innhold
+## Slik fungerer det
+
+1. **`data/saker.json`** inneholder alle sakene, Dagens topp 3 og redaktørens overstyringer.
+2. **`verktoy/bygg.py`** bygger hele nettstedet (forside, kategorier, artikler, søk m.m.) fra datafilen.
+3. **`REDAKSJON.md`** er instruksen AI-agenten følger: kildekrav, kvalitetskontroll, skrivestil og publisering.
+4. En planlagt oppgave kjører agenten ca. kl. 07, 13 og 19. Agenten legger inn nye saker, bygger siden og pusher til `main`.
+
+## Redaktørens kontroll
+
+Rediger `data/saker.json` direkte på GitHub (blyant-ikonet), og kjør gjerne `python3 verktoy/bygg.py` lokalt. Agenten bygger også siden på nytt ved neste kjøring.
+
+| Vil du … | Gjør dette |
+|---|---|
+| Fjerne en sak | Sett `"status": "skjult"` på saken |
+| Hindre at agenten endrer en sak | Legg til `"laast": true` |
+| Bestemme Dagens topp 3 selv | Skriv inn tre `id`-er i `topp3` og sett `"topp3_last": true` |
+| Stoppe en sak eller kilde for godt | Legg `id` eller URL i listen `avvist` |
+| Rette en feil | Endre teksten og legg til `"rettelse": "…"` |
+| Endre hvordan agenten jobber | Rediger `REDAKSJON.md` |
+
+## Filer
 
 | Fil | Hva |
 |---|---|
-| `index.html` | Forsiden |
-| `kategori/` | Én side per kategori |
-| `artikkel/` | Én side per sak (demo) |
-| `siste.html`, `sok.html`, `overrask.html`, `nyhetsbrev.html` | Siste nytt, søk, tilfeldig sak og påmelding |
-| `om.html`, `prinsipper.html`, `rettelser.html`, `ai.html`, `personvern.html`, `tips.html` | Infosider |
-| `stil.css` | Felles stil for undersidene |
-| `bilder/` | Bildene |
+| `index.html`, `kategori/`, `artikkel/`, `siste.html`, `sok.html`, `overrask.html` | Genereres av `verktoy/bygg.py`. Ikke rediger for hånd. |
+| `nyhetsbrev.html`, `tips.html`, `om.html`, `prinsipper.html`, `rettelser.html`, `ai.html`, `personvern.html` | Infosider, også generert |
+| `stil.css` | Felles stil |
 
-## Viktig
-
-- Alle saker er **demoartikler, ikke faktiske nyheter**. Navn i [klammer] fylles inn senere.
-- Bildene er illustrasjonsfoto fra [Unsplash](https://unsplash.com), brukt under Unsplash-lisensen. Fotografenes navn må legges inn før publisering.
-- Skrifter: Bricolage Grotesque, Instrument Serif og Hanken Grotesk (Google Fonts).
-- Tidligere designretninger og moodboards ligger i historikken til repoet.
+Illustrasjonene er abstrakte soloppganger i kategorifargene, ikke bilder av hendelsene.
