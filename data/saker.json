@@ -1,10 +1,10 @@
 {
-  "oppdatert": "2026-10-20T11:45:00+02:00",
+  "oppdatert": "2026-10-20T13:15:00+02:00",
   "topp3_last": false,
   "topp3": [
-    "optogenetikk-syn",
-    "studland-sjogress",
-    "elbilrekord-norden"
+    "nordisk-rad-storeslem",
+    "koraller-beroring",
+    "optogenetikk-syn"
   ],
   "avvist": [
     "savannah-fugleoy",
@@ -351,6 +351,176 @@
         {
           "navn": "ABC15 Arizona (11. september 2026)",
           "url": "https://abc15.com/news/uplifting-arizona/watch-12-year-old-delivers-nearly-30-000-diapers-to-help-valley-families-in-need"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "nordisk-rad-storeslem",
+      "tittel": "Norge vant alle fem Nordisk råds priser for første gang",
+      "ingress": "Litteratur, barne- og ungdomslitteratur, film, musikk og miljø: Alle årets vinnere av Nordisk råds priser kommer fra Norge. Det har aldri skjedd før.",
+      "kategorier": [
+        "norge",
+        "kultur"
+      ],
+      "kildedato": "2026-10-20",
+      "publisert": "2026-10-20T13:15:00+02:00",
+      "brodtekst": [
+        "Tirsdag morgen ble vinnerne av Nordisk råds fem priser kunngjort, og for første gang i prisenes historie går samtlige til vinnere fra samme land. Ifølge Nordisk råd arbeider juryene uavhengig av hverandre, men alle endte i år på et norsk bidrag. Hver pris er på 300 000 danske kroner, og de deles ut under Nordisk råds sesjon i Helsingfors 27. oktober.",
+        "## Samisk roman og hardingfele",
+        "Litteraturprisen går til Sigbjørn Skåden for romanen «Planterhaug / Láŋtdievvá», en kriminalfortelling som kom ut samtidig på samisk og norsk. Ifølge SVT er det første gang på 35 år at litteraturprisen går til et verk skrevet på samisk. Barne- og ungdomslitteraturprisen går til Hilde Hagerup for ungdomsromanen «Du eneste – historien om Gunvor Hofmo og Ruth Maier».",
+        "Musikkprisen går til verket «Elja» av Kristine Tjøgersen og Benedicte Maurseth, skrevet for strykekvartett med spesialbygde hardingfeler. Verket hyller naturen og dyrelivet på Hardangervidda.",
+        "## Film og miljø",
+        "Filmprisen går til Joachim Triers «Affeksjonsverdi», og deles med manusforfatter Eskil Vogt og produsentene Maria Ekerhovd og Andrea Berentsen Ottmar. Juryen kaller filmen en umiddelbar klassiker i nordisk film. Det er andre gang Trier og Vogt får prisen, etter «Louder Than Bombs» i 2016. Miljøprisen går til Miljøagentene, en miljøorganisasjon for barn."
+      ],
+      "hvorfor_hap": "Prisene løfter fram norsk litteratur, film og musikk i hele Norden, og litteraturprisen gir et sjeldent stort publikum til en bok skrevet på samisk. At en miljøorganisasjon for barn får miljøprisen, viser at også de yngste kan gjøre en forskjell.",
+      "usikkert": "Prisene er kunngjort, men selve utdelingen skjer i Helsingfors 27. oktober.",
+      "kilder": [
+        {
+          "navn": "Adresseavisen: «Norge tar historisk storeslem i Nordisk råds prisutdeling» (20. oktober 2026)",
+          "url": "https://www.adressa.no/kultur/i/b8JBGg/norge-tar-historisk-storeslem-i-nordisk-raads-prisutdeling-vant-samtlige-priser"
+        },
+        {
+          "navn": "SVT: «De vinner Nordiska rådets pris» (20. oktober 2026)",
+          "url": "https://www.svt.se/kultur/de-vinner-nordiska-radets-pris-norsk-totaldominans"
+        },
+        {
+          "navn": "Cinema: «Affeksjonsverdi vinner Nordisk råds filmpris» (20. oktober 2026)",
+          "url": "https://cine.no/2026/10/20/affeksjonsverdi-vinner-nordisk-rad-filmpris/"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "tv-aksjonen-2026",
+      "tittel": "TV-aksjonen samlet inn over 251 millioner kroner til Flyktninghjelpen",
+      "ingress": "Søndagens dugnad ga over 251 millioner kroner til mennesker på flukt fra krig og konflikt. Rundt 65 000 bøssebærere var ute og banket på dører.",
+      "kategorier": [
+        "norge",
+        "verden"
+      ],
+      "kildedato": "2026-10-19",
+      "publisert": "2026-10-20T13:15:00+02:00",
+      "brodtekst": [
+        "Årets TV-aksjon i NRK gikk søndag 18. oktober til NRC Flyktninghjelpen. Ved opptellingen klokken 23 søndag kveld var det samlet inn 251 millioner kroner, og ifølge TV-aksjonens egen nettside har summen siden passert 251,2 millioner. Det tilsvarer rundt 44 kroner per innbygger.",
+        "## Hjem for mennesker på flukt",
+        "Pengene skal gi mennesker som har flyktet fra krig og konflikt et trygt hjem. TV-aksjonen oppgir at over 400 000 mennesker skal få hjelp, i Gaza, DR Kongo, Sudan, Syria, Tsjad og Afghanistan.",
+        "## Tusenvis av frivillige",
+        "Det trengs mange bøssebærere for å nå alle husstander. Målet om en bøssebærer til hver dør ble ikke nådd, men rundt 65 000 mennesker gikk med bøsse på aksjonsdagen. Gaver kan fortsatt gis, og det endelige resultatet ventes i desember.",
+        "Summen er noe lavere enn i fjor, da TV-aksjonen samlet inn 271 millioner kroner."
+      ],
+      "hvorfor_hap": "Hver høst går titusenvis av nordmenn ut frivillig for å samle inn penger til andre; i år ble det over 251 millioner kroner. Pengene skal gi tak over hodet til mennesker som har mistet hjemmet sitt.",
+      "usikkert": "Tallet er foreløpig. Det endelige resultatet blir klart i desember.",
+      "kilder": [
+        {
+          "navn": "Panorama nyheter / NTB: «TV-aksjonen fikk inn 251 millioner kroner til Flyktninghjelpen» (19. oktober 2026)",
+          "url": "https://www.panoramanyheter.no/tv-aksjonen/tv-aksjonen-fikk-inn-251-millioner-kroner-til-flyktninghjelpen/433495"
+        },
+        {
+          "navn": "TV-aksjonen 2026",
+          "url": "https://tvaksjonen.no/"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "koraller-beroring",
+      "tittel": "Blekede koraller ble friske igjen etter å ha rørt en frisk tvilling",
+      "ingress": "I et laboratorieforsøk ved Stanford kom alle blekede korallbiter som lå inntil en frisk, genetisk lik korall seg helt på sju uker. De som lå alene, døde.",
+      "kategorier": [
+        "klima-og-miljo",
+        "dyr-og-natur",
+        "vitenskap"
+      ],
+      "kildedato": "2026-10-14",
+      "publisert": "2026-10-20T13:15:00+02:00",
+      "brodtekst": [
+        "Når havet blir for varmt, støter koraller ut de små algene som gir dem farge og næring. Korallen blir hvit, og uten algene dør den ofte. Nå har forskere ved Stanford University funnet en måte å få blekede koraller raskt tilbake på. Studien er publisert i tidsskriftet Science Advances.",
+        "## En tilfeldig oppdagelse",
+        "Det hele startet i laboratoriet i 2025, da to korallbiter tilfeldigvis havnet inntil hverandre i et akvarium, den ene frisk og den andre bleket. Der de berørte hverandre, fikk den blekede biten farge igjen. Forskerne testet så dette systematisk med ti par korallbiter fra samme korall, slik at de var genetisk like.",
+        "I fem av parene lå bitene inntil hverandre, i de fem andre var det noen millimeter mellomrom. Alle de fem blekede bitene som lå inntil en frisk tvilling, ble helt friske innen sju uker. Alle de blekede bitene som lå alene, døde. Under mikroskop så forskerne at vevet vokste sammen og dannet små kanaler som algene kunne vandre gjennom. Allerede etter tre dager var alger på vei over, og ifølge forskerne er dette den raskeste dokumenterte gjenopprettingen etter bleking.",
+        "## Ikke klart for revene ennå",
+        "Metoden kan ikke brukes direkte på ville rev, fordi hver bleket korall ville trenge en genetisk lik, frisk partner. Forskerne vil nå prøve å hente alger fra friske koraller, dyrke dem og tilføre dem blekede koraller. De planlegger forsøk i felt på Hawaii og Palau."
+      ],
+      "hvorfor_hap": "Korallrev dekker en bitteliten del av havbunnen, men huser omtrent en firedel av livet i havet. Forsøket viser at blekede koraller kan hente seg inn mye raskere enn man trodde, hvis de får tilført alger.",
+      "usikkert": "Forsøket er lite og gjort i laboratorium med koraller fra akvarier. Det gjenstår å se om metoden kan tilpasses ville rev, og den beskytter ikke korallene mot selve oppvarmingen av havet.",
+      "kilder": [
+        {
+          "navn": "Euronews: «They're not dead yet: bleached corals recover in record time after touching healthy clones» (15. oktober 2026)",
+          "url": "https://www.euronews.com/2026/10/15/theyre-not-dead-yet-bleached-corals-recover-in-record-time-after-touching-healthy-clones"
+        },
+        {
+          "navn": "KQED: «Stanford scientists find new way to revive bleached coral» (14. oktober 2026)",
+          "url": "https://www.kqed.org/science/2002324/stanford-scientists-find-new-way-to-revive-bleached-coral"
+        },
+        {
+          "navn": "Science Advances, DOI 10.1126/sciadv.aeh1580",
+          "url": "https://www.science.org/doi/full/10.1126/sciadv.aeh1580"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "aldabra-kjempeskilpadder",
+      "tittel": "Rekordmange kjempeskilpadder på Aldabra – nå over 180 000",
+      "ingress": "En ny studie anslår at nesten 183 000 kjempeskilpadder lever på Aldabra-atollen på Seychellene. På 1800-tallet var det færre enn 1000 igjen.",
+      "kategorier": [
+        "dyr-og-natur",
+        "verden"
+      ],
+      "kildedato": "2026-10-07",
+      "publisert": "2026-10-20T13:15:00+02:00",
+      "brodtekst": [
+        "Aldabra-kjempeskilpadden var nær ved å forsvinne. På 1800-tallet ble bestanden på Aldabra-atollen redusert til færre enn 1000 dyr på grunn av hard utnyttelse. Nå viser en ny studie den høyeste bestanden som noen gang er anslått: nesten 183 000 voksne og halvvoksne skilpadder.",
+        "## Telling over fem år",
+        "Studien er gjort av Seychelles Islands Foundation sammen med University of Exeter, og er publisert i tidsskriftet Ecology and Evolution. Ansatte på atollen talte skilpadder fra 2018 til 2022, og forskerne brukte statistiske metoder som tar høyde for dyr som ble oversett, og for at det er lettere å se dem i noen naturtyper enn andre. Tettheten er størst på gressletter.",
+        "Et mye brukt tall fra slutten av 1990-tallet var 100 000 skilpadder. Forskerne mener tidligere tellinger trolig undervurderte bestanden, så økningen er ikke nødvendigvis en dobling.",
+        "## Vern som virker",
+        "Aldabra ble et strengt naturreservat i 1981 og verdensarvsted i 1982. Ville geiter ble fjernet i 2012. Forskerne peker på at planene om å fjerne gjenværende villkatter og svartrotter, som spiser egg og unger, kan fjerne de siste hindrene for videre vekst."
+      ],
+      "hvorfor_hap": "Fra færre enn tusen dyr til rundt 180 000 er et tydelig eksempel på at langsiktig vern kan bringe en art tilbake.",
+      "usikkert": "Tallet er et statistisk anslag basert på tellinger fra 2018–2022. Lengre tørkeperioder og havnivåstigning kan true skilpaddene i framtiden.",
+      "kilder": [
+        {
+          "navn": "EurekAlert / University of Exeter: «New study reports largest-ever population estimate for Seychelles' giant tortoises» (7. oktober 2026)",
+          "url": "https://www.eurekalert.org/news-releases/1146908"
+        },
+        {
+          "navn": "Ecology and Evolution, DOI 10.1002/ece3.74282",
+          "url": "https://doi.org/10.1002/ece3.74282"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "roman-teleskop-skarpere",
+      "tittel": "NASAs nye romteleskop Roman gir skarpere bilder enn forventet",
+      "ingress": "Hovedkameraet på Nancy Grace Roman-teleskopet har nesten 30 prosent bedre bildekvalitet enn kravet før oppskyting, viser NASAs første tester.",
+      "kategorier": [
+        "verdensrommet",
+        "teknologi"
+      ],
+      "kildedato": "2026-10-14",
+      "publisert": "2026-10-20T13:15:00+02:00",
+      "brodtekst": [
+        "Nancy Grace Roman-teleskopet ble skutt opp 30. august i år, og hovedinstrumentet, det store infrarøde kameraet Wide Field Instrument, ble slått på i september. Nå har NASA målt hvor skarpe bildene er, og resultatet er bedre enn ventet.",
+        "## Bedre enn kravet",
+        "Feilen i optikken ble målt til 63 nanometer, mens kravet før oppskyting var rundt 90 nanometer. Det betyr at bildekvaliteten er nesten 30 prosent bedre enn forventet. For å få det til, flyttet ingeniørene teleskopets andre speil en avstand på omtrent en sekstendedel av tykkelsen på et menneskehår. Teamet har også sjekket kameraets 18 detektorer og en rekke andre systemer.",
+        "Teleskopets koronagraf, et instrument som skal blokkere lyset fra stjerner for å se planeter rundt dem, ga bilder som var litt ute av fokus. Det var et mindre problem enn fryktet, og instrumentet oppfyller nå forventningene. Testene av hvor godt det blokkerer lys, skal gjøres de neste ukene.",
+        "## Skal kartlegge universet",
+        "Roman skal kartlegge store deler av himmelen for å undersøke blant annet mørk materie og mørk energi, og kameraet er sentralt i det arbeidet."
+      ],
+      "hvorfor_hap": "Et teleskop som virker bedre enn planlagt fra første dag, gir forskerne skarpere data i hele levetiden. Det gir bedre muligheter til å forstå noen av de største gåtene i universet.",
+      "usikkert": "Målingene er NASAs egne og gjort tidlig i oppdraget. Viktige tester av koronagrafen gjenstår.",
+      "kilder": [
+        {
+          "navn": "ScienceDaily / NASA: «NASA's Roman Space Telescope Exceeds Expectations by Nearly 30%» (17. oktober 2026)",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm"
         }
       ],
       "status": "publisert",
