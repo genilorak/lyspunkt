@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-22T00:15:00+02:00",
+  "oppdatert": "2026-10-22T01:20:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -1696,6 +1696,98 @@
         "kreditt": "Taylor Burnfield / Unsplash",
         "lisens": "Unsplash-lisens",
         "kilde_url": "https://unsplash.com/photos/a-record-player-with-a-record-in-the-middle-of-it-xSVRqrI1lu0",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "rikardsen-ournature-isbjorn",
+      "tittel": "Tromsø-fotograf vant internasjonal naturfotopris med isbjørn sett fra selens side",
+      "ingress": "Den norske biologen og naturfotografen Audun Rikardsen vant hovedprisen i OurNature Environmental Photo & Video Award 2026 med bildet «A Seal's Nightmare», tatt opp mot en isbjørn gjennom et pustehull i isen.",
+      "kategorier": [
+        "norge",
+        "kultur",
+        "dyr-og-natur"
+      ],
+      "kildedato": "2026-10-15",
+      "publisert": "2026-10-22T01:20:00+02:00",
+      "brodtekst": [
+        "Audun Rikardsen, professor ved Institutt for arktisk og marin biologi ved UiT Norges arktiske universitet, er kåret til totalvinner av årets OurNature Environmental Photo & Video Award. Vinnerbildet, «A Seal's Nightmare», viser en isbjørn som kikker ned gjennom et pustehull i den arktiske isen, sett fra kameraets plass under vannet.",
+        "## Åtte timers venting",
+        "For å få bildet monterte Rikardsen et bevegelsesstyrt kamera under isen, rettet mot pustehullet der selen kommer opp for å trekke luft. Ifølge BBC Wildlife-nettstedet Discover Wildlife prøvde en isbjørn under én av turene å dra hele riggen opp, og Rikardsen måtte vente i åtte timer før bjørnen gikk sin vei. En tidligere prøveversjon av oppsettet ble testet i nærheten av Svalbard.",
+        "Rikardsen vant også kategorien «Our Footprints» med et delt over- og undervannsbilde av en knølhval som spiser ved siden av en sildebåt i Nord-Norge.",
+        "## Over 2100 bidrag",
+        "Konkurransen arrangeres for tredje gang i år og fikk over 2100 bidrag fra 35 land. Den skal vise hvordan fotografi kan bidra til positive endringer for miljøet. Prisutdelingen fant sted ved Robert Capa Contemporary Photography Center i Budapest, og vinnerbildene og finalistene vises i en gratis utendørsutstilling på Széna-plassen i byen, åpen døgnet rundt i omtrent en måned.",
+        "Det er ikke første gang Rikardsen blir hedret. Han fikk porteføljeprisen i Wildlife Photographer of the Year i 2015 og Forskningsrådets formidlingspris i 2019."
+      ],
+      "hvorfor_hap": "Prisen løfter fram arktisk natur fotografert av en norsk forsker som kjenner dyrene han avbilder. Konkurranser som denne bruker sterke bilder til å skape engasjement for natur og miljø.",
+      "kilder": [
+        {
+          "navn": "Discover Wildlife: «Incredible 'seal's eye view' image wins this year's OurNature Environmental Photo & Video Award» (15. oktober 2026)",
+          "url": "https://discoverwildlife.com/photography/ournature-environmental-photo-video-award-2026"
+        },
+        {
+          "navn": "PetaPixel: «'A Seal's Nightmare': Menacing Polar Bear Photo Wins Award» (15. oktober 2026)",
+          "url": "https://petapixel.com/2026/10/15/a-seals-nightmare-menacing-polar-bear-photo-wins-award/"
+        },
+        {
+          "navn": "Wikipedia: Audun Rikardsen (bakgrunn)",
+          "url": "https://en.wikipedia.org/wiki/Audun_Rikardsen"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1589656966895-2f33e7653819?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En isbjørn på snødekt underlag",
+        "kreditt": "Hans-Jurgen Mager / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/polar-bear-on-snow-covered-ground-during-daytime-qQWV91TTBrE",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "vernet-land-27-prosent-nature",
+      "tittel": "Studie: Nesten 27 prosent av verdens land kan allerede være vernet",
+      "ingress": "En ny studie i Nature anslår at områder som bevarer natur dekker rundt 26,8 prosent av jordas landareal – langt mer enn de offisielle 18,5 prosentene, og nærmere målet om 30 prosent innen 2030.",
+      "kategorier": [
+        "klima-og-miljo",
+        "dyr-og-natur",
+        "vitenskap"
+      ],
+      "kildedato": "2026-10-14",
+      "publisert": "2026-10-22T01:20:00+02:00",
+      "brodtekst": [
+        "I 2022 forpliktet over 190 land seg til å bevare 30 prosent av jordas land- og havområder innen 2030. Ifølge de offisielle globale tallene er 18,5 prosent av landarealet vernet. Men mange verneområder finnes bare i nasjonale registre og er aldri kommet med i de internasjonale oversiktene.",
+        "## Ny gjennomgang av 25 land",
+        "Forskere ledet av Durrell Institute of Conservation and Ecology ved University of Kent i Storbritannia gikk gjennom data fra et globalt representativt utvalg på 25 land og territorier, som til sammen dekker rundt 10 prosent av verdens landareal. De brukte både globale databaser og 65 nasjonale og mindre datasett. Resultatet: Bevaringsområder dekker trolig allerede om lag 26,8 prosent av landjorda.",
+        "Studien, publisert i Nature 14. oktober, har tittelen «Global conservation area coverage substantially exceeds current estimates». Hovedforfatter er Helen O'Neill.",
+        "## Areal er ikke alt",
+        "Forskerne understreker at mer areal alene ikke stopper tapet av naturmangfold. Arealet som kommer i tillegg gjør ikke vernet vesentlig mer representativt, og naturtyper som gressletter og kratt er fortsatt dårlig beskyttet. De mener innsatsen nå må rettes mot å få områdene godt forvaltet, godt plassert og rettferdig styrt for folk som bor der, og at områdene som bare står i nasjonale registre bør få offisiell anerkjennelse."
+      ],
+      "hvorfor_hap": "Verden kan være nærmere et av de viktigste naturmålene enn vi har trodd. Det gir mulighet til å bruke mer krefter på kvaliteten i vernet, ikke bare på å tegne nye grenser på kartet.",
+      "usikkert": "Anslaget bygger på et utvalg av 25 land og territorier, ikke på en fullstendig opptelling. Forskerne påpeker selv at det ekstra arealet ikke betyr at naturen er godt nok beskyttet, og hovedforfatteren mener landdelen av 30-prosentmålet likevel virker vanskelig å nå innen 2030.",
+      "kilder": [
+        {
+          "navn": "Kent Academic Repository: «Global conservation area coverage substantially exceeds current estimates» (Nature, 2026)",
+          "url": "https://kar.kent.ac.uk/116955/"
+        },
+        {
+          "navn": "ThePrint: studie om 30-prosentmålet for vern av land (15. oktober 2026)",
+          "url": "https://theprint.in/science/world-30-land-conservation-target-study-un/3072977/"
+        },
+        {
+          "navn": "SciTechDaily: «The World May Be Much Closer to a Major Conservation Goal Than Scientists Thought» (18. oktober 2026)",
+          "url": "https://scitechdaily.com/?p=535048"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1718317205779-8840366e4c71?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Utsikt over en dal med fjell i bakgrunnen i Yosemite nasjonalpark",
+        "kreditt": "gibblesmash asdf / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-view-of-a-valley-with-mountains-in-the-background-V5T05z4sKnQ",
         "illustrasjon": true
       }
     }
