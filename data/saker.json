@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-21T22:20:00+02:00",
+  "oppdatert": "2026-10-21T23:30:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -1579,6 +1579,47 @@
         "kreditt": "Gerald Schömbs / Unsplash",
         "lisens": "Unsplash-lisens",
         "kilde_url": "https://unsplash.com/photos/a-humpback-whale-swims-in-the-deep-blue-ocean-mM_e5LFdTp0",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "australia-rekord-fornybar-investering-2026",
+      "tittel": "Australia slår årsrekord for nye vind- og solprosjekter allerede i oktober",
+      "ingress": "Vind- og solkraftprosjekter på til sammen 5 gigawatt har fått endelig investeringsbeslutning i Australia hittil i år. Det er mer enn i noe helt år tidligere, og tre måneder gjenstår.",
+      "kategorier": [
+        "klima-og-miljo",
+        "verden"
+      ],
+      "kildedato": "2026-10-16",
+      "publisert": "2026-10-21T23:30:00+02:00",
+      "brodtekst": [
+        "Nye tall fra australske Clean Energy Regulator viser at store vind- og solkraftprosjekter med en samlet kapasitet på 2,1 gigawatt fikk endelig investeringsbeslutning i tredje kvartal. Det er like mye som det beste kvartalet som er målt.",
+        "Dermed er summen for 2026 kommet opp i 5 gigawatt. Den forrige rekorden for et helt år var 4,9 gigawatt, ifølge pv magazine Australia. Ifølge fagnettstedet The Energy er dette det høyeste nivået siden ordningen startet i 2016. Vindkraft sto for 1,07 gigawatt i kvartalet, som er ny kvartalsrekord for vind.",
+        "## Solceller på hustakene",
+        "Også småskala solkraft vokser. I tredje kvartal ble det satt opp rundt 90 000 nye solcelleanlegg med til sammen 894 megawatt, 35 prosent mer kapasitet enn i samme kvartal i fjor. Hittil i år er det lagt til 2,8 gigawatt, nesten like mye som i hele 2025.",
+        "## Flere hjemmebatterier",
+        "Gjennom et statlig støtteprogram for billigere hjemmebatterier, som startet 1. juli 2025, var det ved utgangen av september godkjent batterier med en samlet kapasitet på 15,3 gigawattimer. For ett år siden var tallet under 2 gigawattimer. Omtrent halvparten av batteriene kobles til solcelleanlegg som allerede fantes."
+      ],
+      "hvorfor_hap": "En endelig investeringsbeslutning betyr at pengene er på plass og at byggingen kan starte. At rekorden for et helt år er slått allerede i oktober, tyder på at utbyggingen av fornybar kraft i Australia går raskere enn før.",
+      "usikkert": "Investeringsbeslutninger er ikke det samme som ferdige kraftverk, og det tar tid før anleggene produserer strøm. Tallene gjelder Australia alene.",
+      "kilder": [
+        {
+          "navn": "pv magazine Australia: «Large-scale solar sets annual financial investment decision record at 3.5 GW» (16. oktober 2026)",
+          "url": "https://www.pv-magazine-australia.com/2026/10/16/large-scale-solar-sets-annual-financial-investment-decision-record-at-3-5-gw/"
+        },
+        {
+          "navn": "The Energy: «Wind and solar project approvals hit record in Q3» (15. oktober 2026)",
+          "url": "https://theenergy.co/articles/wind-and-solar-project-approvals-hit-record-in-q3"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/flagged/photo-1566838616631-f2618f74a6a2?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Murhus med solcellepaneler på taket",
+        "kreditt": "Vivint Solar / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/brown-brick-house-with-solar-panels-on-roof-9CalgkSRZb8",
         "illustrasjon": true
       }
     }
