@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-21T21:19:43+02:00",
+  "oppdatert": "2026-10-21T22:20:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -1494,6 +1494,91 @@
         "kreditt": "SONIC / Pexels",
         "lisens": "Pexels-lisens",
         "kilde_url": "https://www.pexels.com/photo/slow-loris-animal-on-green-leaves-12102969/",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "bonn-blodceller-unge-hjerneceller",
+      "tittel": "Blodceller fra en 80-åring ble til hjernestamceller med «ungt» preg",
+      "ingress": "Forskere i Bonn har gjort blodceller fra eldre givere direkte om til nevrale stamceller. Underveis ble cellenes molekylære alder skrudd kraftig tilbake.",
+      "kategorier": [
+        "helse",
+        "vitenskap"
+      ],
+      "kildedato": "2026-10-09",
+      "publisert": "2026-10-21T22:20:00+02:00",
+      "brodtekst": [
+        "Forskere ved Universitetssykehuset i Bonn, Universitetet i Bonn og RWTH Aachen har funnet en ny vei fra blod til hjerneceller. De tok umodne forløperceller til røde blodceller og gjorde dem direkte om til nevrale stamceller, altså celler som kan bli til nerveceller.",
+        "Tidligere metoder gikk via en mellomstasjon, der blodcellene først ble gjort om til såkalte pluripotente stamceller. Den nye metoden hopper over dette trinnet og bruker i stedet en blanding av transkripsjonsfaktorer, stoffer som styrer hvilke gener cellen leser.",
+        "## Molekylær alder under 20 år",
+        "Forskerne målte cellenes alder med epigenetiske klokker, som anslår biologisk alder ut fra kjemiske endringer på DNA-et. Stamceller laget av blodceller fra en 80 år gammel giver hadde etter omdanningen en molekylær alder på under 20 år. Ifølge universitetet var cellene rundt 60 år «yngre» etter 50 dager.",
+        "Foryngelsen skjedde gradvis, og forskerne fulgte den i mer enn 100 dager. Nettopp det at prosessen går sakte, gjør den nyttig som forsøksmodell: Forskerne håper å kunne finne stoffer og faktorer som gjør foryngelsen raskere eller tregere.",
+        "Gruppen har tidligere vist at nerveceller laget på denne måten kan koble seg til eksisterende nerveceller etter transplantasjon i hjernen til mus. Studien er publisert i tidsskriftet Aging Cell, og arbeidet ledes av professor Oliver Brüstle."
+      ],
+      "hvorfor_hap": "Alder er den største risikofaktoren for sykdommer som Alzheimers. En modell der cellers molekylære alder kan følges steg for steg i laboratoriet, kan gi forskere et nytt verktøy for å forstå aldring i hjernen og lete etter stoffer som påvirker den.",
+      "usikkert": "Dette er laboratorieforsøk med celler i skål, ikke en behandling. Studien viser ikke at mennesker kan bli yngre. Epigenetiske klokker er anslag på biologisk alder, ikke direkte mål, og det er ennå ikke vist hva foryngelsen betyr for pasienter.",
+      "kilder": [
+        {
+          "navn": "Universität Bonn: pressemelding om omdanning av blodceller til unge hjerneceller (9. oktober 2026)",
+          "url": "https://www.uni-bonn.de/de/neues/211-2026"
+        },
+        {
+          "navn": "ScienceDaily: «Rejuvenation breakthrough: Scientists reverse 60 years of aging in human cells» (21. oktober 2026)",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261020085013.htm"
+        },
+        {
+          "navn": "Aging Cell (2026): studien",
+          "url": "https://doi.org/10.1111/acel.70751"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://www.uni-bonn.de/de/neues/211-2026/Bruestle-Nervenzellen.jpg/@@images/image/leadimagesize",
+        "alt": "Nerveceller laget fra nevrale stamceller som stammer fra blodceller, sett i mikroskop",
+        "kreditt": "AG Brüstle / Universität Bonn",
+        "lisens": "Pressebilde, fritt til bruk i omtale av nyheten med kreditering",
+        "kilde_url": "https://www.uni-bonn.de/de/neues/211-2026"
+      }
+    },
+    {
+      "id": "omura-hval-leveomrade-australia",
+      "tittel": "18 år med hvalsang avslører hvor den gåtefulle Omura-hvalen trives",
+      "ingress": "Australske forskere har lyttet til lydopptak fra 35 steder over 18 år og kartlagt når og hvor en av verdens minst kjente hvalarter holder til.",
+      "kategorier": [
+        "dyr-og-natur",
+        "vitenskap",
+        "verden"
+      ],
+      "kildedato": "2026-10-20",
+      "publisert": "2026-10-21T22:20:00+02:00",
+      "brodtekst": [
+        "Omura-hvalen er så lite studert at Den internasjonale naturvernunionen (IUCN) ikke har nok kunnskap til å vurdere hvor truet den er. Arten står derfor oppført som «datamangel» på rødlista. Hvalen blir sjelden sett, men den lager lyder som kan fanges opp under vann.",
+        "Forskere ved Curtin University i Australia har derfor brukt øret i stedet for øyet. De analyserte undervannsopptak fra 35 steder spredt over rundt 1800 kilometer hav utenfor nordvest-Australia, samlet inn mellom 2005 og 2023.",
+        "## Varmt vann og mye plankton",
+        "Hvalene ble hørt hele året, men var mest til stede fra september til mai, når vannet er varmest. Forekomsten hang sammen med havtemperaturer over 27,5 grader, sterkere vind og mer klorofyll, et tegn på mikroskopisk plankton som er grunnlaget for næringskjeden.",
+        "Omtrent en måned etter perioder med mye klorofyll økte også forekomsten av hval. Forskerne mener det kan tyde på at hvalene følger etter økt produksjon i havet og mer mat. Studien er publisert i tidsskriftet Marine Mammal Science og ledes av doktorgradsstipendiat Ciara Browne."
+      ],
+      "hvorfor_hap": "Man kan ikke beskytte en art man knapt vet noe om. Kartleggingen gir et første grunnlag for å ta hensyn til Omura-hvalen i havplanlegging og naturvern, og for å følge med på hvordan klimaendringer påvirker den.",
+      "usikkert": "Studien bygger på lydopptak og viser sammenhenger, ikke årsaker. At hvalene følger matkildene, er forskernes tolkning. Resultatene gjelder hvaler som lager lyd i ett område, og sier ikke noe om hvor mange Omura-hvaler som finnes.",
+      "kilder": [
+        {
+          "navn": "Curtin University via EurekAlert!: «Listen up: 18 years of whale calls reveal key habitat of mysterious species» (20. oktober 2026)",
+          "url": "https://www.eurekalert.org/news-releases/1148444"
+        },
+        {
+          "navn": "Marine Mammal Science (2026): «Warm, productive waters shape the habitat of vocalizing Omura's whales in northwest Australia»",
+          "url": "https://doi.org/10.1111/mms.70279"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1764310869830-9f4214442508?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En hval svømmer i dypt, blått hav",
+        "kreditt": "Gerald Schömbs / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-humpback-whale-swims-in-the-deep-blue-ocean-mM_e5LFdTp0",
         "illustrasjon": true
       }
     }
