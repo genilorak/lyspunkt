@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-21T14:20:00+02:00",
+  "oppdatert": "2026-10-21T15:20:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -1225,6 +1225,39 @@
         "kreditt": "Marcelo Verfe / Pexels",
         "lisens": "Pexels-lisens",
         "kilde_url": "https://www.pexels.com/photo/16336232/",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "okc-zoo-sebrafol-astra",
+      "tittel": "Velkommen, Astra! Sebraføllet fikk et navn fra verdensrommet",
+      "ingress": "Mandag 19. oktober kom et lite sebrahoppeføll til verden i dyrehagen i Oklahoma City. Hun har fått navnet Astra.",
+      "kategorier": [
+        "sma-gleder",
+        "dyr-og-natur"
+      ],
+      "kildedato": "2026-10-20",
+      "publisert": "2026-10-21T15:20:00+02:00",
+      "brodtekst": [
+        "Det er nye striper å se i OKC Zoo i Oklahoma City. Mandag 19. oktober fødte sebramammaen Calypso en datter, og pappa er sebrahingsten Mars.",
+        "Den lille har fått navnet Astra, som ifølge dyrehagen betyr «stjerne» på gresk. Dermed fortsetter dyrehagen tradisjonen med å gi sebraene navn fra verdensrommet. Broren hennes heter for øvrig Atlas, og han er også sammen med mamma Calypso.",
+        "Astra og mora holder til i sletteområdet for sebraer i dyrehagens afrikadel. Dyrehagen sier at fødselen bidrar til å styrke bestanden av slettesebraer i dyrehager."
+      ],
+      "hvorfor_hap": "Hver vellykket fødsel i dyrehager bidrar til en sunn reservebestand av arten. Og et nyfødt sebraføll er rett og slett noe som får folk til å smile.",
+      "kilder": [
+        {
+          "navn": "KOKH/FOX 25: «OKC Zoo welcomes Astra, a female Plains zebra foal born Oct. 19 to Calypso and Mars» (20. oktober 2026)",
+          "url": "https://okcfox.com/news/local/okc-zoo-welcomes-astra-a-female-plains-zebra-foal-born-oct-19-to-calypso-and-mars"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1693228065559-95ce358cad6f?w=1600&q=80&auto=format&fit=crop",
+        "alt": "To sebraer som står tett inntil hverandre",
+        "kreditt": "Charl Durand / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-couple-of-zebra-standing-next-to-each-other-HWs1_5t6c0M",
         "illustrasjon": true
       }
     }
