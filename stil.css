@@ -14,7 +14,7 @@ a{color:#16120F;text-decoration:none}a:hover{color:#0E7A4E}
 .hdr-top{height:118px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center}
 .iconbtn{width:44px;height:44px;border:1.5px solid #16120F;background:transparent;border-radius:22px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#16120F}
 .nav{height:56px;border-top:1px solid #EFE6D6;display:flex;align-items:center;justify-content:center;gap:6px;font-size:15px;font-weight:600}
-.nav a{padding:9px 14px;border-radius:999px}
+.nav a{padding:9px 14px;border-radius:999px;white-space:nowrap;flex:none}
 .nav a.on{background:#16120F;color:#FFFBF2}
 .nav a.sg{background:#FFE89A}
 .nav a.sg.on{background:#16120F;color:#FFFBF2}

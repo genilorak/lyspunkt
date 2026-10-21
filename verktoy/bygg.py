@@ -106,7 +106,7 @@ a{color:#16120F;text-decoration:none}a:hover{color:#0E7A4E}
 .hdr-top{height:118px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center}
 .iconbtn{width:44px;height:44px;border:1.5px solid #16120F;background:transparent;border-radius:22px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#16120F}
 .nav{height:56px;border-top:1px solid #EFE6D6;display:flex;align-items:center;justify-content:center;gap:6px;font-size:15px;font-weight:600}
-.nav a{padding:9px 14px;border-radius:999px}
+.nav a{padding:9px 14px;border-radius:999px;white-space:nowrap;flex:none}
 .nav a.on{background:#16120F;color:#FFFBF2}
 .nav a.sg{background:#FFE89A}
 .nav a.sg.on{background:#16120F;color:#FFFBF2}
@@ -274,7 +274,7 @@ def footer(base):
     <div class="foot-links">
       <div class="col"><span class="kick" style="color:#8A6400;margin-bottom:8px">Kategorier</span>{k1}</div>
       <div class="col"><span class="kick" style="color:#8A6400;margin-bottom:8px">&#160;</span>{k2}</div>
-      <div class="col"><span class="kick" style="color:#8A6400;margin-bottom:8px">Redaksjonen</span><span>Ansvarlig redaktør og nyhetsredaktør: Karoline D. Gjeldnes</span><span>Med støtte fra Lyspunkts KI-agenter</span><a href="{base}tips.html">Tips oss</a><a href="{base}om.html">Om Lyspunkt</a></div>
+      <div class="col"><span class="kick" style="color:#8A6400;margin-bottom:8px">Redaksjonen</span><span>Ansvarlig redaktør: Karoline D. Gjeldnes</span><span>Sakene hentes og skrives av KI</span><a href="{base}redaksjonen.html" style="align-self:flex-start;margin-top:8px;background:#16120F;color:#FFFBF2;padding:8px 14px;border-radius:999px;font-weight:700;line-height:1.4">Om redaksjonen →</a><a href="{base}tips.html" style="margin-top:6px">Tips oss</a><a href="{base}om.html">Om Lyspunkt</a></div>
       <div class="col"><span class="kick" style="color:#8A6400;margin-bottom:8px">Slik jobber vi</span><a href="{base}prinsipper.html">Redaksjonelle prinsipper</a><a href="{base}rettelser.html">Rettelser</a><a href="{base}ai.html">Bruk av AI</a><a href="{base}personvern.html">Personvern</a></div>
     </div>
     <div aria-hidden="true" style="display:flex;justify-content:center;margin:-28px -56px -48px">
@@ -428,7 +428,7 @@ def artikler():
         tags = ' '.join(f'<a href="{base}kategori/{c}.html" style="font-size:13px;font-weight:700;color:{KAT[c][3]};background:{KAT[c][2]};padding:8px 14px;border-radius:999px;text-decoration:none">{KAT[c][0]}</a>' for c in s['kategorier'] if c in KAT)
         ai = ''
         if s.get('ai_assistert', True):
-            ai = f'''<p style="margin:40px 0 0;padding-top:20px;border-top:1px solid #EFE6D6;font-size:14px;line-height:1.6;color:#5E665F"><strong style="color:#16120F">AI-assistert.</strong> Denne saken er funnet, kontrollert mot kildene over og skrevet med hjelp av kunstig intelligens. Ser du en feil? <a href="{base}tips.html">Gi oss beskjed</a>. <a href="{base}ai.html">Les hvordan vi bruker AI</a>.</p>'''
+            ai = f'''<p style="margin:40px 0 0;padding-top:20px;border-top:1px solid #EFE6D6;font-size:14px;line-height:1.6;color:#5E665F"><strong style="color:#16120F">KI-assistert sak.</strong> Saken er funnet, kontrollert mot kildene over og skrevet av Lyspunkts KI-agenter. Det er også KI som har vurdert at saken skulle publiseres. Ansvarlig redaktør er Karoline D. Gjeldnes, som følger med på sakene og kan rette eller fjerne dem. Ser du en feil? <a href="{base}tips.html">Gi oss beskjed</a>. <a href="{base}redaksjonen.html">Les mer om redaksjonen</a>.</p>'''
         b = s.get('bilde')
         if b and b.get('url'):
             figur = f'''<figure style="margin:14px 0 0"><div style="height:480px;border-radius:24px;overflow:hidden;background:{tint}"><img src="{e(b['url'])}" alt="{e(b.get('alt',''))}" onerror="var f=this.closest('figure');if(f)f.remove()" style="width:100%;height:100%;object-fit:cover;display:block"></div><figcaption class="meta" style="margin-top:10px;font-size:13px">{"Illustrasjonsfoto" if b.get("illustrasjon") else "Foto"}: {e(b.get('kreditt',''))} · {e(b.get('lisens',''))} · <a href="{e(b.get('kilde_url') or kildeurl(s))}" target="_blank" rel="noopener" style="color:#4F6E9E;text-decoration:underline">Bildets kilde</a></figcaption></figure>'''
@@ -439,12 +439,12 @@ def artikler():
   <div class="crumb"><a href="{base}index.html">Forsiden</a> / <a href="{base}kategori/{k}.html">{navn}</a></div>
   <article style="display:flex;flex-direction:column;align-items:center;padding-top:36px">
     <div style="width:100%;max-width:880px;display:flex;flex-direction:column;gap:18px">
-      <span class="kick" style="color:{acc}">{navn}</span>
+      <span style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><span class="kick" style="color:{acc}">{navn}</span><a href="{base}redaksjonen.html" class="pill" style="background:#EAE3FF;color:#4B3AA8;text-decoration:none">KI-skrevet sak</a></span>
       <h1 class="h1" style="font-size:clamp(34px,6vw,58px)">{e(s["tittel"])}</h1>
       <p style="margin:0;font-size:22px;line-height:1.5;color:#3D4540;font-weight:500">{e(s["ingress"])}</p>
       <div style="display:flex;gap:16px;align-items:center;padding:14px 0;border-top:1px solid #EFE6D6;border-bottom:1px solid #EFE6D6;font-size:14px;color:#5E665F">
         <span style="width:40px;height:40px;border-radius:20px;background:{tint};display:flex;align-items:center;justify-content:center">{SUN.format(s=22)}</span>
-        <span><strong style="color:#16120F">Lyspunkt-redaksjonen</strong> · Ansvarlig redaktør Karoline D. Gjeldnes<br>Publisert {dato(s["publisert"], True)} · Kilden er datert {dato(s["kildedato"], True)}</span>
+        <span><strong style="color:#16120F">Hentet fra <a href="{e(kildeurl(s))}" target="_blank" rel="noopener" style="color:#16120F;text-decoration:underline;text-underline-offset:3px">{e(kildenavn(s))}</a></strong> · Funnet og skrevet av KI<br>Publisert {dato(s["publisert"], True)} · Kilden er datert {dato(s["kildedato"], True)} · <a href="{base}redaksjonen.html" style="color:#4F6E9E;text-decoration:underline">Om redaksjonen</a></span>
       </div>
       {figur}
     </div>
@@ -565,13 +565,27 @@ f.addEventListener('submit',function(ev){{ev.preventDefault();if(e.value)takk(e.
 </main>
 ''' + footer(''))
 
+
+    info('redaksjonen.html', 'Om redaksjonen', '#EAE3FF', 'Lyspunkt er en KI-assistert nettavis. Her forklarer vi hvem som gjør hva.',
+         '''<div class="demo" style="font-size:16px;line-height:1.6;margin-bottom:28px"><strong>Kort fortalt:</strong> Sakene på Lyspunkt blir funnet, kontrollert, skrevet og publisert av kunstig intelligens (KI). Også de redaksjonelle vurderingene, som hvilke saker som publiseres og hva som havner i Dagens topp 3, gjøres av KI. Ansvarlig redaktør Karoline D. Gjeldnes har det redaksjonelle ansvaret, setter reglene KI-en jobber etter og kan rette eller fjerne saker.</div>
+<h2>Ansvarlig redaktør</h2>
+<p><strong>Karoline D. Gjeldnes</strong> er ansvarlig redaktør og nyhetsredaktør. Hun bestemmer de redaksjonelle prinsippene, følger med på det som publiseres, og retter, skjuler eller overstyrer saker ved behov.</p>
+<h2>Hva KI-en gjør</h2>
+<ul><li><strong>Finner saker:</strong> KI-agenter søker gjennom nyhetskilder, forskningsinstitusjoner og myndigheter hver time.</li><li><strong>Vurderer saker:</strong> KI-en avgjør om en sak er ny, positiv, troverdig og godt nok dokumentert til å publiseres.</li><li><strong>Kontrollerer fakta:</strong> KI-en åpner og leser kildene, og tar bare med tall og påstander som står der.</li><li><strong>Skriver saken:</strong> Teksten skrives på norsk med egne ord, med lenke til kildene og en egen boks om hva som fortsatt er usikkert.</li><li><strong>Velger bilder:</strong> KI-en bruker kildens bilde bare når lisensen tillater det. Ellers velges et gratis illustrasjonsbilde, merket «Illustrasjonsfoto».</li><li><strong>Publiserer:</strong> Sakene legges ut automatisk, uten at et menneske leser dem først.</li></ul>
+<h2>Hva KI-en ikke gjør</h2>
+<ul><li>Den finner ikke på saker, personer, sitater eller tall.</li><li>Den gjengir ikke sangtekster eller kopierer lengre tekst fra kildene.</li><li>Den bruker ikke bilder den ikke har lov til å bruke.</li></ul>
+<h2>Hvor kommer sakene fra?</h2>
+<p>Hver sak viser øverst hvilken kilde den er hentet fra, og alle kildene er listet nederst i saken. Gå gjerne til originalkilden for å lese mer.</p>
+<h2>Feil kan skje</h2>
+<p>KI kan misforstå eller ta feil. Ser du noe som ikke stemmer, <a href="tips.html">gi oss beskjed</a>, så retter vi det og merker rettelsen åpent. Se også <a href="rettelser.html">rettelser</a>, <a href="prinsipper.html">redaksjonelle prinsipper</a> og <a href="ai.html">bruk av KI</a>.</p>''')
+
     info('om.html', 'Om Lyspunkt', '#E3E9F4', 'Et lysere blikk på verden — positiv journalistikk som er til å stole på.',
          '''<p>Lyspunkt er en norsk nyhetsplattform som samler og formidler positive nyheter, gode historier, dokumenterte fremskritt og konstruktive løsninger fra hele verden.</p>
 <p>Vi ignorerer ikke verdens problemer. Men det skjer også utrolig mye fint, viktig og meningsfullt — og det fortjener å bli fortalt like godt.</p>
 <h2>To typer saker</h2>
 <ul><li><strong>Viktige fremskritt:</strong> medisinske gjennombrudd, naturrestaurering, teknologiske løsninger og samfunnsendringer som gjør verden bedre.</li><li><strong>Ekte gladnyheter:</strong> dyr som blir reddet, mennesker som hjelper hverandre og små øyeblikk som gjør dagen litt bedre.</li></ul>
 <h2>Redaksjonen</h2>
-<p>Ansvarlig redaktør og nyhetsredaktør er Karoline D. Gjeldnes. Redaksjonen bruker KI-agenter som finner, kontrollerer og skriver saker etter våre redaksjonelle prinsipper. Redaktøren har alltid siste ord.</p>
+<p>Ansvarlig redaktør og nyhetsredaktør er Karoline D. Gjeldnes. Sakene blir funnet, vurdert, skrevet og publisert av KI-agenter etter våre redaksjonelle prinsipper. Redaktøren følger med og kan rette eller fjerne saker. <a href="redaksjonen.html">Les mer om redaksjonen</a>.</p>
 <h2>Gratis og åpent</h2>
 <p>Lyspunkt er gratis å lese, uten betalingsmur og uten reklame.</p>''')
 
@@ -593,8 +607,8 @@ f.addEventListener('submit',function(ev){{ev.preventDefault();if(e.value)takk(e.
          '''<p>Lyspunkt bruker AI-agenter til å finne, kontrollere og skrive gode nyheter. Agentene går gjennom nyhetskilder fortløpende, hver time.</p>
 <h2>Slik jobber agentene</h2>
 <ul><li>De leter etter positive nyheter fra troverdige kilder: forskningsinstitusjoner, myndigheter, fagtidsskrifter og etablerte medier.</li><li>Hver sak kontrolleres mot kilden før den publiseres. Tall og påstander som ikke kan bekreftes, tas ikke med.</li><li>Sakene skrives med egne ord på norsk, med lenke til kildene.</li><li>Hver sak sier tydelig hva som fortsatt er usikkert.</li><li>Agentene finner aldri på sitater, personer eller tall.</li></ul>
-<h2>Mennesker har siste ord</h2>
-<ul><li>Ansvarlig redaktør Karoline D. Gjeldnes kan når som helst endre, skjule eller overstyre saker og Dagens topp 3.</li><li>Saker der AI har bidratt, merkes nederst i artikkelen.</li><li>AI-genererte bilder brukes aldri som om de var ekte fotografier.</li></ul>''')
+<h2>Redaktørens rolle</h2>
+<ul><li>Ansvarlig redaktør Karoline D. Gjeldnes kan når som helst endre, skjule eller overstyre saker og Dagens topp 3.</li><li>Alle saker er merket «KI-skrevet sak» øverst og har en forklaring nederst. Saker publiseres automatisk, uten at et menneske leser dem først.</li><li>AI-genererte bilder brukes aldri som om de var ekte fotografier.</li></ul>''')
 
     info('personvern.html', 'Personvern', '#E6EFFD', 'Minst mulig data, mest mulig åpenhet.',
          '''<p>Lyspunkt skal være personvernvennlig. Du trenger ikke konto for å lese, og vi samler inn minst mulig informasjon.</p>
