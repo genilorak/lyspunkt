@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-21T20:20:00+02:00",
+  "oppdatert": "2026-10-21T21:19:43+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -1452,6 +1452,48 @@
         "kreditt": "Wassily Kandark / Pexels",
         "lisens": "Pexels-lisens",
         "kilde_url": "https://pexels.com/photo/19728524",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "bangka-lori-gjenfunnet",
+      "tittel": "Giftig lite primat fryktet utdødd i nesten hundre år – lever fortsatt",
+      "ingress": "Bangka-loriene, en liten nattaktiv primat fra Indonesia, har ikke vært omtalt i forskningen siden 1930-tallet. Nå viser en ny studie at arten lever, og at over 90 dyr er reddet de siste ti årene.",
+      "kategorier": [
+        "dyr-og-natur",
+        "verden"
+      ],
+      "kildedato": "2026-10-20",
+      "publisert": "2026-10-21T21:19:43+02:00",
+      "brodtekst": [
+        "Bangka-loriene (Nycticebus bancanus) er en liten, nattaktiv primat med rødbrun pels, store øyne og tydelige tegninger i ansiktet. Den lever bare på øya Bangka, utenfor sørøstkysten av Sumatra i Indonesia. De siste vitenskapelige registreringene som studien drøfter, er fra 1930–1932, og i 2020 førte Den internasjonale naturvernunionen (IUCN) arten opp som kritisk truet og mulig utdødd.",
+        "## Lokalbefolkningen visste det hele tiden",
+        "Selv om forskerne mistet arten av syne, gjorde ikke folk på øya det. Den indonesiske organisasjonen Alobi Wildlife Rescue Center tok imot mer enn 90 slike lorier mellom 2015 og 2025. Mange ble funnet i hager, ved veier og i strømledninger, og noen var hardt skadet. Av dyrene som ble reddet, ble 86 satt fri igjen på sju steder på øya, mest i større skogområder.",
+        "Funnene er nå samlet i en studie i tidsskriftet Spixiana, skrevet av Alobi sammen med dyreparken Haus des Meeres i Wien og avlssenteret Taman Safari Prigen på Java. Alobi har funnet arten i alle de fire regionene på Bangka og i byen Pangkal Pinang. Naturvernorganisasjonen Re:wild, som hadde arten på sin liste over «tapte primater», kunngjorde nyheten 20. oktober.",
+        "## Et uvanlig dyr",
+        "Lorier er blant de få primatene som er giftige. De skiller ut gift fra kjertler nær albuene, blander den med spytt og kan gi et giftig bitt. De er nærmere i slekt med lemurene på Madagaskar enn med aper.",
+        "Arten er fortsatt sterkt truet. Tinngruvedrift, nye palmeoljeplantasjer, veier og strømledninger krymper og deler opp leveområdet, og lorier er også ettertraktet i ulovlig handel med kjæledyr. Studien anbefaler å verne skogen som er igjen, fortsette kontrollerte utsettinger, starte et avlsprogram og kartlegge hvor mange dyr som finnes."
+      ],
+      "hvorfor_hap": "En art som sto oppført som mulig utdødd, er bekreftet levende, og lokale dyrevernere har allerede reddet og satt ut over 80 dyr. Nå som arten er dokumentert, blir det lettere å lage en målrettet plan for å verne den.",
+      "usikkert": "Ingen vet ennå hvor mange Bangka-lorier som finnes, eller nøyaktig hvor de lever. Forskerne understreker at arten fortsatt er svært nær utryddelse, og at det trengs systematiske undersøkelser i felt.",
+      "kilder": [
+        {
+          "navn": "Re:wild: «Bangka Slow Loris Rediscovered After Nearly 100 Years» (20. oktober 2026)",
+          "url": "https://www.rewild.org/press/bangka-slow-loris-rediscovered"
+        },
+        {
+          "navn": "Reuters via Daily Maverick: «Feared extinct, Bangka slow loris primate rediscovered in Indonesia» (20. oktober 2026)",
+          "url": "https://www.dailymaverick.co.za/article/2026-10-20-feared-extinct-bangka-slow-loris-primate-rediscovered-in-indonesia/"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.pexels.com/photos/12102969/pexels-photo-12102969.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "alt": "En lori som ligger sammenkrøllet blant grønne blader (illustrasjon, ikke en Bangka-lori)",
+        "kreditt": "SONIC / Pexels",
+        "lisens": "Pexels-lisens",
+        "kilde_url": "https://www.pexels.com/photo/slow-loris-animal-on-green-leaves-12102969/",
         "illustrasjon": true
       }
     }
