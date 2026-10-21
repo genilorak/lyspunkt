@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-21T17:15:00+02:00",
+  "oppdatert": "2026-10-21T18:20:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -1299,6 +1299,44 @@
         "kreditt": "NASA/JPL-Caltech",
         "lisens": "NASA-bilde, fritt til bruk med kreditering",
         "kilde_url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/"
+      }
+    },
+    {
+      "id": "halnaker-sommerfugler-south-downs",
+      "tittel": "Sjeldne sommerfugler dukket opp på gård som får bli natur igjen",
+      "ingress": "På en tidligere intensivt drevet gård i South Downs i England ble to nasjonalt viktige sommerfuglarter registrert for første gang i år, blant over 5000 sommerfugler totalt.",
+      "kategorier": [
+        "dyr-og-natur",
+        "klima-og-miljo",
+        "verden"
+      ],
+      "kildedato": "2026-10-19",
+      "publisert": "2026-10-21T18:20:00+02:00",
+      "brodtekst": [
+        "Halnaker Hill Farm i nasjonalparken South Downs i Sør-England er i ferd med å gjøres om fra intensivt jordbruk til natur. Nå viser årets sommerfugltellinger at innsatsen allerede gir resultater, ifølge nasjonalparkmyndigheten South Downs National Park Authority.",
+        "## To nye arter på gården",
+        "For første gang ble dvergblåvinge (Small Blue) og tiriltungesmyger (Dingy Skipper) registrert på gården: 85 dvergblåvinger og 7 tiriltungesmygere. Begge står på listen over arter som er særlig viktige å ta vare på i England. Også engringvinge (Small Heath), som var kjent fra gården før, men i mindre antall, dukket opp i stort tall: 547 individer.",
+        "Til sammen ble det registrert 5290 sommerfugler fordelt på 28 arter i løpet av 2026. Tellingene ble gjort i tre hovedrunder i mai, juni og juli, i tillegg til 127 ekstra tellinger. Det var sommerfuglekspert Neil Hulme, som samarbeider med nasjonalparken og organisasjonen Butterfly Conservation, som sto for registreringene.",
+        "## Del av et større naturløft",
+        "Gården utgjør rundt 330 acres, omtrent 1,3 kvadratkilometer, og er en del av nasjonalparkens program ReNature. Programmet omfatter mer enn 7700 hektar som skal få mer natur tilbake, et areal nasjonalparken sammenligner med over 12 000 fotballbaner."
+      ],
+      "hvorfor_hap": "Sommerfugler reagerer raskt på endringer i landskapet, og er derfor et godt tegn på om naturen er i bedring. At sjeldne arter finner fram til en gård som nylig ble drevet intensivt, viser at natur kan komme tilbake ganske raskt når den får plass.",
+      "usikkert": "Tallene gjelder én sesong på én gård. Det trengs flere års tellinger for å vite om bestandene holder seg og fortsetter å vokse.",
+      "kilder": [
+        {
+          "navn": "South Downs National Park Authority: «Nature recovery success at South Downs National Park farm as butterflies boom» (19. oktober 2026)",
+          "url": "https://www.southdowns.gov.uk/nature-recovery-success-at-south-downs-national-park-farm-as-butterflies-boom/"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1644476794882-28017056d9f1?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En blå sommerfugl sitter på en hvit blomst",
+        "kreditt": "Erik Karits / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-blue-butterfly-sitting-on-top-of-a-white-flower-i2wl3EmIFY4",
+        "illustrasjon": true
       }
     }
   ]
