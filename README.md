@@ -34,4 +34,4 @@ Rediger `data/saker.json` direkte på GitHub (blyant-ikonet), og kjør gjerne `p
 | `nyhetsbrev.html`, `tips.html`, `om.html`, `prinsipper.html`, `rettelser.html`, `ai.html`, `personvern.html` | Infosider, også generert |
 | `stil.css` | Felles stil |
 
-Bilder brukes bare når lisensen tillater det (NASA, fritt lisensierte bilder, frigitte pressebilder), og de krediteres alltid. Uten lovlig bilde publiseres saken med bare tekst. Se REDAKSJON.md, punkt 3b.
+Bilder brukes bare når lisensen tillater det (NASA, fritt lisensierte bilder, frigitte pressebilder), og de krediteres alltid. Har ikke kilden et lovlig bilde, brukes et gratis illustrasjonsbilde fra Unsplash eller Pexels, merket «Illustrasjonsfoto» med fotografens navn. Se REDAKSJON.md, punkt 3b.
