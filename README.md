@@ -2,7 +2,7 @@
 
 **Et lysere blikk på verden.**
 
-Norsk nettavis med ekte, kildebelagte gode nyheter. En AI-agent finner, kontrollerer, skriver og publiserer nye saker tre ganger om dagen.
+Norsk nettavis med ekte, kildebelagte gode nyheter. En AI-agent finner, kontrollerer, skriver og publiserer nye saker hver time. Ansvarlig redaktør og nyhetsredaktør: Karoline D. Gjeldnes.
 
 Se siden: https://genilorak.github.io/lyspunkt/
 
@@ -11,7 +11,7 @@ Se siden: https://genilorak.github.io/lyspunkt/
 1. **`data/saker.json`** inneholder alle sakene, Dagens topp 3 og redaktørens overstyringer.
 2. **`verktoy/bygg.py`** bygger hele nettstedet (forside, kategorier, artikler, søk m.m.) fra datafilen.
 3. **`REDAKSJON.md`** er instruksen AI-agenten følger: kildekrav, kvalitetskontroll, skrivestil og publisering.
-4. En planlagt oppgave kjører agenten ca. kl. 07, 13 og 19. Agenten legger inn nye saker, bygger siden og pusher til `main`.
+4. En planlagt oppgave kjører agenten hver time. Agenten legger inn nye saker, bygger siden og pusher til `main`.
 
 ## Redaktørens kontroll
 

@@ -19,10 +19,12 @@ KAT = {
     'verdensrommet': ('Verdensrommet', 'Teleskoper, satellitter og nye blikk ut i universet.', '#ECE8FD', '#5B47C2'),
     'kultur': ('Kultur', 'Kunst, musikk og fellesskap som løfter hverdagen.', '#FBE6F3', '#A2397F'),
     'sport': ('Sport', 'Idrettsglede, inkludering og lag som vokser.', '#E0F3FA', '#1B7397'),
+    'musikk': ('Musikk', 'Nyslupne låter, nye stjerneskudd og gode nyheter fra musikkverdenen.', '#FFEEDB', '#A65300'),
     'sma-gleder': ('Små gleder', 'Hjertevarme, søte og morsomme historier som gjør dagen litt bedre.', '#FFF1B8', '#8A6400'),
 }
-NAV = ['norge', 'verden', 'vitenskap', 'helse', 'klima-og-miljo', 'dyr-og-natur', 'teknologi', 'verdensrommet', 'sma-gleder']
-BLOKKER = ['vitenskap', 'dyr-og-natur', 'helse', 'verdensrommet', 'klima-og-miljo', 'norge', 'kultur', 'sport']
+NAV = ['norge', 'verden', 'vitenskap', 'helse', 'klima-og-miljo', 'dyr-og-natur', 'teknologi', 'verdensrommet', 'musikk', 'kultur', 'sport', 'sma-gleder']
+BLOKKER = ['norge', 'verden', 'vitenskap', 'helse', 'klima-og-miljo', 'dyr-og-natur', 'teknologi', 'verdensrommet', 'musikk', 'kultur', 'sport', 'sma-gleder']
+STANDARD_VALGT = ['vitenskap', 'dyr-og-natur', 'helse', 'verdensrommet', 'klima-og-miljo', 'norge', 'musikk', 'kultur', 'sport']
 MND = ['jan.', 'feb.', 'mars', 'apr.', 'mai', 'juni', 'juli', 'aug.', 'sep.', 'okt.', 'nov.', 'des.']
 DAGER = ['Mandag', 'Tirsdag', 'Onsdag', 'Torsdag', 'Fredag', 'Lørdag', 'Søndag']
 
@@ -146,6 +148,13 @@ textarea{border-radius:20px;padding:16px 20px;height:160px;width:100%}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 :focus-visible{outline:3px solid #4F6E9E;outline-offset:2px}
 
+.kvalg{position:relative;display:inline-flex}
+.kvalg input{position:absolute;opacity:0;width:100%;height:100%;margin:0;cursor:pointer}
+.kvalg span{display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:600;padding:9px 14px;border-radius:999px;border:1.5px solid var(--a);color:var(--a);background:#FFFFFF}
+.kvalg span::before{content:"";width:14px;height:14px;border-radius:4px;border:1.5px solid var(--a);box-sizing:border-box}
+.kvalg input:checked+span{background:var(--t);color:#16120F}
+.kvalg input:checked+span::before{background:var(--a);box-shadow:inset 0 0 0 2px var(--t)}
+.kvalg input:focus-visible+span{outline:3px solid #4F6E9E;outline-offset:2px}
 .grid3,[style*="repeat(2,minmax(0,1fr))"],[style*="repeat(3,minmax(0,1fr))"]{align-items:start}
 [style*="repeat(12,minmax(0,1fr))"]{align-items:start}
 .inner,.hdr,.ticker,.foot-in,.foot-band{padding-left:max(56px,calc((100% - 1328px) / 2))!important;padding-right:max(56px,calc((100% - 1328px) / 2))!important}
@@ -244,7 +253,7 @@ def header(base, active=None):
 
 def footer(base):
     k1 = ''.join(f'<a href="{base}kategori/{s}.html">{KAT[s][0]}</a>' for s in ['norge', 'verden', 'vitenskap', 'helse', 'klima-og-miljo', 'dyr-og-natur'])
-    k2 = ''.join(f'<a href="{base}kategori/{s}.html">{KAT[s][0]}</a>' for s in ['teknologi', 'verdensrommet', 'kultur', 'sport', 'sma-gleder'])
+    k2 = ''.join(f'<a href="{base}kategori/{s}.html">{KAT[s][0]}</a>' for s in ['teknologi', 'verdensrommet', 'musikk', 'kultur', 'sport', 'sma-gleder'])
     return f'''<footer class="foot">
   <div class="foot-in">
     <div style="display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;align-items:center">
@@ -265,7 +274,7 @@ def footer(base):
     <div class="foot-links">
       <div class="col"><span class="kick" style="color:#8A6400;margin-bottom:8px">Kategorier</span>{k1}</div>
       <div class="col"><span class="kick" style="color:#8A6400;margin-bottom:8px">&#160;</span>{k2}</div>
-      <div class="col"><span class="kick" style="color:#8A6400;margin-bottom:8px">Redaksjonen</span><span>Ansvarlig redaktør: [Navn]</span><a href="{base}tips.html">Tips oss</a><a href="{base}om.html">Om Lyspunkt</a></div>
+      <div class="col"><span class="kick" style="color:#8A6400;margin-bottom:8px">Redaksjonen</span><span>Ansvarlig redaktør og nyhetsredaktør: Karoline D. Gjeldnes</span><span>Med støtte fra Lyspunkts KI-agenter</span><a href="{base}tips.html">Tips oss</a><a href="{base}om.html">Om Lyspunkt</a></div>
       <div class="col"><span class="kick" style="color:#8A6400;margin-bottom:8px">Slik jobber vi</span><a href="{base}prinsipper.html">Redaksjonelle prinsipper</a><a href="{base}rettelser.html">Rettelser</a><a href="{base}ai.html">Bruk av AI</a><a href="{base}personvern.html">Personvern</a></div>
     </div>
     <div aria-hidden="true" style="display:flex;justify-content:center;margin:-28px -56px -48px">
@@ -322,19 +331,20 @@ def forside():
         ss = [s for s in SAKER if k in s['kategorier']][:3]
         if ss:
             first = ss[0]
-            rows = f'''<a href="artikkel/{first["id"]}.html" style="display:flex;flex-direction:column;gap:8px;padding:14px 0;border-bottom:1px solid rgba(22,18,15,.1)">
+            rows = f'''<a href="artikkel/{first["id"]}.html" style="display:flex;flex-direction:column;gap:8px;padding:14px 0;{"border-bottom:1px solid rgba(22,18,15,.1)" if len(ss) > 1 else ""}">
             <span class="bri" style="font-size:24px;font-weight:700;line-height:1.05;letter-spacing:-0.02em">{e(first["tittel"])}</span>
             <span class="meta">{dato(first["kildedato"])}</span></a>'''
             rows += ''.join(f'<a href="artikkel/{s["id"]}.html" class="rad"><span style="font-size:17px;font-weight:600;line-height:1.3">{e(s["tittel"])}</span><span class="meta">{dato(s["kildedato"])}</span></a>' for s in ss[1:])
         else:
             rows = '<p style="margin:14px 0 0;font-size:16px;color:#3D4540">Ingen saker ennå. Redaksjonen leter fortløpende.</p>'
-        blokker += f'''<div class="blokk" style="background:{tint}">
+        blokker += f'''<div class="blokk" data-kat="{k}" style="background:{tint}">
           <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px">
             <div style="display:flex;align-items:center;gap:10px"><span style="width:12px;height:12px;border-radius:6px;background:{acc}"></span><h3 class="bri" style="margin:0;font-size:26px;font-weight:800;letter-spacing:-0.03em">{navn}</h3></div>
             <a href="kategori/{k}.html" style="font-size:13px;font-weight:700;color:{acc};padding:8px 13px;border-radius:999px;background:#FFFFFF">Se alle →</a>
           </div>
           {rows}
         </div>'''
+    valg = ''.join(f'<label class="kvalg" style="--a:{KAT[k][3]};--t:{KAT[k][2]}"><input type="checkbox" value="{k}"{" checked" if k in STANDARD_VALGT else ""}><span>{KAT[k][0]}</span></label>' for k in BLOKKER)
     page = head('Lyspunkt – et lysere blikk på verden', base) + header(base, 'forside') + f'''<main class="inner" style="padding-top:40px;display:flex;flex-direction:column;gap:88px">
   <section aria-labelledby="t3">
     <div class="shead"><h2 id="t3" class="h2">Dagens topp 3</h2><span class="meta">Oppdatert {dato(DATA["oppdatert"])} kl. {OPPDATERT.strftime("%H:%M")}</span></div>
@@ -358,8 +368,22 @@ def forside():
     </aside>
   </div>
   <section aria-labelledby="kat">
-    <div class="shead"><h2 id="kat" class="h2">Utforsk <span class="ser" style="font-style:italic;font-weight:400;letter-spacing:0;color:#4F6E9E">kategoriene</span></h2><span class="meta">Gode nyheter fra hele verden, sortert for deg</span></div>
-    <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px">{blokker}</div>
+    <div class="shead"><h2 id="kat" class="h2">Utforsk <span class="ser" style="font-style:italic;font-weight:400;letter-spacing:0;color:#4F6E9E">kategoriene</span></h2><span class="meta">Velg hvilke kategorier du vil se. Valget lagres i nettleseren din.</span></div>
+    <fieldset style="border:none;margin:0 0 24px;padding:18px 20px;background:#FFFFFF;border-radius:18px;box-shadow:0 1px 0 rgba(22,18,15,.06)">
+      <legend class="sr">Velg kategorier</legend>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center">{valg}
+        <button type="button" id="kalle" style="font:inherit;font-size:13px;font-weight:700;background:none;border:none;color:#4F6E9E;text-decoration:underline;cursor:pointer;padding:8px">Vis alle</button>
+      </div>
+    </fieldset>
+    <div id="kblokker" style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px">{blokker}</div>
+    <p id="kingen" class="tom" style="display:none">Du har ikke valgt noen kategorier. Kryss av for det du vil se.</p>
+    <script>
+    (function(){{var K='lyspunkt-kategorier',bx=document.querySelectorAll('.kvalg input'),bl=document.querySelectorAll('#kblokker .blokk');
+    try{{var v=JSON.parse(localStorage.getItem(K)||'null');if(Array.isArray(v))bx.forEach(function(b){{b.checked=v.indexOf(b.value)>-1}})}}catch(e){{}}
+    function vis(){{var on=[];bx.forEach(function(b){{if(b.checked)on.push(b.value)}});bl.forEach(function(d){{d.style.display=on.indexOf(d.dataset.kat)>-1?'':'none'}});
+    document.getElementById('kingen').style.display=on.length?'none':'block';try{{localStorage.setItem(K,JSON.stringify(on))}}catch(e){{}}}}
+    bx.forEach(function(b){{b.addEventListener('change',vis)}});document.getElementById('kalle').addEventListener('click',function(){{bx.forEach(function(b){{b.checked=true}});vis()}});vis();}})();
+    </script>
   </section>
 </main>
 ''' + footer(base)
@@ -407,7 +431,7 @@ def artikler():
             ai = f'''<p style="margin:40px 0 0;padding-top:20px;border-top:1px solid #EFE6D6;font-size:14px;line-height:1.6;color:#5E665F"><strong style="color:#16120F">AI-assistert.</strong> Denne saken er funnet, kontrollert mot kildene over og skrevet med hjelp av kunstig intelligens. Ser du en feil? <a href="{base}tips.html">Gi oss beskjed</a>. <a href="{base}ai.html">Les hvordan vi bruker AI</a>.</p>'''
         b = s.get('bilde')
         if b and b.get('url'):
-            figur = f'''<figure style="margin:14px 0 0"><div style="height:480px;border-radius:24px;overflow:hidden;background:{tint}"><img src="{e(b['url'])}" alt="{e(b.get('alt',''))}" onerror="var f=this.closest('figure');if(f)f.remove()" style="width:100%;height:100%;object-fit:cover;display:block"></div><figcaption class="meta" style="margin-top:10px;font-size:13px">Foto: {e(b.get('kreditt',''))} · {e(b.get('lisens',''))} · <a href="{e(b.get('kilde_url') or kildeurl(s))}" target="_blank" rel="noopener" style="color:#4F6E9E;text-decoration:underline">Bildets kilde</a></figcaption></figure>'''
+            figur = f'''<figure style="margin:14px 0 0"><div style="height:480px;border-radius:24px;overflow:hidden;background:{tint}"><img src="{e(b['url'])}" alt="{e(b.get('alt',''))}" onerror="var f=this.closest('figure');if(f)f.remove()" style="width:100%;height:100%;object-fit:cover;display:block"></div><figcaption class="meta" style="margin-top:10px;font-size:13px">{"Illustrasjonsfoto" if b.get("illustrasjon") else "Foto"}: {e(b.get('kreditt',''))} · {e(b.get('lisens',''))} · <a href="{e(b.get('kilde_url') or kildeurl(s))}" target="_blank" rel="noopener" style="color:#4F6E9E;text-decoration:underline">Bildets kilde</a></figcaption></figure>'''
         else:
             figur = ''
         rettelse = f'<div class="demo" style="margin-bottom:24px"><strong>Rettelse:</strong> {e(s["rettelse"])}</div>' if s.get('rettelse') else ''
@@ -420,7 +444,7 @@ def artikler():
       <p style="margin:0;font-size:22px;line-height:1.5;color:#3D4540;font-weight:500">{e(s["ingress"])}</p>
       <div style="display:flex;gap:16px;align-items:center;padding:14px 0;border-top:1px solid #EFE6D6;border-bottom:1px solid #EFE6D6;font-size:14px;color:#5E665F">
         <span style="width:40px;height:40px;border-radius:20px;background:{tint};display:flex;align-items:center;justify-content:center">{SUN.format(s=22)}</span>
-        <span><strong style="color:#16120F">Lyspunkt-redaksjonen</strong><br>Publisert {dato(s["publisert"], True)} · Kilden er datert {dato(s["kildedato"], True)}</span>
+        <span><strong style="color:#16120F">Lyspunkt-redaksjonen</strong> · Ansvarlig redaktør Karoline D. Gjeldnes<br>Publisert {dato(s["publisert"], True)} · Kilden er datert {dato(s["kildedato"], True)}</span>
       </div>
       {figur}
     </div>
@@ -546,6 +570,8 @@ f.addEventListener('submit',function(ev){{ev.preventDefault();if(e.value)takk(e.
 <p>Vi ignorerer ikke verdens problemer. Men det skjer også utrolig mye fint, viktig og meningsfullt — og det fortjener å bli fortalt like godt.</p>
 <h2>To typer saker</h2>
 <ul><li><strong>Viktige fremskritt:</strong> medisinske gjennombrudd, naturrestaurering, teknologiske løsninger og samfunnsendringer som gjør verden bedre.</li><li><strong>Ekte gladnyheter:</strong> dyr som blir reddet, mennesker som hjelper hverandre og små øyeblikk som gjør dagen litt bedre.</li></ul>
+<h2>Redaksjonen</h2>
+<p>Ansvarlig redaktør og nyhetsredaktør er Karoline D. Gjeldnes. Redaksjonen bruker KI-agenter som finner, kontrollerer og skriver saker etter våre redaksjonelle prinsipper. Redaktøren har alltid siste ord.</p>
 <h2>Gratis og åpent</h2>
 <p>Lyspunkt er gratis å lese, uten betalingsmur og uten reklame.</p>''')
 
@@ -564,11 +590,11 @@ f.addEventListener('submit',function(ev){{ev.preventDefault();if(e.value)takk(e.
          + '<h2>Fant du en feil?</h2><p>Gi oss beskjed via <a href="tips.html">Tips oss</a>.</p>')
 
     info('ai.html', 'Bruk av AI', '#EAE3FF', 'Hvordan vi bruker kunstig intelligens — og hvor grensene går.',
-         '''<p>Lyspunkt bruker AI-agenter til å finne, kontrollere og skrive gode nyheter. Agentene går gjennom nyhetskilder tre ganger om dagen.</p>
+         '''<p>Lyspunkt bruker AI-agenter til å finne, kontrollere og skrive gode nyheter. Agentene går gjennom nyhetskilder fortløpende, hver time.</p>
 <h2>Slik jobber agentene</h2>
 <ul><li>De leter etter positive nyheter fra troverdige kilder: forskningsinstitusjoner, myndigheter, fagtidsskrifter og etablerte medier.</li><li>Hver sak kontrolleres mot kilden før den publiseres. Tall og påstander som ikke kan bekreftes, tas ikke med.</li><li>Sakene skrives med egne ord på norsk, med lenke til kildene.</li><li>Hver sak sier tydelig hva som fortsatt er usikkert.</li><li>Agentene finner aldri på sitater, personer eller tall.</li></ul>
 <h2>Mennesker har siste ord</h2>
-<ul><li>Redaksjonen kan når som helst endre, skjule eller overstyre saker og Dagens topp 3.</li><li>Saker der AI har bidratt, merkes nederst i artikkelen.</li><li>AI-genererte bilder brukes aldri som om de var ekte fotografier.</li></ul>''')
+<ul><li>Ansvarlig redaktør Karoline D. Gjeldnes kan når som helst endre, skjule eller overstyre saker og Dagens topp 3.</li><li>Saker der AI har bidratt, merkes nederst i artikkelen.</li><li>AI-genererte bilder brukes aldri som om de var ekte fotografier.</li></ul>''')
 
     info('personvern.html', 'Personvern', '#E6EFFD', 'Minst mulig data, mest mulig åpenhet.',
          '''<p>Lyspunkt skal være personvernvennlig. Du trenger ikke konto for å lese, og vi samler inn minst mulig informasjon.</p>

@@ -1,22 +1,40 @@
 # Redaksjonsinstruks for Lyspunkts AI-agent
 
-Denne filen er instruksen agenten følger hver gang den leter etter nye saker. Den kjører tre ganger daglig (ca. kl. 07, 13 og 19 norsk tid). Redaktøren kan endre denne filen når som helst. Agenten skal alltid lese den på nytt før den begynner.
+Denne filen er instruksen agenten følger hver gang den leter etter nye saker. Den kjører **hver time**, så forsiden oppdateres fortløpende. Ansvarlig redaktør og nyhetsredaktør er **Karoline D. Gjeldnes**, og hun kan endre denne filen når som helst. Agenten skal alltid lese den på nytt før den begynner.
 
 ## Mål
 
-Finne **ekte, kontrollerbare, positive nyheter** fra hele verden og Norge, skrive dem på norsk med egne ord og publisere dem på Lyspunkt. Hver runde publiserer **3–5 nye saker**. Er det ikke nok gode saker, publiseres færre. Svake saker publiseres aldri for å fylle opp.
+Finne **ekte, kontrollerbare, positive nyheter** fra hele verden og Norge, skrive dem på norsk med egne ord og publisere dem på Lyspunkt. Hver runde publiserer **1–3 nye saker**. Er det ikke nok gode saker, publiseres færre eller ingen. Det er helt greit å avslutte en runde uten nye saker. Svake saker publiseres aldri for å fylle opp. Hvis ingenting er nytt, trengs ingen commit.
 
 ## 1. Forberedelser
 
 1. Repoet `genilorak/lyspunkt` skal ligge i `/home/claude/lyspunkt`. Hent siste versjon med `git pull`.
 2. Les `data/saker.json`. Noter titler, `id`-er og kilde-URL-er som allerede finnes, og listen `avvist`. Disse skal aldri publiseres på nytt.
-3. Se hvilke kategorier som har færrest saker siste uke (ofte `kultur`, `sport` og `norge`), og prioriter dem.
+3. Se hvilke kategorier som har færrest saker siste uke (ofte `musikk`, `sma-gleder`, `kultur`, `sport` og `norge`), og prioriter dem. Sørg for at `musikk` og `sma-gleder` får nye saker hver dag.
 
 ## 2. Finn kandidater
 
 - Søk bredt på nett, på både engelsk og norsk. Eksempler: «good news this week», «breakthrough study published», «species recovery», «record renewable», «heartwarming», «gladsak», «forskning.no», «nrk.no gode nyheter», «UiO / NTNU / UiB / UiT forskning», «SINTEF», «Miljødirektoratet», samt sport- og kulturnyheter med positiv vinkel.
 - Saken skal være **ny**. Kilden skal helst være fra de siste 3 dagene, og aldri eldre enn 14 dager. Gamle hendelser med ny omtale publiseres ikke.
 - Lag en blanding av **viktige fremskritt** (helse, vitenskap, klima, natur, teknologi, samfunn) og **ekte gladnyheter** (Små gleder).
+
+## 2b. Musikk
+
+Kategorien `musikk` handler om gode nyheter fra musikkverdenen:
+- **Nyslupne låter og album**, særlig fra norske og nordiske artister (kilder: NRK P3/Urørt, Gaffa, 730.no, Musikknyheter, plateselskapenes pressemeldinger, etablerte musikkmedier).
+- **Stjerneskudd og nykommere**: debutanter, artister som får sitt gjennombrudd, Urørt-vinnere, nominasjoner og priser.
+- Musikk som gjør godt: konserter for sykehjem, kor, musikkprosjekter for barn og ungdom.
+
+Regler: Skriv om låta og artisten med egne ord. **Aldri gjengi sangtekster**, verken hele eller deler. Ikke finn på strømmetall eller listeplasseringer som ikke står i kilden. Lenk gjerne til låta hos kilden.
+
+## 2c. Små gleder
+
+`sma-gleder` er **ikke** vanlige nyhetssaker. Det er **korte, søte og morsomme** saker som får folk til å smile: dyreunger, dyr som blir reddet, uventede vennskap, morsomme rekorder, små gode gjerninger. Krav:
+- Kort: 2–3 korte avsnitt, gjerne uten mellomtitler.
+- Lett og varm tone, gjerne med et glimt av humor, men fortsatt bare fakta fra kilden.
+- Tittelen skal være søt eller morsom, og fortsatt ærlig.
+- Kilden kan være en lokalavis, dyrepark, dyrevernorganisasjon eller et etablert medium.
+- Store, alvorlige nyheter (priser, økonomi, forskning) hører **ikke** hjemme i Små gleder.
 
 ## 3. Kvalitetskrav – alle må være oppfylt
 
@@ -55,7 +73,14 @@ Når et bilde er tillatt, legg til feltet `bilde` på saken:
 }
 ```
 
-Har saken ikke et lovlig bilde, utelat `bilde`. Saken vises da med bare tekst, uten bilde eller bildeplass. Prøv alltid å finne et lovlig bilde først (NASA/NOAA/USGS, Wikimedia Commons med fri lisens, frigitte pressebilder). Et generelt bilde av arten, stedet eller fenomenet er greit, så lenge `alt` ikke gir inntrykk av at det viser selve hendelsen.
+**Alle saker skal ha bilde.** Rekkefølge:
+1. Et lovlig bilde fra kilden (NASA/NOAA/USGS, Commons med fri lisens, frigitte pressebilder), merket som over.
+2. Hvis kilden ikke har et lovlig bilde: finn et **illustrasjonsbilde** som passer saken på **Unsplash** eller **Pexels**. Søk med WebSearch (f.eks. «unsplash.com/photos giant pumpkin»), åpne bildesiden med WebFetch og sjekk:
+   - At det står «Free to use under the Unsplash License» (Unsplash) eller at bildet er gratis (Pexels). **Unsplash+-bilder (premium, plus.unsplash.com, «Licensed under the Unsplash+ License») skal aldri brukes.**
+   - Hent den direkte bildeadressen: `https://images.unsplash.com/photo-…?w=1600&q=80&auto=format&fit=crop` eller `https://images.pexels.com/photos/ID/pexels-photo-ID.jpeg?auto=compress&cs=tinysrgb&w=1600`.
+   - Velg bilder av ting, steder, dyr eller natur. Unngå gjenkjennelige personer som kan forveksles med de som er omtalt i saken, og aldri bilder av barn.
+   - Legg til `"illustrasjon": true`, `"kreditt": "Fotograf / Unsplash"` (eller Pexels), `"lisens": "Unsplash-lisens"` (eller «Pexels-lisens») og `"kilde_url"` til bildesiden. Siden merker da bildet som «Illustrasjonsfoto».
+3. Finnes ingen passende bilde, utelat `bilde`. Saken vises da med bare tekst.
 
 ## 4. Skriv saken
 
@@ -81,12 +106,12 @@ Hver sak legges inn i `saker` i `data/saker.json` med disse feltene:
 ```
 
 - `brodtekst`: 3–6 avsnitt, gjerne én eller to mellomtitler (avsnitt som starter med `## `).
-- Tillatte kategorier: `norge`, `verden`, `vitenskap`, `helse`, `klima-og-miljo`, `dyr-og-natur`, `teknologi`, `verdensrommet`, `kultur`, `sport`, `sma-gleder`. Første kategori er hovedkategorien. Bruk `norge` for alle norske saker.
+- Tillatte kategorier: `norge`, `verden`, `vitenskap`, `helse`, `klima-og-miljo`, `dyr-og-natur`, `teknologi`, `verdensrommet`, `kultur`, `sport`, `musikk`, `sma-gleder`. Første kategori er hovedkategorien. Bruk `norge` for alle norske saker.
 - `kilder`: minst én kilde du faktisk har åpnet. Lenk helst til originalkilden (studien, myndigheten, forskningsinstitusjonen) i tillegg til mediet.
 
 ## 5. Dagens topp 3
 
-Hvis `topp3_last` er `false`, velg de tre beste sakene fra de siste 48 timene og sett deres `id`-er i `topp3`. Velg helst en blanding: minst én stor nyhet og, hvis mulig, én gladsak. Hvis `topp3_last` er `true`, har redaktøren låst den. Da skal `topp3` ikke endres.
+Hvis `topp3_last` er `false`, velg de tre beste sakene fra de siste 48 timene og sett deres `id`-er i `topp3`. Velg helst en blanding: minst én stor nyhet og, hvis mulig, én gladsak. Oppdater topp 3 når det kommer en sterkere sak, men ikke oftere enn nødvendig. Hvis `topp3_last` er `true`, har redaktøren låst den. Da skal `topp3` ikke endres.
 
 ## 6. Redaktørens overstyringer – respekter alltid
 

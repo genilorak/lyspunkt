@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-21T07:15:00+02:00",
+  "oppdatert": "2026-10-21T13:30:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -42,7 +42,15 @@
         }
       ],
       "status": "publisert",
-      "ai_assistert": true
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1542647879-d84f68115c67?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Nærbilde av et blått øye",
+        "kreditt": "Kalea Jerielle / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/person-opening-his-right-eye-with-blue-iris-fuBj4vkp4-g",
+        "illustrasjon": true
+      }
     },
     {
       "id": "studland-sjogress",
@@ -71,7 +79,15 @@
         }
       ],
       "status": "publisert",
-      "ai_assistert": true
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1692131356177-72b2924d63f1?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Kritthøydene ved Old Harry Rocks, like ved Studland Bay i Dorset",
+        "kreditt": "Bill Eccles / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-boat-is-on-the-water-near-a-cliff-yBp-bpQWXRs",
+        "illustrasjon": true
+      }
     },
     {
       "id": "elbilrekord-norden",
@@ -100,7 +116,15 @@
         }
       ],
       "status": "publisert",
-      "ai_assistert": true
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1745392842741-10dd83fa4dca?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En ladekabel kobles til en elbil",
+        "kreditt": "go-e / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/someone-is-plugging-in-an-electric-car-to-charge-4uIHG_JKbmY",
+        "illustrasjon": true
+      }
     },
     {
       "id": "jentehelse-indeks",
@@ -131,7 +155,15 @@
         }
       ],
       "status": "publisert",
-      "ai_assistert": true
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.pexels.com/photos/48604/pexels-photo-48604.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "alt": "Stetoskop på et skrivebord",
+        "kreditt": "Negative Space / Pexels",
+        "lisens": "Pexels-lisens",
+        "kilde_url": "https://pexels.com/photo/48604",
+        "illustrasjon": true
+      }
     },
     {
       "id": "uio-maaneradar",
@@ -194,7 +226,15 @@
         }
       ],
       "status": "publisert",
-      "ai_assistert": true
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.pexels.com/photos/4031321/pexels-photo-4031321.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "alt": "Forskere ser i mikroskop i et laboratorium",
+        "kreditt": "Edward Jenner / Pexels",
+        "lisens": "Pexels-lisens",
+        "kilde_url": "https://pexels.com/photo/4031321",
+        "illustrasjon": true
+      }
     },
     {
       "id": "bensinbiler-under-halvparten",
@@ -221,7 +261,15 @@
         }
       ],
       "status": "publisert",
-      "ai_assistert": true
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.pexels.com/photos/12737898/pexels-photo-12737898.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "alt": "Nærbilde av en elbil som lades",
+        "kreditt": "Magda Ehlers / Pexels",
+        "lisens": "Pexels-lisens",
+        "kilde_url": "https://pexels.com/photo/12737898",
+        "illustrasjon": true
+      }
     },
     {
       "id": "verdens-hoyeste-vindturbin",
@@ -248,7 +296,15 @@
         }
       ],
       "status": "publisert",
-      "ai_assistert": true
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1737280361800-56204a9c3cdc?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En vindturbin står alene i et åpent jorde",
+        "kreditt": "Maik Winnecke / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-wind-turbine-in-the-middle-of-a-field-AkSAe4hlM68",
+        "illustrasjon": true
+      }
     },
     {
       "id": "amazonas-avskoging",
@@ -275,7 +331,15 @@
         }
       ],
       "status": "publisert",
-      "ai_assistert": true
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1574238778303-05c44452ecd5?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Frodig tre ved en elv i Amazonas",
+        "kreditt": "Sébastien Goldberg / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/green-tree-near-body-of-water-under-white-and-blue-sky-w6AIRxw8XSY",
+        "illustrasjon": true
+      }
     },
     {
       "id": "savannah-fugleoy",
@@ -329,7 +393,15 @@
         }
       ],
       "status": "publisert",
-      "ai_assistert": true
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1759829307916-3e29700c1d7f?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En svarthalsdykker svømmer i en siv-dam",
+        "kreditt": "Didier Provost / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-black-necked-grebe-swims-in-a-reedy-pond-qPgk0ukNBwc",
+        "illustrasjon": true
+      }
     },
     {
       "id": "bleieinnsamling-sloan",
@@ -354,7 +426,15 @@
         }
       ],
       "status": "publisert",
-      "ai_assistert": true
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1695998575453-f155392a95ba?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En stabel bleier i gresset",
+        "kreditt": "Šárka Hyková / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-stack-of-diapers-sitting-on-top-of-a-lush-green-field-TgVsbTe_-Bk",
+        "illustrasjon": true
+      }
     },
     {
       "id": "nordisk-rad-storeslem",
@@ -391,7 +471,15 @@
         }
       ],
       "status": "publisert",
-      "ai_assistert": true
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1499447155021-4907f71b9ef5?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Bøker i en bokhylle på et bibliotek",
+        "kreditt": "CHUTTERSNAP / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/stack-of-books-on-bookshelf-inside-library-984e1Fk4E04",
+        "illustrasjon": true
+      }
     },
     {
       "id": "tv-aksjonen-2026",
@@ -424,7 +512,15 @@
         }
       ],
       "status": "publisert",
-      "ai_assistert": true
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Hender som holder mynter og en lapp der det står «make a change»",
+        "kreditt": "Katt Yukawa / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/person-showing-both-hands-with-make-a-change-note-and-coins-K0E6E0a0R3A",
+        "illustrasjon": true
+      }
     },
     {
       "id": "koraller-beroring",
@@ -579,7 +675,15 @@
         }
       ],
       "status": "publisert",
-      "ai_assistert": true
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "alt": "Forsker i laboratoriefrakk ser i mikroskop",
+        "kreditt": "Pixabay / Pexels",
+        "lisens": "Pexels-lisens",
+        "kilde_url": "https://pexels.com/photo/356040",
+        "illustrasjon": true
+      }
     },
     {
       "id": "mmx-phobos",
@@ -658,7 +762,15 @@
         }
       ],
       "status": "publisert",
-      "ai_assistert": true
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1571726656333-2640ca759d22?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Turner i ringene",
+        "kreditt": "Tobias Nii Kwatei Quartey / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/man-acrobat-on-two-ring-hoops-eGdGkZAI6h4",
+        "illustrasjon": true
+      }
     },
     {
       "id": "rules-london-national-trust",
@@ -666,7 +778,6 @@
       "ingress": "Restauranten Rules har servert mat i Covent Garden siden 1798. Nå har eieren gitt bygningen til veldedige National Trust, og restauranten skal drive videre som før.",
       "kategorier": [
         "kultur",
-        "sma-gleder",
         "verden"
       ],
       "kildedato": "2026-10-14",
@@ -691,7 +802,15 @@
         }
       ],
       "status": "publisert",
-      "ai_assistert": true
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1697656358710-7ef7bcf095a9?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Et rom med bord, stoler og vindu i London",
+        "kreditt": "Lawrence Chismorie / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-room-with-a-table-chairs-and-a-window-60JVrJ95Vds",
+        "illustrasjon": true
+      }
     },
     {
       "id": "hepatitt-b-bepirovirsen",
@@ -726,7 +845,15 @@
         }
       ],
       "status": "publisert",
-      "ai_assistert": true
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1523299174285-a59d80640155?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Tre hvite kapsler",
+        "kreditt": "Hush Naidoo Jade Photography / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/three-white-capsules-QTu7FStK4AE",
+        "illustrasjon": true
+      }
     },
     {
       "id": "sommelier-vm-svorte",
@@ -734,8 +861,7 @@
       "ingress": "Nikolai Haram Svorte (29) fra Sula vant VM for sommelierer i Lisboa, i sitt første forsøk. Ifølge Aftenposten er det første gang en nordmann vinner.",
       "kategorier": [
         "norge",
-        "kultur",
-        "sma-gleder"
+        "kultur"
       ],
       "kildedato": "2026-10-17",
       "publisert": "2026-10-21T07:15:00+02:00",
@@ -758,7 +884,15 @@
         }
       ],
       "status": "publisert",
-      "ai_assistert": true
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1653697739273-de3ffa3d9ffe?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Rødvin skjenkes i et glass",
+        "kreditt": "KIM DAEYOUNG / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-person-pouring-red-wine-into-a-wine-glass-5ka611SHxQo",
+        "illustrasjon": true
+      }
     },
     {
       "id": "gresskar-verdensrekord-3156",
@@ -789,7 +923,15 @@
         }
       ],
       "status": "publisert",
-      "ai_assistert": true
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1760659957242-584db19ed796?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En haug fargerike gresskar i ulike størrelser",
+        "kreditt": "David Trinks / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-pile-of-colorful-pumpkins-in-varying-sizes-sCBmrEYWA6o",
+        "illustrasjon": true
+      }
     },
     {
       "id": "artsallianse-500-millioner",
@@ -821,6 +963,108 @@
           "url": "https://carbon-pulse.com/561416/"
         }
       ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1603027638098-f0403ad0c8c6?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Nærbilde av en tiger",
+        "kreditt": "Keyur Nandaniya / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/tiger-in-forest-during-daytime-flw0WJXbZfw",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "orangutang-unge-fresno",
+      "tittel": "Orangutangmamma Negara har fått en liten datter",
+      "ingress": "En kritisk truet sumatraorangutang ble født i Fresno Chaffee Zoo. Nå får besøkende stemme over navnet hennes.",
+      "kategorier": [
+        "sma-gleder",
+        "dyr-og-natur"
+      ],
+      "kildedato": "2026-10-15",
+      "publisert": "2026-10-21T13:30:00+02:00",
+      "brodtekst": [
+        "5. oktober fikk orangutangen Negara en datter i Fresno Chaffee Zoo i California. Det er Negaras første unge i dyreparken, og ifølge dyreparken gjør hun en fantastisk jobb som mamma.",
+        "Mor og datter knytter bånd i fred bak kulissene, mens dyrepassere og veterinærer følger med. Navnet er ikke bestemt ennå: besøkende kan stemme mellom Marigold, Ru og Lyra."
+      ],
+      "hvorfor_hap": "Sumatraorangutangen er kritisk truet i naturen, så hver nye unge teller.",
+      "usikkert": "",
+      "kilder": [
+        {
+          "navn": "KMPH: «Fresno Chaffee Zoo welcomes baby Sumatran orangutan» (15. oktober 2026)",
+          "url": "https://kmph.com/news/local/fresno-chaffee-zoo-welcomes-baby-sumatran-orangutan"
+        }
+      ],
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1727004135367-05ca2ad5cad0?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En orangutangmor holder ungen sin",
+        "kreditt": "Simone Dinoia / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-mother-oranguel-holding-her-baby-in-her-arms-To1rb1vVJHw",
+        "illustrasjon": true
+      },
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "pumasoskenne-takoda-juniper",
+      "tittel": "Foreldreløse pumasøsken har fått et nytt hjem",
+      "ingress": "Takoda og Juniper ble funnet alene da de bare var noen uker gamle. Nå har de vist seg fram for publikum for første gang.",
+      "kategorier": [
+        "sma-gleder",
+        "dyr-og-natur"
+      ],
+      "kildedato": "2026-10-20",
+      "publisert": "2026-10-21T13:30:00+02:00",
+      "brodtekst": [
+        "Pumasøsknene ble funnet som foreldreløse i South Dakota da de bare var et par uker gamle. De var for små til å klare seg selv, og kan derfor ikke settes ut i naturen igjen.",
+        "Siden juni har bror og søster bodd i Central Florida Zoo. Nå har de hatt sin offentlige debut. Takoda betyr «venn med alle», mens Juniper er oppkalt etter einertreet, som vokser naturlig i South Dakota."
+      ],
+      "hvorfor_hap": "Søsknene fikk vokse opp sammen og trygt, og hjelper nå besøkende å lære mer om pumaer i naturen.",
+      "usikkert": "",
+      "kilder": [
+        {
+          "navn": "Orlando Weekly: «Central Florida Zoo welcomes new baby cougars» (20. oktober 2026)",
+          "url": "https://www.orlandoweekly.com/arts/central-florida-zoo-welcomes-new-baby-cougars/"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "p3-gull-arets-album",
+      "tittel": "P3 Gull innfører pris for årets album, og fem norske plater kjemper om den",
+      "ingress": "TOMORA, Iris Caltwait, Konradsen, Tobias Sten og ARY er nominert når P3 Gull for første gang hedrer et helt album.",
+      "kategorier": [
+        "musikk",
+        "norge",
+        "kultur"
+      ],
+      "kildedato": "2026-10-15",
+      "publisert": "2026-10-21T13:30:00+02:00",
+      "brodtekst": [
+        "P3 Gull deler i år for første gang ut prisen «Årets album». Prisen skal hedre norske artister som fortsatt satser på albumformatet, i en tid der spillelister og algoritmer styrer mer og mer av hvordan vi hører musikk.",
+        "## De nominerte",
+        "De fem nominerte er TOMORA med «Come Closer», Iris Caltwait med «Again, for the First Time», Konradsen med «Hunt, Gather», Tobias Sten med «Heimakjær» og ARY med «Darkstar». Det er P3-juryen som kårer vinneren.",
+        "Prisutdelingen er fredag 6. november på NRK Marienlyst i Oslo."
+      ],
+      "hvorfor_hap": "Albumet som kunstform får ny oppmerksomhet, og fem norske artister får løftet fram hele plater, ikke bare enkeltlåter.",
+      "usikkert": "Vinneren kåres først 6. november.",
+      "kilder": [
+        {
+          "navn": "Gaffa: «P3 Gull introduserer ny pris – disse fem kan vinne» (15. oktober 2026)",
+          "url": "https://gaffa.no/nyheter/2026/oktober/p3-gull-introduserer-ny-pris-disse-fem-kan-vinne"
+        }
+      ],
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1697238724753-60c0c31132d3?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En platespiller med en vinylplate",
+        "kreditt": "Taylor Burnfield / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-record-player-with-a-record-in-the-middle-of-it-xSVRqrI1lu0",
+        "illustrasjon": true
+      },
       "status": "publisert",
       "ai_assistert": true
     }
