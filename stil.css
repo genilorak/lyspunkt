@@ -5,7 +5,7 @@ a{color:#16120F;text-decoration:none}a:hover{color:#0E7A4E}
 .ser{font-family:'Instrument Serif',Georgia,serif;font-weight:400}
 .kick{font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:700}
 .meta{font-size:12px;color:#5E665F}
-.wrap{width:1440px;margin:0 auto;min-height:100vh;display:flex;flex-direction:column}
+.wrap{width:100%;margin:0;box-sizing:border-box;min-height:100vh;display:flex;flex-direction:column}
 .inner{padding:0 56px}
 .ticker{background:#FFFFFF;border-bottom:1px solid #EFE6D6;height:40px;display:flex;align-items:center;gap:20px;padding:0 56px;font-size:14px;font-weight:500;white-space:nowrap;overflow:hidden}
 .ticker .t{background:#FFE98A;padding:2px 7px;border-radius:6px;margin-right:6px;font-family:'Bricolage Grotesque',sans-serif;font-weight:700}
@@ -30,7 +30,7 @@ main{flex:1}
 .card .txt{padding:20px 22px 24px;display:flex;flex-direction:column;gap:8px;flex:1}
 .card h3{margin:0;font-family:'Bricolage Grotesque',sans-serif;font-size:23px;font-weight:700;line-height:1.05;letter-spacing:-0.02em}
 .card p{margin:0;font-size:14px;line-height:1.5;color:#3D4540}
-.topp{min-height:340px;border-radius:22px;overflow:hidden;display:flex;flex-direction:column}
+.topp{border-radius:22px;overflow:hidden;display:flex;flex-direction:column}
 .topp .img{height:250px;flex:none}
 .topp .txt{padding:26px 28px 28px;display:flex;flex-direction:column;gap:12px;flex:1}
 .topp h3{margin:0;font-family:'Bricolage Grotesque',sans-serif;font-size:34px;font-weight:800;line-height:.98;letter-spacing:-0.03em}
@@ -55,5 +55,48 @@ input[type=search],input[type=email],input[type=text],textarea{font:inherit;font
 textarea{border-radius:20px;padding:16px 20px;height:160px;width:100%}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 :focus-visible{outline:3px solid #4F6E9E;outline-offset:2px}
+
+.grid3,[style*="repeat(2,minmax(0,1fr))"],[style*="repeat(3,minmax(0,1fr))"]{align-items:start}
+[style*="repeat(12,minmax(0,1fr))"]{align-items:start}
+.inner,.hdr,.ticker,.foot-in,.foot-band{padding-left:max(56px,calc((100% - 1328px) / 2))!important;padding-right:max(56px,calc((100% - 1328px) / 2))!important}
+img,svg{max-width:100%}
+.nav{overflow-x:auto;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+@media (max-width:1180px){
+  .grid3{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .nav{justify-content:flex-start}
+  [style*="grid-column:span 8"],[style*="grid-column:span 4"]{grid-column:1 / -1!important}
+}
+@media (max-width:900px){
+  .inner,.hdr,.ticker,.foot-in,.foot-band{padding-left:20px!important;padding-right:20px!important}
+  [style*="repeat(12,minmax(0,1fr))"]{grid-template-columns:1fr!important}
+  [style*="grid-column:"]{grid-column:1 / -1!important}
+  [style*="repeat(2,minmax(0,1fr))"]{grid-template-columns:1fr!important}
+  .foot-links{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+  .foot-links .col{grid-column:auto!important}
+  main section[style*="border-radius"]{padding:28px 22px!important}
+  main section[style*="justify-content:space-between"]{flex-wrap:wrap}
+  .hdr-top{grid-template-columns:1fr auto;height:auto;padding:16px 0;gap:12px}
+  .hdr-top>span:first-child{display:none}
+  .hdr-top>div:nth-child(2){align-items:flex-start!important}
+  .hdr-top .ser{padding-left:0!important;font-size:16px!important}
+  .hdr-top .bri{font-size:32px!important}
+  .shead{flex-wrap:wrap;gap:8px}
+  [style*="grid-template-columns:110px 200px 1fr"],[style*="grid-template-columns:200px 1fr"]{grid-template-columns:1fr!important;gap:6px!important}
+  [style*="height:480px"]{height:260px!important}
+  .prose p{font-size:17px}
+  .foot-in .bri[style*="font-size:64px"]{font-size:44px!important}
+  .foot-in .ser{padding-left:0!important}
+  [style*="margin:-28px -56px -48px"]{margin:-20px -20px -48px!important}
+  .foot svg[width="600"]{width:100%;height:auto}
+}
+@media (max-width:640px){
+  .grid3{grid-template-columns:1fr}
+  [style*="repeat(3,minmax(0,1fr))"]{grid-template-columns:1fr!important}
+  .ticker{font-size:13px}
+  .topp h3{font-size:28px}
+  .h2{font-size:32px}
+  form [style*="display:flex;gap:8px"]{flex-direction:column}
+}
 html.dark{filter:invert(1) hue-rotate(180deg);background:#000}
 html.dark img{filter:invert(1) hue-rotate(180deg)}
