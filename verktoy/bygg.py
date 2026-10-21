@@ -31,6 +31,7 @@ DAGER = ['Mandag', 'Tirsdag', 'Onsdag', 'Torsdag', 'Fredag', 'Lørdag', 'Søndag
 SAKER = [s for s in DATA['saker'] if s.get('status', 'publisert') == 'publisert' and s.get('kategorier')]
 SAKER.sort(key=lambda s: (s.get('kildedato', ''), s.get('publisert', '')), reverse=True)
 BY = {s['id']: s for s in SAKER}
+SISTE = sorted(SAKER, key=lambda s: (s.get('publisert', ''), s.get('kildedato', '')), reverse=True)
 e = html.escape
 
 def dato(iso, aar=False):
@@ -99,7 +100,13 @@ a{color:#16120F;text-decoration:none}a:hover{color:#0E7A4E}
 .meta{font-size:12px;color:#5E665F}
 .wrap{width:100%;margin:0;box-sizing:border-box;min-height:100vh;display:flex;flex-direction:column}
 .inner{padding:0 56px}
-.ticker{background:#FFFFFF;border-bottom:1px solid #EFE6D6;height:40px;display:flex;align-items:center;gap:20px;padding:0 56px;font-size:14px;font-weight:500;white-space:nowrap;overflow:hidden}
+.ticker{background:#FFFFFF;border-bottom:1px solid #EFE6D6;height:40px;display:flex;align-items:center;gap:16px;padding:0 56px;font-size:14px;font-weight:500;white-space:nowrap;overflow:hidden}
+.tvindu{flex:1;overflow:hidden;-webkit-mask-image:linear-gradient(to right,transparent,#000 24px,#000 calc(100% - 24px),transparent);mask-image:linear-gradient(to right,transparent,#000 24px,#000 calc(100% - 24px),transparent)}
+.tbane{display:inline-flex;gap:20px;align-items:center;padding-left:8px;animation:rull 90s linear infinite}
+.tbane:hover,.ticker:focus-within .tbane{animation-play-state:paused}
+.tbane .sep{opacity:.35}
+@keyframes rull{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.tbane{animation:none}}
 .ticker .t{background:#FFE98A;padding:2px 7px;border-radius:6px;margin-right:6px;font-family:'Bricolage Grotesque',sans-serif;font-weight:700}
 .pill{display:inline-flex;align-items:center;font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;padding:4px 10px;border-radius:999px}
 .hdr{padding:0 56px;border-bottom:1.5px solid #16120F}
@@ -130,8 +137,8 @@ main{flex:1}
 .blokk{border-radius:22px;padding:28px;display:flex;flex-direction:column}
 .blokk .rad{display:grid;grid-template-columns:1fr auto;gap:16px;align-items:baseline;padding:14px 0;border-bottom:1px solid rgba(22,18,15,.1)}
 .blokk .rad:last-child{border-bottom:none;padding-bottom:0}
-.foot{background:#FFF3C2;margin-top:88px;display:flex;flex-direction:column}
-.foot-in{padding:64px 56px 0;display:flex;flex-direction:column;gap:48px}
+.foot{background:#FFF3C2;margin-top:64px;display:flex;flex-direction:column}
+.foot-in{padding:44px 56px 0;display:flex;flex-direction:column;gap:32px}
 .foot-links{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;font-size:14px;line-height:1.8;padding-top:32px;border-top:1.5px solid rgba(22,18,15,.15)}
 .foot-links .col{grid-column:span 3;display:flex;flex-direction:column}
 .foot-band{background:#FFC93A;padding:18px 56px;text-align:center;font-size:12px;color:#5C4600}
@@ -186,7 +193,7 @@ img,svg{max-width:100%}
   .prose p{font-size:17px}
   .foot-in .bri[style*="font-size:64px"]{font-size:44px!important}
   .foot-in .ser{padding-left:0!important}
-  [style*="margin:-28px -56px -48px"]{margin:-20px -20px -48px!important}
+  [style*="margin:-8px -56px -32px"]{margin:-8px -20px -32px!important}
   .foot svg[width="600"]{width:100%;height:auto}
 }
 @media (max-width:640px){
@@ -200,6 +207,22 @@ img,svg{max-width:100%}
 html.dark{filter:invert(1) hue-rotate(180deg);background:#000}
 html.dark img{filter:invert(1) hue-rotate(180deg)}
 """
+
+SISTE_JS = r'''<script>
+(function(){
+var MND=['jan.','feb.','mars','apr.','mai','juni','juli','aug.','sep.','okt.','nov.','des.'];
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function merke(p,idag){var d=new Date(p);if(isNaN(d))return '';var o=d.toLocaleDateString('sv-SE',{timeZone:'Europe/Oslo'});if(o===idag)return d.toLocaleTimeString('nb-NO',{timeZone:'Europe/Oslo',hour:'2-digit',minute:'2-digit'});var dd=new Date(o+'T12:00:00');return dd.getDate()+'. '+MND[dd.getMonth()]}
+function oppdater(){var t=document.querySelector('.ticker');if(!t)return;var base=t.getAttribute('data-base')||'';
+fetch(base+'data/siste.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null}).then(function(d){if(!d||!d.saker||!d.saker.length)return;
+var idag=new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Oslo'});
+var it=d.saker.slice(0,10).map(function(s){return '<a href="'+base+'artikkel/'+esc(s.id)+'.html"><span class="t">'+esc(merke(s.publisert,idag))+'</span>'+esc(s.tittel)+'</a><span class="sep">/</span>'}).join('');
+var b=t.querySelector('.tbane');if(b&&b.getAttribute('data-sig')!==d.oppdatert){b.innerHTML=it+it;b.setAttribute('data-sig',d.oppdatert)}
+var l=document.getElementById('siste-liste');if(l){l.innerHTML=d.saker.slice(0,5).map(function(s){return '<a href="'+base+'artikkel/'+esc(s.id)+'.html" style="display:grid;grid-template-columns:70px 1fr;gap:10px;padding:16px 0;border-top:1px solid rgba(14,122,78,.2)"><span class="bri" style="font-weight:700;color:#0E7A4E">'+esc(merke(s.publisert,idag))+'</span><span style="font-size:16px;font-weight:600;line-height:1.35">'+esc(s.tittel)+'</span></a>'}).join('')}
+}).catch(function(){})}
+document.addEventListener('DOMContentLoaded',function(){oppdater();setInterval(oppdater,120000)});
+})();
+</script>'''
 
 THEME_JS = """<script>
 (function(){var k='lyspunkt-tema';try{if(localStorage.getItem(k)==='dark')document.documentElement.classList.add('dark')}catch(e){}
@@ -220,14 +243,23 @@ def head(title, base, desc='Lyspunkt – et lysere blikk på verden. Gode nyhete
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&amp;family=Instrument+Serif:ital@0;1&amp;family=Hanken+Grotesk:wght@400;500;600;700&amp;display=swap">
 <link rel="stylesheet" href="{base}stil.css">
 {THEME_JS}
+{SISTE_JS}
 </head>
 <body>
 <div class="wrap">
 '''
 
+def tidsmerke(s):
+    """Klokkeslett hvis saken er publisert samme dag som siste oppdatering, ellers dato."""
+    pub = s.get('publisert', '')
+    if pub[:10] == DATA.get('oppdatert', '')[:10] and len(pub) >= 16:
+        return pub[11:16]
+    return dato(pub or s['kildedato'])
+
 def ticker(base):
-    items = ''.join(f'<a href="{base}artikkel/{s["id"]}.html"><span class="t">{dato(s["kildedato"])}</span>{e(s["tittel"])}</a><span style="opacity:.35">/</span>' for s in SAKER[:4])
-    return f'<div class="ticker"><span class="pill" style="background:#FFD23F">Siste</span>{items}</div>\n'
+    items = ''.join(f'<a href="{base}artikkel/{s["id"]}.html"><span class="t">{tidsmerke(s)}</span>{e(s["tittel"])}</a><span class="sep">/</span>' for s in SISTE[:10])
+    return (f'<div class="ticker" data-base="{base}"><span class="pill" style="background:#FFD23F;flex:none;position:relative;z-index:1">Siste</span>'
+            f'<div class="tvindu"><div class="tbane">{items}{items}</div></div></div>\n')
 
 def header(base, active=None):
     nav = f'<a href="{base}index.html"{" class=\"on\"" if active == "forside" else ""}>Forsiden</a>'
@@ -277,11 +309,11 @@ def footer(base):
       <div class="col"><span class="kick" style="color:#8A6400;margin-bottom:8px">Redaksjonen</span><span>Ansvarlig redaktør: Karoline D. Gjeldnes</span><span>Sakene hentes og skrives av KI</span><a href="{base}redaksjonen.html" style="align-self:flex-start;margin-top:8px;background:#16120F;color:#FFFBF2;padding:8px 14px;border-radius:999px;font-weight:700;line-height:1.4">Om redaksjonen →</a><a href="{base}tips.html" style="margin-top:6px">Tips oss</a><a href="{base}om.html">Om Lyspunkt</a></div>
       <div class="col"><span class="kick" style="color:#8A6400;margin-bottom:8px">Slik jobber vi</span><a href="{base}prinsipper.html">Redaksjonelle prinsipper</a><a href="{base}rettelser.html">Rettelser</a><a href="{base}ai.html">Bruk av AI</a><a href="{base}personvern.html">Personvern</a></div>
     </div>
-    <div aria-hidden="true" style="display:flex;justify-content:center;margin:-28px -56px -48px">
-      <svg width="600" height="250" viewBox="0 0 600 250" style="display:block"><path d="M60 250a240 240 0 0 1 480 0z" fill="#FFE08A"></path><path d="M140 250a160 160 0 0 1 320 0z" fill="#FFC93A"></path><path d="M210 250a90 90 0 0 1 180 0z" fill="#FFB800"></path></svg>
+    <div aria-hidden="true" style="display:flex;justify-content:center;margin:-8px -56px -32px">
+      <svg width="384" height="160" viewBox="0 0 600 250" style="display:block"><path d="M60 250a240 240 0 0 1 480 0z" fill="#FFE08A"></path><path d="M140 250a160 160 0 0 1 320 0z" fill="#FFC93A"></path><path d="M210 250a90 90 0 0 1 180 0z" fill="#FFB800"></path></svg>
     </div>
   </div>
-  <div class="foot-band" style="margin-top:48px">© Lyspunkt · Sist oppdatert {dato(DATA["oppdatert"], True)} kl. {OPPDATERT.strftime("%H:%M")} · <a href="{base}ai.html" style="color:#5C4600;text-decoration:underline">Slik bruker vi AI</a></div>
+  <div class="foot-band" style="margin-top:32px">© Lyspunkt · Sist oppdatert {dato(DATA["oppdatert"], True)} kl. {OPPDATERT.strftime("%H:%M")} · <a href="{base}ai.html" style="color:#5C4600;text-decoration:underline">Slik bruker vi AI</a></div>
 </footer>
 </div>
 </body>
@@ -324,7 +356,7 @@ def forside():
             {bildeboks(s, 200, 'sgimg', 'height:200px;overflow:hidden')}
             <span class="bri" style="font-size:20px;font-weight:700;line-height:1.05;letter-spacing:-0.02em;padding:0 4px">{e(s["tittel"])}</span>
           </a>''' for i, s in enumerate(sg)) or tom()
-    siste = ''.join(f'''<a href="artikkel/{s["id"]}.html" style="display:grid;grid-template-columns:70px 1fr;gap:10px;padding:16px 0;border-top:1px solid rgba(14,122,78,.2)"><span class="bri" style="font-weight:700;color:#0E7A4E">{dato(s["kildedato"])}</span><span style="font-size:16px;font-weight:600;line-height:1.35">{e(s["tittel"])}</span></a>''' for s in SAKER[:5])
+    siste = '<div id="siste-liste">' + ''.join(f'''<a href="artikkel/{s["id"]}.html" style="display:grid;grid-template-columns:70px 1fr;gap:10px;padding:16px 0;border-top:1px solid rgba(14,122,78,.2)"><span class="bri" style="font-weight:700;color:#0E7A4E">{tidsmerke(s)}</span><span style="font-size:16px;font-weight:600;line-height:1.35">{e(s["tittel"])}</span></a>''' for s in SISTE[:5]) + '</div>'
     blokker = ''
     for k in BLOKKER:
         navn, _, tint, acc = KAT[k]
@@ -381,7 +413,7 @@ def forside():
     (function(){{var K='lyspunkt-kategorier',bx=document.querySelectorAll('.kvalg input'),bl=document.querySelectorAll('#kblokker .blokk');
     try{{var v=JSON.parse(localStorage.getItem(K)||'null');if(Array.isArray(v))bx.forEach(function(b){{b.checked=v.indexOf(b.value)>-1}})}}catch(e){{}}
     function vis(){{var on=[];bx.forEach(function(b){{if(b.checked)on.push(b.value)}});bl.forEach(function(d){{d.style.display=on.indexOf(d.dataset.kat)>-1?'':'none'}});
-    document.getElementById('kingen').style.display=on.length?'none':'block';try{{localStorage.setItem(K,JSON.stringify(on))}}catch(e){{}}}}
+    var synl=[];bl.forEach(function(d){{d.style.gridColumn='';if(d.style.display!=='none')synl.push(d)}});if(synl.length%2===1)synl[synl.length-1].style.gridColumn='1 / -1';document.getElementById('kingen').style.display=on.length?'none':'block';try{{localStorage.setItem(K,JSON.stringify(on))}}catch(e){{}}}}
     bx.forEach(function(b){{b.addEventListener('change',vis)}});document.getElementById('kalle').addEventListener('click',function(){{bx.forEach(function(b){{b.checked=true}});vis()}});vis();}})();
     </script>
   </section>
@@ -638,4 +670,6 @@ if __name__ == '__main__':
     with open(os.path.join(ROT, 'stil.css'), 'w', encoding='utf-8') as f:
         f.write(CSS)
     forside(); kategorier(); artikler(); lister(); statiske()
+    with open(os.path.join(ROT, 'data', 'siste.json'), 'w', encoding='utf-8') as f:
+        json.dump({'oppdatert': DATA.get('oppdatert'), 'saker': [{'id': s['id'], 'tittel': s['tittel'], 'publisert': s.get('publisert') or s['kildedato']} for s in SISTE[:15]]}, f, ensure_ascii=False)
     print(f'Bygget nettstedet: {len(SAKER)} publiserte saker.')
