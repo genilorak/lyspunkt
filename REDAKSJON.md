@@ -106,7 +106,7 @@ Hver sak legges inn i `saker` i `data/saker.json` med disse feltene:
 ```
 
 - `brodtekst`: 3–6 avsnitt, gjerne én eller to mellomtitler (avsnitt som starter med `## `).
-- Tillatte kategorier: `norge`, `verden`, `vitenskap`, `helse`, `klima-og-miljo`, `dyr-og-natur`, `teknologi`, `verdensrommet`, `kultur`, `sport`, `musikk`, `sma-gleder`. Første kategori er hovedkategorien. Bruk `norge` for alle norske saker.
+- Tillatte kategorier: `norge`, `verden`, `vitenskap`, `helse`, `kvinnehelse`, `klima-og-miljo`, `dyr-og-natur`, `teknologi`, `verdensrommet`, `kultur`, `sport`, `musikk`, `sma-gleder`. Første kategori er hovedkategorien. Bruk `norge` for alle norske saker. `kvinnehelse` er en underkategori av Helse: saker om kvinners helse (for eksempel graviditet, fødsel, overgangsalder, endometriose, brystkreft, livmorhalskreft og forskning på kvinner) får både `kvinnehelse` og `helse`.
 - `kilder`: minst én kilde du faktisk har åpnet. Lenk helst til originalkilden (studien, myndigheten, forskningsinstitusjonen) i tillegg til mediet.
 
 ## 5. Dagens topp 3

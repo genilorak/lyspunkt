@@ -13,6 +13,7 @@ KAT = {
     'verden': ('Verden', 'Fremskritt, samarbeid og gode historier fra hele kloden.', '#E9E1FF', '#6C4FD6'),
     'vitenskap': ('Vitenskap', 'Oppdagelser og forskning som flytter grensene — med forbeholdene på plass.', '#E2F4F1', '#137A6E'),
     'helse': ('Helse', 'Nye behandlinger, bedre folkehelse og forskning som gir håp.', '#E6EFFD', '#3A64B5'),
+    'kvinnehelse': ('Kvinnehelse', 'Forskning, behandling og fremskritt for kvinners helse gjennom hele livet.', '#FCE8EE', '#B23A5E'),
     'klima-og-miljo': ('Klima og miljø', 'Løsninger, naturrestaurering og tiltak som faktisk virker.', '#EEF5DC', '#5C7F14'),
     'dyr-og-natur': ('Dyr og natur', 'Arter som kommer tilbake, dyr som blir reddet og natur som leges.', '#E4F5E8', '#2E8A4F'),
     'teknologi': ('Teknologi', 'Oppfinnelser og innovasjon som gjør hverdagen og verden bedre.', '#E3E9F4', '#4F6E9E'),
@@ -22,9 +23,9 @@ KAT = {
     'musikk': ('Musikk', 'Nyslupne låter, nye stjerneskudd og gode nyheter fra musikkverdenen.', '#FFEEDB', '#A65300'),
     'sma-gleder': ('Små gleder', 'Hjertevarme, søte og morsomme historier som gjør dagen litt bedre.', '#FFF1B8', '#8A6400'),
 }
-NAV = ['norge', 'verden', 'vitenskap', 'helse', 'klima-og-miljo', 'dyr-og-natur', 'teknologi', 'verdensrommet', 'musikk', 'kultur', 'sport', 'sma-gleder']
-BLOKKER = ['norge', 'verden', 'vitenskap', 'helse', 'klima-og-miljo', 'dyr-og-natur', 'teknologi', 'verdensrommet', 'musikk', 'kultur', 'sport', 'sma-gleder']
-STANDARD_VALGT = ['vitenskap', 'dyr-og-natur', 'helse', 'verdensrommet', 'klima-og-miljo', 'norge', 'musikk', 'kultur', 'sport']
+NAV = ['norge', 'verden', 'vitenskap', 'helse', 'kvinnehelse', 'klima-og-miljo', 'dyr-og-natur', 'teknologi', 'verdensrommet', 'musikk', 'kultur', 'sport', 'sma-gleder']
+BLOKKER = ['norge', 'verden', 'vitenskap', 'helse', 'kvinnehelse', 'klima-og-miljo', 'dyr-og-natur', 'teknologi', 'verdensrommet', 'musikk', 'kultur', 'sport', 'sma-gleder']
+STANDARD_VALGT = ['vitenskap', 'dyr-og-natur', 'helse', 'kvinnehelse', 'verdensrommet', 'klima-og-miljo', 'norge', 'musikk', 'kultur', 'sport']
 MND = ['jan.', 'feb.', 'mars', 'apr.', 'mai', 'juni', 'juli', 'aug.', 'sep.', 'okt.', 'nov.', 'des.']
 DAGER = ['Mandag', 'Tirsdag', 'Onsdag', 'Torsdag', 'Fredag', 'Lørdag', 'Søndag']
 
@@ -112,8 +113,8 @@ a{color:#16120F;text-decoration:none}a:hover{color:#0E7A4E}
 .hdr{padding:0 56px;border-bottom:1.5px solid #16120F}
 .hdr-top{height:118px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center}
 .iconbtn{width:44px;height:44px;border:1.5px solid #16120F;background:transparent;border-radius:22px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#16120F}
-.nav{height:56px;border-top:1px solid #EFE6D6;display:flex;align-items:center;justify-content:center;gap:6px;font-size:15px;font-weight:600}
-.nav a{padding:9px 14px;border-radius:999px;white-space:nowrap;flex:none}
+.nav{height:56px;border-top:1px solid #EFE6D6;display:flex;align-items:center;justify-content:center;gap:2px;font-size:15px;font-weight:600}
+.nav a{padding:9px 12px;border-radius:999px;white-space:nowrap;flex:none}
 .nav a.on{background:#16120F;color:#FFFBF2}
 .nav a.sg{background:#FFE89A}
 .nav a.sg.on{background:#16120F;color:#FFFBF2}
@@ -168,6 +169,9 @@ textarea{border-radius:20px;padding:16px 20px;height:160px;width:100%}
 img,svg{max-width:100%}
 .nav{overflow-x:auto;scrollbar-width:none}
 .nav::-webkit-scrollbar{display:none}
+@media (max-width:1360px){
+  .nav{justify-content:flex-start}
+}
 @media (max-width:1180px){
   .grid3{grid-template-columns:repeat(2,minmax(0,1fr))}
   .nav{justify-content:flex-start}
@@ -284,7 +288,7 @@ def header(base, active=None):
 '''
 
 def footer(base):
-    k1 = ''.join(f'<a href="{base}kategori/{s}.html">{KAT[s][0]}</a>' for s in ['norge', 'verden', 'vitenskap', 'helse', 'klima-og-miljo', 'dyr-og-natur'])
+    k1 = ''.join(f'<a href="{base}kategori/{s}.html">{KAT[s][0]}</a>' for s in ['norge', 'verden', 'vitenskap', 'helse', 'kvinnehelse', 'klima-og-miljo', 'dyr-og-natur'])
     k2 = ''.join(f'<a href="{base}kategori/{s}.html">{KAT[s][0]}</a>' for s in ['teknologi', 'verdensrommet', 'musikk', 'kultur', 'sport', 'sma-gleder'])
     return f'''<footer class="foot">
   <div class="foot-in">
@@ -428,15 +432,21 @@ def kategorier():
         ss = [s for s in SAKER if k in s['kategorier']]
         cards = '\n'.join(card(s, base) for s in ss)
         innhold = f'<div class="grid3">{cards}</div>' if ss else tom()
+        crumb = f'<a href="{base}kategori/helse.html">Helse</a> / {navn}' if k == 'kvinnehelse' else navn
+        kick = 'Underkategori av Helse' if k == 'kvinnehelse' else 'Kategori'
+        under = ''
+        if k == 'helse':
+            kn, _, kt, ka = KAT['kvinnehelse']
+            under = f'<a href="{base}kategori/kvinnehelse.html" class="bri" style="font-size:15px;font-weight:700;color:{ka};background:#FFFFFF;padding:12px 18px;border-radius:999px;white-space:nowrap">{kn} →</a>'
         write(f'kategori/{k}.html', head(f'{navn} – Lyspunkt', base, desc) + header(base, k) + f'''<main class="inner">
-  <div class="crumb"><a href="{base}index.html">Forsiden</a> / {navn}</div>
+  <div class="crumb"><a href="{base}index.html">Forsiden</a> / {crumb}</div>
   <section style="background:{tint};border-radius:24px;padding:48px 56px;margin:20px 0 40px;display:flex;align-items:center;justify-content:space-between;gap:40px">
     <div style="display:flex;flex-direction:column;gap:12px;max-width:760px">
-      <span class="kick" style="color:{acc}">Kategori</span>
+      <span class="kick" style="color:{acc}">{kick}</span>
       <h1 class="h1" style="font-size:clamp(36px,6vw,64px)">{navn}</h1>
       <p style="margin:0;font-size:19px;line-height:1.5;color:#3D4540">{desc}</p>
     </div>
-    <span class="bri" style="font-size:15px;font-weight:700;color:{acc};background:#FFFFFF;padding:12px 18px;border-radius:999px;white-space:nowrap">{len(ss)} {"sak" if len(ss) == 1 else "saker"}</span>
+    {under}
   </section>
   {innhold}
 </main>
