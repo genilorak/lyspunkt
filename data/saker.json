@@ -1,10 +1,10 @@
 {
-  "oppdatert": "2026-10-21T13:30:00+02:00",
+  "oppdatert": "2026-10-21T13:45:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
-    "sommelier-vm-svorte",
-    "mmx-phobos"
+    "thames-supersluk-86-prosent",
+    "sommelier-vm-svorte"
   ],
   "avvist": [
     "savannah-fugleoy",
@@ -1067,6 +1067,129 @@
       },
       "status": "publisert",
       "ai_assistert": true
+    },
+    {
+      "id": "thames-supersluk-86-prosent",
+      "tittel": "Superkloakken i London kuttet kloakkutslipp til Themsen med 86 prosent",
+      "ingress": "Den første årsrapporten fra Thames Tideway-tunnelen viser at overløpsutslippene til tidevannsdelen av Themsen falt med 86 prosent i 2025, sammenlignet med tiden før tunnelen.",
+      "kategorier": [
+        "klima-og-miljo",
+        "verden"
+      ],
+      "kildedato": "2026-10-13",
+      "publisert": "2026-10-21T13:45:00+02:00",
+      "brodtekst": [
+        "Når det regner mye, renner Londons kloakksystem over, og urenset avløpsvann går rett ut i Themsen. Den 25 kilometer lange Thames Tideway-tunnelen ble bygget for å fange opp dette overløpet før det når elva.",
+        "Nå har tunnelen fått sin første helårsvurdering. Ifølge rapporten gikk det i underkant av 3 millioner kubikkmeter overløpsvann ut i tidevannsdelen av Themsen i 2025. Før tunnelen var gjennomsnittet over 21 millioner kubikkmeter i året. Det tilsvarer en nedgang på 86 prosent.",
+        "## Mindre søppel og færre risikodager",
+        "Tunnelen holdt også rundt 84 tonn kloakkrelatert søppel, som våtservietter og bind, unna elva i 2025. For hele Tideway-systemet er tallet rundt 130 tonn. Miljøorganisasjonen Thames21, som overvåker strandsonen langs elva, fant at andelen kloakkrelatert søppel falt fra 30 til 18 prosent av alt søppel de registrerte.",
+        "Andelen dager med økt helserisiko for folk som bruker elva, på grunn av overløp, falt fra et gjennomsnitt på 75,7 prosent av dagene til 10,4 prosent. Bare én hendelse med oksygensvikt i vannet ble knyttet til overløp i løpet av året.",
+        "Driften av tunnelen er nå overført fra Tideway til Thames Water, mens Tideway beholder eierskapet."
+      ],
+      "hvorfor_hap": "Tallene viser at et stort, målrettet infrastrukturprosjekt kan gi tydelig renere vann på kort tid. Det betyr mindre søppel og kloakk i elva, og færre dager med helserisiko for folk som bruker den.",
+      "usikkert": "Tallet på 86 prosent bygger på modellerte volumer, ikke direkte målinger. Rapporten gjelder bare ett år, og 2025 var et uvanlig tørt år, selv om rapporten mener nedgangen er større enn nedbøren alene kan forklare. Forurensning og klimaendringer er fortsatt store utfordringer for elva.",
+      "kilder": [
+        {
+          "navn": "Thames Water: «86% drop in sewage discharges into Thames as the operation of Thames Tideway Tunnel transfers to Thames Water» (13. oktober 2026)",
+          "url": "https://www.thameswater.co.uk/news/2026/oct/86-drop-in-sewage-discharges-into-thames-as-the-operation-of-thames-tideway-tunnel-transfers-to-thames-water"
+        },
+        {
+          "navn": "WaterBriefing: «New report says London super sewer cuts storm overflows by 86% after first year of operation» (13. oktober 2026)",
+          "url": "https://waterbriefing.org/home/company-news/item/26187-new-report-says-london-super-sewer-cuts-storm-overflows-by-86-after-first-year-of-operation"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1730026724507-f2e9a2d29f8d?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Themsen og parlamentsbygningen i London",
+        "kreditt": "Dawid Tkocz / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-river-with-a-boat-in-it-and-a-large-building-in-the-background-9GyCEy-qtQk",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "london-zoo-froskeunger-ghana",
+      "tittel": "Kritisk truet frosk fra Ghana har fått unger for første gang i fangenskap",
+      "ingress": "London Zoo har fått 15 unger av Afia Biragos pyttfrosk, en art som bare finnes i to dammer i Ghana. Det er første gang arten er født i menneskelig omsorg.",
+      "kategorier": [
+        "dyr-og-natur",
+        "verden"
+      ],
+      "kildedato": "2026-10-13",
+      "publisert": "2026-10-21T13:45:00+02:00",
+      "brodtekst": [
+        "Afia Biragos pyttfrosk (Phrynobatrachus afiabirago) ble beskrevet som en egen art for rundt åtte år siden. Den lever bare i to permanente dammer i skogreservatet Atewa Hills i Ghana, og er klassifisert som kritisk truet. Gruvedrift etter bauxitt i området ødelegger leveområdet dens.",
+        "I 2025 ble 20 voksne frosker fraktet fra Ghana til London Zoo for å starte et avlsprogram. Nå er de første 15 ungene født. Ungene er bare rundt fem millimeter lange, omtrent som tuppen av en blyant, og de voksne froskene veier under 1,75 gram.",
+        "## Samarbeid med Ghana",
+        "Prosjektet er et samarbeid mellom dyrehagens eier ZSL, Herp Conservation Ghana og CSIR-Forestry Research Institute of Ghana. Det er også bygget et avlsanlegg i Kumasi i Ghana, og erfaringene fra London deles med fagfolkene der.",
+        "Målet er å bygge opp bærekraftige bestander som på sikt kan settes ut igjen. Partnerne undersøker om leveområder på privat grunn rundt reservatet kan egne seg for frosker avlet i Ghana.",
+        "Arten er oppkalt etter moren til Caleb Ofori-Boateng, som var med på å beskrive den og i dag er regional prosjektleder i ZSL."
+      ],
+      "hvorfor_hap": "Arten finnes bare på ett lite sted, der leveområdet er truet. Når den lykkes med å formere seg i menneskelig omsorg, får den en reservebestand og en reell mulighet til å bli satt ut igjen i naturen.",
+      "usikkert": "Froskene er fortsatt kritisk truet, og trusselen fra gruvedrift i Atewa Hills er ikke borte. Det er ennå ikke avklart hvor og når frosker kan settes ut igjen.",
+      "kilder": [
+        {
+          "navn": "London Zoo: «Rare froglets born at London Zoo in a world first» (13. oktober 2026)",
+          "url": "https://www.londonzoo.org/zoo-stories/news/rare-froglets-born-london-zoo-world-first"
+        },
+        {
+          "navn": "Discover Wildlife: «Tiny, rare froglets born at London Zoo in world-first» (15. oktober 2026)",
+          "url": "https://www.discoverwildlife.com/animal-facts/amphibians/afia-biragos-puddle-frogs-conservation"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1699383296668-a01b5befaf4e?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En liten grønn frosk på et blad (ikke arten i saken)",
+        "kreditt": "Richard Stovall / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-small-green-frog-sitting-on-top-of-a-leaf-EhnNQNVZr6k",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "riba-internasjonal-pris-fabrikk-bangladesh",
+      "tittel": "Fabrikk bygget for arbeiderne i Bangladesh kåret til verdens beste nye bygg",
+      "ingress": "Green Field Factory i Rangpur, tegnet av Nakshabid Architects, vant RIBA International Prize 2026. Fabrikken har grønne fasader, dammer som kjøler luften og barnehage på taket for rundt 5000 ansatte.",
+      "kategorier": [
+        "kultur",
+        "verden",
+        "klima-og-miljo"
+      ],
+      "kildedato": "2026-10-15",
+      "publisert": "2026-10-21T13:45:00+02:00",
+      "brodtekst": [
+        "Det britiske arkitektforbundet RIBA deler annethvert år ut sin internasjonale pris til det beste nye bygget utenfor Storbritannia. Årets vinner ble kunngjort 15. oktober under utdelingen av Stirling-prisen i London: en teppefabrikk i Rangpur nord i Bangladesh.",
+        "Fabrikken er tegnet av arkitektkontoret Nakshabid Architects i Dhaka for teppeprodusenten Karupannya. Den har sju etasjer og rundt 5000 ansatte, de fleste kvinner. Bygget er inspirert av tradisjonelle bengalske gårdstun, med gårdsrom, dype verandaer og hager.",
+        "## Kjølig uten aircondition",
+        "En grønn fasade mot sør gir skygge og leveområder for fugler og insekter. Fire dammer og fire runde lysgårder bruker fordampning og naturlig luftstrøm til å kjøle ned bygget. Ifølge RIBA Journal er det rapportert at innetemperaturen blir fem grader lavere og at energibruken går ned med 40 prosent, uten mekanisk kjøling.",
+        "Alle ansatte, fra fabrikkgulvet til ledelsen, bruker de samme to store trappene, i stedet for egne innganger slik mange andre fabrikker har. På taket er det barnehage, og bygget har også legekontor, rimelig dagligvarebutikk, felles kantine og bønnerom.",
+        "Den enstemmige juryen ble ledet av arkitekt Bijoy Jain fra Studio Mumbai. Fabrikken slo blant annet BRAC University i Dhaka og kunstmuseet Z33 i Belgia."
+      ],
+      "hvorfor_hap": "Prisen løfter fram et bygg der arbeidernes trivsel og et varmt klima er tatt på alvor fra start. Det viser at industribygg kan være både klimavennlige og gode arbeidsplasser, og kan inspirere fabrikker i andre land med lignende klima.",
+      "kilder": [
+        {
+          "navn": "RIBA Journal: «2026 RIBA International Prize winner: Green Field Factory, Nakshabid Architects» (15. oktober 2026)",
+          "url": "https://www.ribaj.com/buildings/2026-riba-international-prize-winner-green-field-factory-nakshabid-architects/"
+        },
+        {
+          "navn": "Dezeen: «Green Field Factory by Nakshabid Architects wins RIBA International Prize» (16. oktober 2026)",
+          "url": "https://www.dezeen.com/2026/10/16/green-field-factory-nakshabid-architects-riba-international-prize/"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1542898384-abd176e91788?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Grønne planter som dekker veggene på en bygning",
+        "kreditt": "ecemwashere / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/green-leafed-plants-on-building-walls-sbbM7vh1W0U",
+        "illustrasjon": true
+      }
     }
   ]
 }
