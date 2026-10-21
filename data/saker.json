@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-21T15:20:00+02:00",
+  "oppdatert": "2026-10-21T17:15:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -1259,6 +1259,46 @@
         "lisens": "Unsplash-lisens",
         "kilde_url": "https://unsplash.com/photos/a-couple-of-zebra-standing-next-to-each-other-HWs1_5t6c0M",
         "illustrasjon": true
+      }
+    },
+    {
+      "id": "perseverance-kjorerekord",
+      "tittel": "Mars-roveren Perseverance har kjørt lenger enn noe kjøretøy på en annen klode",
+      "ingress": "NASAs rover har passert 45,2 kilometer på Mars og slått rekorden til forgjengeren Opportunity, på en tredjedel av tiden.",
+      "kategorier": [
+        "verdensrommet",
+        "teknologi"
+      ],
+      "kildedato": "2026-10-12",
+      "publisert": "2026-10-21T17:15:00+02:00",
+      "brodtekst": [
+        "Den 11. oktober passerte kilometertelleren på NASAs Mars-rover Perseverance 45,22 kilometer. Dermed har den kjørt lenger enn noe annet kjøretøy på et annet himmellegeme. Den forrige rekorden, 45,16 kilometer, tilhørte Opportunity, som utforsket Mars fra 2004 til 2018.",
+        "Opportunity brukte nesten 15 år på distansen. Perseverance klarte det på omtrent fem og et halvt år. Rekorden ble satt på roverens 2006. marsdøgn, under en kjøretur på drøyt 91 meter.",
+        "## Tenker mens den kjører",
+        "Mye av forklaringen er selvkjøringssystemet AutoNav. Roveren tar bilder av terrenget mens den kjører, lager et tredimensjonalt kart over hindringer og finner selv veien mellom punkter som er valgt av folk på jorda. Over 90 prosent av strekningen er kjørt slik, mot rundt fem prosent for Opportunity og tvillingen Spirit. Den aller første Mars-roveren, Sojourner, vurderte terrenget ut fra 20 målepunkter. Perseverance behandler 600 000 for hver gang den ser seg rundt.",
+        "## Videre mot eldgammel grunn",
+        "Ifølge NASA skulle det opprinnelige oppdraget ikke kreve mer enn rundt 20 kilometer kjøring. Nå har NASA forlenget oppdraget for første gang, fra oktober 2026 til omtrent slutten av 2028. Roveren er på vei gjennom et område vest for kanten av Jezero-krateret, der forskerne håper å finne spor etter gamle systemer med varmt vann. Så langt har Perseverance samlet inn 29 prøver av stein og løsmasse."
+      ],
+      "hvorfor_hap": "Rekorden viser hvor langt selvkjørende teknologi i rommet har kommet: en rover kan nå dekke store avstander på egen hånd, millioner av kilometer fra nærmeste mekaniker. Det gir forskerne mulighet til å undersøke flere steder der spor etter fortidens forhold på Mars kan finnes.",
+      "usikkert": "Roveren har ikke funnet bevis for liv på Mars. Prøvene den samler inn, må analyseres nærmere, og det er ikke avgjort når eller hvordan de kan bli hentet til jorda.",
+      "kilder": [
+        {
+          "navn": "NASA Science: «NASA's Perseverance Sets Off-World Record for Total Distance Driven» (12. oktober 2026)",
+          "url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/"
+        },
+        {
+          "navn": "ScienceDaily: «NASA's Perseverance Mars rover just shattered the all-time off-world driving record» (21. oktober 2026)",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261020084818.htm"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://assets.science.nasa.gov/content/dam/science/missions/mars2020/2026/perseverance-rover-updates/e1%20-%20PIA26812%20-%20NAVCAM%20record.png",
+        "alt": "Marslandskap fotografert av en av Perseverances navigasjonskameraer på rekorddagen",
+        "kreditt": "NASA/JPL-Caltech",
+        "lisens": "NASA-bilde, fritt til bruk med kreditering",
+        "kilde_url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/"
       }
     }
   ]
