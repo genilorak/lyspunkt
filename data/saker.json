@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-21T19:15:00+02:00",
+  "oppdatert": "2026-10-21T20:20:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -1406,6 +1406,52 @@
         "kreditt": "Matthijs Smit / Unsplash",
         "lisens": "Unsplash-lisens",
         "kilde_url": "https://unsplash.com/photos/brown-and-red-epiphone-acoustic-guitar-N-VDzD5z71E",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "argyrin-b-c-difficile",
+      "tittel": "Jordbakterie-stoff slo ned tarmbakterie og skånet de gode bakteriene",
+      "ingress": "Tyske forskere har vist at naturstoffet argyrin B virker mot den fryktede tarmbakterien C. difficile hos mus, uten å ødelegge den nyttige tarmfloraen.",
+      "kategorier": [
+        "helse",
+        "vitenskap"
+      ],
+      "kildedato": "2026-10-08",
+      "publisert": "2026-10-21T20:20:00+02:00",
+      "brodtekst": [
+        "Bakterien Clostridioides difficile, ofte kalt C. difficile, er en av de vanligste årsakene til diaré som oppstår etter antibiotikabruk. Infeksjonen kommer ofte tilbake, og pasienter som får mange tilbakefall, kan måtte behandles med avføringstransplantasjon for å gjenopprette tarmfloraen.",
+        "## Rammer målet, sparer resten",
+        "Forskere ved Helmholtz-instituttet for farmasøytisk forskning i Saarland (HIPS), sammen med Medisinsk høyskole i Hannover og universitetssykehuset i Saarland, har testet stoffet argyrin B. Det lages naturlig av myxobakterier, små jordbakterier som bruker det til å jakte på andre mikroorganismer.",
+        "I laboratorieforsøk og i en musemodell for C. difficile-infeksjon virket stoffet svært godt, og det reduserte mengden sykdomsbakterier betydelig. Samtidig hadde det liten effekt på de nyttige bakteriene i tarmen. Ifølge forskerne kan tarmfloraen dermed spares under behandlingen og komme seg raskere.",
+        "Da musene fikk stoffet gjennom munnen, gikk svært lite over i blodet. Det meste ble værende i tykktarmen, der infeksjonen sitter, noe som kan bety færre bivirkninger i resten av kroppen. Resultatene er publisert i tidsskriftet npj Antimicrobials and Resistance.",
+        "## Neste steg",
+        "Forskerne skal nå finne ut hvor mye av stoffet som trengs for best mulig effekt, og teste om det også virker mot infeksjoner som kommer tilbake. Det er nettopp tilbakefallene som er det store problemet ved C. difficile."
+      ],
+      "hvorfor_hap": "Vanlige antibiotika mot C. difficile rammer også de gode tarmbakteriene, og det kan bane vei for nye infeksjoner. Et stoff som treffer sykdomsbakterien og lar resten av tarmfloraen være i fred, kan på sikt gi en mer skånsom behandling.",
+      "usikkert": "Resultatene kommer fra laboratorieforsøk og forsøk på mus. Stoffet er ikke testet på mennesker, og forskerne skriver selv at det trengs mer forskning før det kan vurderes som behandling. Riktig dose og effekt mot tilbakevendende infeksjoner er ennå ikke avklart.",
+      "kilder": [
+        {
+          "navn": "Universität des Saarlandes: «Argyrin B combats diarrhoea-causing pathogens without damaging the gut microbiome» (8. oktober 2026)",
+          "url": "https://www.uni-saarland.de/en/news/argyrin-b-combats-diarrhoea-causing-pathogens-without-damaging-the-gut-microbiome-51175.html"
+        },
+        {
+          "navn": "ScienceDaily: «Scientists discover a way to kill dangerous gut bacteria without killing the good» (20. oktober 2026)",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261019093353.htm"
+        },
+        {
+          "navn": "npj Antimicrobials and Resistance (2026): studien",
+          "url": "https://doi.org/10.1038/s44259-026-00248-x"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.pexels.com/photos/19728524/pexels-photo-19728524.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "alt": "Bakteriekolonier i en petriskål på et laboratorium",
+        "kreditt": "Wassily Kandark / Pexels",
+        "lisens": "Pexels-lisens",
+        "kilde_url": "https://pexels.com/photo/19728524",
         "illustrasjon": true
       }
     }
