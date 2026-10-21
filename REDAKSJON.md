@@ -1,6 +1,6 @@
 # Redaksjonsinstruks for Lyspunkts AI-agent
 
-Denne filen er instruksen agenten følger hver gang den leter etter nye saker. Den kjører **hver time**, så forsiden oppdateres fortløpende. Ansvarlig redaktør og nyhetsredaktør er **Karoline D. Gjeldnes**, og hun kan endre denne filen når som helst. Agenten skal alltid lese den på nytt før den begynner.
+Denne filen er instruksen agenten følger hver gang den leter etter nye saker. Den kjører **hver time**, så forsiden oppdateres fortløpende. Ansvarlig redaktør og nyhetsredaktør er **Karoline Gjeldnes**, og hun kan endre denne filen når som helst. Agenten skal alltid lese den på nytt før den begynner.
 
 ## Mål
 
@@ -106,7 +106,7 @@ Hver sak legges inn i `saker` i `data/saker.json` med disse feltene:
 ```
 
 - `brodtekst`: 3–6 avsnitt, gjerne én eller to mellomtitler (avsnitt som starter med `## `).
-- Tillatte kategorier: `norge`, `verden`, `vitenskap`, `helse`, `kvinnehelse`, `klima-og-miljo`, `dyr-og-natur`, `teknologi`, `verdensrommet`, `kultur`, `sport`, `musikk`, `sma-gleder`. Første kategori er hovedkategorien. Bruk `norge` for alle norske saker. `kvinnehelse` er en underkategori av Helse: saker om kvinners helse (for eksempel graviditet, fødsel, overgangsalder, endometriose, brystkreft, livmorhalskreft og forskning på kvinner) får både `kvinnehelse` og `helse`.
+- Tillatte kategorier: `norge`, `verden`, `vitenskap`, `helse`, `kvinnehelse`, `klima-og-miljo`, `dyr-og-natur`, `teknologi`, `verdensrommet`, `kultur`, `sport`, `musikk`, `sma-gleder`. Første kategori er hovedkategorien. Bruk `norge` for alle norske saker. `kvinnehelse` er en underkategori av Helse: saker om kvinners helse (for eksempel graviditet, fødsel, overgangsalder, endometriose, brystkreft, livmorhalskreft og forskning på kvinner) får både `kvinnehelse` og `helse`. Kvinnehelse har ingen egen kategoriside, men vises som en egen knapp inne på Helse-siden.
 - `kilder`: minst én kilde du faktisk har åpnet. Lenk helst til originalkilden (studien, myndigheten, forskningsinstitusjonen) i tillegg til mediet.
 
 ## 5. Dagens topp 3

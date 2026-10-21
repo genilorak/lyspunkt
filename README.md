@@ -2,7 +2,7 @@
 
 **Et lysere blikk på verden.**
 
-Norsk nettavis med ekte, kildebelagte gode nyheter. En AI-agent finner, kontrollerer, skriver og publiserer nye saker hver time. Ansvarlig redaktør og nyhetsredaktør: Karoline D. Gjeldnes.
+Norsk nettavis med ekte, kildebelagte gode nyheter. En AI-agent finner, kontrollerer, skriver og publiserer nye saker hver time. Ansvarlig redaktør og nyhetsredaktør: Karoline Gjeldnes.
 
 Se siden: https://genilorak.github.io/lyspunkt/
 

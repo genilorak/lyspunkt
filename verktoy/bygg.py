@@ -23,9 +23,9 @@ KAT = {
     'musikk': ('Musikk', 'Nyslupne låter, nye stjerneskudd og gode nyheter fra musikkverdenen.', '#FFEEDB', '#A65300'),
     'sma-gleder': ('Små gleder', 'Hjertevarme, søte og morsomme historier som gjør dagen litt bedre.', '#FFF1B8', '#8A6400'),
 }
-NAV = ['norge', 'verden', 'vitenskap', 'helse', 'kvinnehelse', 'klima-og-miljo', 'dyr-og-natur', 'teknologi', 'verdensrommet', 'musikk', 'kultur', 'sport', 'sma-gleder']
-BLOKKER = ['norge', 'verden', 'vitenskap', 'helse', 'kvinnehelse', 'klima-og-miljo', 'dyr-og-natur', 'teknologi', 'verdensrommet', 'musikk', 'kultur', 'sport', 'sma-gleder']
-STANDARD_VALGT = ['vitenskap', 'dyr-og-natur', 'helse', 'kvinnehelse', 'verdensrommet', 'klima-og-miljo', 'norge', 'musikk', 'kultur', 'sport']
+NAV = ['norge', 'verden', 'vitenskap', 'helse', 'klima-og-miljo', 'dyr-og-natur', 'teknologi', 'verdensrommet', 'musikk', 'kultur', 'sport', 'sma-gleder']
+BLOKKER = ['norge', 'verden', 'vitenskap', 'helse', 'klima-og-miljo', 'dyr-og-natur', 'teknologi', 'verdensrommet', 'musikk', 'kultur', 'sport', 'sma-gleder']
+STANDARD_VALGT = ['vitenskap', 'dyr-og-natur', 'helse', 'verdensrommet', 'klima-og-miljo', 'norge', 'musikk', 'kultur', 'sport']
 MND = ['jan.', 'feb.', 'mars', 'apr.', 'mai', 'juni', 'juli', 'aug.', 'sep.', 'okt.', 'nov.', 'des.']
 DAGER = ['Mandag', 'Tirsdag', 'Onsdag', 'Torsdag', 'Fredag', 'Lørdag', 'Søndag']
 
@@ -34,6 +34,12 @@ SAKER.sort(key=lambda s: (s.get('kildedato', ''), s.get('publisert', '')), rever
 BY = {s['id']: s for s in SAKER}
 SISTE = sorted(SAKER, key=lambda s: (s.get('publisert', ''), s.get('kildedato', '')), reverse=True)
 e = html.escape
+UNDER = {'kvinnehelse': 'helse'}  # underkategorier: vises som filterknapp inne på hovedkategorien
+
+def katurl(k, base):
+    if k in UNDER:
+        return f'{base}kategori/{UNDER[k]}.html#{k}'
+    return f'{base}kategori/{k}.html'
 
 def dato(iso, aar=False):
     d = datetime.date.fromisoformat(iso[:10])
@@ -103,39 +109,39 @@ a{color:#16120F;text-decoration:none}a:hover{color:#0E7A4E}
 .inner{padding:0 56px}
 .ticker{background:#FFFFFF;border-bottom:1px solid #EFE6D6;height:40px;display:flex;align-items:center;gap:16px;padding:0 56px;font-size:14px;font-weight:500;white-space:nowrap;overflow:hidden}
 .tvindu{flex:1;overflow:hidden;-webkit-mask-image:linear-gradient(to right,transparent,#000 24px,#000 calc(100% - 24px),transparent);mask-image:linear-gradient(to right,transparent,#000 24px,#000 calc(100% - 24px),transparent)}
-.tbane{display:inline-flex;gap:20px;align-items:center;padding-left:8px;animation:rull 200s linear infinite}
+.tbane{display:inline-flex;gap:20px;align-items:center;padding-left:8px;animation:rull 180s linear infinite}
 .tbane:hover,.ticker:focus-within .tbane{animation-play-state:paused}
 .tbane .sep{opacity:.35}
 @keyframes rull{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @media (prefers-reduced-motion:reduce){.tbane{animation:none}}
-.ticker .t{background:#FFE98A;padding:2px 7px;border-radius:0;margin-right:6px;font-family:'Bricolage Grotesque',sans-serif;font-weight:700}
-.pill{display:inline-flex;align-items:center;font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;padding:4px 10px;border-radius:2px}
+.ticker .t{background:#FFE98A;padding:2px 7px;border-radius:6px;margin-right:6px;font-family:'Bricolage Grotesque',sans-serif;font-weight:700}
+.pill{display:inline-flex;align-items:center;font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;padding:4px 10px;border-radius:999px}
 .hdr{padding:0 56px;border-bottom:1.5px solid #16120F}
 .hdr-top{height:118px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center}
-.iconbtn{width:44px;height:44px;border:1.5px solid #16120F;background:transparent;border-radius:0;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#16120F}
+.iconbtn{width:44px;height:44px;border:1.5px solid #16120F;background:transparent;border-radius:22px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#16120F}
 .nav{height:56px;border-top:1px solid #EFE6D6;display:flex;align-items:center;justify-content:center;gap:2px;font-size:15px;font-weight:600}
-.nav a{padding:9px 12px;border-radius:2px;white-space:nowrap;flex:none}
+.nav a{padding:9px 12px;border-radius:999px;white-space:nowrap;flex:none}
 .nav a.on{background:#16120F;color:#FFFBF2}
 .nav a.sg{background:#FFE89A}
 .nav a.sg.on{background:#16120F;color:#FFFBF2}
 main{flex:1}
-.shead{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:24px;border-top:3px solid #16120F;padding-top:14px}
+.shead{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:24px}
 .h2{margin:0;font-family:'Bricolage Grotesque',sans-serif;font-size:40px;font-weight:800;letter-spacing:-0.04em;line-height:1}
 .crumb{font-size:14px;font-weight:600;color:#5E665F;padding:28px 0 0}
 .crumb a{color:#5E665F;text-decoration:underline;text-underline-offset:3px}
 .h1{margin:0;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;letter-spacing:-0.04em;line-height:.98}
 .grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
-.card{border-radius:0;overflow:hidden;display:flex;flex-direction:column;background:#FFFFFF;border:1px solid #E8DFCC;border-top:3px solid var(--acc,#16120F)}
+.card{border-radius:20px;overflow:hidden;display:flex;flex-direction:column;background:#FFFFFF;box-shadow:0 1px 0 rgba(22,18,15,.06)}
 .card .img{height:200px}
 .card .txt{padding:20px 22px 24px;display:flex;flex-direction:column;gap:8px;flex:1}
 .card h3{margin:0;font-family:'Bricolage Grotesque',sans-serif;font-size:23px;font-weight:700;line-height:1.05;letter-spacing:-0.02em}
 .card p{margin:0;font-size:14px;line-height:1.5;color:#3D4540}
-.topp{border-radius:0;overflow:hidden;display:flex;flex-direction:column}
+.topp{border-radius:22px;overflow:hidden;display:flex;flex-direction:column}
 .topp .img{height:170px;flex:none}
 .topp .txt{padding:18px 22px 20px;display:flex;flex-direction:column;gap:8px;flex:1}
 .topp h3{margin:0;font-family:'Bricolage Grotesque',sans-serif;font-size:24px;font-weight:800;line-height:1.05;letter-spacing:-0.02em}
 .topp p{margin:0;font-size:15px;line-height:1.45;color:#3D4540;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.blokk{border-radius:0;padding:28px;display:flex;flex-direction:column}
+.blokk{border-radius:22px;padding:28px;display:flex;flex-direction:column}
 .blokk .rad{display:grid;grid-template-columns:1fr auto;gap:16px;align-items:baseline;padding:14px 0;border-bottom:1px solid rgba(22,18,15,.1)}
 .blokk .rad:last-child{border-bottom:none;padding-bottom:0}
 .foot{background:#FFF3C2;margin-top:64px;display:flex;flex-direction:column}
@@ -143,23 +149,25 @@ main{flex:1}
 .foot-links{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;font-size:14px;line-height:1.8;padding-top:32px;border-top:1.5px solid rgba(22,18,15,.15)}
 .foot-links .col{grid-column:span 3;display:flex;flex-direction:column}
 .foot-band{background:#FFC93A;padding:18px 56px;text-align:center;font-size:12px;color:#5C4600}
-.btn{display:inline-flex;align-items:center;justify-content:center;font:inherit;font-size:16px;font-weight:700;height:52px;padding:0 26px;border-radius:2px;border:none;cursor:pointer}
+.btn{display:inline-flex;align-items:center;justify-content:center;font:inherit;font-size:16px;font-weight:700;height:52px;padding:0 26px;border-radius:999px;border:none;cursor:pointer}
 .prose{max-width:720px}
 .prose p{font-size:19px;line-height:1.7;margin:0 0 22px;color:#2A2622}
 .prose h2{font-family:'Bricolage Grotesque',sans-serif;font-size:28px;letter-spacing:-0.02em;margin:40px 0 12px}
 .prose ul{font-size:18px;line-height:1.7;padding-left:22px;margin:0 0 22px}
 .prose a{color:#4F6E9E;text-decoration:underline;text-underline-offset:3px}
-.demo{background:#FFF1B8;border-radius:0;padding:14px 18px;font-size:14px;color:#5C4600}
-.tom{border:1.5px dashed rgba(22,18,15,.2);border-radius:0;padding:22px;font-size:15px;color:#5E665F}
-input[type=search],input[type=email],input[type=text],textarea{font:inherit;font-size:16px;border-radius:2px;border:1.5px solid #E6DCC0;background:#FFFFFF;padding:0 20px;height:56px;box-sizing:border-box}
-textarea{border-radius:0;padding:16px 20px;height:160px;width:100%}
+.demo{background:#FFF1B8;border-radius:14px;padding:14px 18px;font-size:14px;color:#5C4600}
+.tom{border:1.5px dashed rgba(22,18,15,.2);border-radius:16px;padding:22px;font-size:15px;color:#5E665F}
+input[type=search],input[type=email],input[type=text],textarea{font:inherit;font-size:16px;border-radius:999px;border:1.5px solid #E6DCC0;background:#FFFFFF;padding:0 20px;height:56px;box-sizing:border-box}
+textarea{border-radius:20px;padding:16px 20px;height:160px;width:100%}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 :focus-visible{outline:3px solid #4F6E9E;outline-offset:2px}
 
+.ufilter{font:inherit;font-size:14px;font-weight:700;padding:10px 16px;border-radius:999px;border:1.5px solid var(--a);color:var(--a);background:#FFFFFF;cursor:pointer}
+.ufilter.on{background:var(--a);color:#FFFFFF}
 .kvalg{position:relative;display:inline-flex}
 .kvalg input{position:absolute;opacity:0;width:100%;height:100%;margin:0;cursor:pointer}
-.kvalg span{display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:600;padding:9px 14px;border-radius:2px;border:1.5px solid var(--a);color:var(--a);background:#FFFFFF}
-.kvalg span::before{content:"";width:14px;height:14px;border-radius:0;border:1.5px solid var(--a);box-sizing:border-box}
+.kvalg span{display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:600;padding:9px 14px;border-radius:999px;border:1.5px solid var(--a);color:var(--a);background:#FFFFFF}
+.kvalg span::before{content:"";width:14px;height:14px;border-radius:4px;border:1.5px solid var(--a);box-sizing:border-box}
 .kvalg input:checked+span{background:var(--t);color:#16120F}
 .kvalg input:checked+span::before{background:var(--a);box-shadow:inset 0 0 0 2px var(--t)}
 .kvalg input:focus-visible+span{outline:3px solid #4F6E9E;outline-offset:2px}
@@ -288,7 +296,7 @@ def header(base, active=None):
 '''
 
 def footer(base):
-    k1 = ''.join(f'<a href="{base}kategori/{s}.html">{KAT[s][0]}</a>' for s in ['norge', 'verden', 'vitenskap', 'helse', 'kvinnehelse', 'klima-og-miljo', 'dyr-og-natur'])
+    k1 = ''.join(f'<a href="{base}kategori/{s}.html">{KAT[s][0]}</a>' for s in ['norge', 'verden', 'vitenskap', 'helse', 'klima-og-miljo', 'dyr-og-natur'])
     k2 = ''.join(f'<a href="{base}kategori/{s}.html">{KAT[s][0]}</a>' for s in ['teknologi', 'verdensrommet', 'musikk', 'kultur', 'sport', 'sma-gleder'])
     return f'''<footer class="foot">
   <div class="foot-in">
@@ -297,7 +305,7 @@ def footer(base):
         <a href="{base}index.html" style="display:flex;align-items:center;gap:14px">{SUN.format(s=56)}<span class="bri" style="font-size:clamp(36px,6vw,64px);font-weight:800;letter-spacing:-0.05em;line-height:1">lyspunkt</span></a>
         <span class="ser" style="font-size:28px;font-style:italic;color:#4F6E9E;padding-left:70px">Et lysere blikk på verden.</span>
       </div>
-      <form action="{base}nyhetsbrev.html" method="get" style="grid-column:8 / span 5;background:#FFFFFF;border-radius:0;padding:26px;display:flex;flex-direction:column;gap:12px;box-shadow:0 10px 30px rgba(138,100,0,.12)">
+      <form action="{base}nyhetsbrev.html" method="get" style="grid-column:8 / span 5;background:#FFFFFF;border-radius:22px;padding:26px;display:flex;flex-direction:column;gap:12px;box-shadow:0 10px 30px rgba(138,100,0,.12)">
         <span class="bri" style="font-size:24px;font-weight:800;letter-spacing:-0.03em">Ukens lyspunkter, rett i innboksen</span>
         <span style="font-size:14px;color:#3D4540">Hver fredag. Tre gode nyheter og én liten glede. Gratis.</span>
         <div style="display:flex;gap:8px">
@@ -310,7 +318,7 @@ def footer(base):
     <div class="foot-links">
       <div class="col"><span class="kick" style="color:#8A6400;margin-bottom:8px">Kategorier</span>{k1}</div>
       <div class="col"><span class="kick" style="color:#8A6400;margin-bottom:8px">&#160;</span>{k2}</div>
-      <div class="col"><span class="kick" style="color:#8A6400;margin-bottom:8px">Redaksjonen</span><span>Ansvarlig redaktør: Karoline D. Gjeldnes</span><span>Sakene hentes og skrives av KI</span><a href="{base}redaksjonen.html" style="align-self:flex-start;margin-top:8px;background:#16120F;color:#FFFBF2;padding:8px 14px;border-radius:2px;font-weight:700;line-height:1.4">Om redaksjonen →</a><a href="{base}tips.html" style="margin-top:6px">Tips oss</a><a href="{base}om.html">Om Lyspunkt</a></div>
+      <div class="col"><span class="kick" style="color:#8A6400;margin-bottom:8px">Redaksjonen</span><span>Ansvarlig redaktør: Karoline Gjeldnes</span><span>Sakene hentes og skrives av KI</span><a href="{base}redaksjonen.html" style="align-self:flex-start;margin-top:8px;background:#16120F;color:#FFFBF2;padding:8px 14px;border-radius:999px;font-weight:700;line-height:1.4">Om redaksjonen →</a><a href="{base}tips.html" style="margin-top:6px">Tips oss</a><a href="{base}om.html">Om Lyspunkt</a></div>
       <div class="col"><span class="kick" style="color:#8A6400;margin-bottom:8px">Slik jobber vi</span><a href="{base}prinsipper.html">Redaksjonelle prinsipper</a><a href="{base}rettelser.html">Rettelser</a><a href="{base}ai.html">Bruk av AI</a><a href="{base}personvern.html">Personvern</a></div>
     </div>
     <div aria-hidden="true" style="display:flex;justify-content:center;margin:-8px -56px -32px">
@@ -326,7 +334,7 @@ def footer(base):
 
 def card(s, base):
     navn, _, _, acc = KAT[kat(s)]
-    return f'''<a href="{base}artikkel/{s["id"]}.html" class="card" style="--acc:{acc}">
+    return f'''<a href="{base}artikkel/{s["id"]}.html" class="card" data-kat="{' '.join(s['kategorier'])}">
   {bildeboks(s, 200)}
   <div class="txt"><span class="kick" style="color:{acc}">{navn}</span><h3>{e(s["tittel"])}</h3><p>{e(s["ingress"])}</p><span class="meta" style="margin-top:auto">{dato(s["kildedato"])}</span></div>
 </a>'''
@@ -350,104 +358,102 @@ def forside():
     toppkort = ''
     for s in topp[:3]:
         navn, _, tint, acc = KAT[kat(s)]
-        toppkort += f'''<a href="artikkel/{s["id"]}.html" class="topp" style="background:{tint};border-top:3px solid {acc}">
+        toppkort += f'''<a href="artikkel/{s["id"]}.html" class="topp" style="background:{tint}">
           {bildeboks(s, 170)}
           <div class="txt"><span class="kick" style="color:{acc}">{navn}</span><h3>{e(s["tittel"])}</h3><p>{e(s["ingress"])}</p><span class="meta" style="margin-top:auto">{dato(s["kildedato"])}</span></div>
         </a>'''
     sg = [s for s in SAKER if 'sma-gleder' in s['kategorier']][:3]
-    rot = ['0deg', '0deg', '0deg']
-    sgk = ''.join(f'''<a href="artikkel/{s["id"]}.html" style="display:flex;flex-direction:column;gap:12px;background:#FFFFFF;padding:10px 10px 18px;border:1px solid rgba(22,18,15,.12)">
+    rot = ['-1.5deg', '1deg', '-0.5deg']
+    sgk = ''.join(f'''<a href="artikkel/{s["id"]}.html" style="display:flex;flex-direction:column;gap:12px;background:#FFFFFF;padding:10px 10px 18px;box-shadow:0 8px 22px rgba(22,18,15,.12);transform:rotate({rot[i]})">
             {bildeboks(s, 200, 'sgimg', 'height:200px;overflow:hidden')}
             <span class="bri" style="font-size:20px;font-weight:700;line-height:1.05;letter-spacing:-0.02em;padding:0 4px">{e(s["tittel"])}</span>
           </a>''' for i, s in enumerate(sg)) or tom()
     siste = '<div id="siste-liste">' + ''.join(f'''<a href="artikkel/{s["id"]}.html" style="display:grid;grid-template-columns:70px 1fr;gap:10px;padding:16px 0;border-top:1px solid rgba(14,122,78,.2)"><span class="bri" style="font-weight:700;color:#0E7A4E">{tidsmerke(s)}</span><span style="font-size:16px;font-weight:600;line-height:1.35">{e(s["tittel"])}</span></a>''' for s in SISTE[:5]) + '</div>'
-    blokker = ''
-    for k in BLOKKER:
-        navn, _, tint, acc = KAT[k]
-        ss = [s for s in SAKER if k in s['kategorier']][:3]
-        if ss:
-            first = ss[0]
-            rows = f'''<a href="artikkel/{first["id"]}.html" style="display:flex;flex-direction:column;gap:8px;padding:14px 0;{"border-bottom:1px solid rgba(22,18,15,.1)" if len(ss) > 1 else ""}">
-            <span class="bri" style="font-size:24px;font-weight:700;line-height:1.05;letter-spacing:-0.02em">{e(first["tittel"])}</span>
-            <span class="meta">{dato(first["kildedato"])}</span></a>'''
-            rows += ''.join(f'<a href="artikkel/{s["id"]}.html" class="rad"><span style="font-size:17px;font-weight:600;line-height:1.3">{e(s["tittel"])}</span><span class="meta">{dato(s["kildedato"])}</span></a>' for s in ss[1:])
-        else:
-            rows = '<p style="margin:14px 0 0;font-size:16px;color:#3D4540">Ingen saker ennå. Redaksjonen leter fortløpende.</p>'
-        blokker += f'''<div class="blokk" data-kat="{k}" style="background:#FFFFFF;border:1px solid #E8DFCC;border-top:3px solid {acc}">
-          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px">
-            <div style="display:flex;align-items:center;gap:10px"><span style="width:12px;height:12px;border-radius:0;background:{acc}"></span><h3 class="bri" style="margin:0;font-size:26px;font-weight:800;letter-spacing:-0.03em">{navn}</h3></div>
-            <a href="kategori/{k}.html" style="font-size:13px;font-weight:700;color:{acc};padding:8px 13px;border-radius:2px;background:{tint}">Se alle →</a>
-          </div>
-          {rows}
-        </div>'''
+    feed = '\n'.join(card(s, base) for s in SISTE)
     valg = ''.join(f'<label class="kvalg" style="--a:{KAT[k][3]};--t:{KAT[k][2]}"><input type="checkbox" value="{k}"{" checked" if k in STANDARD_VALGT else ""}><span>{KAT[k][0]}</span></label>' for k in BLOKKER)
-    page = head('Lyspunkt – et lysere blikk på verden', base) + header(base, 'forside') + f'''<main class="inner" style="padding-top:32px;display:flex;flex-direction:column;gap:72px">
+    page = head('Lyspunkt – et lysere blikk på verden', base) + header(base, 'forside') + f"""<main class="inner" style="padding-top:28px;display:flex;flex-direction:column;gap:56px">
+  <section aria-label="Tilfeldig lyspunkt" class="lysstripe" style="background:#EAE3FF;border-radius:20px;padding:18px 24px;display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+    {SUN.format(s=34)}
+    <span class="bri" style="flex:1;min-width:220px;font-size:clamp(20px,2.4vw,26px);font-weight:800;line-height:1.1;letter-spacing:-0.03em">Trenger du et <span id="lysord">lite</span> lyspunkt <span class="ser" style="font-style:italic;font-weight:400;letter-spacing:0;color:#6C4FD6">akkurat nå?</span></span>
+    <a href="overrask.html" class="btn" style="height:44px;font-size:15px;background:#6C4FD6;color:#FFFFFF">Overrask meg</a>
+    <script>(function(){{var o=['lite','ekstra','varmt','nytt','friskt','lunt','lite ekstra','solfylt'];var el=document.getElementById('lysord');if(el)el.textContent=o[Math.floor(Math.random()*o.length)]}})();</script>
+  </section>
   <section aria-labelledby="t3">
     <div class="shead"><h2 id="t3" class="h2">Dagens topp 3</h2><span class="meta">Oppdatert {dato(DATA["oppdatert"])} kl. {OPPDATERT.strftime("%H:%M")}</span></div>
     <div class="grid3">{toppkort}</div>
   </section>
   <section aria-labelledby="kat">
-    <div class="shead"><h2 id="kat" class="h2">Utforsk <span class="ser" style="font-style:italic;font-weight:400;letter-spacing:0;color:#4F6E9E">kategoriene</span></h2><span class="meta">Velg hvilke kategorier du vil se. Valget lagres i nettleseren din.</span></div>
-    <fieldset style="border:none;margin:0 0 24px;padding:18px 20px;background:#FFFFFF;border-radius:0;box-shadow:0 1px 0 rgba(22,18,15,.06)">
+    <div class="shead"><h2 id="kat" class="h2">Nyheter <span class="ser" style="font-style:italic;font-weight:400;letter-spacing:0;color:#4F6E9E">for deg</span></h2><span class="meta">Velg kategoriene du vil se. Nyeste sak står øverst, og valget lagres i nettleseren din.</span></div>
+    <fieldset style="border:none;margin:0 0 24px;padding:18px 20px;background:#FFFFFF;border-radius:18px;box-shadow:0 1px 0 rgba(22,18,15,.06)">
       <legend class="sr">Velg kategorier</legend>
       <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center">{valg}
         <button type="button" id="kalle" style="font:inherit;font-size:13px;font-weight:700;background:none;border:none;color:#4F6E9E;text-decoration:underline;cursor:pointer;padding:8px">Vis alle</button>
       </div>
     </fieldset>
-    <div id="kblokker" style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px">{blokker}</div>
-    <p id="kingen" class="tom" style="display:none">Du har ikke valgt noen kategorier. Kryss av for det du vil se.</p>
+    <div id="feed" class="grid3">{feed}</div>
+    <p id="kingen" class="tom" style="display:none">Ingen saker i kategoriene du har valgt. Kryss av for flere kategorier.</p>
+    <div style="display:flex;justify-content:center;margin-top:28px"><button type="button" id="flere" class="btn" style="background:#16120F;color:#FFFBF2;display:none">Vis flere saker</button></div>
     <script>
-    (function(){{var K='lyspunkt-kategorier',bx=document.querySelectorAll('.kvalg input'),bl=document.querySelectorAll('#kblokker .blokk');
+    (function(){{var K='lyspunkt-kategorier',bx=document.querySelectorAll('.kvalg input'),kort=document.querySelectorAll('#feed .card'),fl=document.getElementById('flere'),N=12,max=N;
     try{{var v=JSON.parse(localStorage.getItem(K)||'null');if(Array.isArray(v))bx.forEach(function(b){{b.checked=v.indexOf(b.value)>-1}})}}catch(e){{}}
-    function vis(){{var on=[];bx.forEach(function(b){{if(b.checked)on.push(b.value)}});bl.forEach(function(d){{d.style.display=on.indexOf(d.dataset.kat)>-1?'':'none'}});
-    var synl=[];bl.forEach(function(d){{d.style.gridColumn='';if(d.style.display!=='none')synl.push(d)}});if(synl.length%2===1)synl[synl.length-1].style.gridColumn='1 / -1';document.getElementById('kingen').style.display=on.length?'none':'block';try{{localStorage.setItem(K,JSON.stringify(on))}}catch(e){{}}}}
-    bx.forEach(function(b){{b.addEventListener('change',vis)}});document.getElementById('kalle').addEventListener('click',function(){{bx.forEach(function(b){{b.checked=true}});vis()}});vis();}})();
+    function vis(){{var on=[];bx.forEach(function(b){{if(b.checked)on.push(b.value)}});var n=0;
+    kort.forEach(function(c){{var ks=c.dataset.kat.split(' '),ok=ks.some(function(k){{return on.indexOf(k)>-1}});c.style.display=(ok&&n<max)?'':'none';if(ok)n++}});
+    document.getElementById('kingen').style.display=n?'none':'block';fl.style.display=n>max?'':'none';try{{localStorage.setItem(K,JSON.stringify(on))}}catch(e){{}}}}
+    bx.forEach(function(b){{b.addEventListener('change',function(){{max=N;vis()}})}});
+    document.getElementById('kalle').addEventListener('click',function(){{bx.forEach(function(b){{b.checked=true}});max=N;vis()}});
+    fl.addEventListener('click',function(){{max+=N;vis()}});vis();}})();
     </script>
   </section>
-  <section style="background:#EAE3FF;border-radius:0;padding:56px 56px 60px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:16px">
-    {SUN.format(s=52)}
-    <span class="bri" style="font-size:clamp(30px,6vw,54px);font-weight:800;line-height:.95;letter-spacing:-0.04em">Trenger du et lyspunkt <span class="ser" style="font-style:italic;font-weight:400;letter-spacing:0;color:#6C4FD6">akkurat nå?</span></span>
-    <span style="font-size:17px;line-height:1.5;color:#4A4560;max-width:520px">Ett trykk. Én tilfeldig god historie fra hvor som helst i verden.</span>
-    <a href="overrask.html" class="btn" style="margin-top:10px;background:#6C4FD6;color:#FFFFFF;box-shadow:none">Overrask meg</a>
-  </section>
   <div style="display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px">
-    <section aria-labelledby="sg" style="grid-column:span 8;background:#FFF1B8;border-radius:0;padding:36px 36px 44px">
+    <section aria-labelledby="sg" style="grid-column:span 8;background:#FFF1B8;border-radius:20px;padding:36px 36px 44px">
       <div class="shead" style="margin-bottom:32px"><h2 id="sg" class="h2">Små <span class="ser" style="font-style:italic;font-weight:400;letter-spacing:0">gleder</span></h2><a href="kategori/sma-gleder.html" style="font-size:15px;font-weight:700">Se alle →</a></div>
       <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px">{sgk}</div>
     </section>
-    <aside aria-labelledby="siste" style="grid-column:span 4;background:#DFF3E7;border-radius:0;padding:36px;display:flex;flex-direction:column">
+    <aside aria-labelledby="siste" style="grid-column:span 4;background:#DFF3E7;border-radius:20px;padding:36px;display:flex;flex-direction:column">
       <div style="display:flex;align-items:center;gap:10px;margin-bottom:18px"><span style="width:10px;height:10px;border-radius:5px;background:#FFD23F;box-shadow:0 0 0 3px #FFF3C2"></span><h2 id="siste" class="bri" style="margin:0;font-size:28px;font-weight:800;letter-spacing:-0.03em">Siste nytt</h2></div>
       {siste}
-      <a href="siste.html" style="margin-top:auto;align-self:flex-start;background:#0E7A4E;color:#FFFFFF;padding:12px 18px;border-radius:2px;font-size:14px;font-weight:700">Alle saker →</a>
+      <a href="siste.html" style="margin-top:auto;align-self:flex-start;background:#0E7A4E;color:#FFFFFF;padding:12px 18px;border-radius:999px;font-size:14px;font-weight:700">Alle saker →</a>
     </aside>
   </div>
 </main>
-''' + footer(base)
+""" + footer(base)
     write('index.html', page)
 
 # ---------------------------------------------------------------- kategorier
 def kategorier():
     base = '../'
     for k, (navn, desc, tint, acc) in KAT.items():
+        if k in UNDER:
+            continue
         ss = [s for s in SAKER if k in s['kategorier']]
         cards = '\n'.join(card(s, base) for s in ss)
-        innhold = f'<div class="grid3">{cards}</div>' if ss else tom()
-        crumb = f'<a href="{base}kategori/helse.html">Helse</a> / {navn}' if k == 'kvinnehelse' else navn
-        kick = 'Underkategori av Helse' if k == 'kvinnehelse' else 'Kategori'
-        under = ''
-        if k == 'helse':
-            kn, _, kt, ka = KAT['kvinnehelse']
-            under = f'<a href="{base}kategori/kvinnehelse.html" class="bri" style="font-size:15px;font-weight:700;color:{ka};background:#FFFFFF;padding:12px 18px;border-radius:2px;white-space:nowrap">{kn} →</a>'
+        innhold = f'<div class="grid3" id="kkort">{cards}</div>' if ss else tom()
+        filter_html = ''
+        unders = [u for u, h in UNDER.items() if h == k]
+        if unders and ss:
+            knapper = f'<button type="button" class="ufilter on" data-u="" style="--a:{acc};--t:{tint}">Alle</button>'
+            knapper += ''.join(f'<button type="button" class="ufilter" data-u="{u}" style="--a:{KAT[u][3]};--t:{KAT[u][2]}">{KAT[u][0]}</button>' for u in unders)
+            filter_html = f'''<div role="group" aria-label="Filtrer {e(navn.lower())}" style="display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px">{knapper}</div>
+  <p id="utom" class="tom" style="display:none">Ingen saker her ennå. Redaksjonen leter etter nye lyspunkter flere ganger om dagen.</p>
+  <script>
+  document.addEventListener('DOMContentLoaded',function(){{var bt=document.querySelectorAll('.ufilter'),kort=document.querySelectorAll('#kkort .card');
+  function vis(u){{var n=0;bt.forEach(function(b){{var on=b.dataset.u===u;b.classList.toggle('on',on);b.setAttribute('aria-pressed',on?'true':'false')}});
+  kort.forEach(function(c){{var ok=!u||(' '+c.dataset.kat+' ').indexOf(' '+u+' ')>-1;c.style.display=ok?'':'none';if(ok)n++}});
+  document.getElementById('utom').style.display=n?'none':'block';
+  try{{history.replaceState(null,'',u?'#'+u:location.pathname)}}catch(e){{}}}}
+  bt.forEach(function(b){{b.addEventListener('click',function(){{vis(b.dataset.u)}})}});
+  var h=location.hash.slice(1);if(h&&document.querySelector('.ufilter[data-u="'+h+'"]'))vis(h);}});
+  </script>'''
         write(f'kategori/{k}.html', head(f'{navn} – Lyspunkt', base, desc) + header(base, k) + f'''<main class="inner">
-  <div class="crumb"><a href="{base}index.html">Forsiden</a> / {crumb}</div>
-  <section style="background:{tint};border-radius:0;padding:48px 56px;margin:20px 0 40px;display:flex;align-items:center;justify-content:space-between;gap:40px">
+  <div class="crumb"><a href="{base}index.html">Forsiden</a> / {navn}</div>
+  <section style="background:{tint};border-radius:24px;padding:48px 56px;margin:20px 0 40px;display:flex;align-items:center;justify-content:space-between;gap:40px">
     <div style="display:flex;flex-direction:column;gap:12px;max-width:760px">
-      <span class="kick" style="color:{acc}">{kick}</span>
+      <span class="kick" style="color:{acc}">Kategori</span>
       <h1 class="h1" style="font-size:clamp(36px,6vw,64px)">{navn}</h1>
       <p style="margin:0;font-size:19px;line-height:1.5;color:#3D4540">{desc}</p>
     </div>
-    {under}
   </section>
+  {filter_html if filter_html else ''}
   {innhold}
 </main>
 ''' + footer(base))
@@ -467,32 +473,32 @@ def artikler():
             body += f'<h2>{e(p[3:])}</h2>' if p.startswith('## ') else f'<p>{e(p)}</p>'
         usikkert = f'<p style="margin:0;font-size:15px;line-height:1.6;color:#3D4540"><strong>Dette vet vi ikke ennå:</strong> {e(s["usikkert"])}</p>' if s.get('usikkert') else ''
         kilder = ''.join(f'<li><a href="{e(q["url"])}" target="_blank" rel="noopener">{e(q["navn"])}</a></li>' for q in s.get('kilder', []))
-        tags = ' '.join(f'<a href="{base}kategori/{c}.html" style="font-size:13px;font-weight:700;color:{KAT[c][3]};background:{KAT[c][2]};padding:8px 14px;border-radius:2px;text-decoration:none">{KAT[c][0]}</a>' for c in s['kategorier'] if c in KAT)
+        tags = ' '.join(f'<a href="{katurl(c, base)}" style="font-size:13px;font-weight:700;color:{KAT[c][3]};background:{KAT[c][2]};padding:8px 14px;border-radius:999px;text-decoration:none">{KAT[c][0]}</a>' for c in s['kategorier'] if c in KAT)
         ai = ''
         if s.get('ai_assistert', True):
-            ai = f'''<p style="margin:40px 0 0;padding-top:20px;border-top:1px solid #EFE6D6;font-size:14px;line-height:1.6;color:#5E665F"><strong style="color:#16120F">KI-assistert sak.</strong> Saken er funnet, kontrollert mot kildene over og skrevet av Lyspunkts KI-agenter. Det er også KI som har vurdert at saken skulle publiseres. Ansvarlig redaktør er Karoline D. Gjeldnes, som følger med på sakene og kan rette eller fjerne dem. Ser du en feil? <a href="{base}tips.html">Gi oss beskjed</a>. <a href="{base}redaksjonen.html">Les mer om redaksjonen</a>.</p>'''
+            ai = f'''<p style="margin:40px 0 0;padding-top:20px;border-top:1px solid #EFE6D6;font-size:14px;line-height:1.6;color:#5E665F"><strong style="color:#16120F">KI-assistert sak.</strong> Saken er funnet, kontrollert mot kildene over og skrevet av Lyspunkts KI-agenter. Det er også KI som har vurdert at saken skulle publiseres. Ansvarlig redaktør er Karoline Gjeldnes, som følger med på sakene og kan rette eller fjerne dem. Ser du en feil? <a href="{base}tips.html">Gi oss beskjed</a>. <a href="{base}redaksjonen.html">Les mer om redaksjonen</a>.</p>'''
         b = s.get('bilde')
         if b and b.get('url'):
-            figur = f'''<figure style="margin:14px 0 0"><div style="height:480px;border-radius:0;overflow:hidden;background:{tint}"><img src="{e(b['url'])}" alt="{e(b.get('alt',''))}" onerror="var f=this.closest('figure');if(f)f.remove()" style="width:100%;height:100%;object-fit:cover;display:block"></div><figcaption class="meta" style="margin-top:10px;font-size:13px">{"Illustrasjonsfoto" if b.get("illustrasjon") else "Foto"}: {e(b.get('kreditt',''))} · {e(b.get('lisens',''))} · <a href="{e(b.get('kilde_url') or kildeurl(s))}" target="_blank" rel="noopener" style="color:#4F6E9E;text-decoration:underline">Bildets kilde</a></figcaption></figure>'''
+            figur = f'''<figure style="margin:14px 0 0"><div style="height:480px;border-radius:24px;overflow:hidden;background:{tint}"><img src="{e(b['url'])}" alt="{e(b.get('alt',''))}" onerror="var f=this.closest('figure');if(f)f.remove()" style="width:100%;height:100%;object-fit:cover;display:block"></div><figcaption class="meta" style="margin-top:10px;font-size:13px">{"Illustrasjonsfoto" if b.get("illustrasjon") else "Foto"}: {e(b.get('kreditt',''))} · {e(b.get('lisens',''))} · <a href="{e(b.get('kilde_url') or kildeurl(s))}" target="_blank" rel="noopener" style="color:#4F6E9E;text-decoration:underline">Bildets kilde</a></figcaption></figure>'''
         else:
             figur = ''
         rettelse = f'<div class="demo" style="margin-bottom:24px"><strong>Rettelse:</strong> {e(s["rettelse"])}</div>' if s.get('rettelse') else ''
         write(f'artikkel/{s["id"]}.html', head(f'{s["tittel"]} – Lyspunkt', base, s['ingress']) + header(base, k) + f'''<main class="inner">
-  <div class="crumb"><a href="{base}index.html">Forsiden</a> / <a href="{base}kategori/{k}.html">{navn}</a></div>
+  <div class="crumb"><a href="{base}index.html">Forsiden</a> / <a href="{katurl(k, base)}">{navn}</a></div>
   <article style="display:flex;flex-direction:column;align-items:center;padding-top:36px">
     <div style="width:100%;max-width:880px;display:flex;flex-direction:column;gap:18px">
       <span style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><span class="kick" style="color:{acc}">{navn}</span><a href="{base}redaksjonen.html" class="pill" style="background:#EAE3FF;color:#4B3AA8;text-decoration:none">KI-skrevet sak</a></span>
       <h1 class="h1" style="font-size:clamp(34px,6vw,58px)">{e(s["tittel"])}</h1>
       <p style="margin:0;font-size:22px;line-height:1.5;color:#3D4540;font-weight:500">{e(s["ingress"])}</p>
       <div style="display:flex;gap:16px;align-items:center;padding:14px 0;border-top:1px solid #EFE6D6;border-bottom:1px solid #EFE6D6;font-size:14px;color:#5E665F">
-        <span style="width:40px;height:40px;border-radius:0;background:{tint};display:flex;align-items:center;justify-content:center">{SUN.format(s=22)}</span>
+        <span style="width:40px;height:40px;border-radius:20px;background:{tint};display:flex;align-items:center;justify-content:center">{SUN.format(s=22)}</span>
         <span><strong style="color:#16120F">Hentet fra <a href="{e(kildeurl(s))}" target="_blank" rel="noopener" style="color:#16120F;text-decoration:underline;text-underline-offset:3px">{e(kildenavn(s))}</a></strong> · Funnet og skrevet av KI<br>Publisert {dato(s["publisert"], True)} · Kilden er datert {dato(s["kildedato"], True)} · <a href="{base}redaksjonen.html" style="color:#4F6E9E;text-decoration:underline">Om redaksjonen</a></span>
       </div>
       {figur}
     </div>
     <div class="prose" style="width:100%;max-width:720px;margin-top:36px">
       {rettelse}{body}
-      <aside style="background:{tint};border-radius:0;padding:26px 28px;margin:36px 0">
+      <aside style="background:{tint};border-radius:20px;padding:26px 28px;margin:36px 0">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">{SUN.format(s=26)}<span class="bri" style="font-size:22px;font-weight:800;letter-spacing:-0.02em">Hvorfor dette gir håp</span></div>
         <p style="margin:0 0 10px;font-size:17px;line-height:1.6">{e(s.get("hvorfor_hap", ""))}</p>
         {usikkert}
@@ -551,7 +557,7 @@ q.addEventListener('input',vis);vis();
     slugs = json.dumps([s['id'] for s in SAKER])
     first = SAKER[0]['id'] if SAKER else ''
     write('overrask.html', head('Overrask meg – Lyspunkt', '') + header('') + f'''<main class="inner">
-  <section style="background:#EAE3FF;border-radius:0;padding:72px 56px;margin:40px 0;display:flex;flex-direction:column;align-items:center;text-align:center;gap:16px">
+  <section style="background:#EAE3FF;border-radius:24px;padding:72px 56px;margin:40px 0;display:flex;flex-direction:column;align-items:center;text-align:center;gap:16px">
     {SUN.format(s=60)}
     <h1 class="h1" style="font-size:clamp(32px,6vw,56px)">Finner et lyspunkt <span class="ser" style="font-style:italic;font-weight:400;letter-spacing:0;color:#6C4FD6">til deg …</span></h1>
     <p style="margin:0;font-size:17px;color:#4A4560">Du sendes videre til en tilfeldig god historie.</p>
@@ -567,12 +573,12 @@ var S={slugs};if(S.length){{var u='artikkel/'+S[Math.floor(Math.random()*S.lengt
 def statiske():
     write('nyhetsbrev.html', head('Nyhetsbrev – Lyspunkt', '') + header('') + f'''<main class="inner">
   <div class="crumb"><a href="index.html">Forsiden</a> / Nyhetsbrev</div>
-  <section style="background:#FFF3C2;border-radius:0;padding:64px 56px;margin:24px 0;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;align-items:center">
+  <section style="background:#FFF3C2;border-radius:24px;padding:64px 56px;margin:24px 0;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;align-items:center">
     <div style="grid-column:span 6;display:flex;flex-direction:column;gap:14px">
       <h1 class="h1" style="font-size:clamp(34px,6vw,60px)">Ukens lyspunkter, <span class="ser" style="font-style:italic;font-weight:400;letter-spacing:0;color:#4F6E9E">rett i innboksen</span></h1>
       <p style="margin:0;font-size:19px;line-height:1.55;color:#3D4540">Hver fredag: ukens tre viktigste gode nyheter, et par saker tilpasset deg og én liten glede. Gratis, uten reklame — og du kan melde deg av når du vil.</p>
     </div>
-    <div style="grid-column:8 / span 5;background:#FFFFFF;border-radius:0;padding:30px">
+    <div style="grid-column:8 / span 5;background:#FFFFFF;border-radius:22px;padding:30px">
       <form id="nf" style="display:flex;flex-direction:column;gap:12px">
         <label for="epost" class="bri" style="font-size:20px;font-weight:700">Din e-postadresse</label>
         <input id="epost" name="epost" type="email" required placeholder="din@epost.no">
@@ -599,7 +605,7 @@ f.addEventListener('submit',function(ev){{ev.preventDefault();if(e.value)takk(e.
     def info(fil, tittel, tint, intro, innhold):
         write(fil, head(f'{tittel} – Lyspunkt', '') + header('') + f'''<main class="inner">
   <div class="crumb"><a href="index.html">Forsiden</a> / {tittel}</div>
-  <section style="background:{tint};border-radius:0;padding:48px 56px;margin:20px 0 40px">
+  <section style="background:{tint};border-radius:24px;padding:48px 56px;margin:20px 0 40px">
     <h1 class="h1" style="font-size:clamp(34px,6vw,60px)">{tittel}</h1>
     <p style="margin:12px 0 0;font-size:19px;line-height:1.5;color:#3D4540;max-width:760px">{intro}</p>
   </section>
@@ -609,9 +615,9 @@ f.addEventListener('submit',function(ev){{ev.preventDefault();if(e.value)takk(e.
 
 
     info('redaksjonen.html', 'Om redaksjonen', '#EAE3FF', 'Lyspunkt er en KI-assistert nettavis. Her forklarer vi hvem som gjør hva.',
-         '''<div class="demo" style="font-size:16px;line-height:1.6;margin-bottom:28px"><strong>Kort fortalt:</strong> Sakene på Lyspunkt blir funnet, kontrollert, skrevet og publisert av kunstig intelligens (KI). Også de redaksjonelle vurderingene, som hvilke saker som publiseres og hva som havner i Dagens topp 3, gjøres av KI. Ansvarlig redaktør Karoline D. Gjeldnes har det redaksjonelle ansvaret, setter reglene KI-en jobber etter og kan rette eller fjerne saker.</div>
+         '''<div class="demo" style="font-size:16px;line-height:1.6;margin-bottom:28px"><strong>Kort fortalt:</strong> Sakene på Lyspunkt blir funnet, kontrollert, skrevet og publisert av kunstig intelligens (KI). Også de redaksjonelle vurderingene, som hvilke saker som publiseres og hva som havner i Dagens topp 3, gjøres av KI. Ansvarlig redaktør Karoline Gjeldnes har det redaksjonelle ansvaret, setter reglene KI-en jobber etter og kan rette eller fjerne saker.</div>
 <h2>Ansvarlig redaktør</h2>
-<p><strong>Karoline D. Gjeldnes</strong> er ansvarlig redaktør og nyhetsredaktør. Hun bestemmer de redaksjonelle prinsippene, følger med på det som publiseres, og retter, skjuler eller overstyrer saker ved behov.</p>
+<p><strong>Karoline Gjeldnes</strong> er ansvarlig redaktør og nyhetsredaktør. Hun bestemmer de redaksjonelle prinsippene, følger med på det som publiseres, og retter, skjuler eller overstyrer saker ved behov.</p>
 <h2>Hva KI-en gjør</h2>
 <ul><li><strong>Finner saker:</strong> KI-agenter søker gjennom nyhetskilder, forskningsinstitusjoner og myndigheter hver time.</li><li><strong>Vurderer saker:</strong> KI-en avgjør om en sak er ny, positiv, troverdig og godt nok dokumentert til å publiseres.</li><li><strong>Kontrollerer fakta:</strong> KI-en åpner og leser kildene, og tar bare med tall og påstander som står der.</li><li><strong>Skriver saken:</strong> Teksten skrives på norsk med egne ord, med lenke til kildene og en egen boks om hva som fortsatt er usikkert.</li><li><strong>Velger bilder:</strong> KI-en bruker kildens bilde bare når lisensen tillater det. Ellers velges et gratis illustrasjonsbilde, merket «Illustrasjonsfoto».</li><li><strong>Publiserer:</strong> Sakene legges ut automatisk, uten at et menneske leser dem først.</li></ul>
 <h2>Hva KI-en ikke gjør</h2>
@@ -627,7 +633,7 @@ f.addEventListener('submit',function(ev){{ev.preventDefault();if(e.value)takk(e.
 <h2>To typer saker</h2>
 <ul><li><strong>Viktige fremskritt:</strong> medisinske gjennombrudd, naturrestaurering, teknologiske løsninger og samfunnsendringer som gjør verden bedre.</li><li><strong>Ekte gladnyheter:</strong> dyr som blir reddet, mennesker som hjelper hverandre og små øyeblikk som gjør dagen litt bedre.</li></ul>
 <h2>Redaksjonen</h2>
-<p>Ansvarlig redaktør og nyhetsredaktør er Karoline D. Gjeldnes. Sakene blir funnet, vurdert, skrevet og publisert av KI-agenter etter våre redaksjonelle prinsipper. Redaktøren følger med og kan rette eller fjerne saker. <a href="redaksjonen.html">Les mer om redaksjonen</a>.</p>
+<p>Ansvarlig redaktør og nyhetsredaktør er Karoline Gjeldnes. Sakene blir funnet, vurdert, skrevet og publisert av KI-agenter etter våre redaksjonelle prinsipper. Redaktøren følger med og kan rette eller fjerne saker. <a href="redaksjonen.html">Les mer om redaksjonen</a>.</p>
 <h2>Gratis og åpent</h2>
 <p>Lyspunkt er gratis å lese, uten betalingsmur og uten reklame.</p>''')
 
@@ -650,7 +656,7 @@ f.addEventListener('submit',function(ev){{ev.preventDefault();if(e.value)takk(e.
 <h2>Slik jobber agentene</h2>
 <ul><li>De leter etter positive nyheter fra troverdige kilder: forskningsinstitusjoner, myndigheter, fagtidsskrifter og etablerte medier.</li><li>Hver sak kontrolleres mot kilden før den publiseres. Tall og påstander som ikke kan bekreftes, tas ikke med.</li><li>Sakene skrives med egne ord på norsk, med lenke til kildene.</li><li>Hver sak sier tydelig hva som fortsatt er usikkert.</li><li>Agentene finner aldri på sitater, personer eller tall.</li></ul>
 <h2>Redaktørens rolle</h2>
-<ul><li>Ansvarlig redaktør Karoline D. Gjeldnes kan når som helst endre, skjule eller overstyre saker og Dagens topp 3.</li><li>Alle saker er merket «KI-skrevet sak» øverst og har en forklaring nederst. Saker publiseres automatisk, uten at et menneske leser dem først.</li><li>AI-genererte bilder brukes aldri som om de var ekte fotografier.</li></ul>''')
+<ul><li>Ansvarlig redaktør Karoline Gjeldnes kan når som helst endre, skjule eller overstyre saker og Dagens topp 3.</li><li>Alle saker er merket «KI-skrevet sak» øverst og har en forklaring nederst. Saker publiseres automatisk, uten at et menneske leser dem først.</li><li>AI-genererte bilder brukes aldri som om de var ekte fotografier.</li></ul>''')
 
     info('personvern.html', 'Personvern', '#E6EFFD', 'Minst mulig data, mest mulig åpenhet.',
          '''<p>Lyspunkt skal være personvernvennlig. Du trenger ikke konto for å lese, og vi samler inn minst mulig informasjon.</p>
@@ -659,7 +665,7 @@ f.addEventListener('submit',function(ev){{ev.preventDefault();if(e.value)takk(e.
 
     write('tips.html', head('Tips oss – Lyspunkt', '') + header('') + '''<main class="inner">
   <div class="crumb"><a href="index.html">Forsiden</a> / Tips oss</div>
-  <section style="background:#E4F5E8;border-radius:0;padding:48px 56px;margin:20px 0 40px">
+  <section style="background:#E4F5E8;border-radius:24px;padding:48px 56px;margin:20px 0 40px">
     <h1 class="h1" style="font-size:clamp(34px,6vw,60px)">Tips oss om <span class="ser" style="font-style:italic;font-weight:400;letter-spacing:0;color:#2E8A4F">et lyspunkt</span></h1>
     <p style="margin:12px 0 0;font-size:19px;line-height:1.5;color:#3D4540;max-width:760px">Vet du om noe fint som skjer — eller har du sett en feil i en sak? Vi vil gjerne høre om det.</p>
   </section>
