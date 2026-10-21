@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-21T18:20:00+02:00",
+  "oppdatert": "2026-10-21T19:15:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -1337,6 +1337,75 @@
         "kreditt": "Erik Karits / Unsplash",
         "lisens": "Unsplash-lisens",
         "kilde_url": "https://unsplash.com/photos/a-blue-butterfly-sitting-on-top-of-a-white-flower-i2wl3EmIFY4",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "loulou-hund-funnet-etter-snoskred",
+      "tittel": "Hunden LouLou ble funnet i fjellet takket være fotspor i nysnøen",
+      "ingress": "Huskydoodlen LouLou ble alene igjen i fjellene nord for Anchorage i Alaska etter et snøskred. Over to døgn senere fulgte to piloter labbesporene hennes fram til henne.",
+      "kategorier": [
+        "sma-gleder",
+        "dyr-og-natur"
+      ],
+      "kildedato": "2026-10-20",
+      "publisert": "2026-10-21T19:15:00+02:00",
+      "brodtekst": [
+        "Den fire år gamle huskydoodlen LouLou var på tur på Shaker Peak nord for Anchorage 10. oktober da et tidlig snøskred tok med seg turfølget hennes. De to mennene ble skadet, men hentet ut med helikopter av Alaska National Guard i løpet av under to timer. LouLou ble ikke sett, og måtte klare seg alene i fjellet i to netter.",
+        "Heldigvis hadde hun en Apple AirTag på seg. Eieren brukte koordinatene til å snevre inn søkeområdet, og piloten Dave Beckett og vennen Amanda Barker fikk tilgang til sporingen og fløy ut med et privat helikopter. Nysnø fra natten før avslørte labbespor, og de fulgte dem til LouLou, som satt og ventet litt lenger opp i lia. Hun fulgte dem pent tilbake til helikopteret.",
+        "LouLou slapp unna med en avbrukket tann og en knekt klo. Etter en tur til veterinæren ble hun gjenforent med eieren 14. oktober, som ifølge Alaska Public Media kalte de to redningsmennene for «angels»."
+      ],
+      "hvorfor_hap": "Historien viser hvordan god hjelp fra frivillige og litt teknologi kan gjøre en farlig situasjon om til en lykkelig gjenforening.",
+      "kilder": [
+        {
+          "navn": "Alaska Public Media: «'Oh my god, there she is': Alaska pilot describes finding dog lost after avalanche» (20. oktober 2026)",
+          "url": "https://alaskapublic.org/news/outdoors/2026-10-20/oh-my-god-there-she-is-alaska-pilot-describes-finding-dog-lost-after-avalanche"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1676206904945-5549e5f2b48b?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En husky står i snøen og ser mot kameraet",
+        "kreditt": "Lia Maaskant / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-husky-dog-standing-in-the-snow-looking-at-the-camera-RV8SNyLhQ6Q",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "edvard-borneo-livevideo",
+      "tittel": "Bergenseren Edvard Borneo viser seg fram med ny låt og høstturné",
+      "ingress": "Låtskriveren og billedkunstneren Edvard Borneo fra Bergen har sluppet låta «I Do Not Miss You When You're Gone», og har nå fått premiere på en livevideo av den hos Gaffa.",
+      "kategorier": [
+        "musikk",
+        "norge"
+      ],
+      "kildedato": "2026-10-16",
+      "publisert": "2026-10-21T19:15:00+02:00",
+      "brodtekst": [
+        "Edvard Borneo er låtskriver og billedkunstner fra Bergen. 9. oktober slapp han låta «I Do Not Miss You When You're Gone», og musikkmagasinet Gaffa hadde premiere på en livevideo av den 16. oktober.",
+        "## Folk, indierock og country",
+        "Ifølge Gaffa blander låta amerikansk folkemusikk, indierock og country. Den handler om å bry seg mye om noen uten å kunne gjengjelde følelsene, og om avstanden som kan oppstå også mellom mennesker som står hverandre nær. Blant inspirasjonskildene nevnes Blake Mills, Adrianne Lenker og Bob Dylan. Låta er laget i samarbeid med Rigel Studios.",
+        "Gaffa har tidligere rost forrige singel, «Lake Michigan», for å være drømmende og svevende.",
+        "## Konserter i høst",
+        "Den som vil høre ham live, har flere sjanser: Dattera til Hagen i Oslo 24. oktober, Bergen Kjøtt 13. november, Blåveis i Stavanger 14. november og Stopp Pressen i Oslo 20. november."
+      ],
+      "hvorfor_hap": "Nye norske låtskrivere trenger at noen lytter. Med ny låt, livevideo og en liten turné har Edvard Borneo flere muligheter til å nå et nytt publikum denne høsten.",
+      "kilder": [
+        {
+          "navn": "Gaffa: «LIVEVIDEOPREMIERE: Edvard Borneo inviterer tett på med «I Do Not Miss You When You're Gone»» (16. oktober 2026)",
+          "url": "https://gaffa.no/nyheter/2026/oktober/livevideopremiere-edvard-borneo-inviterer-tett-pa-med-i-do-not-miss-you-when-you-re-gone"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1519640350407-953bc0614f4c?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En akustisk gitar",
+        "kreditt": "Matthijs Smit / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/brown-and-red-epiphone-acoustic-guitar-N-VDzD5z71E",
         "illustrasjon": true
       }
     }

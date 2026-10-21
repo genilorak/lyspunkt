@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="no">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Låtskriveren og billedkunstneren Edvard Borneo fra Bergen har sluppet låta «I Do Not Miss You When You&#x27;re Gone», og har nå fått premiere på en livevideo av den hos Gaffa.">
+<title>Bergenseren Edvard Borneo viser seg fram med ny låt og høstturné – Lyspunkt</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&amp;family=Instrument+Serif:ital@0;1&amp;family=Hanken+Grotesk:wght@400;500;600;700&amp;display=swap">
+<link rel="stylesheet" href="../stil.css">
+<script>
+(function(){var k='lyspunkt-tema';try{if(localStorage.getItem(k)==='dark')document.documentElement.classList.add('dark')}catch(e){}
+document.addEventListener('DOMContentLoaded',function(){var b=document.getElementById('tema');if(!b)return;
+function lab(){var d=document.documentElement.classList.contains('dark');b.setAttribute('aria-label',d?'Bytt til lyst tema':'Bytt til mørkt tema');b.setAttribute('aria-pressed',d?'true':'false')}lab();
+b.addEventListener('click',function(){var d=document.documentElement.classList.toggle('dark');try{localStorage.setItem(k,d?'dark':'light')}catch(e){}lab()})})})();
+</script>
+<script>
+(function(){
+var MND=['jan.','feb.','mars','apr.','mai','juni','juli','aug.','sep.','okt.','nov.','des.'];
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function merke(p,idag){var d=new Date(p);if(isNaN(d))return '';var o=d.toLocaleDateString('sv-SE',{timeZone:'Europe/Oslo'});if(o===idag)return d.toLocaleTimeString('nb-NO',{timeZone:'Europe/Oslo',hour:'2-digit',minute:'2-digit'});var dd=new Date(o+'T12:00:00');return dd.getDate()+'. '+MND[dd.getMonth()]}
+function oppdater(){var t=document.querySelector('.ticker');if(!t)return;var base=t.getAttribute('data-base')||'';
+fetch(base+'data/siste.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null}).then(function(d){if(!d||!d.saker||!d.saker.length)return;
+var idag=new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Oslo'});
+var it=d.saker.slice(0,10).map(function(s){return '<a href="'+base+'artikkel/'+esc(s.id)+'.html"><span class="t">'+esc(merke(s.publisert,idag))+'</span>'+esc(s.tittel)+'</a><span class="sep">/</span>'}).join('');
+var b=t.querySelector('.tbane');if(b&&b.getAttribute('data-sig')!==d.oppdatert){b.innerHTML=it+it;b.setAttribute('data-sig',d.oppdatert)}
+var l=document.getElementById('siste-liste');if(l){l.innerHTML=d.saker.slice(0,5).map(function(s){return '<a href="'+base+'artikkel/'+esc(s.id)+'.html" style="display:grid;grid-template-columns:70px 1fr;gap:10px;padding:16px 0;border-top:1px solid rgba(14,122,78,.2)"><span class="bri" style="font-weight:700;color:#0E7A4E">'+esc(merke(s.publisert,idag))+'</span><span style="font-size:16px;font-weight:600;line-height:1.35">'+esc(s.tittel)+'</span></a>'}).join('')}
+}).catch(function(){})}
+document.addEventListener('DOMContentLoaded',function(){oppdater();setInterval(oppdater,120000)});
+})();
+</script>
+</head>
+<body>
+<div class="wrap">
+<div class="ticker" data-base="../"><span class="pill" style="background:#FFD23F;flex:none;position:relative;z-index:1">Siste</span><div class="tvindu"><div class="tbane"><a href="../artikkel/loulou-hund-funnet-etter-snoskred.html"><span class="t">19:15</span>Hunden LouLou ble funnet i fjellet takket være fotspor i nysnøen</a><span class="sep">/</span><a href="../artikkel/edvard-borneo-livevideo.html"><span class="t">19:15</span>Bergenseren Edvard Borneo viser seg fram med ny låt og høstturné</a><span class="sep">/</span><a href="../artikkel/halnaker-sommerfugler-south-downs.html"><span class="t">18:20</span>Sjeldne sommerfugler dukket opp på gård som får bli natur igjen</a><span class="sep">/</span><a href="../artikkel/perseverance-kjorerekord.html"><span class="t">17:15</span>Mars-roveren Perseverance har kjørt lenger enn noe kjøretøy på en annen klode</a><span class="sep">/</span><a href="../artikkel/okc-zoo-sebrafol-astra.html"><span class="t">15:20</span>Velkommen, Astra! Sebraføllet fikk et navn fra verdensrommet</a><span class="sep">/</span><a href="../artikkel/vamp-kver-tredje-time.html"><span class="t">14:20</span>Vamp er tilbake med ny låt og varsler sitt 14. studioalbum</a><span class="sep">/</span><a href="../artikkel/riba-internasjonal-pris-fabrikk-bangladesh.html"><span class="t">13:45</span>Fabrikk bygget for arbeiderne i Bangladesh kåret til verdens beste nye bygg</a><span class="sep">/</span><a href="../artikkel/thames-supersluk-86-prosent.html"><span class="t">13:45</span>Superkloakken i London kuttet kloakkutslipp til Themsen med 86 prosent</a><span class="sep">/</span><a href="../artikkel/london-zoo-froskeunger-ghana.html"><span class="t">13:45</span>Kritisk truet frosk fra Ghana har fått unger for første gang i fangenskap</a><span class="sep">/</span><a href="../artikkel/pumasoskenne-takoda-juniper.html"><span class="t">13:30</span>Foreldreløse pumasøsken har fått et nytt hjem</a><span class="sep">/</span><a href="../artikkel/loulou-hund-funnet-etter-snoskred.html"><span class="t">19:15</span>Hunden LouLou ble funnet i fjellet takket være fotspor i nysnøen</a><span class="sep">/</span><a href="../artikkel/edvard-borneo-livevideo.html"><span class="t">19:15</span>Bergenseren Edvard Borneo viser seg fram med ny låt og høstturné</a><span class="sep">/</span><a href="../artikkel/halnaker-sommerfugler-south-downs.html"><span class="t">18:20</span>Sjeldne sommerfugler dukket opp på gård som får bli natur igjen</a><span class="sep">/</span><a href="../artikkel/perseverance-kjorerekord.html"><span class="t">17:15</span>Mars-roveren Perseverance har kjørt lenger enn noe kjøretøy på en annen klode</a><span class="sep">/</span><a href="../artikkel/okc-zoo-sebrafol-astra.html"><span class="t">15:20</span>Velkommen, Astra! Sebraføllet fikk et navn fra verdensrommet</a><span class="sep">/</span><a href="../artikkel/vamp-kver-tredje-time.html"><span class="t">14:20</span>Vamp er tilbake med ny låt og varsler sitt 14. studioalbum</a><span class="sep">/</span><a href="../artikkel/riba-internasjonal-pris-fabrikk-bangladesh.html"><span class="t">13:45</span>Fabrikk bygget for arbeiderne i Bangladesh kåret til verdens beste nye bygg</a><span class="sep">/</span><a href="../artikkel/thames-supersluk-86-prosent.html"><span class="t">13:45</span>Superkloakken i London kuttet kloakkutslipp til Themsen med 86 prosent</a><span class="sep">/</span><a href="../artikkel/london-zoo-froskeunger-ghana.html"><span class="t">13:45</span>Kritisk truet frosk fra Ghana har fått unger for første gang i fangenskap</a><span class="sep">/</span><a href="../artikkel/pumasoskenne-takoda-juniper.html"><span class="t">13:30</span>Foreldreløse pumasøsken har fått et nytt hjem</a><span class="sep">/</span></div></div></div>
+<header class="hdr">
+  <div class="hdr-top">
+    <span style="font-size:14px;font-weight:600;color:#5E665F">Onsdag 21. oktober</span>
+    <div style="display:flex;flex-direction:column;align-items:center;gap:2px">
+      <a href="../index.html" aria-label="Lyspunkt forside" style="display:flex;align-items:center;gap:10px"><svg width="40" height="40" viewBox="0 0 32 32" aria-hidden="true"><path d="M9 22a7 7 0 0 1 14 0z" fill="#FFB800"></path><line x1="4" y1="22.5" x2="28" y2="22.5" stroke="#16120F" stroke-width="1.8" stroke-linecap="round"></line><line x1="16" y1="7" x2="16" y2="10.5" stroke="#FFB800" stroke-width="2" stroke-linecap="round"></line><line x1="8" y1="11" x2="10.2" y2="13.4" stroke="#FFB800" stroke-width="2" stroke-linecap="round"></line><line x1="24" y1="11" x2="21.8" y2="13.4" stroke="#FFB800" stroke-width="2" stroke-linecap="round"></line></svg><span class="bri" style="font-size:42px;font-weight:800;letter-spacing:-0.045em">lyspunkt</span></a>
+      <span class="ser" style="font-size:21px;font-style:italic;color:#4F6E9E;padding-left:50px">Et lysere blikk på verden.</span>
+    </div>
+    <div style="display:flex;justify-content:flex-end;gap:10px;align-items:center">
+      <a href="../sok.html" class="iconbtn" aria-label="Søk"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#16120F" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="16.5" y1="16.5" x2="21" y2="21"></line></svg></a>
+      <button id="tema" type="button" class="iconbtn" aria-label="Bytt til mørkt tema"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#16120F" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"></path></svg></button>
+    </div>
+  </div>
+  <nav class="nav" aria-label="Kategorier"><a href="../index.html">Forsiden</a><a href="../kategori/norge.html">Norge</a><a href="../kategori/verden.html">Verden</a><a href="../kategori/vitenskap.html">Vitenskap</a><a href="../kategori/helse.html">Helse</a><a href="../kategori/klima-og-miljo.html">Klima og miljø</a><a href="../kategori/dyr-og-natur.html">Dyr og natur</a><a href="../kategori/teknologi.html">Teknologi</a><a href="../kategori/verdensrommet.html">Verdensrommet</a><a href="../kategori/musikk.html" class="on">Musikk</a><a href="../kategori/kultur.html">Kultur</a><a href="../kategori/sport.html">Sport</a><a href="../kategori/sma-gleder.html" class="sg">Små gleder</a></nav>
+</header>
+<main class="inner">
+  <div class="crumb"><a href="../index.html">Forsiden</a> / <a href="../kategori/musikk.html">Musikk</a></div>
+  <article style="display:flex;flex-direction:column;align-items:center;padding-top:36px">
+    <div style="width:100%;max-width:880px;display:flex;flex-direction:column;gap:18px">
+      <span style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><span class="kick" style="color:#A65300">Musikk</span><a href="../redaksjonen.html" class="pill" style="background:#EAE3FF;color:#4B3AA8;text-decoration:none">KI-skrevet sak</a></span>
+      <h1 class="h1" style="font-size:clamp(34px,6vw,58px)">Bergenseren Edvard Borneo viser seg fram med ny låt og høstturné</h1>
+      <p style="margin:0;font-size:22px;line-height:1.5;color:#3D4540;font-weight:500">Låtskriveren og billedkunstneren Edvard Borneo fra Bergen har sluppet låta «I Do Not Miss You When You&#x27;re Gone», og har nå fått premiere på en livevideo av den hos Gaffa.</p>
+      <div style="display:flex;gap:16px;align-items:center;padding:14px 0;border-top:1px solid #EFE6D6;border-bottom:1px solid #EFE6D6;font-size:14px;color:#5E665F">
+        <span style="width:40px;height:40px;border-radius:20px;background:#FFEEDB;display:flex;align-items:center;justify-content:center"><svg width="22" height="22" viewBox="0 0 32 32" aria-hidden="true"><path d="M9 22a7 7 0 0 1 14 0z" fill="#FFB800"></path><line x1="4" y1="22.5" x2="28" y2="22.5" stroke="#16120F" stroke-width="1.8" stroke-linecap="round"></line><line x1="16" y1="7" x2="16" y2="10.5" stroke="#FFB800" stroke-width="2" stroke-linecap="round"></line><line x1="8" y1="11" x2="10.2" y2="13.4" stroke="#FFB800" stroke-width="2" stroke-linecap="round"></line><line x1="24" y1="11" x2="21.8" y2="13.4" stroke="#FFB800" stroke-width="2" stroke-linecap="round"></line></svg></span>
+        <span><strong style="color:#16120F">Hentet fra <a href="https://gaffa.no/nyheter/2026/oktober/livevideopremiere-edvard-borneo-inviterer-tett-pa-med-i-do-not-miss-you-when-you-re-gone" target="_blank" rel="noopener" style="color:#16120F;text-decoration:underline;text-underline-offset:3px">Gaffa</a></strong> · Funnet og skrevet av KI<br>Publisert 21. okt. 2026 · Kilden er datert 16. okt. 2026 · <a href="../redaksjonen.html" style="color:#4F6E9E;text-decoration:underline">Om redaksjonen</a></span>
+      </div>
+      <figure style="margin:14px 0 0"><div style="height:480px;border-radius:24px;overflow:hidden;background:#FFEEDB"><img src="https://images.unsplash.com/photo-1519640350407-953bc0614f4c?w=1600&amp;q=80&amp;auto=format&amp;fit=crop" alt="En akustisk gitar" onerror="var f=this.closest('figure');if(f)f.remove()" style="width:100%;height:100%;object-fit:cover;display:block"></div><figcaption class="meta" style="margin-top:10px;font-size:13px">Illustrasjonsfoto: Matthijs Smit / Unsplash · Unsplash-lisens · <a href="https://unsplash.com/photos/brown-and-red-epiphone-acoustic-guitar-N-VDzD5z71E" target="_blank" rel="noopener" style="color:#4F6E9E;text-decoration:underline">Bildets kilde</a></figcaption></figure>
+    </div>
+    <div class="prose" style="width:100%;max-width:720px;margin-top:36px">
+      <p>Edvard Borneo er låtskriver og billedkunstner fra Bergen. 9. oktober slapp han låta «I Do Not Miss You When You&#x27;re Gone», og musikkmagasinet Gaffa hadde premiere på en livevideo av den 16. oktober.</p><h2>Folk, indierock og country</h2><p>Ifølge Gaffa blander låta amerikansk folkemusikk, indierock og country. Den handler om å bry seg mye om noen uten å kunne gjengjelde følelsene, og om avstanden som kan oppstå også mellom mennesker som står hverandre nær. Blant inspirasjonskildene nevnes Blake Mills, Adrianne Lenker og Bob Dylan. Låta er laget i samarbeid med Rigel Studios.</p><p>Gaffa har tidligere rost forrige singel, «Lake Michigan», for å være drømmende og svevende.</p><h2>Konserter i høst</h2><p>Den som vil høre ham live, har flere sjanser: Dattera til Hagen i Oslo 24. oktober, Bergen Kjøtt 13. november, Blåveis i Stavanger 14. november og Stopp Pressen i Oslo 20. november.</p>
+      <aside style="background:#FFEEDB;border-radius:20px;padding:26px 28px;margin:36px 0">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px"><svg width="26" height="26" viewBox="0 0 32 32" aria-hidden="true"><path d="M9 22a7 7 0 0 1 14 0z" fill="#FFB800"></path><line x1="4" y1="22.5" x2="28" y2="22.5" stroke="#16120F" stroke-width="1.8" stroke-linecap="round"></line><line x1="16" y1="7" x2="16" y2="10.5" stroke="#FFB800" stroke-width="2" stroke-linecap="round"></line><line x1="8" y1="11" x2="10.2" y2="13.4" stroke="#FFB800" stroke-width="2" stroke-linecap="round"></line><line x1="24" y1="11" x2="21.8" y2="13.4" stroke="#FFB800" stroke-width="2" stroke-linecap="round"></line></svg><span class="bri" style="font-size:22px;font-weight:800;letter-spacing:-0.02em">Hvorfor dette gir håp</span></div>
+        <p style="margin:0 0 10px;font-size:17px;line-height:1.6">Nye norske låtskrivere trenger at noen lytter. Med ny låt, livevideo og en liten turné har Edvard Borneo flere muligheter til å nå et nytt publikum denne høsten.</p>
+        
+      </aside>
+      <h2>Kilder</h2>
+      <ul><li><a href="https://gaffa.no/nyheter/2026/oktober/livevideopremiere-edvard-borneo-inviterer-tett-pa-med-i-do-not-miss-you-when-you-re-gone" target="_blank" rel="noopener">Gaffa: «LIVEVIDEOPREMIERE: Edvard Borneo inviterer tett på med «I Do Not Miss You When You&#x27;re Gone»» (16. oktober 2026)</a></li></ul>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:28px"><a href="../kategori/musikk.html" style="font-size:13px;font-weight:700;color:#A65300;background:#FFEEDB;padding:8px 14px;border-radius:999px;text-decoration:none">Musikk</a> <a href="../kategori/norge.html" style="font-size:13px;font-weight:700;color:#8A6400;background:#FFF3CC;padding:8px 14px;border-radius:999px;text-decoration:none">Norge</a></div>
+      <p style="margin:40px 0 0;padding-top:20px;border-top:1px solid #EFE6D6;font-size:14px;line-height:1.6;color:#5E665F"><strong style="color:#16120F">KI-assistert sak.</strong> Saken er funnet, kontrollert mot kildene over og skrevet av Lyspunkts KI-agenter. Det er også KI som har vurdert at saken skulle publiseres. Ansvarlig redaktør er Karoline Gjeldnes, som følger med på sakene og kan rette eller fjerne dem. Ser du en feil? <a href="../tips.html">Gi oss beskjed</a>. <a href="../redaksjonen.html">Les mer om redaksjonen</a>.</p>
+    </div>
+  </article>
+  <section style="margin-top:72px">
+    <h2 class="bri" style="font-size:34px;font-weight:800;letter-spacing:-0.03em;margin:0 0 20px">Les også</h2>
+    <div class="grid3"><a href="../artikkel/vamp-kver-tredje-time.html" class="card" data-kat="musikk norge kultur">
+  <div class="img"><img src="https://images.pexels.com/photos/16336232/pexels-photo-16336232.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600" alt="En akustisk gitar på et stativ på en scene med røyk og lys" loading="lazy" onerror="var b=this.closest('.img,.sgimg');if(b)b.remove();else this.remove()" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+  <div class="txt"><span class="kick" style="color:#A65300">Musikk</span><h3>Vamp er tilbake med ny låt og varsler sitt 14. studioalbum</h3><p>Vamp har sluppet singelen «Kver tredje time», en låt om sorgen over å miste noen. Den er en forsmak på albumet «Syr ei blonda», som etter planen kommer i februar 2027.</p><span class="meta" style="margin-top:auto">19. okt.</span></div>
+</a><a href="../artikkel/p3-gull-arets-album.html" class="card" data-kat="musikk norge kultur">
+  <div class="img"><img src="https://images.unsplash.com/photo-1697238724753-60c0c31132d3?w=1600&amp;q=80&amp;auto=format&amp;fit=crop" alt="En platespiller med en vinylplate" loading="lazy" onerror="var b=this.closest('.img,.sgimg');if(b)b.remove();else this.remove()" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+  <div class="txt"><span class="kick" style="color:#A65300">Musikk</span><h3>P3 Gull innfører pris for årets album, og fem norske plater kjemper om den</h3><p>TOMORA, Iris Caltwait, Konradsen, Tobias Sten og ARY er nominert når P3 Gull for første gang hedrer et helt album.</p><span class="meta" style="margin-top:auto">15. okt.</span></div>
+</a><a href="../artikkel/loulou-hund-funnet-etter-snoskred.html" class="card" data-kat="sma-gleder dyr-og-natur">
+  <div class="img"><img src="https://images.unsplash.com/photo-1676206904945-5549e5f2b48b?w=1600&amp;q=80&amp;auto=format&amp;fit=crop" alt="En husky står i snøen og ser mot kameraet" loading="lazy" onerror="var b=this.closest('.img,.sgimg');if(b)b.remove();else this.remove()" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+  <div class="txt"><span class="kick" style="color:#8A6400">Små gleder</span><h3>Hunden LouLou ble funnet i fjellet takket være fotspor i nysnøen</h3><p>Huskydoodlen LouLou ble alene igjen i fjellene nord for Anchorage i Alaska etter et snøskred. Over to døgn senere fulgte to piloter labbesporene hennes fram til henne.</p><span class="meta" style="margin-top:auto">20. okt.</span></div>
+</a></div>
+  </section>
+</main>
+<footer class="foot">
+  <div class="foot-in">
+    <div style="display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;align-items:center">
+      <div style="grid-column:span 6;display:flex;flex-direction:column;gap:6px">
+        <a href="../index.html" style="display:flex;align-items:center;gap:14px"><svg width="56" height="56" viewBox="0 0 32 32" aria-hidden="true"><path d="M9 22a7 7 0 0 1 14 0z" fill="#FFB800"></path><line x1="4" y1="22.5" x2="28" y2="22.5" stroke="#16120F" stroke-width="1.8" stroke-linecap="round"></line><line x1="16" y1="7" x2="16" y2="10.5" stroke="#FFB800" stroke-width="2" stroke-linecap="round"></line><line x1="8" y1="11" x2="10.2" y2="13.4" stroke="#FFB800" stroke-width="2" stroke-linecap="round"></line><line x1="24" y1="11" x2="21.8" y2="13.4" stroke="#FFB800" stroke-width="2" stroke-linecap="round"></line></svg><span class="bri" style="font-size:clamp(36px,6vw,64px);font-weight:800;letter-spacing:-0.05em;line-height:1">lyspunkt</span></a>
+        <span class="ser" style="font-size:28px;font-style:italic;color:#4F6E9E;padding-left:70px">Et lysere blikk på verden.</span>
+      </div>
+      <form action="../nyhetsbrev.html" method="get" style="grid-column:8 / span 5;background:#FFFFFF;border-radius:22px;padding:26px;display:flex;flex-direction:column;gap:12px;box-shadow:0 10px 30px rgba(138,100,0,.12)">
+        <span class="bri" style="font-size:24px;font-weight:800;letter-spacing:-0.03em">Ukens lyspunkter, rett i innboksen</span>
+        <span style="font-size:14px;color:#3D4540">Hver fredag. Tre gode nyheter og én liten glede. Gratis.</span>
+        <div style="display:flex;gap:8px">
+          <label for="fepost" class="sr">E-postadresse</label>
+          <input id="fepost" name="epost" type="email" required placeholder="din@epost.no" style="flex:1;height:48px;background:#FFFBF2">
+          <button type="submit" class="btn" style="height:48px;background:#4F6E9E;color:#FFFFFF;font-size:15px">Meld meg på</button>
+        </div>
+      </form>
+    </div>
+    <div class="foot-links">
+      <div class="col"><span class="kick" style="color:#8A6400;margin-bottom:8px">Kategorier</span><a href="../kategori/norge.html">Norge</a><a href="../kategori/verden.html">Verden</a><a href="../kategori/vitenskap.html">Vitenskap</a><a href="../kategori/helse.html">Helse</a><a href="../kategori/klima-og-miljo.html">Klima og miljø</a><a href="../kategori/dyr-og-natur.html">Dyr og natur</a></div>
+      <div class="col"><span class="kick" style="color:#8A6400;margin-bottom:8px">&#160;</span><a href="../kategori/teknologi.html">Teknologi</a><a href="../kategori/verdensrommet.html">Verdensrommet</a><a href="../kategori/musikk.html">Musikk</a><a href="../kategori/kultur.html">Kultur</a><a href="../kategori/sport.html">Sport</a><a href="../kategori/sma-gleder.html">Små gleder</a></div>
+      <div class="col"><span class="kick" style="color:#8A6400;margin-bottom:8px">Redaksjonen</span><span>Ansvarlig redaktør: Karoline Gjeldnes</span><span>Sakene hentes og skrives av KI</span><a href="../redaksjonen.html" style="align-self:flex-start;margin-top:8px;background:#16120F;color:#FFFBF2;padding:8px 14px;border-radius:999px;font-weight:700;line-height:1.4">Om redaksjonen →</a><a href="../tips.html" style="margin-top:6px">Tips oss</a><a href="../om.html">Om Lyspunkt</a></div>
+      <div class="col"><span class="kick" style="color:#8A6400;margin-bottom:8px">Slik jobber vi</span><a href="../prinsipper.html">Redaksjonelle prinsipper</a><a href="../rettelser.html">Rettelser</a><a href="../ai.html">Bruk av AI</a><a href="../personvern.html">Personvern</a></div>
+    </div>
+    <div aria-hidden="true" style="display:flex;justify-content:center;margin:-8px -56px -32px">
+      <svg width="384" height="160" viewBox="0 0 600 250" style="display:block"><path d="M60 250a240 240 0 0 1 480 0z" fill="#FFE08A"></path><path d="M140 250a160 160 0 0 1 320 0z" fill="#FFC93A"></path><path d="M210 250a90 90 0 0 1 180 0z" fill="#FFB800"></path></svg>
+    </div>
+  </div>
+  <div class="foot-band" style="margin-top:32px">© Lyspunkt · Sist oppdatert 21. okt. 2026 kl. 19:15 · <a href="../ai.html" style="color:#5C4600;text-decoration:underline">Slik bruker vi AI</a></div>
+</footer>
+</div>
+</body>
+</html>
