@@ -1,9 +1,9 @@
 {
-  "oppdatert": "2026-10-20T19:15:00+02:00",
+  "oppdatert": "2026-10-21T07:15:00+02:00",
   "topp3_last": false,
   "topp3": [
-    "rektalkreft-immunterapi",
-    "nordisk-rad-storeslem",
+    "hepatitt-b-bepirovirsen",
+    "sommelier-vm-svorte",
     "mmx-phobos"
   ],
   "avvist": [
@@ -688,6 +688,137 @@
         {
           "navn": "National Trust: «History of 34–35 Maiden Lane»",
           "url": "https://www.nationaltrust.org.uk/visit/london/34-35-maiden-lane/history-of-34-35-maiden-lane"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "hepatitt-b-bepirovirsen",
+      "tittel": "Nytt legemiddel kan gi funksjonell kur for noen med kronisk hepatitt B",
+      "ingress": "Det amerikanske legemiddelverket FDA har godkjent bepirovirsen. I to store studier ble nesten én av fem behandlede pasienter kvitt tegnene på viruset i blodet, mot ingen som fikk placebo.",
+      "kategorier": [
+        "helse",
+        "vitenskap",
+        "verden"
+      ],
+      "kildedato": "2026-10-20",
+      "publisert": "2026-10-21T07:15:00+02:00",
+      "brodtekst": [
+        "Den 20. oktober godkjente FDA legemiddelet Hibsago, med virkestoffet bepirovirsen, for voksne med kronisk hepatitt B. Det er laget av GSK og er allerede godkjent i Japan. FDA hadde gitt det status som gjennombruddsbehandling og prioritert vurdering.",
+        "Bepirovirsen er et såkalt antisense-oligonukleotid, et nytt slags legemiddel mot denne sykdommen. Det skal hindre at viruset lager RNA og bremse produksjonen av virusproteinet HBsAg i blodet. Behandlingen varer i seks måneder og gis som sprøyter, som pasientene etter første dose kan sette selv.",
+        "## Hva studiene viste",
+        "Godkjenningen bygger på to store, placebokontrollerte fase 3-studier, B-Well 1 og B-Well 2, i 29 land. Samlet fikk 1220 pasienter legemiddelet og 614 placebo. Målet var funksjonell kur: at både virus-DNA og HBsAg ikke lenger kunne påvises i minst 24 uker etter at all behandling var avsluttet.",
+        "Det oppnådde 19 prosent av dem som fikk bepirovirsen, mot 0 prosent i placebogruppen. Blant pasienter med lavest nivå av HBsAg ved start var andelen 26 prosent.",
+        "## Hvem det gjelder",
+        "Godkjenningen gjelder voksne uten skrumplever som allerede har brukt vanlige antivirale tabletter i minst seks måneder, har undertrykt virus og lavt nivå av HBsAg. Bepirovirsen skal brukes sammen med disse tablettene. Ifølge GSK lever over 240 millioner mennesker i verden med kronisk hepatitt B, som er den viktigste årsaken til leverkreft globalt."
+      ],
+      "hvorfor_hap": "Dagens behandling holder viruset i sjakk, men svært få blir kvitt det. Et legemiddel som etter seks måneder gir varig funksjonell kur hos en del av pasientene, kan for dem bety slutt på livslang medisinering.",
+      "usikkert": "De fleste pasientene i studiene oppnådde ikke funksjonell kur, og godkjenningen gjelder bare en avgrenset gruppe. Legemiddelet har en alvorlig advarsel om leverbetennelse under behandling og lavt antall blodplater, og det skal ikke brukes ved skrumplever. Det er foreløpig ikke godkjent i Norge, og langtidsdata mangler.",
+      "kilder": [
+        {
+          "navn": "FDA: «Novel Drug Approvals for 2026» (Hibsago godkjent 20. oktober 2026)",
+          "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026"
+        },
+        {
+          "navn": "GSK via BioSpace: «Hibsago (bepirovirsen) Approved in the US for the Treatment of Chronic Hepatitis B» (20. oktober 2026)",
+          "url": "https://www.biospace.com/press-releases/hibsago-bepirovirsen-approved-in-the-us-for-the-treatment-of-chronic-hepatitis-b-chb"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "sommelier-vm-svorte",
+      "tittel": "Nordmann ble kåret til verdens beste vinkelner",
+      "ingress": "Nikolai Haram Svorte (29) fra Sula vant VM for sommelierer i Lisboa, i sitt første forsøk. Ifølge Aftenposten er det første gang en nordmann vinner.",
+      "kategorier": [
+        "norge",
+        "kultur",
+        "sma-gleder"
+      ],
+      "kildedato": "2026-10-17",
+      "publisert": "2026-10-21T07:15:00+02:00",
+      "brodtekst": [
+        "Fredag 16. oktober sto finalen i ASI Best Sommelier of the World 2026 på scenen i det historiske Coliseu dos Recreios i Lisboa. Der slo Nikolai Haram Svorte franske Pascaline Lepeltier og japanske Wataru Iwata.",
+        "Svorte er 29 år og kommer fra Sula i Møre og Romsdal. Han jobber som produktsjef hos en vinimportør og har spesialisert seg på champagne. Han har vunnet norgesmesterskapet fire år på rad og ble nordisk mester i 2025. Dette var hans første VM.",
+        "## 66 deltakere",
+        "Konkurransen arrangeres av Association de la Sommellerie Internationale og samlet 66 sommelierer. Etter to dager med kvartfinaler gikk 20 videre til semifinalen, og tre til finalen. Oppgavene holdes hemmelige fram til hver runde og kan handle om vin, øl, alkoholfrie drikker, kaffe og te.",
+        "Ifølge Aftenposten er dette første gang en nordmann vinner. Forrige gang en nordmann var i finalen var i 1989. Forrige vinner var Raimonds Tomsons fra Latvia, som vant i Paris i 2023."
+      ],
+      "hvorfor_hap": "Det er en sjelden verdenstittel til Norge i et fag der konkurransen er hard og kravene til kunnskap og service er store. Den viser at målrettet arbeid over flere år kan føre helt til topps.",
+      "kilder": [
+        {
+          "navn": "Aftenposten Vink: «Historisk VM-finale for norsk vinkelner» (16.–17. oktober 2026)",
+          "url": "https://vink.aftenposten.no/artikkel/zl6PXO/historisk-vm-finale-for-norsk-vinkelner"
+        },
+        {
+          "navn": "Decanter: «Norway's Nikolai Haram Svorte crowned ASI Best Sommelier of the World 2026» (17. oktober 2026)",
+          "url": "https://www.decanter.com/wine/norways-nikolai-haram-svorte-crowned-asi-best-sommelier-of-the-world-2026/"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "gresskar-verdensrekord-3156",
+      "tittel": "Verdens første gresskar over 3000 pund veier 1431,5 kilo",
+      "ingress": "En dyrker i Rhode Island i USA har satt verdensrekord med et kjempegresskar på 1431,5 kilo. Guinness World Records har godkjent rekorden.",
+      "kategorier": [
+        "sma-gleder",
+        "verden"
+      ],
+      "kildedato": "2026-10-13",
+      "publisert": "2026-10-21T07:15:00+02:00",
+      "brodtekst": [
+        "Ron Wallace fikk gresskaret sitt veid 10. oktober på en konkurranse for kjempegresskar på Frerichs Farm i Warren i Rhode Island. Vekta stoppet på 3156 pund, som tilsvarer 1431,5 kilo. Det er det tyngste gresskaret som noen gang er registrert, og det første over 3000 pund.",
+        "Bare en uke før hadde briten Ian Paton fra Hampshire satt rekord med et gresskar på rundt 2856 pund. Wallace slo den med nesten 300 pund.",
+        "## Drivhus for første gang",
+        "I år dyrket Wallace gresskaret i drivhus for første gang. Ifølge Weather.com mente han at det gjorde stor forskjell i en sesong med tørke i New England og sterk sommervarme.",
+        "Rekordgresskar er av sorten Atlantic Giant. Dyrkerne beholder bare én frukt per plante, pollinerer for hånd og vanner mye. I den mest intense perioden kan et slikt gresskar legge på seg 30 til 50 pund om dagen."
+      ],
+      "hvorfor_hap": "Det er en ren gladsak om tålmodighet og hagelykke. Kjempegresskar samler hvert år folk til hyggelige konkurranser, og nå er en grense ingen hadde nådd før, passert.",
+      "kilder": [
+        {
+          "navn": "Guinness World Records: «Heaviest pumpkin»",
+          "url": "https://www.guinnessworldrecords.com/world-records/heaviest-pumpkin"
+        },
+        {
+          "navn": "Weather.com: «How is a 3,000-pound pumpkin possible? Weather makes all the difference» (13. oktober 2026)",
+          "url": "https://weather.com/2026/10/13/science/nature/how-is-a-3000-pound-pumpkin-possible-weather-makes-all-the-difference"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "artsallianse-500-millioner",
+      "tittel": "Ni givere lover over 500 millioner dollar til truede arter",
+      "ingress": "På FNs naturtoppmøte i Armenia lovet ni private givere og organisasjoner til sammen over 500 millioner dollar de neste fem årene for å hindre at arter dør ut.",
+      "kategorier": [
+        "dyr-og-natur",
+        "klima-og-miljo",
+        "verden"
+      ],
+      "kildedato": "2026-10-16",
+      "publisert": "2026-10-21T07:15:00+02:00",
+      "brodtekst": [
+        "Løftet ble lagt fram 16. oktober i Jerevan, under COP17, FNs 17. partsmøte under konvensjonen om biologisk mangfold. Bak står blant andre Bezos Earth Fund, Re:wild, Rainforest Trust, Colossal Foundation og Critical Ecosystem Partnership Fund.",
+        "Pengene skal brukes til å redde og bygge opp igjen arter som er utdødd i vill tilstand, kritisk truet eller sterkt truet på den globale rødlista. Ifølge Re:wild er over 31 000 arter i verden i disse kategoriene.",
+        "## Koordinert, ikke i én pott",
+        "Giverne skal ikke samle pengene i ett fond, men samordne hvordan de gir. De skal også dele kunnskap og samarbeide med lokale partnere om tiltak som avl i fangenskap, restaurering av leveområder og utsetting av dyr.",
+        "Fremgangen skal måles med verktøy fra Den internasjonale naturvernunionen (IUCN): rødlista og en egen metode for å måle hvor godt en art har kommet seg."
+      ],
+      "hvorfor_hap": "Mange arter kan reddes hvis noen tar tak i tide, og arbeidet stopper ofte på grunn av manglende penger. Et stort, samordnet løfte over flere år kan gjøre det lettere å planlegge langsiktig redningsarbeid.",
+      "usikkert": "Dette er et løfte om penger, og det gjenstår å se hvor mye som faktisk blir utbetalt og hvilke arter som får hjelp. Det er ikke oppgitt hvor mye hver giver bidrar med.",
+      "kilder": [
+        {
+          "navn": "Re:wild: «Nine private funders announce more than $500 million commitment to recover the world's most threatened species» (16. oktober 2026)",
+          "url": "https://www.rewild.org/press/species-recovery-alliance"
+        },
+        {
+          "navn": "Carbon Pulse: «New private donor alliance pledges $500 mln for species recovery at COP17 Leaders' Summit» (16. oktober 2026)",
+          "url": "https://carbon-pulse.com/561416/"
         }
       ],
       "status": "publisert",
