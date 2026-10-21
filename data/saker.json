@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-21T23:30:00+02:00",
+  "oppdatert": "2026-10-22T00:15:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -1620,6 +1620,82 @@
         "kreditt": "Vivint Solar / Unsplash",
         "lisens": "Unsplash-lisens",
         "kilde_url": "https://unsplash.com/photos/brown-brick-house-with-solar-panels-on-roof-9CalgkSRZb8",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "euclid-forste-komet",
+      "tittel": "Romteleskopet Euclid har funnet sin første ukjente komet",
+      "ingress": "ESAs romteleskop Euclid er laget for å kartlegge fjerne galakser, men har nå oppdaget en komet ingen hadde sett før. Den har fått navnet C/2026 S1 (Euclid).",
+      "kategorier": [
+        "verdensrommet",
+        "vitenskap"
+      ],
+      "kildedato": "2026-10-19",
+      "publisert": "2026-10-22T00:15:00+02:00",
+      "brodtekst": [
+        "Den europeiske romfartsorganisasjonen ESA melder at romteleskopet Euclid har gjort sin første oppdagelse av en tidligere ukjent komet. Kometen dukket opp i bilder tatt mellom 16. og 24. september i år, og ble bekreftet som komet av Den internasjonale astronomiske unions Minor Planet Center 8. oktober.",
+        "## En stripe i bildene",
+        "Det var Mikko Pöntinen, doktorgradsstipendiat ved Universitetet i Helsingfors, som fant den. Han har utviklet programvare som leter etter objekter som beveger seg, og den markerte en utsmurt stripe over flere bilder. Pöntinen regnet ut hvor objektet burde være, og fant det igjen i fem bildeserier, til sammen 16 eksponeringer. Da det ikke fantes noe kjent objekt som passet, ble funnet meldt inn som en ny komet. Astronomer på bakken fulgte deretter opp med egne observasjoner.",
+        "Kometen er om lag 1,3 milliarder kilometer fra jorda, omtrent mellom banene til Jupiter og Saturn. Den ligger godt over planetenes baneplan og går i en bane som det tar tusenvis av år å fullføre.",
+        "## Et teleskop med flere talenter",
+        "Euclid er egentlig bygget for dype bilder av fjerne galakser, ikke for å følge raske objekter i solsystemet. ESA skriver at funnet viser at teleskopet kan oppdage kometer mens de ennå er langt fra sola. Kometen er ikke et egnet mål for ESAs kommende Comet Interceptor-ferd, men funnet blir brukt som en øvelse i hvordan de to teamene kan samarbeide i framtiden."
+      ],
+      "hvorfor_hap": "Funnet viser at et teleskop bygget for ett formål også kan bidra til kunnskap om vårt eget solsystem. Kometer som oppdages tidlig, langt fra sola, gir forskerne mer tid til å studere dem.",
+      "usikkert": "Kometen er svak og ikke synlig for det blotte øye. Banen og egenskapene vil bli fastslått nærmere med flere observasjoner.",
+      "kilder": [
+        {
+          "navn": "ESA via EurekAlert: «Euclid discovers new comet» (19. oktober 2026)",
+          "url": "https://www.eurekalert.org/news-releases/1148114"
+        },
+        {
+          "navn": "Media INAF: «Una cometa per Euclid» (19. oktober 2026)",
+          "url": "https://www.media.inaf.it/2026/10/19/una-cometa-per-euclid/"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1728876027996-942383f8fe38?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Stjernehimmel om natten",
+        "kreditt": "Forsaken Films / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-view-of-the-night-sky-with-a-bright-star-in-the-distance-C1W7ve6ozQc",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "angelskar-nilsen-debutalbum",
+      "tittel": "To fra Minor Majority lager popalbum sammen – første låt hyller Elliott Smith",
+      "ingress": "Pål Angelskår og Roar Nilsen, som til vanlig spiller i Minor Majority, gir ut debutalbumet «At My Best I Feel Bottomless» 13. november. Første smakebit er låta «Elliott Smith».",
+      "kategorier": [
+        "musikk",
+        "norge"
+      ],
+      "kildedato": "2026-10-16",
+      "publisert": "2026-10-22T00:15:00+02:00",
+      "brodtekst": [
+        "Pål Angelskår og Roar Nilsen er kjent fra bandet Minor Majority. Nå har de laget et eget album som duo, og ifølge Musikknyheter.no har de lenge hatt lyst til å lage en popplate som går litt bort fra bandets vante uttrykk.",
+        "Første singel heter «Elliott Smith» og er en hyllest til den amerikanske låtskriveren med samme navn. Angelskår har skrevet låta, og de to har arrangert den sammen.",
+        "## Med på laget",
+        "Duoen deler låtskrivingen mellom seg. Nilsen har produsert og spilt inn albumet, mens Karl-Joakim Wisløff (bass), Andreas Ulvo (tangenter), Erland Dahlen (trommer) og Jacob Krogvold (kor) også medvirker. Øystein Frantzvåg har mikset, og Morgan Nicolaysen har mastret.",
+        "Albumet «At My Best I Feel Bottomless» kommer 13. november."
+      ],
+      "hvorfor_hap": "Det er fint når erfarne musikere tør å prøve noe nytt. Et nytt popalbum fra to kjente norske låtskrivere gir lytterne noe å glede seg til i november.",
+      "kilder": [
+        {
+          "navn": "Musikknyheter.no: «Minor Majority-medlemmer slipper debutalbum» (16. oktober 2026)",
+          "url": "https://www.musikknyheter.no/news/101416"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1697238724753-60c0c31132d3?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En platespiller med en vinylplate",
+        "kreditt": "Taylor Burnfield / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-record-player-with-a-record-in-the-middle-of-it-xSVRqrI1lu0",
         "illustrasjon": true
       }
     }
