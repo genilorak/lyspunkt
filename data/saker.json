@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-21T13:45:00+02:00",
+  "oppdatert": "2026-10-21T14:20:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -1188,6 +1188,43 @@
         "kreditt": "ecemwashere / Unsplash",
         "lisens": "Unsplash-lisens",
         "kilde_url": "https://unsplash.com/photos/green-leafed-plants-on-building-walls-sbbM7vh1W0U",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "vamp-kver-tredje-time",
+      "tittel": "Vamp er tilbake med ny låt og varsler sitt 14. studioalbum",
+      "ingress": "Vamp har sluppet singelen «Kver tredje time», en låt om sorgen over å miste noen. Den er en forsmak på albumet «Syr ei blonda», som etter planen kommer i februar 2027.",
+      "kategorier": [
+        "musikk",
+        "norge",
+        "kultur"
+      ],
+      "kildedato": "2026-10-19",
+      "publisert": "2026-10-21T14:20:00+02:00",
+      "brodtekst": [
+        "Fredag 16. oktober kom Vamp med en ny låt. «Kver tredje time» handler om sorgen som følger når man mister noen, og ifølge musikkmagasinet Gaffa er den den første smakebiten fra et nytt album.",
+        "Teksten er skrevet av Kristoffer Seglem, mens Øyvind Staveland har laget musikken. Det er Odin Staveland som synger hovedvokalen på låta.",
+        "## Album nummer 14 på vei",
+        "Låta peker fram mot albumet «Syr ei blonda», som etter planen slippes i februar 2027. Det blir i så fall bandets 14. studioalbum.",
+        "Før den tid kan publikum høre Vamp live. Bandet er ute på høstturné som går fra Nøtterøy til Haugesund, og Oslo-konserten er satt til 26. november."
+      ],
+      "hvorfor_hap": "Et av Norges mest kjente band fortsetter å lage ny musikk, og deler en låt om noe de fleste kjenner på før eller siden. Musikk om sorg kan gi trøst og et felles språk for det som er vanskelig å si.",
+      "usikkert": "Albumet er ventet i februar 2027, men datoen er en plan og kan endres.",
+      "kilder": [
+        {
+          "navn": "Gaffa: «Vamp tar for seg sorgen over å miste noen på ny singel» (19. oktober 2026)",
+          "url": "https://gaffa.no/nyheter/2026/oktober/vamp-tar-for-seg-sorgen-over-a-miste-noen-pa-ny-singel"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.pexels.com/photos/16336232/pexels-photo-16336232.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "alt": "En akustisk gitar på et stativ på en scene med røyk og lys",
+        "kreditt": "Marcelo Verfe / Pexels",
+        "lisens": "Pexels-lisens",
+        "kilde_url": "https://www.pexels.com/photo/16336232/",
         "illustrasjon": true
       }
     }
