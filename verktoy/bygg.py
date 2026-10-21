@@ -130,10 +130,10 @@ main{flex:1}
 .card h3{margin:0;font-family:'Bricolage Grotesque',sans-serif;font-size:23px;font-weight:700;line-height:1.05;letter-spacing:-0.02em}
 .card p{margin:0;font-size:14px;line-height:1.5;color:#3D4540}
 .topp{border-radius:22px;overflow:hidden;display:flex;flex-direction:column}
-.topp .img{height:250px;flex:none}
-.topp .txt{padding:26px 28px 28px;display:flex;flex-direction:column;gap:12px;flex:1}
-.topp h3{margin:0;font-family:'Bricolage Grotesque',sans-serif;font-size:34px;font-weight:800;line-height:.98;letter-spacing:-0.03em}
-.topp p{margin:0;font-size:16px;line-height:1.5;color:#3D4540}
+.topp .img{height:170px;flex:none}
+.topp .txt{padding:18px 22px 20px;display:flex;flex-direction:column;gap:8px;flex:1}
+.topp h3{margin:0;font-family:'Bricolage Grotesque',sans-serif;font-size:24px;font-weight:800;line-height:1.05;letter-spacing:-0.02em}
+.topp p{margin:0;font-size:15px;line-height:1.45;color:#3D4540;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .blokk{border-radius:22px;padding:28px;display:flex;flex-direction:column}
 .blokk .rad{display:grid;grid-template-columns:1fr auto;gap:16px;align-items:baseline;padding:14px 0;border-bottom:1px solid rgba(22,18,15,.1)}
 .blokk .rad:last-child{border-bottom:none;padding-bottom:0}
@@ -200,7 +200,7 @@ img,svg{max-width:100%}
   .grid3{grid-template-columns:1fr}
   [style*="repeat(3,minmax(0,1fr))"]{grid-template-columns:1fr!important}
   .ticker{font-size:13px}
-  .topp h3{font-size:28px}
+  .topp h3{font-size:22px}
   .h2{font-size:32px}
   form [style*="display:flex;gap:8px"]{flex-direction:column}
 }
@@ -347,7 +347,7 @@ def forside():
     for s in topp[:3]:
         navn, _, tint, acc = KAT[kat(s)]
         toppkort += f'''<a href="artikkel/{s["id"]}.html" class="topp" style="background:{tint}">
-          {bildeboks(s, 250)}
+          {bildeboks(s, 170)}
           <div class="txt"><span class="kick" style="color:{acc}">{navn}</span><h3>{e(s["tittel"])}</h3><p>{e(s["ingress"])}</p><span class="meta" style="margin-top:auto">{dato(s["kildedato"])}</span></div>
         </a>'''
     sg = [s for s in SAKER if 'sma-gleder' in s['kategorier']][:3]
@@ -377,28 +377,11 @@ def forside():
           {rows}
         </div>'''
     valg = ''.join(f'<label class="kvalg" style="--a:{KAT[k][3]};--t:{KAT[k][2]}"><input type="checkbox" value="{k}"{" checked" if k in STANDARD_VALGT else ""}><span>{KAT[k][0]}</span></label>' for k in BLOKKER)
-    page = head('Lyspunkt – et lysere blikk på verden', base) + header(base, 'forside') + f'''<main class="inner" style="padding-top:40px;display:flex;flex-direction:column;gap:88px">
+    page = head('Lyspunkt – et lysere blikk på verden', base) + header(base, 'forside') + f'''<main class="inner" style="padding-top:32px;display:flex;flex-direction:column;gap:72px">
   <section aria-labelledby="t3">
     <div class="shead"><h2 id="t3" class="h2">Dagens topp 3</h2><span class="meta">Oppdatert {dato(DATA["oppdatert"])} kl. {OPPDATERT.strftime("%H:%M")}</span></div>
     <div class="grid3">{toppkort}</div>
   </section>
-  <section style="background:#EAE3FF;border-radius:24px;padding:56px 56px 60px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:16px">
-    {SUN.format(s=52)}
-    <span class="bri" style="font-size:clamp(30px,6vw,54px);font-weight:800;line-height:.95;letter-spacing:-0.04em">Trenger du et lyspunkt <span class="ser" style="font-style:italic;font-weight:400;letter-spacing:0;color:#6C4FD6">akkurat nå?</span></span>
-    <span style="font-size:17px;line-height:1.5;color:#4A4560;max-width:520px">Ett trykk. Én tilfeldig god historie fra hvor som helst i verden.</span>
-    <a href="overrask.html" class="btn" style="margin-top:10px;background:#6C4FD6;color:#FFFFFF;box-shadow:0 8px 22px rgba(108,79,214,.28)">Overrask meg</a>
-  </section>
-  <div style="display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px">
-    <section aria-labelledby="sg" style="grid-column:span 8;background:#FFF1B8;border-radius:20px;padding:36px 36px 44px">
-      <div class="shead" style="margin-bottom:32px"><h2 id="sg" class="h2">Små <span class="ser" style="font-style:italic;font-weight:400;letter-spacing:0">gleder</span></h2><a href="kategori/sma-gleder.html" style="font-size:15px;font-weight:700">Se alle →</a></div>
-      <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px">{sgk}</div>
-    </section>
-    <aside aria-labelledby="siste" style="grid-column:span 4;background:#DFF3E7;border-radius:20px;padding:36px;display:flex;flex-direction:column">
-      <div style="display:flex;align-items:center;gap:10px;margin-bottom:18px"><span style="width:10px;height:10px;border-radius:5px;background:#FFD23F;box-shadow:0 0 0 3px #FFF3C2"></span><h2 id="siste" class="bri" style="margin:0;font-size:28px;font-weight:800;letter-spacing:-0.03em">Siste nytt</h2></div>
-      {siste}
-      <a href="siste.html" style="margin-top:auto;align-self:flex-start;background:#0E7A4E;color:#FFFFFF;padding:12px 18px;border-radius:999px;font-size:14px;font-weight:700">Alle saker →</a>
-    </aside>
-  </div>
   <section aria-labelledby="kat">
     <div class="shead"><h2 id="kat" class="h2">Utforsk <span class="ser" style="font-style:italic;font-weight:400;letter-spacing:0;color:#4F6E9E">kategoriene</span></h2><span class="meta">Velg hvilke kategorier du vil se. Valget lagres i nettleseren din.</span></div>
     <fieldset style="border:none;margin:0 0 24px;padding:18px 20px;background:#FFFFFF;border-radius:18px;box-shadow:0 1px 0 rgba(22,18,15,.06)">
@@ -417,6 +400,23 @@ def forside():
     bx.forEach(function(b){{b.addEventListener('change',vis)}});document.getElementById('kalle').addEventListener('click',function(){{bx.forEach(function(b){{b.checked=true}});vis()}});vis();}})();
     </script>
   </section>
+  <section style="background:#EAE3FF;border-radius:24px;padding:56px 56px 60px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:16px">
+    {SUN.format(s=52)}
+    <span class="bri" style="font-size:clamp(30px,6vw,54px);font-weight:800;line-height:.95;letter-spacing:-0.04em">Trenger du et lyspunkt <span class="ser" style="font-style:italic;font-weight:400;letter-spacing:0;color:#6C4FD6">akkurat nå?</span></span>
+    <span style="font-size:17px;line-height:1.5;color:#4A4560;max-width:520px">Ett trykk. Én tilfeldig god historie fra hvor som helst i verden.</span>
+    <a href="overrask.html" class="btn" style="margin-top:10px;background:#6C4FD6;color:#FFFFFF;box-shadow:0 8px 22px rgba(108,79,214,.28)">Overrask meg</a>
+  </section>
+  <div style="display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px">
+    <section aria-labelledby="sg" style="grid-column:span 8;background:#FFF1B8;border-radius:20px;padding:36px 36px 44px">
+      <div class="shead" style="margin-bottom:32px"><h2 id="sg" class="h2">Små <span class="ser" style="font-style:italic;font-weight:400;letter-spacing:0">gleder</span></h2><a href="kategori/sma-gleder.html" style="font-size:15px;font-weight:700">Se alle →</a></div>
+      <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px">{sgk}</div>
+    </section>
+    <aside aria-labelledby="siste" style="grid-column:span 4;background:#DFF3E7;border-radius:20px;padding:36px;display:flex;flex-direction:column">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:18px"><span style="width:10px;height:10px;border-radius:5px;background:#FFD23F;box-shadow:0 0 0 3px #FFF3C2"></span><h2 id="siste" class="bri" style="margin:0;font-size:28px;font-weight:800;letter-spacing:-0.03em">Siste nytt</h2></div>
+      {siste}
+      <a href="siste.html" style="margin-top:auto;align-self:flex-start;background:#0E7A4E;color:#FFFFFF;padding:12px 18px;border-radius:999px;font-size:14px;font-weight:700">Alle saker →</a>
+    </aside>
+  </div>
 </main>
 ''' + footer(base)
     write('index.html', page)
