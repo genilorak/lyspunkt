@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-22T07:15:00+02:00",
+  "oppdatert": "2026-10-22T08:30:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -2181,6 +2181,78 @@
         "kreditt": "Gemma Regalado / Unsplash",
         "lisens": "Unsplash-lisens",
         "kilde_url": "https://unsplash.com/photos/white-and-brown-jack-russell-terrier-puppy-sitting-on-green-grass-field-during-daytime-3O801cdcLPc",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "ane-brun-royksopp-eat-the-fruit",
+      "tittel": "Ane Brun og Röyksopp har laget dansbar låt sammen",
+      "ingress": "«Eat The Fruit» er et samarbeid mellom Ane Brun og Röyksopp, og den er første smakebit fra hennes første album med nyskrevet musikk på seks år.",
+      "kategorier": [
+        "musikk",
+        "norge"
+      ],
+      "kildedato": "2026-10-10",
+      "publisert": "2026-10-22T08:30:00+02:00",
+      "brodtekst": [
+        "Ane Brun, en av Norges mest etablerte låtskrivere, har slått seg sammen med elektronika-duoen Röyksopp på låta «Eat The Fruit». Publikum på Øya-festivalen fikk høre den live allerede i 2025, men nå er den sluppet offisielt.",
+        "Låta handler om en rastløs lengsel etter mer, og om å våge å gripe livet. Frukten er et bilde på å gå videre, se sin egen verdi og tre ut av komfortsonen. Brun beskriver samarbeidet med Röyksopp som en drøm som går i oppfyllelse, og hun liker at duoen har gjort låta mørk, hypnotisk og befriende på samme tid. Röyksopp på sin side kaller samarbeidet et privilegium.",
+        "## Nytt album 6. november",
+        "«Eat The Fruit» er med på albumet «I Thought We Were the Same», som kommer 6. november. Det er Bruns første album med nyskrevet musikk på seks år, etter de to platene hun ga ut i 2020. Albumet er skrevet over tre år og handler om tillit, svik og om å lære seg å stole på seg selv og andre igjen.",
+        "Brun har selv sagt at hun ønsket et tydeligere og mer poppreget lydbilde denne gangen, med sterke refrenger, uten å miste kanten."
+      ],
+      "hvorfor_hap": "To av de mest kjente norske navnene i hver sin sjanger møtes på samme låt, og det betyr ny norsk musikk som kan nå langt ut. For fansen er det også gledelig at et helt nytt album er rett rundt hjørnet.",
+      "kilder": [
+        {
+          "navn": "Musikknyheter.no: «Spis frukten sier Ane og Röyksopp» (10. oktober 2026)",
+          "url": "https://www.musikknyheter.no/nyheter/101408/Spis-frukten-sier-Ane-og-Röyksopp.html"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1559424452-eeb3a13ffe2b?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En speilkule som henger fra taket",
+        "kreditt": "Dustin Tramel / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/hanging-mirror-ball-jXkeRL4k6-g",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "generisk-ukeplaster-overgangsalder-fda",
+      "tittel": "Første generiske ukeplaster mot overgangsplager godkjent i USA",
+      "ingress": "Det amerikanske legemiddeltilsynet FDA har godkjent den første generiske versjonen av et hormonplaster som byttes én gang i uka, for kvinner i overgangsalderen.",
+      "kategorier": [
+        "helse",
+        "kvinnehelse",
+        "verden"
+      ],
+      "kildedato": "2026-10-20",
+      "publisert": "2026-10-22T08:30:00+02:00",
+      "brodtekst": [
+        "FDA godkjente 19. oktober den første generiske utgaven av Climara Pro, et plaster som kombinerer østrogen (østradiol) og et gestagen (levonorgestrel). Plasteret er laget av Zydus Pharmaceuticals og skal virke likt originalpreparatet.",
+        "Plasteret er for kvinner som har livmoren i behold. Det er godkjent mot moderate til kraftige hetetokter og andre vasomotoriske plager i overgangsalderen, og for å forebygge benskjørhet etter overgangsalderen.",
+        "## Billigere og enklere",
+        "Ifølge FDA er omtrent ni av ti resepter som hentes ut i USA, generiske legemidler, og mer konkurranse kan gjøre behandling rimeligere. Tilsynet trekker også fram at et plaster som byttes ukentlig kan være et praktisk alternativ til tabletter hver dag.",
+        "Kombinasjonen med gestagen er viktig: den reduserer risikoen for fortykket livmorslimhinne, som kan oppstå ved bruk av østrogen alene."
+      ],
+      "hvorfor_hap": "Overgangsalderen kan gå kraftig ut over livskvaliteten, og billigere generiske alternativer kan gjøre behandling tilgjengelig for flere. Et ukentlig plaster gjør det også enklere å følge behandlingen.",
+      "usikkert": "Godkjenningen gjelder USA, og FDA oppgir ikke pris eller når plasteret blir tilgjengelig. Hormonbehandling passer ikke for alle, blant annet ikke for kvinner som har hatt brystkreft eller blodpropp, og har kjente bivirkninger. Snakk med legen din.",
+      "kilder": [
+        {
+          "navn": "FDA: «FDA Approves Once-Weekly Generic Hormone Therapy Patch for Women» (20. oktober 2026)",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-once-weekly-generic-hormone-therapy-patch-women"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1718359471677-2ded0e10c559?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En ukeplanlegger med oppgaver for uka",
+        "kreditt": "Marielle Ursua / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/iJOh7yjaQBc",
         "illustrasjon": true
       }
     }
