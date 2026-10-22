@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-22T01:20:00+02:00",
+  "oppdatert": "2026-10-22T02:15:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -1788,6 +1788,82 @@
         "kreditt": "gibblesmash asdf / Unsplash",
         "lisens": "Unsplash-lisens",
         "kilde_url": "https://unsplash.com/photos/a-view-of-a-valley-with-mountains-in-the-background-V5T05z4sKnQ",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "yangtze-niser-fisk-vatmark",
+      "tittel": "Yangtze-elva får liv igjen: flere fiskearter og flere niser",
+      "ingress": "Et treårig kinesisk prøveprosjekt med økologisk overvåking av Yangtze-bassenget falt sammen med tydelige tegn på bedring: flere innfødte fiskearter, mer vannvegetasjon og flere elveniser.",
+      "kategorier": [
+        "dyr-og-natur",
+        "klima-og-miljo",
+        "verden"
+      ],
+      "kildedato": "2026-10-19",
+      "publisert": "2026-10-22T02:15:00+02:00",
+      "brodtekst": [
+        "Yangtze er Kinas lengste elv, og i årevis har den vært et symbol på hvor hardt mennesker kan presse et økosystem. Nå beskriver en ny oversiktsartikkel i fagtidsskriftet Water & Ecology hvordan et prøveprosjekt fra 2022 til 2024 har gått sammen med målbar bedring i elva og innsjøene rundt.",
+        "Prosjektet handlet om å måle mer enn bare vannkvalitet. Forskerne Jianfeng Peng fra Tsinghua-universitetet og Dong Wang fra Chinese Academy of Environmental Planning beskriver hvordan 50 viktige vannforekomster og 331 målestasjoner ble fulgt med 14 økologiske indikatorer, valgt ut blant nesten 200 kandidater. Det ga rundt 20 000 registreringer fra felt.",
+        "## Fisk, niser og vannplanter",
+        "Antallet innfødte fiskearter som ble registrert i bassenget, økte fra 193 i 2022 til 230 i 2024. Bestanden av yangtzenise, en sjelden ferskvannshval, gikk fra 1 012 dyr i 2017 til 1 426 i 2025. Fiskearten Coilia ectenes vandret for første gang på 30 år opp til midtre del av elva, og japansk ål ble funnet i sideelva Chishui for første gang på over 20 år.",
+        "Lokalt er endringene konkrete. I Chishui-bassenget ble 342 små vannkraftverk lagt ned og 300 demninger fjernet, slik at elva henger sammen igjen. Rundt innsjøen Dongting ble oppdrettsdammer gjort om til våtmark, og over 26 kvadratkilometer med vannvegetasjon kom tilbake. I innsjøen Taihu var algeoppblomstringen i 2023 på det laveste nivået siden 2008.",
+        "## Mer enn kjemi",
+        "Forfatterne mener lærdommen er at når økologiske mål skrives inn i den nasjonale forvaltningen, får lokale myndigheter et insentiv til å ta tak i årsakene til problemene, ikke bare enkeltstoffer i vannet."
+      ],
+      "hvorfor_hap": "Tallene viser at et stort og hardt belastet elvesystem kan hente seg inn når man fjerner demninger, gir våtmark tilbake og måler naturen selv, ikke bare vannet. Flere niser og fiskearter som vender tilbake etter flere tiår, er tydelige tegn på at tiltakene kan virke.",
+      "usikkert": "Dette er en systematisk oversikt skrevet av forskere fra kinesiske institusjoner, og pressemeldingen viser ikke at det er prøveprosjektet alene som har gitt bedringen. Noen av tallene, som nisetellingen, dekker andre år enn selve prosjektperioden. Det trengs bedre grunnlagsdata, skriver forfatterne selv.",
+      "kilder": [
+        {
+          "navn": "EurekAlert!/KeAi: «Beyond water quality: How China’s three-year Yangtze pilot helped bring back fish, porpoises, and wetlands» (19. oktober 2026)",
+          "url": "https://www.eurekalert.org/news-releases/1148309"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1646277761119-f6cfd0d94caf?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Yangtze-elva mellom bratte fjell ved Wushan i Kina",
+        "kreditt": "Brian Cyan / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-large-body-of-water-surrounded-by-mountains-CkGqtusgQzM",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "jekyll-gronn-havskilpadde-reir",
+      "tittel": "Sjelden gjest på stranda: 66 grønne skilpaddeunger – og én nesten hvit",
+      "ingress": "På Jekyll Island i Georgia har et reir fra grønn havskilpadde klekket. Det er bare tredje gang arten er registrert med reir på øya.",
+      "kategorier": [
+        "sma-gleder",
+        "dyr-og-natur"
+      ],
+      "kildedato": "2026-10-16",
+      "publisert": "2026-10-22T02:15:00+02:00",
+      "brodtekst": [
+        "På stranda på Jekyll Island er det vanligvis karettskilpadder som legger egg. Men 16. august gravde en grønn havskilpadde ned eggene sine der, og 11. oktober, etter 56 dager i sanden, krøp ungene ut. Da naturforvalterne i Jekyll Island Authority telte opp reiret 14. oktober, fant de 66 klekkede egg.",
+        "Øya har bare tre registrerte reir fra grønn havskilpadde: i 2007, 2015 og nå i 2026. Årets er bare det andre som har klekket. Og blant ungene var det en ekstra overraskelse: én liten skilpadde var blek, nesten hvit, på grunn av leukisme. Det er ikke nødvendigvis farlig for helsa, men uten kamuflasje må den lille passe ekstra godt på seg selv.",
+        "Ikke alle eggene klekket, 84 av dem ble liggende. Ifølge forvalterne er det helt normalt i et skilpaddereir."
+      ],
+      "hvorfor_hap": "Grønne havskilpadder er sjeldne på denne stranda, og hvert vellykket reir er et lite tegn på at arten finner fram til nye steder langs kysten. Og en nesten hvit skilpaddeunge er rett og slett en liten gledesnyhet.",
+      "kilder": [
+        {
+          "navn": "Action News Jax: «Jekyll Island sees its second successful green sea turtle nest» (16. oktober 2026)",
+          "url": "https://www.actionnewsjax.com/news/local/jekyll-island-sees-its-second-successful-green-sea-turtle-nest/6WQKCEAFGFFXRFGFUQR77WPSOM/"
+        },
+        {
+          "navn": "Hoodline: «Jekyll Island green sea turtle nest hatches 66 babies in rare milestone» (21. oktober 2026)",
+          "url": "https://hoodline.com/2026/10/jekyll-island-green-sea-turtle-nest-hatches-66-babies-in-rare-milestone"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1528322257758-0a858a4d1ca8?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En nyklekket havskilpaddeunge i sanden",
+        "kreditt": "Alfonso Navarro / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/selective-focus-photography-of-young-turtle-on-sand-3QZDtbwuld0",
         "illustrasjon": true
       }
     }
