@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-22T06:22:11+02:00",
+  "oppdatert": "2026-10-22T07:15:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -2107,6 +2107,80 @@
         "kreditt": "Richard Burlton / Unsplash",
         "lisens": "Unsplash-lisens",
         "kilde_url": "https://unsplash.com/photos/a-soccer-goal-and-a-soccer-ball-in-a-field-6SDYxef3kYw",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "blarekreft-eu-godkjent-keytruda-padcev",
+      "tittel": "Ny behandling mot blærekreft godkjent i Europa – også i Norge",
+      "ingress": "EU-kommisjonen har godkjent en kombinasjon av immunterapi og et målrettet legemiddel for voksne med muskelinvasiv blærekreft som kan opereres. I en stor studie levde flere pasienter lenger enn med vanlig cellegift.",
+      "kategorier": [
+        "helse",
+        "verden"
+      ],
+      "kildedato": "2026-10-21",
+      "publisert": "2026-10-22T07:15:00+02:00",
+      "brodtekst": [
+        "Onsdag 21. oktober godkjente EU-kommisjonen at immunterapien pembrolizumab (Keytruda) kan gis sammen med enfortumab vedotin (Padcev) til voksne med muskelinvasiv blærekreft som kan opereres. Behandlingen gis både før og etter at blæren fjernes kirurgisk. Ifølge legemiddelselskapet Merck gjelder godkjenningen i alle 27 EU-land, Island, Liechtenstein og Norge. Om og når behandlingen tas i bruk i hvert land, avhenger av nasjonale beslutninger om finansiering.",
+        "Godkjenningen gjelder uavhengig av om pasienten tåler cellegiften cisplatin. Ifølge Merck kan opptil halvparten av pasientene med denne kreftformen ikke få cisplatin, og de får vanligvis bare kirurgi.",
+        "## Færre tilbakefall og flere i live",
+        "Godkjenningen bygger blant annet på fase 3-studien KEYNOTE-B15/EV-304, der 808 pasienter som tålte cisplatin ble trukket tilfeldig til den nye kombinasjonen eller til standardbehandling med cellegift. Etter to år var 79,4 prosent i den nye gruppen uten tilbakefall eller andre hendelser, mot 66,2 prosent i cellegiftgruppen, ifølge fagnettstedet OncLive. Andelen som var i live etter to år var 86,9 mot 81,3 prosent.",
+        "Hos 55,8 prosent av pasientene som fikk den nye kombinasjonen, fant man ingen kreft igjen i vevet som ble fjernet under operasjonen, mot 32,5 prosent med cellegift.",
+        "I Europa fikk rundt 208 000 mennesker påvist blærekreft i 2024, ifølge Merck. Omtrent en firedel av nye tilfeller er muskelinvasive."
+      ],
+      "hvorfor_hap": "Muskelinvasiv blærekreft kommer ofte tilbake etter behandling. En behandling som i en stor, randomisert studie ga færre tilbakefall og bedre overlevelse enn cellegift, og som også kan gis til pasienter som ikke tåler cisplatin, kan gi mange flere et bedre utgangspunkt.",
+      "usikkert": "Behandlingen har betydelige bivirkninger: Tre av fire pasienter som fikk kombinasjonen i studien, fikk bivirkninger av grad 3 eller høyere (mot 67,2 prosent med cellegift), og noen dødsfall ble knyttet til behandlingen, særlig hos pasienter over 75 år. Resultatene som er lagt fram, gjelder pasienter som tålte cisplatin. Det er ennå ikke avgjort når behandlingen blir tilgjengelig i Norge.",
+      "kilder": [
+        {
+          "navn": "OncLive: «Pembrolizumab Plus Enfortumab Vedotin Earns EC Approval in Resectable MIBC» (21. oktober 2026)",
+          "url": "https://www.onclive.com/view/pembrolizumab-plus-enfortumab-vedotin-earns-ec-approval-in-resectable-mibc"
+        },
+        {
+          "navn": "Merck (pressemelding via Stockhouse): «European Commission Approves KEYTRUDA (pembrolizumab) Plus Padcev …» (21. oktober 2026)",
+          "url": "https://stockhouse.com/news/press-releases/2026/10/21/european-commission-approves-keytruda-xae-pembrolizumab-plus-padcev-xae"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En infusjonspose henger på et stativ av rustfritt stål",
+        "kreditt": "Marcelo Leal / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/dextrose-hanging-on-stainless-steel-iv-stand-6pcGTJDuf6M",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "luna-hund-funnet-yellowstone",
+      "tittel": "Lille Luna overlevde over en måned alene i Yellowstone",
+      "ingress": "Den ti år gamle hunden Luna stakk av fra en hytte i nasjonalparken i september. Nå er hun funnet, litt tynnere, men våken og i godt humør.",
+      "kategorier": [
+        "sma-gleder",
+        "dyr-og-natur"
+      ],
+      "kildedato": "2026-10-15",
+      "publisert": "2026-10-22T07:15:00+02:00",
+      "brodtekst": [
+        "Luna er en hvit jack russell-terrier med litt chihuahua i seg, spisse ører og grått halsbånd. 10. september var familien hennes fra California på ferie i Yellowstone nasjonalpark. Luna ble igjen i hytta med et «Ikke forstyrr»-skilt på døra, men familien tror at noen fra renholdet ved et uhell åpnet døra, og så var hun borte.",
+        "Familien fikk høre at hun trolig ikke hadde overlevd, men dager etter at de hadde reist hjem, kom meldinger om at hun var sett. Frivillige satte opp en levendefelle, og som åte brukte de biter av en T-skjorte og et putetrekk fra familien. Det funket: I midten av oktober satt Luna i fella.",
+        "Ifølge Katie Boucher, som ledet den frivillige letingen, var Luna undervektig, men våken og i godt humør. Eieren holdt henne mens dyrlegen sjekket henne."
+      ],
+      "hvorfor_hap": "Etter over en måned alene i villmarka var det få som trodde Luna levde. Tålmodige frivillige og litt kjent lukt hjemmefra fikk henne trygt tilbake til familien.",
+      "kilder": [
+        {
+          "navn": "The Associated Press via FOX19: «Luna, a small dog missing for over a month in Yellowstone, is reunited with her owners» (15. oktober 2026)",
+          "url": "https://www.fox19.com/2026/10/15/luna-small-dog-missing-over-month-yellowstone-is-reunited-with-her-owners/"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1599908758979-25ba52737fb5?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En hvit og brun jack russell-terrier sitter i gresset",
+        "kreditt": "Gemma Regalado / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/white-and-brown-jack-russell-terrier-puppy-sitting-on-green-grass-field-during-daytime-3O801cdcLPc",
         "illustrasjon": true
       }
     }
