@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-22T02:15:00+02:00",
+  "oppdatert": "2026-10-22T03:20:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -1864,6 +1864,88 @@
         "kreditt": "Alfonso Navarro / Unsplash",
         "lisens": "Unsplash-lisens",
         "kilde_url": "https://unsplash.com/photos/selective-focus-photography-of-young-turtle-on-sand-3QZDtbwuld0",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "spekkhogger-j65-tahlequah",
+      "tittel": "Velkommen, J65! Spekkhoggermamma Tahlequah har fått en sønn",
+      "ingress": "En nyfødt spekkhoggerkalv er sett svømme sammen med J35 i den truede bestanden av «sørlige» spekkhoggere. Ungen så frisk ut og diet.",
+      "kategorier": [
+        "sma-gleder",
+        "dyr-og-natur"
+      ],
+      "kildedato": "2026-10-21",
+      "publisert": "2026-10-22T03:20:00+02:00",
+      "brodtekst": [
+        "Mandag 19. oktober fikk forskerne ved Center for Whale Research øye på et nytt lite medlem i J-flokken: en kalv som svømte tett ved siden av spekkhoggeren J35, også kjent som Tahlequah. Ungen har fått navnet J65, og ut fra utseendet anslår forskerne at den var under en uke gammel.",
+        "Dagen etter møtte de flokken igjen. Da kunne de se med drone at det er en gutt, og at han svømte godt, var sosial med de andre og diet. Forskerne så ingen umiddelbare tegn til helseproblemer.",
+        "For Tahlequah er dette den sjette kalven forskerne har registrert. Hun er kjent for at hun i 2018 bar på den døde kalven sin i 17 dager, og datteren som kom i 2024 overlevde heller ikke. Derfor er det ekstra mange som heier på lillebror J65 nå."
+      ],
+      "hvorfor_hap": "De sørlige spekkhoggerne er en truet bestand, og hver kalv som klarer seg, betyr mye. En frisk unge som dier og leker med flokken, er en god start.",
+      "usikkert": "Det første året er tøft: ifølge forskningssjefen ved Center for Whale Research klarer bare rundt halvparten av kalvene seg gjennom det. Forskerne skal følge J65 videre når de får sjansen.",
+      "kilder": [
+        {
+          "navn": "KOMO News: «New baby orca spotted in J Pod of endangered Southern Resident killer whales» (21. oktober 2026)",
+          "url": "https://komonews.com/news/local/new-baby-orca-male-calf-spotted-j-pod-endangered-southern-resident-killer-whales-mother-j35-talequah-tahlequah-center-for-whale-research-salish-sea"
+        },
+        {
+          "navn": "KIRO 7: «New Southern resident killer whale calf born to J35» (21. oktober 2026)",
+          "url": "https://www.kiro7.com/news/local/new-southern-resident-killer-whale-calf-was-born-j35/IDARA22AYZDAFDFVV7LPPX3BFA/"
+        },
+        {
+          "navn": "My Bellingham Now: «New Southern Resident Orca calf spotted» (21. oktober 2026)",
+          "url": "https://mybellinghamnow.com/news/297792-new-southern-resident-orca-calf-spotted/"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1617917196741-0b25f03f07f8?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En spekkhogger i vannoverflaten",
+        "kreditt": "Chris LeBoutillier / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-black-and-white-animal-swimming-in-a-body-of-water-TtNpLjr23l0",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "nfwf-artsredning-35-millioner",
+      "tittel": "USA deler ut 35,5 millioner dollar til å berge truede arter helt i mål",
+      "ingress": "Et nytt tilskuddsprogram fra National Fish and Wildlife Foundation og det amerikanske fiske- og viltvesenet skal hjelpe truede arter det siste stykket mot å bli fjernet fra rødlista.",
+      "kategorier": [
+        "dyr-og-natur",
+        "verden"
+      ],
+      "kildedato": "2026-10-21",
+      "publisert": "2026-10-22T03:20:00+02:00",
+      "brodtekst": [
+        "Den amerikanske stiftelsen National Fish and Wildlife Foundation (NFWF) og U.S. Fish and Wildlife Service (FWS) kunngjorde 21. oktober over hundre tilskudd på til sammen 35,5 millioner dollar. Pengene skal gå til arbeid med truede og sårbare arter.",
+        "Det er de første tildelingene fra et nytt program, National Species Recovery Grants, som ble opprettet i år. Tanken er å finansiere «den siste etappen»: tiltak som kan gjøre at en art kan flyttes til en lavere trusselkategori eller fjernes fra listen over truede arter. Mottakerne bidrar i tillegg med 8,6 millioner dollar, slik at den samlede innsatsen blir 44,1 millioner dollar.",
+        "## Fra isbjørn til vannbiller",
+        "Prosjektene spenner vidt: fra isbjørn i Alaska og fisk i Missouri til rundbladet bjørk, som bare finnes i ett fylke i Virginia, og rødtoppet hakkespett, der bestandene har begynt å ta seg opp igjen.",
+        "Mange av prosjektene bruker ny teknologi. I North Carolina utvikles miljø-DNA-tester for å spore et sjeldent amfibium, og University of Notre Dame lager en tilsvarende test for en liten vannbille i Michigan. Utah State University skal kartlegge arvestoffet til den innførte fiskearten smallmouth bass for å finne måter å begrense den på uten å skade den truede fiskearten razorback sucker i Colorado-elva. I Illinois skal pollinatorer få bedre leveområder langs kraftlinjer, og i California skal mårdyret fisher få GPS-halsbånd slik at forskerne kan se hvordan det reagerer på hogst og skogrestaurering."
+      ],
+      "hvorfor_hap": "Mange truede arter har kommet et godt stykke på vei, men blir stående fast fordi det mangler kunnskap eller penger til de siste tiltakene. Et program som er rettet mot nettopp denne siste etappen, kan gjøre at flere arter faktisk blir friske nok til å klare seg selv.",
+      "usikkert": "Tilskuddene er en investering, ikke et resultat. Det vil ta år før vi ser om prosjektene gjør at arter faktisk kan fjernes fra listen over truede arter.",
+      "kilder": [
+        {
+          "navn": "National Fish and Wildlife Foundation: «NFWF Announces $35.5 Million in Grants to Accelerate Recovery of Endangered and Threatened Species» (21. oktober 2026)",
+          "url": "https://www.nfwf.org/media-center/press-releases/nfwf-announces-35-5-million-grants-accelerate-recovery-endangered-and"
+        },
+        {
+          "navn": "GlobeNewswire: samme pressemelding (21. oktober 2026)",
+          "url": "https://www.globenewswire.com/news-release/2026/10/21/3385763/0/en/nfwf-announces-35-5-million-in-grants-to-accelerate-recovery-of-endangered-and-threatened-species.html"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1752339110660-bb3386c231a1?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En hakkespett på en trestamme",
+        "kreditt": "Shichijiro / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-pileated-woodpecker-perches-on-a-tree-bhHAFLrYlpc",
         "illustrasjon": true
       }
     }
