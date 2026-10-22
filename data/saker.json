@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-22T09:15:00+02:00",
+  "oppdatert": "2026-10-22T10:20:13+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -2334,6 +2334,44 @@
         "kreditt": "Marielle Ursua / Unsplash",
         "lisens": "Unsplash-lisens",
         "kilde_url": "https://unsplash.com/photos/iJOh7yjaQBc",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "jeju-skilpadde-sju-operasjoner",
+      "tittel": "Sju operasjoner og sju år senere: Havskilpadden fikk dra hjem til havet",
+      "ingress": "En karettskilpadde som ble funnet viklet inn i fiskeutstyr på Jeju i 2019, skulle etter planen slippes ut i havet igjen 15. oktober etter sju års pleie.",
+      "kategorier": [
+        "sma-gleder",
+        "dyr-og-natur"
+      ],
+      "kildedato": "2026-10-14",
+      "publisert": "2026-10-22T10:20:13+02:00",
+      "brodtekst": [
+        "Noen trenger litt ekstra tid på å komme seg. I august 2019 skylte en karettskilpadde i land på den sørkoreanske øya Jeju, filtret inn i gammelt fiskeutstyr. Den hadde skader på luffer, skulder og spiserør, og var sterkt blodfattig.",
+        "Akvariet Aqua Planet Jeju tok seg av den. Veterinærene måtte operere hele sju ganger, og den gjenstridige betennelsen i skulder og nakke ble behandlet med en spesiell sårbehandling med undertrykk. Ifølge Korea JoongAng Daily var dette første gang en havskilpadde fikk slik behandling. Etter den siste operasjonen i februar ble den mye bedre.",
+        "Det sørkoreanske hav- og fiskeridepartementet meldte onsdag 14. oktober at skilpadden skulle slippes ut fra stranda Gwangchigi i Seogwipo dagen etter. Stranda ble valgt fordi den ligger nær stedet der skilpadden ble funnet, og fordi den slake sandstranda lar skilpadden krabbe ut i vannet helt på egen hånd. For å spare den for stress fikk den verken sender eller merke på seg. Den fikk altså reise helt i fred."
+      ],
+      "hvorfor_hap": "Karettskilpadden er klassifisert som sårbar av IUCN og er fredet i Sør-Korea. Historien viser at tålmodig pleie kan gi selv hardt skadde dyr en ny sjanse i naturen.",
+      "usikkert": "Kildene omtaler utslippet som planlagt dagen etter at de ble publisert. Siden skilpadden ikke har sender, får vi ikke vite hvordan det går med den videre.",
+      "kilder": [
+        {
+          "navn": "Korea JoongAng Daily: «Loggerhead sea turtle to return to sea after seven surgeries» (14. oktober 2026)",
+          "url": "https://www.koreajoongangdaily.com/korea/loggerhead-sea-turtle-to-return-to-sea-after-seven-surgeries/12920271"
+        },
+        {
+          "navn": "The Korea Times: «Rescued loggerhead sea turtle returns to Pacific after 7 years of care» (14. oktober 2026)",
+          "url": "https://www.koreatimes.co.kr/southkorea/environment-animals/20261014/rescued-loggerhead-sea-turtle-returns-to-pacific-after-7-years-of-care"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1558216629-a2f7fe856792?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En havskilpadde svømmer i blått hav",
+        "kreditt": "Jesse Schoff / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/brown-turtle-on-the-ocean-photography-Ph2KtIqKs7c",
         "illustrasjon": true
       }
     }
