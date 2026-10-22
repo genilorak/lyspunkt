@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-22T12:20:00+02:00",
+  "oppdatert": "2026-10-22T13:22:32+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -2480,6 +2480,48 @@
         "kreditt": "Timon Studler / Unsplash",
         "lisens": "Unsplash-lisens",
         "kilde_url": "https://unsplash.com/photos/two-brown-lion-cubs-on-grasses-4qmXhKJhSo4",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "ucla-oksaloacetat-hjernetake-brystkreft",
+      "tittel": "Tidlig studie: Kosttilskudd ga mindre «hjernetåke» etter brystkreft",
+      "ingress": "I en liten studie ved UCLA rapporterte alle de 16 kvinnene som fullførte åtte uker med kosttilskuddet oksaloacetat, at hukommelses- og konsentrasjonsplagene etter brystkreftbehandling ble klart mindre. Resultatet er foreløpig, og en større studie med placebo starter snart.",
+      "kategorier": [
+        "helse",
+        "kvinnehelse",
+        "vitenskap"
+      ],
+      "kildedato": "2026-10-20",
+      "publisert": "2026-10-22T13:22:32+02:00",
+      "brodtekst": [
+        "Mange som har vært gjennom brystkreftbehandling, sliter i etterkant med det som ofte kalles hjernetåke: problemer med hukommelse, oppmerksomhet og konsentrasjon. Nå har forskere ved UCLA Health Jonsson Comprehensive Cancer Center i Los Angeles testet om et enkelt kosttilskudd kan hjelpe.",
+        "## Slik ble det testet",
+        "Stoffet heter oksaloacetat og er et molekyl kroppen selv lager, og som hjelper cellene med å produsere energi. 18 kvinner med brystkreft i tidlig stadium, som hadde fått diagnosen ett til fem år tidligere og hadde tydelige kognitive plager, tok 500 milligram to ganger daglig i åtte uker. Gjennomsnittsalderen var rundt 50 år. De fleste hadde fått cellegift, og nesten ni av ti fikk hormonbehandling.",
+        "Av de 18 fullførte 16 behandlingen, og alle disse rapporterte at plagene ble betydelig mindre. På hovedmålet, et spørreskjema om opplevde kognitive vansker, steg gruppens snittskår fra 29,1 til 55,5. Det flyttet gruppen fra området som regnes som svekket, til normalområdet. Bedringen viste seg allerede etter fire uker og økte gjennom behandlingen. Deltakerne rapporterte også mindre utmattelse og bedre fysisk funksjon, og testene viste bedre eksekutiv funksjon og prosesseringshastighet – noe forskerne selv kaller foreløpige funn.",
+        "## Godt tålt",
+        "Tilskuddet ble i hovedsak godt tålt. De vanligste bivirkningene var mageplager, og to deltakere sluttet på grunn av dem. Det ble ikke rapportert om alvorlige bivirkninger. Studien er publisert i tidsskriftet JCO Oncology Advances og ble finansiert av Breast Cancer Research Foundation og det amerikanske kreftinstituttet NCI. En randomisert studie med placebo blant brystkreftoverlevere ventes å starte i slutten av 2026."
+      ],
+      "hvorfor_hap": "Hjernetåke etter kreftbehandling er en plage mange kan slite med lenge etter behandlingen. Hvis et stoff kroppen selv produserer kan lindre den, vil det bety mye for mange – derfor er det verdt å teste det skikkelig med placebo, slik forskerne nå planlegger.",
+      "usikkert": "Studien er svært liten og hadde verken placebo eller kontrollgruppe, så den kan ikke vise at det var oksaloacetat som ga bedringen. Forskerne sier selv at funnene først og fremst gir grunnlag for videre forskning.",
+      "kilder": [
+        {
+          "navn": "EurekAlert! / UCLA Health: «Nutritional supplement may help ease ‘brain fog’ after breast cancer treatment» (20. oktober 2026)",
+          "url": "https://www.eurekalert.org/news-releases/1148117"
+        },
+        {
+          "navn": "Ganz m.fl., JCO Oncology Advances (2026)",
+          "url": "https://doi.org/10.1200/OA-26-00063"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1644432757359-b184377d9eb0?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Gule kapsler i en glassbolle",
+        "kreditt": "Karyna Panchenko / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-glass-bowl-filled-with-yellow-pills-on-a-white-surface-lrsUEoEaxWs",
         "illustrasjon": true
       }
     }
