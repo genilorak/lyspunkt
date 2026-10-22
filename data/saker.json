@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-22T11:13:21+02:00",
+  "oppdatert": "2026-10-22T12:20:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -2449,6 +2449,39 @@
       },
       "status": "publisert",
       "ai_assistert": true
+    },
+    {
+      "id": "edinburgh-zoo-loveunger-bindee",
+      "tittel": "Sju års venting er over: To løveunger født i Edinburgh Zoo",
+      "ingress": "For første gang på sju år er det født løveunger i Edinburgh Zoo. To unger av den truede asiatiske løven kom til verden 11. oktober.",
+      "kategorier": [
+        "sma-gleder",
+        "dyr-og-natur"
+      ],
+      "kildedato": "2026-10-22",
+      "publisert": "2026-10-22T12:20:00+02:00",
+      "brodtekst": [
+        "Det er ikke hver dag det brøles om nyheter i Edinburgh Zoo. 11. oktober fødte løvinnen Bindee to unger, og det er første gang på sju år at dyrehagen kan feire løvefødsel. Pappa er løven Jay.",
+        "Bindee er førstegangsmor, og dyrepasserne hadde lagt merke til at magen vokste og at hun beveget seg saktere. Like før fødselen gikk hun fram og tilbake og stelte i stand hiet sitt. Selve fødselen fulgte de med på gjennom kameraer i hiet.",
+        "Nå får familien være i fred. Ungene skal bli i hiet i flere måneder før de begynner å utforske anlegget, og Bindee tar seg av det meste av oppfostringen, slik løver gjør. Løveanlegget er derfor stengt for publikum inntil videre."
+      ],
+      "hvorfor_hap": "Den asiatiske løven er en truet art, og hver vellykket fødsel i dyrehager bidrar til en sikkerhetsbestand. Og to små løveunger er rett og slett en grunn til å smile.",
+      "kilder": [
+        {
+          "navn": "Edinburgh Evening News: «Edinburgh Zoo roars with excitement as it welcomes the birth of two lion cubs after a seven-year wait» (22. oktober 2026)",
+          "url": "https://www.edinburghnews.scotsman.com/news/edinburgh-zoo-lion-cubs-birth-9303110"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1456957473806-cba22e0839cf?w=1600&q=80&auto=format&fit=crop",
+        "alt": "To løveunger i gresset",
+        "kreditt": "Timon Studler / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/two-brown-lion-cubs-on-grasses-4qmXhKJhSo4",
+        "illustrasjon": true
+      }
     }
   ]
 }
