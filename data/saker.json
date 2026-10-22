@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-22T17:45:00+02:00",
+  "oppdatert": "2026-10-22T18:25:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -11,6 +11,52 @@
     "https://dredgewire.com/savannah-turned-160000-cubic-yards-of-mud-removed-from-its-harbor-into-an-8-acre-island-birds-built-more-than-300-nests-there-in-the-first-season/"
   ],
   "saker": [
+    {
+      "id": "skuddsekund-avskaffes-2027",
+      "tittel": "Verdens klokker slipper skuddsekundet fra 2027",
+      "ingress": "Landene bak det internasjonale målesystemet har vedtatt å slutte med skuddsekunder. Fra 20. mai 2027 skal verdens felles tid, UTC, gå jevnt uten ekstra sekunder som kan skape trøbbel for datasystemer, strømnett og satellittnavigasjon.",
+      "kategorier": [
+        "vitenskap",
+        "teknologi",
+        "verden"
+      ],
+      "kildedato": "2026-10-16",
+      "publisert": "2026-10-22T18:25:00+02:00",
+      "brodtekst": [
+        "Generalkonferansen for mål og vekt (CGPM), der medlemslandene i det internasjonale målesystemet møtes, holdt sitt 28. møte i Versailles utenfor Paris 13.–15. oktober. Torsdag 15. oktober stemte de for å slutte å legge til skuddsekunder i den koordinerte verdenstiden UTC. Ordningen faller bort fra 20. mai 2027.",
+        "## Hvorfor skuddsekunder ble et problem",
+        "Skuddsekundet har vært brukt for å holde atomklokkenes svært presise tid i takt med jordrotasjonen, som ikke er like jevn. Siden 1972 er det lagt til 27 slike sekunder, sist ved utgangen av 2016. Men slike plutselige ekstrasekunder kan forstyrre datasystemer, telenett, satellittnavigasjon og strømforsyning, som alle er avhengige av nøyaktig synkronisert tid.",
+        "I tillegg har jorda i perioder rotert litt raskere enn før. Det har åpnet for at verden for første gang kunne trenge et negativt skuddsekund, altså at et sekund måtte trekkes fra. Det har aldri vært gjort, og ingen vet sikkert hvordan systemene ville taklet det. I resolusjonsforslaget fra Det internasjonale byrået for mål og vekt (BIPM) vises det til et anslag fra en fagworkshop i 2025 om at sannsynligheten for et negativt skuddsekund kunne nå 30 prosent innen 2035.",
+        "## Hva skjer nå",
+        "Når skuddsekundene forsvinner, kan forskjellen mellom UTC og den astronomiske tiden basert på jordrotasjonen gradvis bli større. Forslaget åpner for en forskjell på opptil 3600 sekunder, altså én time, noe som ifølge BIPM skal holde UTC sammenhengende i flere hundre år. Eksperter regner ikke med at det blir behov for noen korreksjon på lenge. For folk flest merkes ingen endring: omstillingen mellom sommer- og vintertid fortsetter som før. Det er først og fremst fagfelt som astronomi, geodesi og enkelte satellittjenester som må ta hensyn til den voksende forskjellen."
+      ],
+      "hvorfor_hap": "Mye av den moderne infrastrukturen, fra mobilnett og betalingssystemer til strømnett og GPS, er avhengig av at klokkene går helt likt. Et felles vedtak om jevn tid fjerner en kjent kilde til feil, og gjør at verden slipper å prøve ut et negativt skuddsekund for første gang.",
+      "usikkert": "Gapet mellom atomtid og jordrotasjon vil vokse sakte, og hvordan det til slutt skal håndteres, er ikke avgjort. Noe utstyr kan trenge oppdateringer før overgangen.",
+      "kilder": [
+        {
+          "navn": "Euronews: «Global timekeeping rules change: leap second scrapped from 2027» (16. oktober 2026)",
+          "url": "https://www.euronews.com/next/2026/10/16/global-timekeeping-rules-change-leap-second-scrapped-from-2027"
+        },
+        {
+          "navn": "BIPM: 28th meeting of the CGPM (2026)",
+          "url": "https://www.bipm.org/en/cgpm-2026"
+        },
+        {
+          "navn": "BIPM: Draft Resolution C – On the technical actions needed to ensure the continuity of UTC",
+          "url": "https://www.bipm.org/documents/d/guest/cgpm-2026-draft-resolution-c-en"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1645523634562-473831160e8a?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Nærbilde av en klokkeskive med tall og visere",
+        "kreditt": "Lisette Harzing / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-close-up-of-a-clock-with-numbers-on-it-myP-Xpp4VDw",
+        "illustrasjon": true
+      }
+    },
     {
       "id": "froskemunn-unge-tilbake-i-reiret",
       "tittel": "Bøtteheis til topps: Fugleunge fikk skyss tilbake til reiret",
