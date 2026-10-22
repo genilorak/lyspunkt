@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-22T10:20:13+02:00",
+  "oppdatert": "2026-10-22T11:13:21+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -2374,6 +2374,81 @@
         "kilde_url": "https://unsplash.com/photos/brown-turtle-on-the-ocean-photography-Ph2KtIqKs7c",
         "illustrasjon": true
       }
+    },
+    {
+      "id": "kenya-thamani-asili-naturvern",
+      "tittel": "Kenya lanserer tiårig naturvernsatsing på 17,3 millioner hektar",
+      "ingress": "Kenyas regjering har lansert Thamani Asili, en naturvernsatsing på 20,8 milliarder kenyanske shilling som skal verne natur, styrke lokalsamfunn og gjøre landet mer robust mot klimaendringer de neste ti årene.",
+      "kategorier": [
+        "klima-og-miljo",
+        "dyr-og-natur",
+        "verden"
+      ],
+      "kildedato": "2026-10-21",
+      "publisert": "2026-10-22T11:13:21+02:00",
+      "brodtekst": [
+        "Kenya har satt i gang et nytt, stort naturvernprogram. Det har fått navnet Thamani Asili, som betyr «naturens verdi» på swahili. Turisme- og viltminister Rebecca Miano lanserte satsingen onsdag, i samarbeid med naturvernorganisasjonen The Nature Conservancy (TNC) og partnerskapet Enduring Earth.",
+        "Målet er å samle inn 160 millioner amerikanske dollar. Halvparten, 80 millioner dollar, skal komme fra filantropiske givere, og den kenyanske staten skal matche dette beløpet over ti år. Totalt tilsvarer det 20,8 milliarder kenyanske shilling.",
+        "## Store områder og mange mennesker",
+        "I løpet av tiåret skal 17,3 millioner hektar natur bevares. Det omfatter rundt 2,7 millioner hektar nye bevarte områder, bedre forvaltning av 11 millioner hektar som allerede er vernet, og at lokalsamfunn selv får forvalte ytterligere 6 millioner hektar. Satsingen skal bidra til Kenyas mål om å verne 30 prosent av landarealet, innsjøer og elver og kystnære økosystemer.",
+        "Rundt 1,6 millioner mennesker ventes å få direkte nytte av programmet, og 3,9 millioner indirekte gjennom bedre forvaltning av land og ressurser. Det er beregnet å gi om lag 7800 direkte og 15 000 indirekte arbeidsplasser, blant annet innen økoturisme, bærekraftig beite og andre naturbaserte næringer. Planen inneholder også tiltak for å beskytte husdyr bedre og redusere konflikter mellom mennesker og ville dyr.",
+        "Arbeidet starter i fire landskap: Tsavo til kysten, Greater Ewaso, Greater Rift til Vest-Kenya og Sør-Kenya. Pengene skal forvaltes av et nytt, uavhengig fond, Thamani Asili Fund for Kenya, som også skal følge med på resultatene. Ifølge kilden er dette den tredje satsingen av denne typen i Afrika og den tiende Enduring Earth støtter."
+      ],
+      "hvorfor_hap": "Satsingen kobler naturvern direkte til inntekter og arbeidsplasser for lokalsamfunn, noe som gjør vernet mer varig. Med langsiktig finansiering over ti år og et eget fond som følger opp, er det lagt opp til mer enn kortvarige prosjekter.",
+      "usikkert": "Programmet er nettopp lansert. Pengene fra givere er et mål, ikke ferdig innsamlet, og tallene for arbeidsplasser, mennesker som får nytte og unngåtte utslipp (7,5 millioner tonn CO2 innen 2035) er anslag.",
+      "kilder": [
+        {
+          "navn": "KBC (Kenya Broadcasting Corporation): «Kenya unveils Ksh 20.8B conservation initiative» (21. oktober 2026)",
+          "url": "https://www.kbc.co.ke/kenya-unveils-ksh-20-8b-conservation-initiative/"
+        }
+      ],
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1592670130129-4388cdb9d76e?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Fire elefanter går på en grusvei i Amboseli i Kenya",
+        "kreditt": "Neil and Zulma Scott / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/4-elephants-walking-on-gray-dirt-road-during-daytime-hjv3VO-jpnc",
+        "illustrasjon": true
+      },
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "rodpanda-dolly-smithsonian",
+      "tittel": "Den lille «fyrverkeri»-pandaen fikk navnet Dolly",
+      "ingress": "En liten rødpanda-hunn ved Smithsonians zoo i Virginia har fått navnet Dolly, etter countrystjernen Dolly Parton. Over 20 000 mennesker stemte.",
+      "kategorier": [
+        "sma-gleder",
+        "dyr-og-natur"
+      ],
+      "kildedato": "2026-10-21",
+      "publisert": "2026-10-22T11:13:21+02:00",
+      "brodtekst": [
+        "Hun ble født 11. juni på Smithsonians bevaringssenter i Front Royal i Virginia, som en av tre rødpandaunger der i sommer. Da ungene begynte å utforske verden utenfor redekassene, rundt fire måneder gamle, skilte hun seg raskt ut: dyrepasserne beskriver henne som modig og frekk, og zooen kalte henne til og med en liten «firecracker».",
+        "Publikum fikk velge mellom tre navn: Pyra, som betyr «varme» på gresk, Dolpa, en region i Nepal der ville rødpandaer lever, og Dolly, etter countrylegenden Dolly Parton. Over 20 000 stemmer kom inn, og Dolly vant med nesten 65 prosent. Foreldrene heter Keahi og Rocket.",
+        "Rødpandaer er klassifisert som sterkt truet, med anslagsvis færre enn 10 000 dyr igjen i naturen. Så en ny liten Dolly er god nyhet også for arten."
+      ],
+      "hvorfor_hap": "Ungene i dyreparkenes avlsprogram er viktige for en sterkt truet art, og navnekonkurranser som denne får mange tusen mennesker til å bry seg om rødpandaer.",
+      "kilder": [
+        {
+          "navn": "Parade Pets: «National Zoo's 'Bold and Feisty' Red Panda Cub Is Officially Named After a Country Music Legend» (21. oktober 2026)",
+          "url": "https://paradepets.com/pet-news/red-panda-dolly-parton-national-zoo"
+        },
+        {
+          "navn": "WJLA: «Red panda cub named Dolly after more than 20,000 votes» (21. oktober 2026)",
+          "url": "https://wjla.com/news/instagram/red-panda-cub-named-dolly-after-more-than-20000-votes-zoological-park-conservation-biology-institute"
+        }
+      ],
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1631693713833-16cbf827c42e?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En rødpandaunge går på en stein",
+        "kreditt": "Jenna / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-red-panda-cub-walking-on-a-rock-Ckk4seRLZSQ",
+        "illustrasjon": true
+      },
+      "status": "publisert",
+      "ai_assistert": true
     }
   ]
 }
