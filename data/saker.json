@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-22T16:45:00+02:00",
+  "oppdatert": "2026-10-22T17:45:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -2720,6 +2720,80 @@
         "kreditt": "Toni Pomar / Unsplash",
         "lisens": "Unsplash-lisens",
         "kilde_url": "https://unsplash.com/photos/an-empty-theater-with-red-seats-and-a-projector-screen-j5bRXs1iFy0",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "gronn-stjerne-hvit-dverg-warwick",
+      "tittel": "Astronomer har funnet det som kan være den første grønne stjernen",
+      "ingress": "Forskere ved University of Warwick har regnet ut hvilken farge hvite dverger faktisk ville hatt for menneskeøyet. De fleste er hvite, men noen er rosa, gule – og én ser ut til å være grønn.",
+      "kategorier": [
+        "verdensrommet",
+        "vitenskap"
+      ],
+      "kildedato": "2026-10-15",
+      "publisert": "2026-10-22T17:45:00+02:00",
+      "brodtekst": [
+        "Stjerner beskrives gjerne som røde, gule eller blå, og fargen henger vanligvis sammen med temperaturen. En ny studie fra University of Warwick i England viser at det ikke alltid stemmer for hvite dverger, en type døde stjerner. Studien, ledet av Mark Hollands, er publisert i tidsskriftet RAS Techniques and Instruments.",
+        "## Stjernelys gjennom et «menneskeøye»",
+        "Forskerne brukte spektre som astronomer allerede har samlet inn, altså lyset fra stjernene delt opp i sine ulike bølgelengder. Disse kjørte de gjennom en modell av hvordan menneskets fargesyn fungerer, for å anslå hvilken farge hver stjerne ville sett ut til å ha.",
+        "Av 151 hvite dverger innenfor om lag 65 lysår fra jorda så de aller fleste hvite ut. Fem skilte seg ut: to var gule og tre rosa. Det tyder på at omtrent én av 30 hvite dverger har en uvanlig farge. Forskerne forklarer fargene med små mengder andre grunnstoffer i de svært tette atmosfærene, som fanger opp lys over et bredere spekter enn vanlig.",
+        "## Natriumgrønn",
+        "Den mest oppsiktsvekkende er WD J1330+6435, en kjølig hvit dverg på rundt 4000 grader. Den har slukt steinmateriale fra sitt eget planetsystem, og atmosfæren er blitt beriket med kalsium, litium og natrium. Natriumet trekker til seg den oransje delen av lyset, og ifølge modellene får stjernen da en gulgrønn farge. Forskerne skriver at ingen annen stjerne, levende eller død, troverdig er rapportert som grønn før.",
+        "Studien fant også en nær hvit dverg, rundt 48 lysår unna, som kan være den rødeste stjernen som noen gang er registrert, med en laksrosa glød fra karbonmolekyler. Og den rydder opp i en misforståelse: Hvite dverger blir ofte framstilt som blå, men det skyldes at de varme, blå er lysest og lettest å oppdage. Den gjennomsnittlige hvite dvergen er, som navnet sier, hvit. Funnet ble torsdag også valgt som dagens astronomibilde hos NASA."
+      ],
+      "hvorfor_hap": "Studien viser at lyset astronomer allerede har samlet inn, kan fortelle mer enn man trodde, også om hvordan stjernene faktisk ser ut. Den gir et nytt og litt magisk blikk på nabolaget vårt i Melkeveien.",
+      "usikkert": "Fargene er beregnet ut fra spektre og en modell av menneskets fargesyn. Ingen har sett stjernen som grønn med egne øyne, og bildene som er publisert, er tegninger og simuleringer.",
+      "kilder": [
+        {
+          "navn": "University of Warwick: «Green, pink and purple: astronomers reveal the surprising true colours of white dwarf stars» (15. oktober 2026)",
+          "url": "https://warwick.ac.uk/news/pressreleases/astronomers-reveal-true-colours-of-white-dwarf-stars/"
+        },
+        {
+          "navn": "NASA Astronomy Picture of the Day: «The First Green Star, WD J1330+6435» (22. oktober 2026)",
+          "url": "https://science.nasa.gov/image-article/apod-2026-october-22-the-first-green-star-wd-j13306435/"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1667667515578-bab41f093e40?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Stjernehimmel over en fjellkjede om natten",
+        "kreditt": "Rafael Garcin / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-starry-night-sky-over-a-mountain-range-4wuWkOXiXMo",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "swainsonvak-lady-hawk-idaho",
+      "tittel": "Fra midt i veien til høyt på himmelen: Hauken fikk vingene tilbake",
+      "ingress": "En skadet ung haukehunn ble funnet midt på en bygdevei i Idaho i USA. Etter noen uker på et rovfuglsenter fikk hun fly igjen, like ved jordene der hun ble funnet.",
+      "kategorier": [
+        "sma-gleder",
+        "dyr-og-natur"
+      ],
+      "kildedato": "2026-10-20",
+      "publisert": "2026-10-22T17:45:00+02:00",
+      "brodtekst": [
+        "Det var en reporter i lokal-TV-stasjonen Local News 8 og kona hans som oppdaget fuglen i veien på en bygdevei i Bonneville County i Idaho. Hun var skadet og tydelig i nød, og paret sikret henne med det de hadde i bilen, før en betjent fra sheriffkontoret tok over og fikk henne videre. Fuglen viste seg å være en ung hunn av haukearten Swainson's hawk.",
+        "Hun havnet hos Teton Raptor Center i Wilson i nabostaten Wyoming, som tar imot rundt 200 skadde eller foreldreløse rovfugler i året. Etter noen uker med behandling kom telefonen: Hauken var frisk. Hun ble sluppet fri i en park nær de åpne jordene der det hele startet. Local News 8 har gitt henne tittelen hun fortjener: «Lady Hawk»."
+      ],
+      "hvorfor_hap": "Ifølge senteret skyldes rundt 80 prosent av fuglene de får inn, konflikter med mennesker. Her var det mennesker som sørget for at én av dem kom seg tilbake til lufta.",
+      "kilder": [
+        {
+          "navn": "Local News 8 (KIFI): «Lady Hawk: Injured Swainson's Hawk makes it back to the sky after roadside rescue» (20. oktober 2026)",
+          "url": "https://localnews8.com/news/top-stories/2026/10/20/bonnieville-swainsons-hawk-rescue/"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://www.fws.gov/sites/default/files/2023-06/DSC_1068.JPG",
+        "alt": "En hauk av arten Swainson's hawk med fjell i bakgrunnen",
+        "kreditt": "Kayla Feist / U.S. Fish and Wildlife Service",
+        "lisens": "Public domain (USFWS)",
+        "kilde_url": "https://www.fws.gov/media/swainsons-hawk-1",
         "illustrasjon": true
       }
     }
