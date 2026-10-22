@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-22T08:30:00+02:00",
+  "oppdatert": "2026-10-22T09:15:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -11,6 +11,87 @@
     "https://dredgewire.com/savannah-turned-160000-cubic-yards-of-mud-removed-from-its-harbor-into-an-8-acre-island-birds-built-more-than-300-nests-there-in-the-first-season/"
   ],
   "saker": [
+    {
+      "id": "uppsala-dabrafenib-kavernom",
+      "tittel": "Kjent kreftmedisin bremset skjøre karmisdannelser i hjernen hos mus",
+      "ingress": "Forskere ved Uppsala universitet har funnet ut at dabrafenib, et legemiddel som allerede er godkjent mot en type hjernesvulst hos barn, stoppet utviklingen av kavernøse misdannelser i forsøksdyr.",
+      "kategorier": [
+        "helse",
+        "vitenskap"
+      ],
+      "kildedato": "2026-10-21",
+      "publisert": "2026-10-22T09:15:00+02:00",
+      "brodtekst": [
+        "Kavernøse misdannelser i hjernen (CCM) er klaser av skjøre, misformede blodårer som ligner små morbær. De kan begynne å blø og i noen tilfeller gi hjerneslag. I dag er kirurgi, der misdannelsene fjernes, den eneste behandlingen som finnes.",
+        "En forskergruppe ved Uppsala universitet ledet av førsteamanuensis Peetra Magnusson har nå lett etter et legemiddel som kan gjøre jobben uten kniv. De testet over 5 000 biologisk aktive molekyler på dyrkede blodårceller fra mus med sykdommen.",
+        "## Et kjent legemiddel på topp",
+        "De beste kandidatene ble så prøvd ut på dyrkede menneskelige blodårceller fra hjernen og i musemodeller av sykdommen. Ett stoff skilte seg ut: dabrafenib, som allerede er godkjent av legemiddelmyndighetene i USA og EU til behandling av lavgradig gliom, en hjernesvulst hos barn.",
+        "Hos musene ga dabrafenib færre og mindre misdannelser. Blodårene ble mer stabile, de lakk mindre, og strukturfeil i blodårene i netthinnen ble rettet opp. Resultatene er publisert i tidsskriftet Science Translational Medicine, med Maximiliano Arce som førsteforfatter.",
+        "Fordi legemidlet allerede er i bruk, mener forskerne at det kan tas i bruk mot den nye sykdommen relativt raskt. Det må likevel først testes på pasienter."
+      ],
+      "hvorfor_hap": "Mennesker med kavernøse misdannelser har i dag bare kirurgi å velge. Et legemiddel som allerede er godkjent og kjent for legene, kan i beste fall korte ned veien til en behandling uten operasjon.",
+      "usikkert": "Resultatene kommer fra celleforsøk og mus. Dabrafenib er ikke testet mot denne sykdommen hos mennesker, og vi vet ennå ikke om det virker eller er trygt for disse pasientene. At det kan skje «relativt raskt», er forskernes egen forventning.",
+      "kilder": [
+        {
+          "navn": "EurekAlert!/Uppsala universitet: «Drug substance reduces blood vessel malformations in the brain» (21. oktober 2026)",
+          "url": "https://www.eurekalert.org/news-releases/1148300"
+        },
+        {
+          "navn": "Science Translational Medicine (2026): studien",
+          "url": "https://doi.org/10.1126/scitranslmed.adr0448"
+        }
+      ],
+      "bilde": {
+        "url": "https://images.pexels.com/photos/4031321/pexels-photo-4031321.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "alt": "Forskere ser i mikroskop i et laboratorium",
+        "kreditt": "Edward Jenner / Pexels",
+        "lisens": "Pexels-lisens",
+        "kilde_url": "https://pexels.com/photo/4031321",
+        "illustrasjon": true
+      },
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "orangutanger-latter-belonning",
+      "tittel": "Orangutanger som hørte latter, fikk sansen for det de holdt på med",
+      "ingress": "Når orangutanger lette etter mat mens de hørte artsfrendenes latter, foretrakk de senere det materialet latteren hørte til. Det viser en ny studie fra Indiana University.",
+      "kategorier": [
+        "dyr-og-natur",
+        "vitenskap"
+      ],
+      "kildedato": "2026-10-21",
+      "publisert": "2026-10-22T09:15:00+02:00",
+      "brodtekst": [
+        "Latter smitter, også hos menneskeaper. Forskere ved Indiana University Bloomington har undersøkt om orangutanger påvirkes av å høre lekelyder, lydene de lager når de leker og som forskerne beskriver som orangutanglatter.",
+        "Forsøket gikk over fem dager. Orangutangene gravde i to skåler med ulike materialer, for eksempel treflis og papirhåndklær, for å finne mat. Noen dager ble det spilt latter mens de lette i det ene materialet, og en kontrollyd mens de lette i det andre.",
+        "## Valgte latter-materialet",
+        "Den femte dagen fikk dyrene velge mellom to materialer som begge tidligere hadde gitt mat. Da foretrakk de materialet de hadde gravd i mens de hørte latter. Forskerne tolker det som at latteren satte dem i bedre humør, slik at belønningen virket mer verdifull.",
+        "Det meste av forsøkene ble gjort i ZOO Planckendael i Mechelen i Belgia, og deler av arbeidet i Indianapolis Zoo. Studien ble ledet av postdoktor Daan Laméris i Erica Cartmills forskergruppe og er publisert i tidsskriftet Biology Letters."
+      ],
+      "hvorfor_hap": "Studien gir et lite innblikk i at positive følelser kan smitte også hos andre arter enn oss. Det hjelper forskere å forstå hvor latter og godt humør kommer fra i evolusjonen.",
+      "usikkert": "Humøret til dyrene ble ikke målt direkte, og koblingen til bedre humør er forskernes tolkning. Pressemeldingen oppgir ikke hvor mange orangutanger som var med, eller hvor sterk effekten var.",
+      "kilder": [
+        {
+          "navn": "EurekAlert!/Indiana University: «Hearing laughter may cause orangutans to value rewards more» (21. oktober 2026)",
+          "url": "https://www.eurekalert.org/news-releases/1148410"
+        },
+        {
+          "navn": "Biology Letters (2026): «Play vocalizations induce affective bias in reward learning and memory in orangutans»",
+          "url": "https://doi.org/10.1098/rsbl.2026.0404"
+        }
+      ],
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1634632441577-694c052924c0?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En orangutang henger i et tre i skogen",
+        "kreditt": "Dazzie K / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-monkey-hanging-from-a-tree-in-a-forest-o42o2Pz0vCY",
+        "illustrasjon": true
+      },
+      "status": "publisert",
+      "ai_assistert": true
+    },
     {
       "id": "optogenetikk-syn",
       "tittel": "Genterapi ga blinde pasienter delvis synet tilbake",
