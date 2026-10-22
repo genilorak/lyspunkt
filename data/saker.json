@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-22T03:20:00+02:00",
+  "oppdatert": "2026-10-22T04:15:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -1946,6 +1946,85 @@
         "kreditt": "Shichijiro / Unsplash",
         "lisens": "Unsplash-lisens",
         "kilde_url": "https://unsplash.com/photos/a-pileated-woodpecker-perches-on-a-tree-bhHAFLrYlpc",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "eth-akrylglass-gjenvinning",
+      "tittel": "Ny metode kan gjøre det lønnsomt å gjenvinne pleksiglass",
+      "ingress": "Forskere ved ETH Zürich har funnet en enklere måte å bryte ned akrylglass til rene byggesteiner igjen, ved halvparten så høy temperatur som før og uten løsemidler.",
+      "kategorier": [
+        "teknologi",
+        "klima-og-miljo",
+        "vitenskap"
+      ],
+      "kildedato": "2026-10-19",
+      "publisert": "2026-10-22T04:15:00+02:00",
+      "brodtekst": [
+        "Akrylglass, også kjent som pleksiglass, brukes i vindusruter, baklykter på biler og møbler. Materialet egner seg godt til gjenvinning, men ender likevel ofte som avfall. Nå har en forskergruppe ved ETH Zürich i Sveits utviklet en metode som kan gjøre gjenvinningen enklere og billigere. Resultatene er publisert i tidsskriftet Nature Chemistry.",
+        "Metoden bryter plasten ned til de opprinnelige byggesteinene, monomerene. Forskerne tilsetter ett enkelt, billig og kommersielt tilgjengelig stoff fra en stoffgruppe som kalles N-hydroksyimider. Når stoffet er tilsatt, går reaksjonen av seg selv, og det trengs ingen løsemidler.",
+        "## Halv temperatur, nesten alt tilbake",
+        "Nedbrytingen starter ved litt over 200 grader. Tidligere metoder trengte minst 400 grader. Opptil 98 prosent kan hentes ut som monomerer, og de er svært rene, også når den gamle plasten inneholdt fargestoffer eller urenheter. Dermed kan de brukes til å lage ny plast av samme kvalitet som den opprinnelige.",
+        "Ifølge ETH Zürich kan metoden brukes med eksisterende utstyr og vanlige prosesser i industrien, slik at bedrifter ikke trenger å bygge om anleggene sine. Tidligere metoder fra ETH krevde at plasten ble kjemisk endret på forhånd, mens andre tilnærminger trengte mye løsemidler, katalysatorer eller UV-lys.",
+        "Arbeidet ledes av professor Athina Anastasaki, og Richard Whitfield er førsteforfatter. ETH har søkt patent og leter etter industripartnere. Forskerne vil også undersøke om det samme prinsippet kan brukes på polystyren, en av verdens mest brukte plasttyper."
+      ],
+      "hvorfor_hap": "Mye plast blir ikke gjenvunnet fordi det er for dyrt eller gir dårligere materiale. En metode som bruker mindre energi, passer inn i eksisterende fabrikker og gir plast av like god kvalitet, kan gjøre det lettere å holde akrylglass i bruk i stedet for å kaste det.",
+      "usikkert": "Metoden er ennå ikke prøvd ut i industriell skala, og å skalere den opp er neste steg. Den virker bare på akrylglass, og det er ikke vist at prinsippet fungerer for andre plasttyper.",
+      "kilder": [
+        {
+          "navn": "ETH Zürich: «New method makes acrylic glass recycling economically viable» (19. oktober 2026)",
+          "url": "https://ethz.ch/en/news-and-events/eth-news/news/2026/10/new-method-makes-acrylic-glass-recycling-economically-viable.html"
+        },
+        {
+          "navn": "Nature Chemistry: «Lower-temperature bulk depolymerization of commercial polymethacrylates» (2026)",
+          "url": "https://doi.org/10.1038/s41557-026-02232-4"
+        },
+        {
+          "navn": "Good News Network: «Scientists Discover a Simple, Low-Energy Way to Recycle Acrylic Glass into Brand-New Material» (21. oktober 2026)",
+          "url": "https://www.goodnewsnetwork.org/scientists-discover-way-to-recycle-acrylic-glass-into-brand-new-material/"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1604187351574-c75ca79f5807?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En blå beholder med gjenvinningssymbol",
+        "kreditt": "Compagnons / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/blue-recycling-bin-with-symbol-aI4RJ--Mw4I",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "sjoku-calfuccino-epcot",
+      "tittel": "Sjøkukalven Calfuccino har vokst seg over tre ganger så stor",
+      "ingress": "Sjøkua med det kaffeinspirerte navnet ble reddet utenfor Florida som liten, og har nå flyttet inn i et akvarium i Disney World for å bli klar til å komme ut i naturen igjen.",
+      "kategorier": [
+        "sma-gleder",
+        "dyr-og-natur"
+      ],
+      "kildedato": "2026-10-21",
+      "publisert": "2026-10-22T04:15:00+02:00",
+      "brodtekst": [
+        "I mai 2025 ble sjøkukalven Calfuccino reddet nær Naples i Florida, sammen med moren sin, som heter Venti. Mamma var skadet, men tok seg likevel av den lille. Calfuccino fikk intensivbehandling i ZooTampa, og der har det gått strålende: Hun veide rundt 71 kilo da hun ble reddet, og veier nå over 247 kilo.",
+        "Forrige uke flyttet hun inn i akvariet The Seas with Nemo & Friends i fornøyelsesparken EPCOT, der hun deler basseng med sjøkuene Cider og Tanimura. De neste månedene skal dyrepasserne fortsette opptreningen, slik at hun etter hvert kan settes ut i naturen igjen.",
+        "Disney samarbeider med Manatee Rescue & Rehabilitation Partnership og det amerikanske fiske- og viltvesenet, og sier at de så langt har trent opp og satt ut 30 sjøkuer gjennom programmet."
+      ],
+      "hvorfor_hap": "Sjøkuer skades ofte og trenger lang tids pleie før de klarer seg selv. Calfuccino er et eksempel på at slik pleie virker, og et samarbeid mellom flere aktører har allerede sendt mange sjøkuer tilbake til havet.",
+      "kilder": [
+        {
+          "navn": "ClickOrlando (WKMG): «A latte love: Disney World welcomes rescued manatee Calfuccino to EPCOT for rehabilitation» (21. oktober 2026)",
+          "url": "https://www.clickorlando.com/theme-parks/2026/10/21/a-latte-love-disney-world-welcomes-rescued-manatee-calfuccino-to-epcot-for-rehabilitation/"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/Manatee_Feeding.jpg",
+        "alt": "En sjøku som beiter på sjøgress i Florida, sett ovenfra",
+        "kreditt": "U.S. Geological Survey",
+        "lisens": "USGS-bilde, fritt til bruk (public domain)",
+        "kilde_url": "https://www.usgs.gov/media/images/aerial-photo-manatee-feeding-seagrass-beds",
         "illustrasjon": true
       }
     }
