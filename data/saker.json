@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-22T22:20:00+02:00",
+  "oppdatert": "2026-10-22T23:30:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -11,6 +11,44 @@
     "https://dredgewire.com/savannah-turned-160000-cubic-yards-of-mud-removed-from-its-harbor-into-an-8-acre-island-birds-built-more-than-300-nests-there-in-the-first-season/"
   ],
   "saker": [
+    {
+      "id": "ildflue-gjenfunnet-delaware",
+      "tittel": "Ildflue som ingen hadde sett på over 40 år, blinker igjen i Delaware",
+      "ingress": "Ildfluearten Pyractomena similis ble sist dokumentert i 1983. Nå har en insektforsker funnet den igjen på en eng i en delstatspark i Delaware i USA.",
+      "kategorier": [
+        "dyr-og-natur",
+        "verden"
+      ],
+      "kildedato": "2026-10-22",
+      "publisert": "2026-10-22T23:30:00+02:00",
+      "brodtekst": [
+        "Ildfluen Pyractomena similis, på engelsk kalt «similar firefly», hadde ikke vært dokumentert siden 1983. Den sto derfor på naturvernorganisasjonen Re:wilds liste over de mest ettersøkte «tapte» artene. Nå er den funnet i Brandywine Creek State Park i Delaware, opplyser Re:wild.",
+        "## Funnet den siste kvelden",
+        "Det var entomolog og økolog Christopher Heckscher ved Delaware State University som fant arten. I mai og juni i år lette han på tre steder. To av dem ga ingen treff, men 3. juni, den siste kvelden han var ute, så han mellom åtte og rundt tolv ildfluer med det riktige blinkemønsteret på en eldre, naturlig gjengrodd eng.",
+        "Hannene av arten sender ut korte, ravgule lysglimt, gjerne 10 til 20 i rask rekkefølge, før de tar en liten pause og starter igjen. Heckscher tok opp blinkene og bekreftet arten ved å undersøke ett eksemplar i mikroskop, der han fant kjennetegn som bare denne arten har.",
+        "## Mange ildfluer er bare ikke lett etter",
+        "Funnet er omtalt i en ny artikkel i tidsskriftet Journal of Lost Species, der forskere blant annet fra Xerces Society har gått gjennom statusen for ildfluer i USA og Canada. Der regnes 28 arter som tapt for vitenskapen, rundt 16 prosent av de kjente artene. Ifølge forskerne kan tap av leveområder, kort parringssesong og at dyrene er aktive om natten forklare hvorfor arter forsvinner fra oversikten. En annen grunn er rett og slett at ingen har lett målrettet etter dem.",
+        "Re:wilds program for tapte arter har siden 2017 gjenfunnet 14 av artene på den mest ettersøkte listen. Neste steg er nye undersøkelser i lignende leveområder for å finne ut hvor mange det finnes og hvor de lever."
+      ],
+      "hvorfor_hap": "En art som har vært borte fra forskningen i over 40 år, er bekreftet levende. Funnet viser at målrettet leting kan gi svar, og at naturlig gjengrodde enger kan være viktige leveområder for sjeldne insekter.",
+      "usikkert": "Forskerne vet ennå ikke hvor stor bestanden er eller hvor utbredt arten er. Det trengs flere undersøkelser, og kilden sier ikke noe om konkrete vernetiltak for engen.",
+      "kilder": [
+        {
+          "navn": "Re:wild: «Similar Firefly Rediscovered in Delaware» (22. oktober 2026)",
+          "url": "https://www.rewild.org/press/similar-firefly-rediscovered"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1763953239955-ff27e74e7e84?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Ildfluer som lyser i en mørk skog om natten (illustrasjon, ikke den omtalte arten)",
+        "kreditt": "Rain Wu / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/fireflies-glowing-in-a-dark-forest-at-night-x52XJOS0kKc",
+        "illustrasjon": true
+      }
+    },
     {
       "id": "schrodinger-glemt-manuskript-determinisme",
       "tittel": "Glemt Schrödinger-manus fra 1940-tallet funnet i arkivet i Wien",
