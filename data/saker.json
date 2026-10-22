@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-22T21:20:00+02:00",
+  "oppdatert": "2026-10-22T22:20:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -11,6 +11,47 @@
     "https://dredgewire.com/savannah-turned-160000-cubic-yards-of-mud-removed-from-its-harbor-into-an-8-acre-island-birds-built-more-than-300-nests-there-in-the-first-season/"
   ],
   "saker": [
+    {
+      "id": "schrodinger-glemt-manuskript-determinisme",
+      "tittel": "Glemt Schrödinger-manus fra 1940-tallet funnet i arkivet i Wien",
+      "ingress": "Tre håndskrevne sider av fysikeren Erwin Schrödinger har ligget upublisert i over 80 år. Nå har en fysikkhistoriker skrevet dem av og analysert dem, og de viser hvordan Schrödinger tenkte om tilfeldighet i kvantefysikken.",
+      "kategorier": [
+        "vitenskap",
+        "kultur"
+      ],
+      "kildedato": "2026-10-21",
+      "publisert": "2026-10-22T22:20:00+02:00",
+      "brodtekst": [
+        "Manuskriptet heter «Collapse of Determinism» og består av tre håndskrevne sider uten dato. Det ligger i Erwin Schrödinger-arkivet ved Det østerrikske sentralbiblioteket for fysikk ved Universitetet i Wien. Henvisninger i teksten viser at det ble skrevet etter et brev som sto i tidsskriftet Nature 25. november 1944.",
+        "Fysikkhistorikeren Flavio Del Santo, som er knyttet til Universitetet i Genève og Constructor University i Tyskland, har laget den første avskriften og analysen av manuset. Arbeidet er lagt ut på forhåndspubliseringstjenesten arXiv.",
+        "## Et motsvar til et «umulighetsbevis»",
+        "I 1943 hadde den britiske matematikeren og fysikeren Edmund Taylor Whittaker argumentert for at såkalte skjulte variabler ikke kunne forklare resultatene fra forsøk med polarisert lys. Schrödinger pekte på en svakhet: Den skjulte egenskapen trengte ikke ha bare to mulige verdier, men kunne ligge hvor som helst mellom null og én. Med det som utgangspunkt laget han en modell som gir de samme sannsynlighetene som kvantemekanikken, uten at hvert enkelt utfall må være tilfeldig.",
+        "Poenget var ifølge Del Santo ikke å påstå at fotoner faktisk har slike tall, men å teste et argument. Schrödinger selv heller mot at naturen er grunnleggende tilfeldig, et syn han hadde allerede før kvantemekanikken, påvirket av Franz Exner.",
+        "Hvorfor manuset aldri ble publisert, vet vi ikke. Den østerrikskfødte fysikeren Heinrich Pelzer publiserte lignende modeller i 1944, og Del Santo mener Schrödinger kan ha lagt arbeidet bort da han fikk høre om dem."
+      ],
+      "hvorfor_hap": "Funnet gir et nytt innblikk i hvordan en av kvantefysikkens grunnleggere tenkte, og viser at arkiver fortsatt kan by på overraskelser om vitenskapshistorien. Det minner også om at sterke påstander om hva som er umulig, fortjener å bli prøvd.",
+      "usikkert": "Analysen er lagt ut på arXiv og er ikke nødvendigvis fagfellevurdert. Manuset er udatert, og hvorfor Schrödinger aldri publiserte det, er ikke dokumentert.",
+      "kilder": [
+        {
+          "navn": "ScienceAlert: «A Lost Schrödinger Manuscript Reveals a Surprising Twist in Quantum Physics» (21. oktober 2026)",
+          "url": "https://www.sciencealert.com/a-lost-schrdinger-manuscript-reveals-a-surprising-twist-in-quantum-physics"
+        },
+        {
+          "navn": "The Quantum Insider: «Unpublished Schrödinger Manuscript Reveals His Challenge to Quantum Randomness Claims» (22. oktober 2026)",
+          "url": "https://thequantuminsider.com/2026/10/22/unpublished-schrodinger-manuscript-reveals-his-challenge-to-quantum-randomness-claims/"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1681487414373-d4dca65eb060?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Nærbilde av gammel tekst på en bokside",
+        "kreditt": "Immo Wegmann / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-close-up-of-a-text-on-a-book-djeHb_mAORc",
+        "illustrasjon": true
+      }
+    },
     {
       "id": "ugleunge-newcastle-hjem-til-mor",
       "tittel": "Ugleungen fikk flygetimer – og en tur hjem til mamma",
