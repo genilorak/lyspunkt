@@ -1,9 +1,9 @@
 {
-  "oppdatert": "2026-10-23T00:30:00+02:00",
+  "oppdatert": "2026-10-23T01:30:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
-    "thames-supersluk-86-prosent",
+    "brasil-avskoging-rekordlav-amazonas-cerrado",
     "sommelier-vm-svorte"
   ],
   "avvist": [
@@ -3156,6 +3156,88 @@
       },
       "status": "publisert",
       "ai_assistert": true
+    },
+    {
+      "id": "brasil-avskoging-rekordlav-amazonas-cerrado",
+      "tittel": "Avskogingen i Amazonas og Cerrado er den laveste som er målt",
+      "ingress": "Nye satellittall fra Brasil viser at avskogingen i Amazonas falt med nær 42 prosent på ett år, og at savanneområdet Cerrado også har sitt laveste nivå noensinne.",
+      "kategorier": [
+        "klima-og-miljo",
+        "verden"
+      ],
+      "kildedato": "2026-10-22",
+      "publisert": "2026-10-23T01:30:00+02:00",
+      "brodtekst": [
+        "Fra august 2025 til juli 2026 ble 3335 kvadratkilometer regnskog hogd eller ryddet i brasiliansk Amazonas. Det er en nedgang på 41,8 prosent fra året før, og det laveste tallet siden målingene i overvåkingssystemet PRODES startet i 1988.",
+        "Også i Cerrado, Brasils store tropiske savanne, gikk avskogingen ned. Der ble 5516,69 kvadratkilometer ryddet, 23,8 prosent mindre enn året før og det laveste siden målingene der begynte i 2001.",
+        "## Nedgang i alle de store delstatene",
+        "Tallene er samlet inn av det brasilianske romforskningsinstituttet INPE og ble lagt fram av miljøverndepartementet 16. oktober. I delstatene Pará, Mato Grosso og Amazonas, der mest skog blir hogd, falt avskogingen med mellom 45 og 47 prosent. Miljøvernminister João Paulo Capobianco gir æren til en politikk styrt av forskning og samarbeid mellom føderale, regionale og lokale myndigheter.",
+        "Klimaforskeren Carlos Nobre ved Universitetet i São Paulo kaller utviklingen svært positiv overfor nettstedet Mongabay. Til sammenligning ble over 13 200 kvadratkilometer ryddet i Amazonas i 2021, nesten fire ganger så mye som i år.",
+        "## Fortsatt mye skog som forsvinner",
+        "I Cerrado skjer mer enn 74 prosent av avskogingen i de fire delstatene Maranhão, Tocantins, Piauí og Bahia, som omtales samlet som MATOPIBA. Selv på rekordlavt nivå forsvinner det altså fortsatt store arealer med natur hvert år."
+      ],
+      "hvorfor_hap": "Amazonas og Cerrado lagrer store mengder karbon og huser et enormt mangfold av arter. At avskogingen nå er lavere enn noen gang siden målingene startet, viser at skogvern kan virke raskt når regler følges opp.",
+      "usikkert": "Tallet for Amazonas er et foreløpig anslag som skal kvalitetssikres i første halvdel av 2027. Det kan derfor bli justert. Tallet for Cerrado er ifølge INPE endelig.",
+      "kilder": [
+        {
+          "navn": "Mongabay: «Deforestation in Brazil’s Amazon and Cerrado savanna at lowest rate ever recorded» (22. oktober 2026)",
+          "url": "https://news.mongabay.com/short-article/2026/10/deforestation-in-brazils-amazon-and-cerrado-savanna-at-lowest-rate-ever-recorded/"
+        },
+        {
+          "navn": "CNN Brasil: «Desmatamento na Amazônia e no Cerrado tem menor nível na série histórica» (16. oktober 2026)",
+          "url": "https://www.cnnbrasil.com.br/nacional/norte/am/desmatamento-na-amazonia-e-no-cerrado-tem-menor-nivel-na-serie-historica/"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://www.nasa.gov/wp-content/uploads/2025/06/caldasridge-oli2-20250519-lrg.jpg",
+        "alt": "Satellittbilde av et platå dekket av Cerrado-savanne, omgitt av jorder, elver og en innsjø i Goiás i Brasil",
+        "kreditt": "NASA Earth Observatory / Wanmei Liang, Landsat-data fra USGS",
+        "lisens": "NASA-bilde, fritt til bruk med kreditering",
+        "kilde_url": "https://www.nasa.gov/image-article/central-brazil-cerrado",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "gronland-pause-gruvedrift-havbunn-2029",
+      "tittel": "Grønland vil sette gruvedrift på havbunnen på pause til 2029",
+      "ingress": "Grønlands parlament har enstemmig bedt regjeringen lage en lov som stanser gruvedrift på havbunnen i minst tre år. Lovforslaget skal komme våren 2027.",
+      "kategorier": [
+        "klima-og-miljo",
+        "verden"
+      ],
+      "kildedato": "2026-10-22",
+      "publisert": "2026-10-23T01:30:00+02:00",
+      "brodtekst": [
+        "Inatsisartut, Grønlands parlament, vedtok torsdag 15. oktober et forslag som pålegger landsstyret å lage en lov om midlertidig forbud mot gruvedrift på havbunnen. Alle de 17 medlemmene som var til stede, stemte for, på tvers av partigrensene.",
+        "Forbudet skal etter planen gjelde til 31. desember 2029, med mulighet for å forlenge det med to år av gangen. Landsstyret har sagt seg enig i begrunnelsen og vil legge fram et lovforslag i vårsesjonen 2027.",
+        "## Fisket betyr alt",
+        "Bakgrunnen er bekymring for hva gruvedrift kan gjøre med havmiljøet, med fangstdyrene og med fisket. Fiskeriene står for mer enn 90 prosent av Grønlands eksport, ifølge den offisielle statistikken.",
+        "WWF Grønland kaller vedtaket et viktig skritt i riktig retning. Miljøorganisasjonen Oceans North Kalaallit Nunaat minner om at dette foreløpig er et vedtak om å lage en lov, ikke et vern i seg selv."
+      ],
+      "hvorfor_hap": "Et samlet parlament har tatt et tydelig valg om å skjerme havet sitt før gruveselskapene kommer i gang. Pausen skal beskytte fisket, som er selve grunnlaget for Grønlands økonomi.",
+      "usikkert": "Vedtaket er ennå ikke en lov. Hvordan forbudet blir utformet, avhenger av lovforslaget som etter planen kommer våren 2027.",
+      "kilder": [
+        {
+          "navn": "Mongabay: «‘A decision to decide’: Greenland moves to suspend seabed mining until 2029» (22. oktober 2026)",
+          "url": "https://news.mongabay.com/short-article/2026/10/a-decision-to-decide-greenland-moves-to-suspend-seabed-mining-until-2029/"
+        },
+        {
+          "navn": "Sermitsiaq.AG / Ritzau: «Inatsisartut foreslår at forbyde dybhavsminedrift» (16. oktober 2026)",
+          "url": "https://www.sermitsiaq.ag/samfund/inatsisartut-foreslar-at-forbyde-dybhavsminedrift/2437342"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1618422961547-974c6456fe0d?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Rød og hvit kystferje ved fjell i Qeqertarsuaq på Grønland",
+        "kreditt": "Aningaaq Rosing Carlsen / Visit Greenland / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/red-and-white-boat-on-body-of-water-near-brown-mountain-during-daytime-LbzOBfpaC80",
+        "illustrasjon": true
+      }
     }
   ]
 }
