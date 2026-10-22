@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-22T04:15:00+02:00",
+  "oppdatert": "2026-10-22T06:22:11+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -2025,6 +2025,88 @@
         "kreditt": "U.S. Geological Survey",
         "lisens": "USGS-bilde, fritt til bruk (public domain)",
         "kilde_url": "https://www.usgs.gov/media/images/aerial-photo-manatee-feeding-seagrass-beds",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "chiricahua-nasjonalpark",
+      "tittel": "Steinlandskapet Chiricahua er blitt USAs 64. nasjonalpark",
+      "ingress": "Chiricahua i Arizona, kjent for sine høye steinsøyler, gikk 20. oktober fra å være nasjonalmonument til nasjonalpark. Området har vært vernet siden 1924.",
+      "kategorier": [
+        "dyr-og-natur",
+        "verden"
+      ],
+      "kildedato": "2026-10-20",
+      "publisert": "2026-10-22T06:22:11+02:00",
+      "brodtekst": [
+        "Tirsdag 20. oktober ble loven Chiricahua National Park Act undertegnet, og Chiricahua National Monument i det sørøstlige Arizona skiftet dermed navn og status til Chiricahua National Park. Ifølge Arizona Public Media er den landets 64. nasjonalpark, og den fjerde i Arizona etter Grand Canyon, Petrified Forest og Saguaro.",
+        "Parken er på rundt 12 000 acres og ligger nær byen Willcox. Den er kjent for tårnhøye søyler og balanserende steiner av rhyolitt, dannet av et vulkanutbrudd for rundt 27 millioner år siden. Lokalt kalles området «Wonderland of Rocks».",
+        "## En fjellø i ørkenen",
+        "Chiricahua-fjellene beskrives som en «sky island», en fjellø der ørken, gressland og skog møtes. Den amerikanske nasjonalparktjenesten (NPS) trekker fram et rikt biologisk mangfold og variert dyreliv, og parken byr på fotturer, fuglekikking og stjernekikking.",
+        "Området ble vernet som nasjonalmonument allerede i 1924, og er hjemlandet til chiricahua-apachene. Ifølge NPS endres navnet, men ikke forpliktelsen til å verne området. Rundt 70 000 mennesker besøkte stedet i fjor, ifølge det amerikanske innenriksdepartementet, og lokale ledere håper den nye statusen gir flere besøkende.",
+        "Forrige gang USA fikk en ny nasjonalpark var i 2020, da New River Gorge i West Virginia fikk status."
+      ],
+      "hvorfor_hap": "Status som nasjonalpark gir et allerede vernet og unikt landskap mer oppmerksomhet, og kan gi flere besøkende og mer liv i lokalsamfunnene rundt. Samtidig fortsetter vernet av et område med stort biologisk mangfold.",
+      "usikkert": "Selve vernet var på plass fra før, så endringen handler mest om status og synlighet. Arizona Public Media påpeker at nasjonalparktjenesten har mistet nesten 3 000 stillinger det siste året og har et stort vedlikeholdsetterslep, og det er ikke kjent om parken får mer penger.",
+      "kilder": [
+        {
+          "navn": "National Park Service: «Chiricahua National Monument Becomes America's Newest National Park» (20. oktober 2026)",
+          "url": "https://www.nps.gov/chir/learn/news/chiricahua-national-monument-becomes-america-s-newest-national-park.htm"
+        },
+        {
+          "navn": "Arizona Public Media: «Chiricahua National Monument is America's new national park» (21. oktober 2026)",
+          "url": "https://news.azpm.org/p/news-topical-nature/2026/10/21/231640-chiricahua-national-monument-is-americas-new-national-park/"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://npgallery.nps.gov/GetAsset/952354aa9ec54c429b4cb0f7a43997e7/original.jpg",
+        "alt": "Høye steinsøyler som balanserer på smale baser i Chiricahua",
+        "kreditt": "National Park Service",
+        "lisens": "NPS-bilde, offentlig eiendom (public domain)",
+        "kilde_url": "https://npgallery.nps.gov/AssetDetail/952354aa-9ec5-4c42-9b4c-b0f7a43997e7"
+      }
+    },
+    {
+      "id": "start-kvinner-toppserien",
+      "tittel": "Start Kvinner er klare for Toppserien for første gang",
+      "ingress": "Start Kvinner sikret opprykk til Toppserien etter kampen mot Bryne lørdag. Ina Marie Andresen scoret hattrick.",
+      "kategorier": [
+        "norge",
+        "sport"
+      ],
+      "kildedato": "2026-10-17",
+      "publisert": "2026-10-22T06:22:11+02:00",
+      "brodtekst": [
+        "Lørdag 17. oktober spilte Start Kvinner borte mot Bryne i 21. runde av 1. divisjon for kvinner. Kampen ble avgjørende: Start sikret seg opprykk til Toppserien, den øverste divisjonen i norsk kvinnefotball.",
+        "Den store helten var Ina Marie Andresen, som scoret tre mål. Ifølge Fædrelandsvennen blir det første gang klubbens kvinnelag spiller i Toppserien.",
+        "## Store planer",
+        "Klubben har allerede lagt planer for neste sesong. Fædrelandsvennen skrev før kampen at Start vil øke budsjettet med flere millioner kroner ved opprykk, og at klubbledelsen har mål om å nå ut i Europa på sikt."
+      ],
+      "hvorfor_hap": "Et nytt lag i Toppserien gir Sørlandet kvinnefotball på øverste nivå og kan inspirere jenter i regionen som spiller fotball. Klubbens planer om å satse mer viser at kvinnefotballen får større plass.",
+      "kilder": [
+        {
+          "navn": "Fædrelandsvennen: «Start herjet i opprykkskampen: Klare for Toppserien» (17. oktober 2026)",
+          "url": "https://www.fvn.no/sport/start/n/2VJrnl/blir-det-opprykk-foelg-bryne-start-kvinner-direkte"
+        },
+        {
+          "navn": "Fædrelandsvennen: «Styrer mot opprykk – øker satsingen med flere millioner» (16. oktober 2026)",
+          "url": "https://www.fvn.no/sport/start/n/4O0gkR/styrer-mot-opprykk-oeker-satsingen-med-flere-millioner"
+        },
+        {
+          "navn": "FotMob: Bryne – IK Start, 1. divisjon kvinner, runde 21 (17. oktober 2026)",
+          "url": "https://www.fotmob.com/matches/bryne-vs-ik-start/zjismhwu"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1710937244418-0956afdcfe0b?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Fotballmål og ball på en gressbane",
+        "kreditt": "Richard Burlton / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-soccer-goal-and-a-soccer-ball-in-a-field-6SDYxef3kYw",
         "illustrasjon": true
       }
     }
