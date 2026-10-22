@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-22T15:25:00+02:00",
+  "oppdatert": "2026-10-22T16:45:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -2632,6 +2632,94 @@
         "kreditt": "Meg Jenson / Unsplash",
         "lisens": "Unsplash-lisens",
         "kilde_url": "https://unsplash.com/photos/a-cat-sitting-on-a-box-iDi7kB6eqY0",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "artis-hornrabe-to-nebbproteser",
+      "tittel": "Hornrabe i Amsterdam fikk nytt nebb, både over og under, fra 3D-printer",
+      "ingress": "En sørlig hornrabe i dyrehagen Artis hadde bare to korte stumper igjen av nebbet. Nå har den fått to skreddersydde proteser, og dagen etter operasjonen plukket den opp mat på egen hånd.",
+      "kategorier": [
+        "dyr-og-natur",
+        "teknologi",
+        "verden"
+      ],
+      "kildedato": "2026-10-15",
+      "publisert": "2026-10-22T16:45:00+02:00",
+      "brodtekst": [
+        "En hannfugl av arten sørlig hornrabe i dyrehagen Artis i Amsterdam brakk både over- og undernebbet. I flere måneder levde den med to korte stumper, og klarte verken å plukke opp mat eller stelle fjærene sine.",
+        "Nå har den fått to nye nebbdeler laget med 3D-printer. Ifølge Artis er det første kjente gang i verden at begge delene av et fuglenebb er gjenskapt på denne måten.",
+        "## Laget etter CT-bilder",
+        "Joëll Magré ved UMC Utrecht tegnet de to nebbdelene ut fra en CT-skanning og bevarte biter av det opprinnelige nebbet. Selskapet Amnovis laget delene i titan som fester protesene. Operasjonen ble utført av Bjorn Meij og Lucinda van Stee fra veterinærfakultetet ved Universitetet i Utrecht, etter en behandlingsplan fra Artis-veterinær Martine van Zijl Langhout og fuglespesialist Yvonne van Zeeland.",
+        "Morgenen etter operasjonen plukket fuglen opp en liten mus fra bakken helt selv. Noen dager senere begynte den å stelle fjærene igjen. Ifølge NH Nieuws steller den nå også fjærene til partneren og datteren sin, og den kan plukke opp insekter, noe den ikke klarte før."
+      ],
+      "hvorfor_hap": "For en fugl er nebbet både hånd, gaffel og tannbørste. At begge nebbhalvdelene kan erstattes med skreddersydde proteser, gir denne fuglen et vanlig liv tilbake, og metoden kan på sikt hjelpe andre fugler med lignende skader.",
+      "usikkert": "Dyrepasserne følger med på om protesene sitter godt over tid. Det er for tidlig å si hvor lenge de vil holde.",
+      "kilder": [
+        {
+          "navn": "NL Times: «Artis hornbill gets two 3D-printed beak prostheses» (15. oktober 2026)",
+          "url": "https://nltimes.nl/node/92439"
+        },
+        {
+          "navn": "NH Nieuws: «Wereldprimeur in Artis: hoornraaf krijgt twee nieuwe snavelprotheses» (15. oktober 2026)",
+          "url": "https://www.nhnieuws.nl/nieuws/364422/wereldprimeur-in-artis-hoornraaf-krijgt-twee-nieuwe-snavelprotheses"
+        },
+        {
+          "navn": "Good Good Good: «Wildlife vets give rare hornbill 3D-printed beak in world-first» (19. oktober 2026)",
+          "url": "https://www.goodgoodgood.co/articles/endangered-species-world-first-prosthetic-beak"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1522603213590-ab944f3df558?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En hornrabe med insekter i nebbet i Kruger nasjonalpark (ikke fuglen i saken)",
+        "kreditt": "Joe McDaniel / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/pVtFzvdr_wQ",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "biff-2026-norske-prisvinnere",
+      "tittel": "Dokumentar om drømmen om Morgan Kane-film vant pris i Bergen",
+      "ingress": "«Forbannelsen Kane» ble kåret til beste norske dokumentar under Bergen internasjonale filmfestival. Også en fireminutters kortfilm og en musikkvideo fikk festivalens priser.",
+      "kategorier": [
+        "norge",
+        "kultur"
+      ],
+      "kildedato": "2026-10-22",
+      "publisert": "2026-10-22T16:45:00+02:00",
+      "brodtekst": [
+        "Bergen internasjonale filmfestival (BIFF) delte onsdag kveld ut årets priser. Prisen for beste norske dokumentar gikk til «Forbannelsen Kane» av Even G. Benestad og August B. Hanssen. Juryen trakk fram at hovedpersonen er både skurk og helt, og roste filmens filmatiske kvaliteter.",
+        "Filmen følger Gunnar Ryan Wiik. For over ti år siden prøvde han å lage en Hollywood-film om westernhelten Morgan Kane, men investorene trakk seg og prosjektet falt sammen. Dokumentaren spør om han kan rense navnet sitt. Filmen hadde verdenspremiere på filmfestivalen i Göteborg tidligere i år, der den vant prisen for beste nordiske dokumentar.",
+        "## Kortfilm med humor",
+        "Beste norske kortfilm ble «Ivar» av Markus Tangre, en film på fire minutter. Juryen var samstemt om at den var programmets beste, og roste den visuelle stilen og humoren. Beste norske kortdokumentar ble «Time of Plenty», som en internasjonal jury berømmet for kreativitet, humor og bruk av animasjon.",
+        "Prisen Kort fra vest gikk til «Min Tjommi, Frank» av Johannes Holstad Tønder, en bittersøt fortelling om alderdom med to erfarne skuespillere. Konkurransen for musikkvideoer, laget sammen med Vill Vill Vest, ble vunnet av «SINATRA» av Arif, regissert av Nikolas Zaborowski."
+      ],
+      "hvorfor_hap": "Festivalprisene gir norske dokumentarister og kortfilmskapere, ofte i starten av karrieren, både oppmerksomhet og et dytt videre. Bredden blant vinnerne viser at det lages mye spennende film rundt om i landet.",
+      "kilder": [
+        {
+          "navn": "Rushprint: «Norske prisvinnere på BIFF» (22. oktober 2026)",
+          "url": "https://rushprint.no/2026/10/norske-prisvinnere-pa-biff/"
+        },
+        {
+          "navn": "Indie Film: «The Curse of Kane»",
+          "url": "https://www.indiefilm.no/the-curse-of-kane"
+        },
+        {
+          "navn": "BIFF: «Prisutdeling 2026»",
+          "url": "https://www.biff.no/article/prisutdeling-2026"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1717915604557-94283edbcc1b?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En tom kinosal med røde seter og lerret",
+        "kreditt": "Toni Pomar / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/an-empty-theater-with-red-seats-and-a-projector-screen-j5bRXs1iFy0",
         "illustrasjon": true
       }
     }
