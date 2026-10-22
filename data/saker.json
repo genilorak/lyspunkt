@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-22T20:15:00+02:00",
+  "oppdatert": "2026-10-22T21:20:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -11,6 +11,75 @@
     "https://dredgewire.com/savannah-turned-160000-cubic-yards-of-mud-removed-from-its-harbor-into-an-8-acre-island-birds-built-more-than-300-nests-there-in-the-first-season/"
   ],
   "saker": [
+    {
+      "id": "ugleunge-newcastle-hjem-til-mor",
+      "tittel": "Ugleungen fikk flygetimer – og en tur hjem til mamma",
+      "ingress": "En ung flekkhubro ble funnet i en åpen åker i Newcastle i Sør-Afrika med to hunder i nærheten. En måned senere var den flygedyktig og ble sluppet fri på akkurat samme sted, i håp om at mora fortsatt var der.",
+      "kategorier": [
+        "sma-gleder",
+        "dyr-og-natur"
+      ],
+      "kildedato": "2026-10-21",
+      "publisert": "2026-10-22T21:20:00+02:00",
+      "brodtekst": [
+        "En lokal forretningsmann i bydelen Paradise i Newcastle i KwaZulu-Natal fikk øye på en liten ugle i en åpen åker, mens to hunder snuste interessert på den. Fuglen var en flekkhubro på rundt tolv uker. Den var ikke skadet, men stedet ble vurdert som for farlig, så mannen tok den med hjem og stelte den med råd fra viltsenteret FreeMe Wildlife.",
+        "Senere overtok senteret selv, for ugleungen hadde en viktig ting igjen å lære: å fly og klare seg på egen hånd. Ifølge senteret skal slike ungfugler normalt få være i fred, med mindre de er skadet eller i fare.",
+        "Den 21. oktober kjørte Josie Reilly fra FreeMe Wildlife fra Howick til Newcastle og slapp uglen fri der den ble funnet. Tanken er at den skal finne tilbake til mora, for det er foreldrene som er best til å oppdra ungene. Redningsfolkene skal bare hjelpe til den lille er ute av fare."
+      ],
+      "hvorfor_hap": "En oppmerksom forbipasserende og et viltsenter sørget for at en ugleunge som var i fare, fikk lære å fly og kom tilbake til hjemmeområdet sitt i stedet for å vokse opp i fangenskap.",
+      "kilder": [
+        {
+          "navn": "Northern Natal News / Newcastle Advertiser (The Citizen): «Rescued baby owl returns to the wild in Newcastle» (21. oktober 2026)",
+          "url": "https://www.citizen.co.za/northern-natal-news/news-headlines/2026/10/21/rescued-baby-owl-returns-to-the-wild-in-newcastle/"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1728740628211-199fdc3dacff?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En ugle som sitter på en trestubbe",
+        "kreditt": "Bro Takes Photos / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/an-owl-sitting-on-top-of-a-tree-stump-bqES0nmgsgo",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "ntnu-flytende-campus-alesund",
+      "tittel": "NTNU har fått en flytende campus i Ålesund",
+      "ingress": "En flytende forskningsplattform med klasserom, verksteder og laboratorier er slept inn til Ålesund. Den blir hovedbasen for Fjordlab, der nye maritime løsninger skal testes under ekte forhold.",
+      "kategorier": [
+        "norge",
+        "teknologi"
+      ],
+      "kildedato": "2026-10-19",
+      "publisert": "2026-10-22T21:20:00+02:00",
+      "brodtekst": [
+        "NTNU Ocean Campus er en flytende forskningsfarkost på 12 ganger 20 meter. Den ble slept inn til Ålesund fredag 9. oktober, med prosjektleder Knut Egil Nordstrand om bord på forskningsfartøyet RV Innovator under transporten.",
+        "Om bord finnes klasserom, verksteder, spesiallaboratorier og et kontrollsenter der man kan fjernstyre selvgående fartøy. Forskere, studenter og samarbeidspartnere fra næringslivet skal bruke anlegget.",
+        "## Del av Norsk havteknologisenter",
+        "Den flytende campusen blir hovedbasen for Fjordlab Ålesund, som er en del av satsingen Norsk havteknologisenter. Fjordlab omfatter også forskningsfartøy, droner til sjøs og i lufta og digital infrastruktur. Området rundt Ålesund gir kort vei både til værutsatt hav og skjermede fjorder.",
+        "Her skal det utvikles og testes løsninger innen blant annet navigasjon, søk og redning, havenergi og overvåking av havmiljøet. Et viktig mål er å samle data fra ekte maritime operasjoner, som kan brukes til å utvikle kunstig intelligens, autonome systemer og digitale tvillinger. Flere lokale aktører har bidratt, blant dem Sparebanken Møre med økonomisk støtte. Offisiell åpning og dåp er satt til 29. oktober."
+      ],
+      "hvorfor_hap": "Ny teknologi for havet må prøves ut i virkeligheten før den tas i bruk. Med et flytende laboratorium midt i et område med både åpent hav og fjorder får studenter og forskere et sted å teste løsninger for blant annet sjøsikkerhet, redning og miljøovervåking.",
+      "usikkert": "Kilden oppgir ikke hva selve plattformen har kostet, og hvilke konkrete forskningsprosjekter som starter først.",
+      "kilder": [
+        {
+          "navn": "Universitetsavisa: «NTNUs flytende campus er på plass» (19. oktober 2026)",
+          "url": "https://universitetsavisa.no/norsk-havteknologisenter-ntnu-i-alesund-alesund/ntnus-flytende-campus-er-pa-plass/467211"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1475066392170-59d55d96fe51?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Ålesund sett ovenfra fra Aksla, med hus, sjø og fjell",
+        "kreditt": "Jarand K. Løkeland / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/aerial-photography-of-houses-between-body-of-water-at-daytime-3-MftKobVtg",
+        "illustrasjon": true
+      }
+    },
     {
       "id": "orangutangunge-hjem-indonesia-fra-india",
       "tittel": "Orangutangunge som ble reddet i India, er tilbake i Indonesia",
