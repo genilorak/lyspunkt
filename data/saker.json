@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-22T14:25:00+02:00",
+  "oppdatert": "2026-10-22T15:25:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -2599,6 +2599,39 @@
         "kreditt": "Karyna Panchenko / Unsplash",
         "lisens": "Unsplash-lisens",
         "kilde_url": "https://unsplash.com/photos/a-glass-bowl-filled-with-yellow-pills-on-a-white-surface-lrsUEoEaxWs",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "katten-chuuti-funnet-dubai-flyplass",
+      "tittel": "Katten Chuuti stakk av på flyplassen – funnet igjen etter ti dager",
+      "ingress": "Katten Chuuti rømte fra buret sitt på Dubai International Airport rett før han skulle fly til Sri Lanka. Ti dager senere er han funnet, og eieren venter spent på gjensynet.",
+      "kategorier": [
+        "sma-gleder",
+        "dyr-og-natur"
+      ],
+      "kildedato": "2026-10-21",
+      "publisert": "2026-10-22T15:25:00+02:00",
+      "brodtekst": [
+        "Kvelden 11. oktober skulle katten Chuuti sendes som flyfrakt fra Dubai til Sri Lanka med SriLankan Airlines. Men etter at buret var inspisert og papirene sjekket, smatt han ut og forsvant inn i flyplassens fraktområde. Eieren, Avishka Kaumadi, lette i over en time i halvmørket sammen med en ansatt, og ble værende på flyplassen i rundt 28 timer.",
+        "Hun måtte til slutt reise hjem til Sri Lanka uten ham. Nå, omtrent ti dager etter at han stakk av, er Chuuti funnet. Kaumadi har takket flyselskapet, flyplassen og bakkeselskapet dnata for hjelpen.",
+        "Helt hjemme er han ikke ennå: Chuuti venter fortsatt på flyturen, mens matmor står klar i Sri Lanka. Forhåpentligvis blir buret ekstra godt lukket denne gangen."
+      ],
+      "hvorfor_hap": "Et dyr som forsvinner på et stort og travelt sted, blir ikke alltid funnet igjen. Her ga leting og hjelp fra flere aktører en lykkelig slutt.",
+      "kilder": [
+        {
+          "navn": "Gulf News: «Missing cat found at Dubai Airport after 10 days of searching» (oppdatert 21. oktober 2026)",
+          "url": "https://gulfnews.com/lifestyle/missing-cat-found-at-dubai-airport-after-10-days-of-searching-a-piece-of-my-heart-1.500718079"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1659205143781-a6e263c4aadf?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En katt som sitter på en pappeske",
+        "kreditt": "Meg Jenson / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-cat-sitting-on-a-box-iDi7kB6eqY0",
         "illustrasjon": true
       }
     }
