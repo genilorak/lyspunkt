@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-22T18:25:00+02:00",
+  "oppdatert": "2026-10-22T19:30:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -2842,6 +2842,48 @@
         "kilde_url": "https://www.fws.gov/media/swainsons-hawk-1",
         "illustrasjon": true
       }
+    },
+    {
+      "id": "positron-fanget-i-maneder-northwestern",
+      "tittel": "Fysikere holdt på én enkelt antimateriepartikkel i flere måneder",
+      "ingress": "Forskere ved Northwestern University i USA har fanget ett enkelt positron, elektronets antimaterie-tvilling, og holdt det i en felle i flere måneder. Nå kan de styre partikkelen ett kvantesteg av gangen.",
+      "kategorier": [
+        "vitenskap",
+        "verden"
+      ],
+      "kildedato": "2026-10-21",
+      "publisert": "2026-10-22T19:30:00+02:00",
+      "brodtekst": [
+        "Antimaterie er vanskelig å holde på: Så snart en antipartikkel møter vanlig materie, forsvinner begge i et lysglimt. Likevel har en forskergruppe ved Northwestern University, ledet av fysikeren Gerald Gabrielse og med Tom Myers i en sentral rolle, klart å fange ett enkelt positron og beholde det i flere måneder. Resultatet er publisert i fagtidsskriftet Physical Review Letters.",
+        "## Slik ble partikkelen fanget",
+        "Positronene kommer fra en radioaktiv natriumkilde og farer av gårde i nesten 90 prosent av lysets hastighet. For å bremse dem sendte forskerne dem gjennom en krystall av wolfram. De fleste gikk tapt underveis, men noen få kom ut bundet til et elektron. Et elektrisk felt rev deretter elektronet løs, slik at bare positronet var igjen.",
+        "Partikkelen holdes i en såkalt Penning-felle, der elektriske og magnetiske felt holder den svevende uten at den berører veggene. Fellen er nedkjølt til 300 millikelvin, en brøkdel av en grad over det absolutte nullpunktet.",
+        "## Ett kvantesteg av gangen",
+        "Forskerne kjølte positronet ned til dets laveste energitilstand. Med nøyaktig avstemte mikrobølger kunne de så flytte det mellom energinivåer, ett kvantum av gangen, og registrere hoppene uten å forstyrre tilstandene.",
+        "Målet er å måle positronets magnetiske moment og sammenligne det med elektronets, som allerede er målt svært presist. Ifølge standardmodellen for partikkelfysikk skal de være like store. Et avvik kunne hjelpe til med å forklare et av fysikkens store mysterier: hvorfor universet består av mye mer materie enn antimaterie."
+      ],
+      "hvorfor_hap": "Å kunne holde på og kontrollere én enkelt antimateriepartikkel over lang tid gir fysikerne et nytt og svært presist verktøy. Det åpner for noen av de strengeste testene hittil av grunnleggende naturlover.",
+      "usikkert": "Selve målingen av positronets magnetiske moment er ennå ikke gjort. Forskerne håper å kunne legge fram et resultat tidlig neste år, men det kan ta lengre tid. Kildene oppgir ikke nøyaktig hvor mange måneder partikkelen ble holdt fanget.",
+      "kilder": [
+        {
+          "navn": "ScienceAlert: «Physicists Trapped a Particle of Antimatter And Kept It Caged For Months» (21.10.2026)",
+          "url": "https://www.sciencealert.com/physicists-trapped-a-particle-of-antimatter-and-kept-it-caged-for-months"
+        },
+        {
+          "navn": "Physical Review Letters: Myers mfl. (2026), DOI 10.1103/gbkc-6nlj",
+          "url": "https://doi.org/10.1103/gbkc-6nlj"
+        }
+      ],
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1781330201986-005653f25a3f?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Rør, ledninger og vitenskapelig utstyr i et fysikklaboratorium (ikke laboratoriet i saken)",
+        "kreditt": "Daniel Miksha / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/complex-laboratory-with-pipes-wires-and-scientific-equipment-r5jTtLsu_FE",
+        "illustrasjon": true
+      },
+      "status": "publisert",
+      "ai_assistert": true
     }
   ]
 }
