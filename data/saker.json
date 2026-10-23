@@ -1,10 +1,10 @@
 {
-  "oppdatert": "2026-10-23T07:30:38+02:00",
+  "oppdatert": "2026-10-23T08:20:00+02:00",
   "topp3_last": false,
   "topp3": [
-    "hepatitt-b-bepirovirsen",
+    "mrna-kreftvaksine-melanom-fase3",
     "brasil-avskoging-rekordlav-amazonas-cerrado",
-    "sommelier-vm-svorte"
+    "edinburgh-zoo-loveunger-bindee"
   ],
   "avvist": [
     "savannah-fugleoy",
@@ -3735,6 +3735,50 @@
         "kreditt": "Marcelo Leal / Unsplash",
         "lisens": "Unsplash-lisens",
         "kilde_url": "https://unsplash.com/photos/dextrose-hanging-on-stainless-steel-iv-stand-6pcGTJDuf6M",
+        "illustrasjon": true
+      }
+    },
+    {
+      "id": "mrna-kreftvaksine-melanom-fase3",
+      "tittel": "Skreddersydd mRNA-vaksine ga færre tilbakefall av føflekkreft",
+      "ingress": "I en stor fase 3-studie med over 1100 pasienter fikk færre tilbakefall av føflekkreft når en personlig tilpasset mRNA-vaksine ble lagt til immunterapi. Risikoen for tilbakefall eller død var 42 prosent lavere.",
+      "kategorier": [
+        "helse",
+        "vitenskap",
+        "verden"
+      ],
+      "kildedato": "2026-10-22",
+      "publisert": "2026-10-23T08:20:00+02:00",
+      "brodtekst": [
+        "Føflekkreft (melanom) kan komme tilbake selv etter at svulsten er operert bort. Nå viser en stor studie at en vaksine som lages spesielt for hver enkelt pasient, kan senke den risikoen.",
+        "Vaksinen heter intismeran autogene og er utviklet av Moderna og Merck. Den lages ut fra en prøve av pasientens egen svulst, og inneholder mRNA som koder for opptil 34 kjennetegn, såkalte neoantigener, som er unike for akkurat den pasientens kreft. Målet er å styrke immunforsvarets angrep på kreften.",
+        "## 1137 pasienter fulgt i to år",
+        "Fase 3-studien INTerpath-001 omfattet 1137 pasienter med melanom i stadium IIB til IV som var fullstendig operert. To av tre fikk vaksinen sammen med immunterapien Keytruda (pembrolizumab), mens resten fikk Keytruda og placebo. Vaksinen ble gitt hver tredje uke, opptil ni ganger. Studien var dobbeltblindet.",
+        "Etter en median oppfølging på 24,6 måneder var risikoen for tilbakefall eller død 42 prosent lavere i vaksinegruppen. Etter to år var 82,2 prosent av dem som fikk vaksinen, fortsatt uten tilbakefall, mot 70,0 prosent i gruppen som bare fikk Keytruda. Risikoen for spredning til andre deler av kroppen eller død var 38 prosent lavere.",
+        "Effekten viste seg først etter en stund: De første seks månedene var det ingen tydelig forskjell mellom gruppene. Deretter var risikoen for tilbakefall eller død 58 prosent lavere.",
+        "## Vanlige, men stort sett milde bivirkninger",
+        "De vanligste bivirkningene av kombinasjonen var feber, smerte der sprøyta ble satt og tretthet. Andelen alvorlige bivirkninger var omtrent den samme i begge grupper, 14,2 mot 13,4 prosent. Resultatene ble lagt fram på kreftkongressen ESMO 2026 og er godtatt for publisering i tidsskriftet The New England Journal of Medicine."
+      ],
+      "hvorfor_hap": "Dette er første gang en personlig tilpasset mRNA-kreftvaksine har vist effekt i en stor fase 3-studie. For pasienter som er operert for alvorlig føflekkreft, kan det bety lavere risiko for at sykdommen kommer tilbake, og det styrker tanken om at kreftvaksiner kan skreddersys til hver enkelt.",
+      "usikkert": "Vaksinen er ikke godkjent noe sted ennå; selskapene sier de er i dialog med myndighetene. Det er ennå for tidlig å si om pasientene lever lenger. Tallene kommer fra produsentenes egen framstilling, og finansanalytikere har stilt spørsmål ved hvor stor nytten blir sammenlignet med immunterapi gitt før operasjonen, og advart mot å overføre resultatene til andre krefttyper. Behandlingen må lages individuelt for hver pasient.",
+      "kilder": [
+        {
+          "navn": "AJMC: «Merck, Moderna Cancer Vaccine Cuts Melanoma Recurrence Risk by 42%» (22. oktober 2026)",
+          "url": "https://www.ajmc.com/view/merck-moderna-cancer-vaccine-cuts-melanoma-recurrence-risk-by-42-"
+        },
+        {
+          "navn": "Merck og Moderna: «Merck and Moderna Will Present Results From Landmark Phase 3 INTerpath-001 Trial …» (22. oktober 2026)",
+          "url": "https://www.merck.com/news/merck-and-moderna-will-present-results-from-landmark-phase-3-interpath-001-trial-for-intismeran-autogene-plus-keytruda-pembrolizumab-at-esmo-2026-presidential-symposium/"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1608422050828-485141c98429?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En hånd i hanske holder et lite hetteglass med væske",
+        "kreditt": "Hakan Nural / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-gloved-hand-holding-a-vial-with-a-liquid-inside-of-it-gQd4SRfKs40",
         "illustrasjon": true
       }
     }
