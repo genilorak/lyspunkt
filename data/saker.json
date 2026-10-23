@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-23T10:41:31+02:00",
+  "oppdatert": "2026-10-23T11:21:47+02:00",
   "topp3_last": false,
   "topp3": [
     "mrna-kreftvaksine-melanom-fase3",
@@ -3850,6 +3850,81 @@
         "kreditt": "NASA",
         "lisens": "NASA-bilde, fritt til bruk med kreditering",
         "kilde_url": "https://www.nasa.gov/image-article/deploying-set-of-cubesats-from-international-space-station/",
+        "illustrasjon": true
+      },
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "backyard-ultra-norske-rekorder-lag-vm-muruvik",
+      "tittel": "To norske rekorder i backyard-løp: Over 460 kilometer på føttene",
+      "ingress": "Nora Kojen Stubbe og Anders Johnsen satte nye norske rekorder da Norge deltok i lag-VM i backyard ultra i Muruvik i Trøndelag.",
+      "kategorier": [
+        "norge",
+        "sport"
+      ],
+      "kildedato": "2026-10-20",
+      "publisert": "2026-10-23T11:21:47+02:00",
+      "brodtekst": [
+        "Backyard ultra er en uvanlig konkurranseform: Hver hele time går startskuddet for en ny runde på 6,7 kilometer. Den som klarer flest runder, vinner. Forrige helg deltok Norge i lag-VM i denne øvelsen, med 15 løpere i Muruvik i Trøndelag, og det ble to nye norske rekorder.",
+        "## 70 runder for Stubbe",
+        "Nora Kojen Stubbe (23) gjennomførte 70 runder, som tilsvarer 469,42 kilometer. Dermed slo hun sin egen norske kvinnerekord, som sto på 47 runder, med god margin. Norsk Backyard Ultra fremhevet både den positive innstillingen og smilet hennes underveis.",
+        "## To menn forbi den gamle rekorden",
+        "Hos mennene løp Anders Johnsen 73 runder, eller 489,5 kilometer, og satte ny norsk rekord. Jon Asphjell stoppet på 72 runder. Begge passerte den gamle rekorden på 66 runder (442,6 kilometer), som Eivind Svellingen satte i april i år.",
+        "Til sammen fikk det norske laget 688 runder, og lå ifølge Runner's World foreløpig på 11. plass. Australia toppet listen med 1054 runder, foran USA og Japan."
+      ],
+      "hvorfor_hap": "Rekordene viser hvor mye kropp og hode kan tåle når man tar det én runde om gangen. At en 23-åring nesten dobler sin egen rekord, og at to norske menn går forbi den gamle rekorden samme helg, sier noe om et ultraløpsmiljø i rask utvikling.",
+      "usikkert": "Lagets endelige plassering var ikke bekreftet da kilden ble publisert.",
+      "kilder": [
+        {
+          "navn": "Runner's World Norge: «To norske backyard-rekorder i lag-VM» (20. oktober 2026)",
+          "url": "https://runnersworld.no/to-norske-backyard-rekorder-i-helgen/"
+        }
+      ],
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1691205183067-38afa87dd278?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En grusti gjennom skogen med fjell i bakgrunnen",
+        "kreditt": "Nathan / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-dirt-path-in-the-middle-of-a-forest-with-mountains-in-the-background-VJRjv-3eFqY",
+        "illustrasjon": true
+      },
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "knolhval-ost-australia-vokser-raskt-droner",
+      "tittel": "Droner viser at knølhvalene øst for Australia vokser raskt",
+      "ingress": "Forskere har målt 865 knølhvaler med droner og laget de første vekstkurvene for bestanden basert på levende dyr. Ungdyrene ser ut til å vokse raskere enn knølhval andre steder.",
+      "kategorier": [
+        "dyr-og-natur",
+        "vitenskap",
+        "verden"
+      ],
+      "kildedato": "2026-10-22",
+      "publisert": "2026-10-23T11:21:47+02:00",
+      "brodtekst": [
+        "Knølhvalene langs østkysten av Australia omtales som en av verdens største suksesshistorier innen hvalvern. Bestanden har tatt seg kraftig opp etter at den kommersielle hvalfangsten tok slutt. Nå vet forskerne også mer om hvordan dyrene vokser.",
+        "## Målt fra lufta",
+        "Stephanie Stack, doktorgradsstipendiat ved Griffith University, har sammen med Pacific Whale Foundation brukt droner til å måle hvalene uten å forstyrre dem. Målingene ble koblet med langvarige foto-ID-registre, slik at forskerne visste hvor gamle de enkelte dyrene var. Mellom 2021 og 2024 ble 865 hvaler målt, fra nyfødte kalver til voksne over 40 år.",
+        "Resultatene viser at hvalene var omtrent 10,9 meter lange ved fem års alder, og at de nådde rundt 90 prosent av voksen lengde ved seks–sju års alder. Veksten var raskest tidlig i livet. Ifølge Stack tyder funnene på at denne bestanden vokser raskere enn knølhvalbestander som er studert andre steder.",
+        "## Erstatter tall fra hvalfangsttiden",
+        "Til nå har kunnskapen om hvalenes vekst i stor grad bygget på målinger fra hvalfangsten på midten av 1900-tallet. De nye kurvene er de første for denne bestanden basert på levende dyr. Studien er publisert i tidsskriftet Marine Mammal Science, og forskerne vil bruke resultatene som et utgangspunkt for å følge med på hvordan hvalene påvirkes når miljøet endrer seg."
+      ],
+      "hvorfor_hap": "En bestand som en gang ble hardt rammet av hvalfangst, kan nå studeres i detalj uten å skade et eneste dyr. Rask vekst og et godt sammenligningsgrunnlag gjør det lettere å oppdage tidlig om noe endrer seg for hvalene.",
+      "usikkert": "Pressemeldingen oppgir ikke hvilke andre bestander det sammenlignes med, og sier ikke noe om bestandens størrelse i dag. Kurvene er ment som et utgangspunkt, ikke som et svar på hvordan klimaendringer påvirker hvalene.",
+      "kilder": [
+        {
+          "navn": "Griffith University via EurekAlert!: «Study finds humpback whales growing faster than expected» (22. oktober 2026)",
+          "url": "https://www.eurekalert.org/news-releases/1148829"
+        }
+      ],
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1568430462989-44163eb1752f?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En knølhval som hopper opp av blått hav",
+        "kreditt": "Todd Cravens / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/humpback-whale-breaching-blue-ocean-lwACYK8ScmA",
         "illustrasjon": true
       },
       "status": "publisert",
