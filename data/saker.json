@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-23T05:20:00+02:00",
+  "oppdatert": "2026-10-23T06:36:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -11,6 +11,85 @@
     "https://dredgewire.com/savannah-turned-160000-cubic-yards-of-mud-removed-from-its-harbor-into-an-8-acre-island-birds-built-more-than-300-nests-there-in-the-first-season/"
   ],
   "saker": [
+    {
+      "id": "echo-implantat-blodsukker-mus",
+      "tittel": "Lite implantat senket blodsukkeret hos mus – uten insulin",
+      "ingress": "Et trådløst implantat som gjør overskudd av sukker i blodet om til et stoff nyrene kan skille ut, holdt blodsukkeret normalt hos overvektige mus med type 2-diabetes. Studien er publisert i Science.",
+      "kategorier": [
+        "helse",
+        "teknologi",
+        "vitenskap"
+      ],
+      "kildedato": "2026-10-22",
+      "publisert": "2026-10-23T06:36:00+02:00",
+      "brodtekst": [
+        "Forskere har laget et lite implantat de kaller ECHO, som skal holde blodsukkeret i sjakk uten insulin eller andre legemidler. Enheten får strøm trådløst og har en katalysator av gull dekket med platina. Den omdanner glukose i blodet til glukonat, som nyrene kan skille ut.",
+        "Implantatet er koblet til en kontinuerlig blodsukkermåler via en smarttelefon. Når blodsukkeret passerer en forhåndsinnstilt grense, slår det seg på av seg selv.",
+        "## Normalt blodsukker på en time",
+        "Forsøket ble gjort på overvektige mus med type 2-diabetes. Med lav strøm (0,75 volt og 10 milliampere) fikk implantatet blodsukkeret tilbake til normalt nivå i løpet av en time. Musenes energibruk forskjøv seg samtidig fra sukker mot fett.",
+        "I løpet av seks uker gikk både kroppsvekten og nivået av triglyserider ned. Forskerne fant ingen episoder med for lavt blodsukker, og det ble ikke rapportert om negative virkninger på kroppsfunksjoner, betennelse eller atferd.",
+        "Studien er publisert i tidsskriftet Science med Debasis Maity som førsteforfatter, og William Bentley ved University of Maryland har skrevet en kommentarartikkel om den i samme utgave."
+      ],
+      "hvorfor_hap": "Kombinasjonen av fedme og type 2-diabetes, ofte kalt «diabesity», rammer svært mange. Et implantat som fjerner overskuddssukker automatisk og uten legemidler er en ny vei å utforske, og forsøket viser at prinsippet fungerer i dyr.",
+      "usikkert": "Dette er en tidlig konseptstudie på mus over seks uker. Det finnes ingen data fra mennesker, og vi vet ikke om implantatet er trygt eller virker over lang tid. Pressemeldingen oppgir ikke hvor mange mus som var med.",
+      "kilder": [
+        {
+          "navn": "EurekAlert!/AAAS: «Implant enables drug-free management of 'diabesity'» (22. oktober 2026)",
+          "url": "https://www.eurekalert.org/news-releases/1148186"
+        },
+        {
+          "navn": "Science (2026): «Wireless electrocatalytic closed-loop system for drug-free management of diabesity»",
+          "url": "https://doi.org/10.1126/science.ady8560"
+        }
+      ],
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1684157007022-846d2fe6d5ef?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Blodsukkermåler som viser et måleresultat",
+        "kreditt": "Sweet Life / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-person-holding-a-gluco-meter-XQayhIz6di4",
+        "illustrasjon": true
+      },
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "p-pille-menn-nih-stotte-weill-cornell",
+      "tittel": "P-pille for menn tatt ved behov får millionstøtte mot første test",
+      "ingress": "Forskere ved Weill Cornell Medicine har fått 8,2 millioner dollar fra amerikanske NIH for å gjøre klar en eksperimentell prevensjonspille for menn til den første utprøvingen på mennesker.",
+      "kategorier": [
+        "helse",
+        "vitenskap",
+        "verden"
+      ],
+      "kildedato": "2026-10-22",
+      "publisert": "2026-10-23T06:36:00+02:00",
+      "brodtekst": [
+        "I dag har menn i praksis bare to prevensjonsvalg: kondom eller sterilisering. Forskerne Jochen Buck og Lonny Levin ved Weill Cornell Medicine i New York utvikler en pille som skal tas omtrent 30 minutter før sex.",
+        "Pillen blokkerer et enzym kalt løselig adenylylsyklase (sAC), noe som gjør sædcellene ubevegelige. Ifølge forskerne skal virkningen vare i seks til åtte timer, og deretter skal fruktbarheten være som normalt igjen.",
+        "## Fra dyreforsøk mot mennesker",
+        "En studie i Nature Communications i 2023 viste at blokkering av sAC gjorde sædcellene ubevegelige og forhindret graviditet i prekliniske forsøk. Nå har forskerne fått en fireårig bevilgning på 8,2 millioner dollar fra NICHD, en del av de amerikanske helseinstituttene NIH.",
+        "Pengene skal gå til sikkerhets- og toksikologistudier, utvikling av en pille som kan svelges, og produksjonsrutiner. Neste steg er en fase 1-studie der friske menn får legemidlet eller placebo, og der forskerne følger med på bivirkninger og sjekker at effekten på sædcellene går over."
+      ],
+      "hvorfor_hap": "Omtrent halvparten av alle graviditeter i verden er ikke planlagt, ifølge pressemeldingen. En trygg pille for menn som bare virker noen timer, ville gitt par et nytt valg og delt ansvaret for prevensjon jevnere.",
+      "usikkert": "Legemidlet er ikke testet på mennesker ennå, og vi vet ikke om det er trygt eller hvor godt det virker. Varigheten på seks til åtte timer er forskernes egne opplysninger. Forskerne har grunnlagt selskapet Sacyl Pharmaceuticals, som har lisensiert teknologien, og de har eierandeler og patenter knyttet til den.",
+      "kilder": [
+        {
+          "navn": "EurekAlert!/Weill Cornell Medicine: «Weill Cornell Medicine receives NIH grant to test novel male contraceptive» (22. oktober 2026)",
+          "url": "https://www.eurekalert.org/news-releases/1148941"
+        }
+      ],
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1573883431205-98b5f10aaedb?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Hvite tabletter spredt på et blått bord",
+        "kreditt": "Hal Gatewood / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-pile-of-white-pills-sitting-on-top-of-a-blue-table-_jbClosDsD4",
+        "illustrasjon": true
+      },
+      "status": "publisert",
+      "ai_assistert": true
+    },
     {
       "id": "maxida-marak-ogonblick",
       "tittel": "Maxida Märak slipper akustisk album uten elektronikk og KI",
