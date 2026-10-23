@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-23T02:25:00+02:00",
+  "oppdatert": "2026-10-23T03:35:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -3350,6 +3350,75 @@
         "kreditt": "Ilona Frey / Unsplash",
         "lisens": "Unsplash-lisens",
         "kilde_url": "https://unsplash.com/photos/a-tree-filled-with-lots-of-red-apples-zfkHhWFiS8A",
+        "illustrasjon": true
+      },
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "jentehockey-vekst-74-prosent",
+      "tittel": "Jentehockeyen vokser: 74 prosent flere aktive siden 2021",
+      "ingress": "Norges Ishockeyforbund melder om kraftig vekst på jentesiden. Antallet aktive kvinnelige medlemmer har økt fra 2987 til 5191 siden 2021.",
+      "kategorier": [
+        "norge",
+        "sport"
+      ],
+      "kildedato": "2026-10-21",
+      "publisert": "2026-10-23T03:35:00+02:00",
+      "brodtekst": [
+        "Det blir stadig flere jenter og kvinner på isen i Norge. Ifølge Norges Ishockeyforbund har antallet aktive kvinnelige medlemmer steget med 74 prosent siden 2021, fra 2987 til 5191. Over de siste fire sesongene har antallet lisensierte spillere på jentesiden økt med mer enn 60 prosent.",
+        "Tallene kommer i forbundets oppsummering av sesongen 2025/26, den første sesongen med SpareBank 1 Østlandet som hovedpartner for satsingen «Flere og bedre jenter 2030». Femårsavtalen beskrives som den største partneravtalen forbundet noen gang har inngått på kvinnesiden.",
+        "## Egne klasser og egne grupper",
+        "For første gang er det opprettet en egen jenteklasse for JU18, og jentene har nå doble årsklasser fra JU8 til JU18, slik guttene har. Flere klubber tilbyr også egne jentegrupper i skøyte- og hockeyskolene, noe forbundet mener har stor betydning for rekrutteringen. Landslagene for JU16 og JU18 fikk 50 treningsdager gjennom samarbeidet.",
+        "Under World Girls’ Ice Hockey Weekend i oktober i fjor deltok mer enn 800 jenter på arrangementer rundt om i landet, og mange av dem prøvde ishockey for første gang."
+      ],
+      "hvorfor_hap": "Ishockey har lenge vært en idrett med få jenter i Norge. Egne klasser og grupper gjør det lettere å begynne og å fortsette, og tallene tyder på at det virker.",
+      "usikkert": "Tallene er forbundets egne. Kilden sier ikke hvor mange av de nye medlemmene som spiller aktivt i klubb over tid.",
+      "kilder": [
+        {
+          "navn": "Norges Ishockeyforbund: «En sesong med vekst og utvikling for jentehockeyen» (21.10.2026)",
+          "url": "https://www.hockey.no/nyheter/2026/en-sesong-med-vekst-og-utvikling-for-jentehockeyen/"
+        }
+      ],
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1644553054315-9fb69509f932?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En tom innendørs ishall med et hockeymål (illustrasjon)",
+        "kreditt": "Chris DeSort / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/an-indoor-ice-rink-with-a-hockey-goal--ofOCf-jen4",
+        "illustrasjon": true
+      },
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "whitehorse-katt-i-treet-brannvesen",
+      "tittel": "Et døgn i treet var nok: Brannvesenet hentet ned katten",
+      "ingress": "En tabbykatt i Whitehorse i Canada satt fast i et tre i rundt et døgn. Så kom brannbilen med stigen.",
+      "kategorier": [
+        "sma-gleder",
+        "dyr-og-natur"
+      ],
+      "kildedato": "2026-10-21",
+      "publisert": "2026-10-23T03:35:00+02:00",
+      "brodtekst": [
+        "Onsdag ettermiddag fikk brannvesenet i Whitehorse i Yukon en litt annerledes melding: En tabbykatt hadde sittet fast i et tre ved Azure Road i omtrent et døgn, og den lot naboene høre at den ikke var fornøyd med situasjonen.",
+        "Mannskapene satte bremseklosser under brannbilen og kjørte ut stigen. Én brannkonstabel klatret opp til treet, og en kollega kom etter for å hjelpe til med å holde den sprellende katten. Naboer fulgte redningen med kikkert.",
+        "Hele operasjonen tok under en halvtime. Rundt klokka ti over tre var katten trygt nede på bakken igjen og tilbake hos eierne sine."
+      ],
+      "hvorfor_hap": "En liten redning, men en god påminnelse om at hjelpen kommer, også når problemet har fire poter og sitter høyt oppe.",
+      "kilder": [
+        {
+          "navn": "Yukon News: «Whitehorse firefighters save tabby cat trapped in tree for a day» (21.10.2026)",
+          "url": "https://yukon-news.com/2026/10/21/whitehorse-firefighters-save-tabby-cat-trapped-in-tree-for-a-day/"
+        }
+      ],
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1577898856323-7d6613589e9e?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En brun tabbykatt i et tre (illustrasjon, ikke katten i saken)",
+        "kreditt": "June O / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/brown-tabby-cat-on-tree-KCLLl2aQrhw",
         "illustrasjon": true
       },
       "status": "publisert",
