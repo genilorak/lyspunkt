@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-23T04:25:00+02:00",
+  "oppdatert": "2026-10-23T05:20:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -3503,6 +3503,81 @@
         "kreditt": "Iswanto Arif / Unsplash",
         "lisens": "Unsplash-lisens",
         "kilde_url": "https://unsplash.com/photos/aerial-photography-of-island-nVcl0i0LYY0",
+        "illustrasjon": true
+      },
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "organiske-solceller-rekordmodul-nimte",
+      "tittel": "Organiske solceller tar et steg mot større og mer stabile moduler",
+      "ingress": "Kinesiske forskere har «låst» et tynt lag i organiske solceller på plass og fått en modul på 15,6 kvadratcentimeter til å nå 18,8 prosent virkningsgrad.",
+      "kategorier": [
+        "teknologi",
+        "klima-og-miljo",
+        "vitenskap"
+      ],
+      "kildedato": "2026-10-22",
+      "publisert": "2026-10-23T05:20:00+02:00",
+      "brodtekst": [
+        "Organiske solceller er lette og kan lages tynne og bøyelige, men de har slitt med to ting: Effektiviteten faller når cellene gjøres større, og de tåler ikke alltid langvarig bruk. Et forskerteam ved Ningbo Institute of Materials Technology and Engineering under Det kinesiske vitenskapsakademiet (CAS) melder nå om framgang på begge punkter.",
+        "## Et lag som holdes på plass",
+        "Problemet sitter i et svært tynt, selvorganiserende molekyllag som ligger oppå den gjennomsiktige elektroden av indiumtinnoksid. Forskerne la inn et mellomlag med indiumklorid som får molekylene til å binde seg fastere til elektroden, slik at laget blir mer stabilt og jevnere over større flater.",
+        "Med denne metoden nådde små celler 20,4 prosent virkningsgrad. En større modul med 15,6 kvadratcentimeter åpningsareal kom opp i 18,8 prosent på det aktive arealet, noe forskerne omtaler som rekord for slike moduler.",
+        "## Holdt seg gjennom 2000 timer",
+        "Etter 2000 timer med kontinuerlig drift ved 25 grader beholdt cellene mer enn 85 prosent av den opprinnelige virkningsgraden. Arbeidet er publisert i tidsskriftet Joule, og gruppen ledes av professor Ge Ziyi."
+      ],
+      "hvorfor_hap": "Det er vanskelig å skalere opp organiske solceller uten å miste effekt og holdbarhet. At begge deler forbedres samtidig, er et skritt mot lette og fleksible solceller som kan brukes der vanlige paneler er for tunge.",
+      "usikkert": "Tallene kommer fra forskerne selv og er målt i laboratoriet. Modulen er fortsatt liten, og det gjenstår å se hvordan teknikken fungerer i full skala, utendørs og over flere år. Rekordbetegnelsen er forskernes egen.",
+      "kilder": [
+        {
+          "navn": "EurekAlert! / NIMTE, CAS: «Molecular locking strategy enables efficient and scalable organic solar cells» (22.10.2026)",
+          "url": "https://www.eurekalert.org/news-releases/1148864"
+        },
+        {
+          "navn": "Joule: «Chloride-mediated SAM locking via ligand-exchange reaction enables 18.8% active-area efficiency and stable organic solar modules» (21.10.2026)",
+          "url": "https://doi.org/10.1016/j.joule.2026.102709"
+        }
+      ],
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1711214622639-42bb82a167e8?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Solcellepanel på et hustak (illustrasjon, ikke de organiske solcellene i saken)",
+        "kreditt": "Michael Roberts / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-solar-panel-on-the-roof-of-a-house-U0ys6tX7UMU",
+        "illustrasjon": true
+      },
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "marina-del-rey-katt-oksygen-bilbrann",
+      "tittel": "Litt oksygen og mye omsorg: Katten våknet til liv etter bilbrann",
+      "ingress": "En katt ble funnet livløs etter en brann i en varebil i Marina del Rey i California. En betjent ga den oksygen, og nå er den tilbake hos eieren.",
+      "kategorier": [
+        "sma-gleder",
+        "dyr-og-natur"
+      ],
+      "kildedato": "2026-10-21",
+      "publisert": "2026-10-23T05:20:00+02:00",
+      "brodtekst": [
+        "Søndag formiddag kom det melding om røyk fra en varebil på Panay Way i Marina del Rey, like ved Los Angeles. Brannmannskaper fra Los Angeles County slukket brannen og fikk en katt ut av bilen.",
+        "Katten lå livløs på en parkeringsplass i nærheten da betjent Lopez fra sheriffens kontor i Marina del Rey fant den. Han ga den oksygen og førstehjelp, og katten kom til bevissthet igjen.",
+        "Etter en tur innom en veterinær i nærheten fikk katten komme hjem til eieren sin. Hva som startet brannen, er ikke kjent."
+      ],
+      "hvorfor_hap": "Rask førstehjelp gjorde forskjellen. Et godt eksempel på at også de minste beboerne blir tatt vare på når nødetatene rykker ut.",
+      "kilder": [
+        {
+          "navn": "People via AOL: «Cat Given Life-Saving Oxygen After Being Rescued from Van Fire by Sheriff's Deputy» (21.10.2026)",
+          "url": "https://www.aol.com/articles/cat-given-life-saving-oxygen-131537000.html"
+        }
+      ],
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1471874276752-65e2d717604a?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En brun og svart tabbykatt som hviler på en grå pute (illustrasjon, ikke katten i saken)",
+        "kreditt": "Erik-Jan Leusink / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/brown-and-black-tabby-cat-lying-on-gray-cushion-tzzpfLiRPlA",
         "illustrasjon": true
       },
       "status": "publisert",
