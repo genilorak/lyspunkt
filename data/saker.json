@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-23T14:35:00+02:00",
+  "oppdatert": "2026-10-23T15:49:48+02:00",
   "topp3_last": false,
   "topp3": [
     "mrna-kreftvaksine-melanom-fase3",
@@ -11,6 +11,75 @@
     "https://dredgewire.com/savannah-turned-160000-cubic-yards-of-mud-removed-from-its-harbor-into-an-8-acre-island-birds-built-more-than-300-nests-there-in-the-first-season/"
   ],
   "saker": [
+    {
+      "id": "tierpark-berlin-elefant-simon-stottann",
+      "tittel": "Toåringen Simon skadet støttannen – fikk tannbehandling i XXL-format",
+      "ingress": "Den unge elefantoksen Simon i Tierpark Berlin knakk en støttann i lek. En belgisk dyretannlege reiste til Berlin for å redde tannen.",
+      "kategorier": [
+        "sma-gleder",
+        "dyr-og-natur"
+      ],
+      "kildedato": "2026-10-15",
+      "publisert": "2026-10-23T15:49:48+02:00",
+      "brodtekst": [
+        "Elefanter leker også litt for vilt av og til. Den toårige elefantoksen Simon i Tierpark Berlin skadet støttannen sin under lek, og da måtte det tannlege til – i elefantstørrelse.",
+        "Mandag 12. oktober kom den belgiske veterinærtannlegen Yves Debosschere til Berlin. Veterinærer fra Leibniz-instituttet for dyrehage- og viltforskning (IZW) la Simon i narkose, mens dyreparkens egne veterinærer fulgte med. Tannen ble røntgenfotografert, det skadde vevet ble renset og såret forseglet, omtrent slik tannleger behandler mennesker. Forskjellen er størrelsen: Borene var større, og fyllmaterialet som gikk med, ville normalt holdt til rundt 20 mennesker.",
+        "Narkosen gikk uten problemer. Kort tid etter at han våknet, drakk Simon melk hos mamma Tana, og han er nå aktiv igjen. Han får fortsatt smertestillende og følges nøye. Teamet håper at støttannen vokser normalt videre, men det er ingen garanti for at behandlingen lykkes på lang sikt."
+      ],
+      "hvorfor_hap": "Rask hjelp fra spesialister i flere land ga en ung elefant en god sjanse til å beholde støttannen sin. Ifølge tannlegen gir behandling innen 48 timer best mulighet for at tannen holder seg levende.",
+      "usikkert": "Det er ennå ikke sikkert at støttannen vil vokse normalt. Dyreparken skriver at langsiktig suksess ikke er garantert.",
+      "kilder": [
+        {
+          "navn": "Tierpark Berlin: «Wurzelbehandlung XXL» (15. oktober 2026)",
+          "url": "https://www.tierpark-berlin.de/de/aktuelles/news/artikel/wurzelbehandlung-xxl"
+        }
+      ],
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1526226128118-9ef71fc2f34b?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En elefantmor og en elefantunge på gresslette",
+        "kreditt": "Hu Chen / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/elephants-standing-on-dried-grass-3yd8oXGoLqM",
+        "illustrasjon": true
+      },
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "zoo-duisburg-fiskekatt-narok",
+      "tittel": "Fiskekatten er tilbake i Duisburg – og har fått egne dammer",
+      "ingress": "Zoo Duisburg har bygget om anlegget for fiskekatter, og hannen Narok har flyttet inn. Arten er sårbar i naturen.",
+      "kategorier": [
+        "dyr-og-natur",
+        "sma-gleder"
+      ],
+      "kildedato": "2026-10-22",
+      "publisert": "2026-10-23T15:49:48+02:00",
+      "brodtekst": [
+        "Etter flere måneders ombygging kan besøkende i Zoo Duisburg igjen se en fiskekatt. Hannen Narok ble født i Tsjekkia i august 2024 og kom til Duisburg fra Italia. Dyrepasserne beskriver ham som sky og forsiktig, så han har fått bli kjent med det nye hjemmet sitt i rolig tempo.",
+        "Både inne- og uteanlegget er gjort betydelig større, og begge har fått en dam. Det er også tett beplantning, røtter, gjemmesteder og klatretrær. Publikum kan se katten fra flere vinkler, blant annet gjennom en undervannsrute. Ombyggingen ble betalt av dyreparkens venneforening, som har over 9000 medlemmer.",
+        "## En sårbar art",
+        "Fiskekatten er klassifisert som sårbar av Den internasjonale naturvernunionen (IUCN). Bestandene går tilbake, særlig fordi leveområdene forsvinner på grunn av forurensning, veier, bebyggelse og avskoging. Dyreparken beskriver bestandene i dyrehager som en viktig reserve for arten, og håper på sikt på avkom."
+      ],
+      "hvorfor_hap": "Et større og mer naturlig anlegg gir en sky og sårbar kattart bedre plass, og frivillige givere gjorde det mulig. Dyrehagebestander kan fungere som en reserve for arter som går tilbake i naturen.",
+      "usikkert": "Foreløpig bor bare én fiskekatt i anlegget. Kilden sier ikke når eller om en hunn kommer.",
+      "kilder": [
+        {
+          "navn": "Zoo Duisburg: «Die Fischkatzen sind zurück: Zoo Duisburg eröffnet Anlage» (22. oktober 2026)",
+          "url": "https://zoo-duisburg.de/unser-zoo/aktuelles/detailansicht?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=496&cHash=d6f2025e5201e494d5d64085fc617dd2"
+        }
+      ],
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1777502372006-9eb6e8a07a34?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En liten dam omgitt av frodig grønn vegetasjon",
+        "kreditt": "Martin Baron / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-small-pond-surrounded-by-lush-green-foliage-and-trees-j-mn1cCaVuU",
+        "illustrasjon": true
+      },
+      "status": "publisert",
+      "ai_assistert": true
+    },
     {
       "id": "denisovanere-xujiayao-ansikt-proteiner",
       "tittel": "Proteiner i gamle bein gir oss et bedre bilde av denisovanernes ansikt",
