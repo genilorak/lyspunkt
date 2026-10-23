@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-23T09:30:00+02:00",
+  "oppdatert": "2026-10-23T10:41:31+02:00",
   "topp3_last": false,
   "topp3": [
     "mrna-kreftvaksine-melanom-fase3",
@@ -3812,6 +3812,44 @@
         "kreditt": "Jaida Stewart / Unsplash",
         "lisens": "Unsplash-lisens",
         "kilde_url": "https://unsplash.com/photos/brown-acoustic-guitar-with-white-and-green-flower-on-top-orZ4xSCSCsY",
+        "illustrasjon": true
+      },
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "uio-sammenleggbar-satellittantenne-censssat1",
+      "tittel": "Antenne fra doktorgrad i Oslo skal testes i verdensrommet",
+      "ingress": "En sammenleggbar antenne som Lewis Raymond Williams utviklet under doktorgraden sin ved UiO og FFI, skal sendes opp med studentsatellitten CENSSSAT-1 Bifrost i 2027.",
+      "kategorier": [
+        "norge",
+        "teknologi",
+        "verdensrommet"
+      ],
+      "kildedato": "2026-10-18",
+      "publisert": "2026-10-23T10:41:31+02:00",
+      "brodtekst": [
+        "Lewis Raymond Williams tok doktorgraden ved Institutt for teknologisystemer ved Universitetet i Oslo og Forsvarets forskningsinstitutt (FFI). Der designet han en ny type antenne for ultrahøye frekvenser (UHF). Nå skal den prøves ut der den er ment å brukes: i bane rundt jorda.",
+        "## Fra fire centimeter til nesten en meter",
+        "Antennen er frekvensuavhengig og formet som en logaritmisk spiral med fast diameter, bygget på en ramme av karbonfiberkompositt. Den kan legges sammen, slik at den bare er rundt fire centimeter tykk under oppskytingen. Ute i rommet foldes den ut til i underkant av én meter, og den veier 200 gram. Tynne tråder som holder den på plass, brennes over med en svak strøm når satellitten har kommet i bane.",
+        "Antenner av denne typen ble først utviklet på 1960-tallet, men Williams' utgave er laget for å kunne pakkes kompakt. Ifølge ham kan løsningen gi høy båndbredde og er mekanisk enkel. Det er sendt inn en patentsøknad sammen med UiO og FFI.",
+        "## Ombord på Bifrost",
+        "Antennen er ett av sju instrumenter på CENSSSAT-1 Bifrost, en liten kubesatellitt som forskere og studenter ved Centre for Space Sensors and Systems (CENSSS) på UiO bygger. UiT Norges arktiske universitet er partner i senteret. Satellitten skal skytes opp fra Florida i 2027, og teamet planlegger flere tester for å se om antennen virker i rommet. Williams jobber i dag i Kongsberg Gruppen."
+      ],
+      "hvorfor_hap": "Små satellitter har lite plass, og en lett antenne som kan pakkes flatt og likevel dekke mange frekvenser kan gjøre dem mer nyttige. At studenter og forskere i Norge bygger egen satellitt og tester egen teknologi, gir også verdifull romkompetanse her hjemme.",
+      "usikkert": "Antennen er ennå ikke testet i rommet. Oppskytingen er planlagt i 2027, og det er først etter testene i bane at vi vet om den fungerer som tenkt.",
+      "kilder": [
+        {
+          "navn": "Teknisk Ukeblad / Titan.uio.no: «Brukte doktorgraden til å designe en satellittantenne. Nå skal den testes i rommet» (18. oktober 2026)",
+          "url": "https://www.tu.no/universet/brukte-doktorgraden-til-a-designe-en-satellittantenne-na-skal-den-testes-i-rommet/7143256"
+        }
+      ],
+      "bilde": {
+        "url": "https://www.nasa.gov/wp-content/uploads/2023/03/12801809023_6c12aa12cc_o.jpg",
+        "alt": "Små kubesatellitter slippes ut fra Den internasjonale romstasjonen, med jorda i bakgrunnen",
+        "kreditt": "NASA",
+        "lisens": "NASA-bilde, fritt til bruk med kreditering",
+        "kilde_url": "https://www.nasa.gov/image-article/deploying-set-of-cubesats-from-international-space-station/",
         "illustrasjon": true
       },
       "status": "publisert",
