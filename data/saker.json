@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-23T06:36:00+02:00",
+  "oppdatert": "2026-10-23T07:30:38+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -3661,6 +3661,82 @@
       },
       "status": "publisert",
       "ai_assistert": true
+    },
+    {
+      "id": "usa-109-tilskudd-truede-arter-nfwf",
+      "tittel": "USA deler ut 35,5 millioner dollar for å få truede arter av lista",
+      "ingress": "Et nytt amerikansk tilskuddsprogram har delt ut sine første 109 bevilgninger. Pengene skal gå til tiltak som kan gjøre at truede arter kan flyttes ned eller helt ut av listen over utrydningstruede.",
+      "kategorier": [
+        "dyr-og-natur",
+        "verden"
+      ],
+      "kildedato": "2026-10-21",
+      "publisert": "2026-10-23T07:30:38+02:00",
+      "brodtekst": [
+        "Stiftelsen National Fish and Wildlife Foundation (NFWF) og den amerikanske naturforvaltningen U.S. Fish and Wildlife Service kunngjorde onsdag de første tildelingene fra programmet National Species Recovery Grants. Programmet ble opprettet i år som et samarbeid mellom de to.",
+        "Til sammen fordeles 35,5 millioner dollar på 109 prosjekter. Mottakerne bidrar selv med ytterligere 8,6 millioner dollar, slik at den samlede innsatsen blir på 44,1 millioner dollar.",
+        "## Den siste etappen",
+        "Målet er å finansiere det partnerne kaller den siste etappen av arbeidet med å redde en art: tiltakene som kan gjøre at den kan nedgraderes eller fjernes fra listen over truede arter. Pengene skal blant annet tette hull i kunnskapen om bestander, binde sammen oppstykkede leveområder og redusere konflikter mellom mennesker og dyr.",
+        "Blant artene som nevnes er isbjørn i Alaska, en bjørkeart som bare finnes i ett fylke i Virginia, og spettearten red-cockaded woodpecker, som allerede har begynt å ta seg opp igjen. I Nord-Carolina skal forskere utvikle en miljø-DNA-test for en salamander som bare lever i den delstaten, og ved University of Notre Dame lager de den første slike testen for en sjelden vannbille i Michigan.",
+        "Andre prosjekter skal kartlegge arvestoffet til den invaderende fiskearten smallmouth bass i Colorado-elvas nedbørfelt for å beskytte en truet fiskeart, forbedre leveområder for pollinerende insekter langs kraftlinjetraseer i Illinois, og følge mårdyret fisher med GPS-halsbånd i California."
+      ],
+      "hvorfor_hap": "Mange truede arter blir værende på listen i årevis fordi det mangler penger og kunnskap til de siste tiltakene. Et program som målrettet finansierer nettopp dette, med moderne verktøy som miljø-DNA og satellittsporing, kan gjøre flere bevaringsseire varige.",
+      "usikkert": "Tildelingene er bare starten. Det vil ta år før vi vet om prosjektene faktisk fører til at arter kan fjernes fra listen. Kunngjøringen er en pressemelding fra stiftelsen og forvaltningen selv.",
+      "kilder": [
+        {
+          "navn": "National Fish and Wildlife Foundation via GlobeNewswire: «NFWF Announces $35.5 Million in Grants to Accelerate Recovery of Endangered and Threatened Species» (21. oktober 2026)",
+          "url": "https://www.globenewswire.com/news-release/2026/10/21/3385763/0/en/nfwf-announces-35-5-million-in-grants-to-accelerate-recovery-of-endangered-and-threatened-species.html"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://www.fws.gov/sites/default/files/2022-09/RCW.jpg",
+        "alt": "Spettearten red-cockaded woodpecker med et insekt i nebbet ved et hull i en trestamme",
+        "kreditt": "USFWS",
+        "lisens": "Offentlig eiendom (USFWS), fritt til bruk med kreditering",
+        "kilde_url": "https://www.fws.gov/media/red-cockaded-woodpecker-noxubee-refuge"
+      }
+    },
+    {
+      "id": "ultomiris-iga-nefropati-fda",
+      "tittel": "Ny behandling godkjent i USA for den sjeldne nyresykdommen IgA-nefropati",
+      "ingress": "Det amerikanske legemiddelverket FDA har gitt framskyndet godkjenning til legemidlet Ultomiris for voksne med IgA-nefropati. Det er det første legemidlet av sin type for denne sykdommen.",
+      "kategorier": [
+        "helse",
+        "verden"
+      ],
+      "kildedato": "2026-10-22",
+      "publisert": "2026-10-23T07:30:38+02:00",
+      "brodtekst": [
+        "IgA-nefropati er en sjelden, betennelsesaktig nyresykdom som kan føre til kronisk nyresykdom. Mange med sykdommen utvikler etter hvert nyresvikt og kan da trenge dialyse eller transplantasjon. Ifølge produsenten AstraZeneca har over 560 000 mennesker fått diagnosen i USA, de fem største EU-landene og Japan.",
+        "Nå har FDA gitt framskyndet godkjenning til Ultomiris (ravulizumab) for å redusere proteinlekkasjen i urinen hos voksne med sykdommen som risikerer at den forverrer seg. Legemidlet er det første og eneste i sin klasse, såkalte C5-komplementhemmere, som er godkjent for dette.",
+        "## Mindre protein i urinen",
+        "Godkjenningen bygger på en planlagt delanalyse av fase 3-studien I CAN. Der reduserte Ultomiris proteinlekkasjen med 43,4 prosent sammenlignet med placebo etter 34 uker. Det ble ikke funnet nye sikkerhetsproblemer.",
+        "Legemidlet er et antistoff som demper en del av immunforsvaret som driver betennelsen i nyrene ved denne sykdommen. Det gis som intravenøs infusjon hver åttende uke."
+      ],
+      "hvorfor_hap": "Pasienter med IgA-nefropati har få behandlingsalternativer, og sykdommen kan ende i nyresvikt. En ny type behandling som angriper betennelsen og bare gis seks ganger i året, gir flere muligheter for å bremse sykdommen.",
+      "usikkert": "Godkjenningen er framskyndet og bygger på mindre protein i urinen, ikke på bevist bedre nyrefunksjon over tid. Videre godkjenning kan avhenge av sluttresultatene fra I CAN-studien, som skal måle nyrefunksjonen etter 106 uker. Behandlingen er foreløpig bare godkjent i USA.",
+      "kilder": [
+        {
+          "navn": "Becker's Hospital Review: «FDA approves 1st-of-its-kind kidney disease treatment» (22. oktober 2026)",
+          "url": "https://beckershospitalreview.com/pharmacy/fda-approves-1st-of-its-kind-kidney-disease-treatment"
+        },
+        {
+          "navn": "Clinical Trials Arena: «AstraZeneca to seek accelerated approval of Ultomiris in IgAN on Phase III data» (22. april 2026)",
+          "url": "https://www.clinicaltrialsarena.com/news/astrazeneca-to-seek-accelerated-approval-of-ultomirisin-igan-on-phase-iii-data/"
+        }
+      ],
+      "status": "publisert",
+      "ai_assistert": true,
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Infusjonspose som henger på et stativ av rustfritt stål",
+        "kreditt": "Marcelo Leal / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/dextrose-hanging-on-stainless-steel-iv-stand-6pcGTJDuf6M",
+        "illustrasjon": true
+      }
     }
   ]
 }
