@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-23T03:35:00+02:00",
+  "oppdatert": "2026-10-23T04:25:00+02:00",
   "topp3_last": false,
   "topp3": [
     "hepatitt-b-bepirovirsen",
@@ -3419,6 +3419,90 @@
         "kreditt": "June O / Unsplash",
         "lisens": "Unsplash-lisens",
         "kilde_url": "https://unsplash.com/photos/brown-tabby-cat-on-tree-KCLLl2aQrhw",
+        "illustrasjon": true
+      },
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "abu-dhabi-43-havskilpadder-sluppet-ut",
+      "tittel": "43 havskilpadder fikk komme tilbake til havet i Abu Dhabi",
+      "ingress": "Etter måneder med pleie ble 43 reddede havskilpadder, blant dem ti nyklekkede unger av en kritisk truet art, sluppet ut fra Saadiyat-stranda i Abu Dhabi.",
+      "kategorier": [
+        "dyr-og-natur",
+        "verden"
+      ],
+      "kildedato": "2026-10-20",
+      "publisert": "2026-10-23T04:25:00+02:00",
+      "brodtekst": [
+        "Den 15. oktober ble 43 havskilpadder sluppet ut i Persiabukta fra Saadiyat-stranda i Abu Dhabi. Skilpaddene hadde vært gjennom et rednings- og rehabiliteringsprogram som drives av akvariet The National Aquarium Abu Dhabi sammen med miljømyndigheten Environment Agency – Abu Dhabi.",
+        "## To truede arter",
+        "Blant dyrene var 15 karettskilpadder, en art som regnes som kritisk truet på verdensbasis. Ti av dem var nyklekkede unger, mens fem var halvvoksne eller voksne. De øvrige 28 var grønne havskilpadder, som er klassifisert som truet.",
+        "Ifølge Gulf News hadde skilpaddene fått pleie i flere måneder. Noen var reddet, noen behandlet, og alle ble fulgt nøye med på til fagfolkene vurderte at de kunne klare seg på egen hånd.",
+        "## Over 1800 skilpadder siden starten",
+        "Utslippet markerte at samarbeidet mellom akvariet og miljømyndigheten har pågått i seks år. I løpet av den tiden har programmet reddet, rehabilitert og satt ut mer enn 1800 havskilpadder."
+      ],
+      "hvorfor_hap": "For arter som er truet eller kritisk truet, teller hvert dyr som kommer tilbake i havet. Et program som har fått over 1800 skilpadder tilbake i naturen på seks år, viser at målrettet redningsarbeid gir resultater over tid.",
+      "usikkert": "Kilden oppgir ikke hvorfor de enkelte skilpaddene havnet i pleie, eller hvor mange av de utsatte dyrene som overlever på sikt.",
+      "kilder": [
+        {
+          "navn": "Gulf News: «43 rehabilitated sea turtles return to the sea in Abu Dhabi» (20.10.2026)",
+          "url": "https://gulfnews.com/lifestyle/43-rehabilitated-sea-turtles-return-to-the-sea-in-abu-dhabi-1.500716959"
+        }
+      ],
+      "bilde": {
+        "url": "https://images.unsplash.com/flagged/photo-1552015079-01226be103c4?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En havskilpadde svømmer under vann (illustrasjon, ikke en av skilpaddene i saken)",
+        "kreditt": "Dale de Vera / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/sea-turtle-underwater-photography-dDPZKOi6LCI",
+        "illustrasjon": true
+      },
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "sjofugl-rottefrie-atoller-havniva",
+      "tittel": "Sjøfugl og stedegen skog kan hjelpe atoller å holde følge med havet",
+      "ingress": "En studie av 28 atolløyer viser at rottefrie øyer med mange sjøfugler har raskere voksende rev og mer sand. Forskerne mener gjenoppretting av naturen kan gjøre øyene mer motstandsdyktige mot havnivåstigning.",
+      "kategorier": [
+        "klima-og-miljo",
+        "dyr-og-natur",
+        "vitenskap"
+      ],
+      "kildedato": "2026-10-21",
+      "publisert": "2026-10-23T04:25:00+02:00",
+      "brodtekst": [
+        "Lave atolløyer i tropene er blant stedene som er mest utsatt når havet stiger. En ny studie i tidsskriftet Science Advances tyder på at naturen selv kan gi dem bedre forsvar, hvis man fjerner rottene og lar fuglene og den opprinnelige vegetasjonen komme tilbake.",
+        "## Fuglemøkk som byggemateriale",
+        "Forskere fra blant andre Lancaster University, University of Oxford, University of Exeter, The Nature Conservancy og University of the Seychelles undersøkte 28 atolløyer på Seychellene, i Chagos-øygruppen i Indiahavet og på Tetiaroa-atollen i Fransk Polynesia. De fulgte næringen fra sjøfuglenes guano fra land og ut i havet, og så på tre prosesser som holder øyene oppe: at revet vokser, at det produseres sand, og at jorda bindes sammen.",
+        "Ifølge Lancaster University vokste revene rundt rottefrie øyer med sjøfugl 1,8 ganger raskere på lagunesiden og 2,5 ganger raskere på havsiden enn rundt øyer med rotter. Sandproduksjonen på revene var 2,3 til 2,8 ganger høyere. For en øy på rundt 14 hektar tilsvarer det omtrent 170 kubikkmeter mer sand i året.",
+        "## Røtter som holder på jorda",
+        "På land fant forskerne 4,6 ganger mer finrøtter i jorda der det var mye stedegen vegetasjon, sammenlignet med områder med lite. Kokospalmeplantasjer anslås å dominere rundt 60 prosent av skogen på atollene i Stillehavet.",
+        "Ifølge Mongabay viser beregningene at rev rundt rottefrie øyer med mange sjøfugler kan holde tritt med havnivåstigningen fram mot 2100 ved to graders oppvarming, mens revveksten rundt øyer med rotter allerede er lavere enn dagens havnivåstigning."
+      ],
+      "hvorfor_hap": "Studien peker på et konkret og gjennomførbart tiltak: Å fjerne rotter og plante tilbake stedegen skog kan styrke øyenes egne byggeprosesser. Det gir håp for lave øyer som ellers står overfor en svært usikker fremtid.",
+      "usikkert": "Resultatene bygger på 28 bestemte øyer, og framskrivingen fram mot 2100 er en modellberegning, ikke en garanti. Effekten forutsetter at rottene fjernes og vegetasjonen gjenopprettes, og på tett bebygde atoller kan tekniske løsninger fortsatt være nødvendige.",
+      "kilder": [
+        {
+          "navn": "Mongabay: «Seabird guano and native trees keep islands above rising seas: Study» (21.10.2026)",
+          "url": "https://news.mongabay.com/2026/10/seabird-guano-and-native-trees-keep-islands-above-rising-seas-study/"
+        },
+        {
+          "navn": "Lancaster University: «Culling rats and restoring native vegetation: how rewilding tropical atolls could help them keep pace with rising sea levels» (14.10.2026)",
+          "url": "https://www.lancaster.ac.uk/news/culling-rats-and-restoring-native-vegetation-how-rewilding-tropical-atolls-could-help-them-keep-pace-with-rising-sea-levels"
+        },
+        {
+          "navn": "Science Advances: «Seabirds and native vegetation drive ecosystem processes that support atoll island resilience» (2026)",
+          "url": "https://www.science.org/doi/10.1126/sciadv.aei1145"
+        }
+      ],
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1559798493-743fc72963fb?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Luftfoto av en liten tropisk øy omgitt av turkist vann (illustrasjon, ikke en av øyene i studien)",
+        "kreditt": "Iswanto Arif / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/aerial-photography-of-island-nVcl0i0LYY0",
         "illustrasjon": true
       },
       "status": "publisert",
