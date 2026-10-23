@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-23T11:21:47+02:00",
+  "oppdatert": "2026-10-23T12:30:03+02:00",
   "topp3_last": false,
   "topp3": [
     "mrna-kreftvaksine-melanom-fase3",
@@ -3925,6 +3925,109 @@
         "kreditt": "Todd Cravens / Unsplash",
         "lisens": "Unsplash-lisens",
         "kilde_url": "https://unsplash.com/photos/humpback-whale-breaching-blue-ocean-lwACYK8ScmA",
+        "illustrasjon": true
+      },
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "thomas-dybdahl-ep-endless-sky",
+      "tittel": "Thomas Dybdahl er tilbake med lett og leken EP: «Endless Sky»",
+      "ingress": "I dag, fredag 23. oktober, slipper Thomas Dybdahl EP-en «Endless Sky». De sju låtene beskrives som lekne og soulpregede, og han sier selv at han føler seg mye lettere enn før.",
+      "kategorier": [
+        "musikk",
+        "norge"
+      ],
+      "kildedato": "2026-10-22",
+      "publisert": "2026-10-23T12:30:03+02:00",
+      "brodtekst": [
+        "Thomas Dybdahl slo gjennom med debutalbumet «...That Great October Sound» i 2002, og vant Spellemann som beste popsolist året etter. Nå kommer han med noe nytt: EP-en «Endless Sky», med sju låter, slippes i dag på Petroleum Records.",
+        "EP-en tar opp tråden fra prosjektet «Fever», som kom ut 13. mars 2020. Turneen for den utgivelsen ble avlyst, og for første gang på over 20 år i bransjen måtte han sette ned tempoet.",
+        "## Melankolien hører til 20- og 30-årene",
+        "Ifølge NTB er den nye musikken leken og soulpreget, og åpningslåta er en munter sak. Dybdahl, som i dag er 47 år, mener melankolien hørte mer hjemme i 20- og 30-årene, da han hadde mer tid og energi til den. Nå sier han at han føler seg mye lettere.",
+        "Han har laget EP-en sammen med sin kreative sparringpartner Håvard Rosenberg, og beskriver den som et lite hjertebarnprosjekt de to har jobbet med i en avslappet boble. Det er planlagt konserter i Kristiansand, Bergen, Trondheim, Oslo, København og Stavanger."
+      ],
+      "hvorfor_hap": "En av de mest kjente norske låtskriverne de siste tjue årene er tilbake med ny musikk, og denne gangen i et lysere lune. For publikum betyr det nye låter i helga og konserter rundt om i landet.",
+      "kilder": [
+        {
+          "navn": "NTB i Fædrelandsvennen: «Thomas Dybdahl har lagt melankolien bak seg» (22. oktober 2026)",
+          "url": "https://www.fvn.no/norgeogverden/n/Og7PwA/thomas-dybdahl-har-lagt-melankolien-bak-seg-jeg-er-en-annen-person-naa"
+        }
+      ],
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1679658430343-7708a722721e?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En platespiller med en vinylplate foran",
+        "kreditt": "Chris Rosiak / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-record-player-with-a-record-in-front-of-it-36SwPD6jIlc",
+        "illustrasjon": true
+      },
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "frankfurt-zoo-dvergoter-trillinger",
+      "tittel": "Tre små dvergotere tar sine første svømmetak i Frankfurt",
+      "ingress": "Oterparet Dorie og Diablo i Frankfurt zoo har fått tre unger: én hann og to hunner. Nå er de rundt to måneder gamle og begynner å vise seg fram.",
+      "kategorier": [
+        "sma-gleder",
+        "dyr-og-natur"
+      ],
+      "kildedato": "2026-10-21",
+      "publisert": "2026-10-23T12:30:03+02:00",
+      "brodtekst": [
+        "Siden midten av august har dvergoterne Dorie og Diablo hatt fullt opp med å passe på tre unger. De første ukene holdt den lille familien seg i hiene, men nå, rundt to måneder gamle, dukker ungene stadig oftere opp i anlegget i Grzimekhaus i Frankfurt zoo.",
+        "Svømmetreningen starter når ungene er sju–åtte uker. Foreløpig er foreldrene strenge livreddere: Faller en unge uti bassenget, blir den raskt halt opp igjen. Ifølge dyreparken kan publikum snart se treningen.",
+        "Dvergoteren er den minste av verdens 14 oterarter, med en kropp på 45–60 centimeter. Den lever i Sør- og Sørøst-Asia og regnes som truet, blant annet på grunn av tap av leveområder og ulovlig handel med dyr."
+      ],
+      "hvorfor_hap": "Tre friske unger hos en truet art er gode nyheter for bestanden i dyreparker, og en fin påminnelse om at de minste oterne trenger beskyttelse også i naturen.",
+      "kilder": [
+        {
+          "navn": "t-online: «Frankfurter Zoo: Zwergotter-Nachwuchs – drei Jungtiere geboren» (21. oktober 2026)",
+          "url": "https://frankfurt.t-online.de/region/frankfurt-am-main/id_101490458/frankfurter-zoo-zwergotter-nachwuchs-drei-jungtiere-geboren.html"
+        }
+      ],
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1722344605767-7dc70261aa63?w=1600&q=80&auto=format&fit=crop",
+        "alt": "To otere som står ved siden av hverandre",
+        "kreditt": "Jim / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-couple-of-otters-standing-next-to-each-other-m9LAQ5xZkIY",
+        "illustrasjon": true
+      },
+      "status": "publisert",
+      "ai_assistert": true
+    },
+    {
+      "id": "voringsfossen-houens-fond-diplom-2026",
+      "tittel": "Turistveganlegget ved Vøringsfossen får Houens fonds diplom",
+      "ingress": "Anlegget ved Vøringsfossen i Eidfjord, med den ikoniske gangbrua over juvet, er hedret med Houens fonds diplom 2026, en av Norges fremste arkitekturpriser.",
+      "kategorier": [
+        "norge",
+        "kultur"
+      ],
+      "kildedato": "2026-10-16",
+      "publisert": "2026-10-23T12:30:03+02:00",
+      "brodtekst": [
+        "Vøringsfossen i Eidfjord er en av de ti store hovedattraksjonene langs Nasjonale turistveger, og hvert år kommer flere hundre tusen besøkende for å se fossen. Nå har turistveganlegget der fått Houens fonds diplom 2026. Prisen forvaltes av Nasjonalmuseet på vegne av Kultur- og likestillingsdepartementet.",
+        "Anlegget er tegnet av arkitektkontoret Hølmebakk Øymo og ble videreutviklet mellom 2018 og 2024. Målet var å gi folk trygg tilgang til de dramatiske utsiktspunktene rundt fossen.",
+        "## Sikkerhet med høy kvalitet",
+        "Juryen trekker fram den ikoniske gangbrua over juvet, som gir en ny opplevelse av både landskapet og fossen. Ifølge juryen er utfordringene med sikkerhet løst med høy arkitektonisk kvalitet og respekt for naturen rundt.",
+        "Blant de andre som får diplomet i år, er Deichman Bjørvika i Oslo, Haugesund folkebibliotek, Holmegenes i Stavanger og Hus Aass."
+      ],
+      "hvorfor_hap": "Prisen viser at sikring av farlige naturområder ikke trenger å gå på bekostning av skjønnhet. Når slike anlegg er gjennomtenkt, kan hundretusenvis av besøkende oppleve naturen tryggere og sterkere.",
+      "kilder": [
+        {
+          "navn": "Statens vegvesen: «Prestisjepris til Vøringsfossen – hedret for arkitektur og sikkerhet» (16. oktober 2026)",
+          "url": "https://www.vegvesen.no/om-oss/presse/aktuelt/2026/10/prestisjepris-til-voringsfossen-hedret-for-arkitektur-og-sikkerhet/"
+        }
+      ],
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1738042185098-a7978ca77ec1?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Juvet ved Vøringsfossen om vinteren, med frosne fossefall",
+        "kreditt": "Ed Wingate / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-view-of-a-mountain-with-a-river-running-through-it-46k-MTNbEcM",
         "illustrasjon": true
       },
       "status": "publisert",
