@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-23T08:20:00+02:00",
+  "oppdatert": "2026-10-23T09:30:00+02:00",
   "topp3_last": false,
   "topp3": [
     "mrna-kreftvaksine-melanom-fase3",
@@ -3781,6 +3781,41 @@
         "kilde_url": "https://unsplash.com/photos/a-gloved-hand-holding-a-vial-with-a-liquid-inside-of-it-gQd4SRfKs40",
         "illustrasjon": true
       }
+    },
+    {
+      "id": "madelene-debutalbum-villblomst",
+      "tittel": "Countryartisten Madeléne fra Uvdal slipper debutalbumet «Villblomst»",
+      "ingress": "Fredag 23. oktober kommer Madeléne Stensrud med sitt første album. «Villblomst» samler hitsinglene hennes og to nye låter.",
+      "kategorier": [
+        "musikk",
+        "norge"
+      ],
+      "kildedato": "2026-10-19",
+      "publisert": "2026-10-23T09:30:00+02:00",
+      "brodtekst": [
+        "Madeléne Stensrud er født i 2001 og kommer fra Uvdal i Buskerud. Hun lager norskspråklig country med et moderne poputtrykk, og i dag, fredag 23. oktober, slipper hun debutalbumet «Villblomst» på Sony Music Norway.",
+        "Albumet har fått navn etter tittelsporet, og inneholder også singlene «Danse som vi gjorde», «Henda mot himmelen» og «Går meg vill». I tillegg kommer to nye låter.",
+        "## Sa opp dagjobben",
+        "Ifølge plateselskapet har Madeléne spilt over 50 konserter og festivaler i Norge og er nominert til Spellemann. «Henda mot himmelen», en norsk versjon av en låt av Petra Marklund, nådde andreplass på den offisielle hitlista. Hun har sagt opp dagjobben for å satse på musikken på heltid.",
+        "Hun er også fotballinteressert, og har både opptrådt på åpningsshowet til Norway Cup og scoret mål i Verdikampen."
+      ],
+      "hvorfor_hap": "Det er stort for en ung artist fra ei lita bygd å gi ut sitt første album. For alle som liker country på norsk, er det ny musikk å glede seg over denne helga.",
+      "kilder": [
+        {
+          "navn": "Sony Music Norway via NTB Kommunikasjon: «Countrypop-kometen Madeléne albumdebuterer» (19. oktober 2026)",
+          "url": "https://kommunikasjon.ntb.no/pressemelding/19107298/countrypop-kometen-madelene-albumdebuterer?lang=no"
+        }
+      ],
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1608436131232-db1b9a0d3f46?w=1600&q=80&auto=format&fit=crop",
+        "alt": "En akustisk gitar med en hvit blomst oppå",
+        "kreditt": "Jaida Stewart / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/brown-acoustic-guitar-with-white-and-green-flower-on-top-orZ4xSCSCsY",
+        "illustrasjon": true
+      },
+      "status": "publisert",
+      "ai_assistert": true
     }
   ]
 }
