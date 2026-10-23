@@ -1,5 +1,5 @@
 {
-  "oppdatert": "2026-10-23T12:30:03+02:00",
+  "oppdatert": "2026-10-23T13:20:00+02:00",
   "topp3_last": false,
   "topp3": [
     "mrna-kreftvaksine-melanom-fase3",
@@ -11,6 +11,47 @@
     "https://dredgewire.com/savannah-turned-160000-cubic-yards-of-mud-removed-from-its-harbor-into-an-8-acre-island-birds-built-more-than-300-nests-there-in-the-first-season/"
   ],
   "saker": [
+    {
+      "id": "ardisia-colorata-gjenfunnet-assam",
+      "tittel": "Blomstrende busk gjenfunnet i India etter rundt 204 år",
+      "ingress": "Botanikere fra Gauhati University har funnet busken Ardisia colorata i delstaten Assam. Det er første bekreftede funn av arten i India på rundt 204 år.",
+      "kategorier": [
+        "dyr-og-natur",
+        "vitenskap",
+        "verden"
+      ],
+      "kildedato": "2026-10-20",
+      "publisert": "2026-10-23T13:20:00+02:00",
+      "brodtekst": [
+        "En lite kjent busk med rosa, rødlige eller lilla blomster er funnet igjen i India. Forskerne Manash Baruah og Nilakshee Devi ved botanikkinstituttet på Gauhati University identifiserte arten Ardisia colorata i Abhaypuri-området i distriktet Bongaigaon i Assam.",
+        "Funnet kom etter botaniske undersøkelser rundt om i Assam mellom 2020 og 2025. Delstatens miljø- og klimaminister, Jayanta Malla Baruah, kunngjorde det 20. oktober og omtalte det som den første bekreftede gjenoppdagelsen av arten i India på rundt 204 år.",
+        "## En art med navneforvirring",
+        "Busken ble beskrevet i 1821 av den britiske gartneren George Loddiges. Plantemateriale fra India var kommet til Storbritannia rundt 1816, men opprinnelsen ble ikke notert. Senere ble det samme vitenskapelige navnet brukt på andre planter, noe som skapte forvirring. Studien, publisert i tidsskriftet Feddes Repertorium, viser at Ardisia colorata er en egen art, atskilt fra Ardisia sanguinolenta.",
+        "Busken er eviggrønn og blir mellom en halv og to meter høy, med blanke, læraktige blader. Den blomstrer fra april til juni og vokser i skyggefull, fuktig og relativt uberørt skog i foten av det østlige Himalaya."
+      ],
+      "hvorfor_hap": "Når en art som har vært borte fra kildene i over to hundre år blir funnet igjen, får forskerne en ny sjanse til å lære den å kjenne og vurdere hvordan den kan tas vare på. Funnet viser også verdien av grundig feltarbeid i lite undersøkte skogområder.",
+      "usikkert": "Forskerne registrerte bare 12 planter på stedet. Arten er klassifisert som «Data Deficient», det vil si at det mangler nok kunnskap til å vurdere hvor truet den er. Hvor utbredt den er og hvor stor bestanden er totalt, er ukjent.",
+      "kilder": [
+        {
+          "navn": "The Sentinel Assam: «Rare Flowering Shrub Rediscovered in Assam After 204 Years» (20.10.2026)",
+          "url": "https://sentinelassam.com/breakingnews/rare-flowering-shrub-rediscovered-in-assam-after-204-years"
+        },
+        {
+          "navn": "Drishti IAS: «Ardisia colorata Rediscovered in Assam After 204 Years» (20.10.2026)",
+          "url": "https://www.drishtiias.com/state-pcs-current-affairs/ardisia-colorata-rediscovered-in-assam-after-204-years"
+        }
+      ],
+      "bilde": {
+        "url": "https://images.unsplash.com/photo-1634992404169-59841cef6434?w=1600&q=80&auto=format&fit=crop",
+        "alt": "Elv som renner gjennom frodig, grønn skog i Himalaya-regionen i India",
+        "kreditt": "Neeraj Lagwankar / Unsplash",
+        "lisens": "Unsplash-lisens",
+        "kilde_url": "https://unsplash.com/photos/a-river-running-through-a-lush-green-forest-CUESGZutDO0",
+        "illustrasjon": true
+      },
+      "status": "publisert",
+      "ai_assistert": true
+    },
     {
       "id": "echo-implantat-blodsukker-mus",
       "tittel": "Lite implantat senket blodsukkeret hos mus – uten insulin",
